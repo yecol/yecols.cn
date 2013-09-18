@@ -149,22 +149,22 @@
             </ul>
 
             <ul class="links">
-              <li><a href="http://yecols.cn/sites/pr_face/" target="_blank">Local Duplication</a></li>
+              <li><a href="https://itunes.apple.com/cn/app/soso-hui-yan/id458025773?mt=8" target="_blank">Link in Apple App Store</a></li>
             </ul>
 
             <div class="details">
-              <p class="no-indent">腾讯公司内部问答系统API测试平台</p>
-              <p>问答系统第一步在于分析一句话的自然语义，并提取出其中的关键性实体信息。该网站作为接收用户自然语句提问的入口，负责转发请求并解析和展现后台处理的结果。网站采用一页设计，每个问题的请求和答复以卡片式响应与用户交互。</p>
+              <p>腾讯公司出品的SOSO慧眼是一款移动视觉识别应用。具有物体识别、条形码二维码即时扫描、文字即时翻译、名片识别、人脸识别等酷炫功能。识别率与面市速度均处业界领先水平。2013年7月起，该产品的视觉识别所有功能整合进微信扫一扫，成为微信5.0版本的重要功能。</p>
+              <p>本人从版本1.5起参与该项目并承担主要开发任务。2.0版本的iOS客户端开发由本人独立完成。</p>
             </div><!-- .details -->
         </div><!-- .description -->
 
-        <div class="images">
+        <div class="images-300">
           <ul class="slides cf">
-            <li><img src="./res/sites/pr-face-1.jpg" /></li>
-            <li><img src="./res/sites/pr-face-2.jpg" /></li>
-            <li><img src="./res/sites/pr-face-3.jpg" /></li>
-            <li><img src="./res/sites/pr-face-4.jpg" /></li>
-            <li><img src="./res/sites/pr-face-5.jpg" /></li>
+            <li><img src="./res/sites/soso-1.jpg" /></li>
+            <li><img src="./res/sites/soso-2.jpg" /></li>
+            <li><img src="./res/sites/soso-3.jpg" /></li>
+            <li><img src="./res/sites/soso-4.jpg" /></li>
+            <li><img src="./res/sites/soso-5.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -200,6 +200,21 @@ $(document).ready(function() {
       directionNav: true,
       slideshow: false,
       itemWidth: 500,
+      itemMargin: 30,
+      minItems: 1,
+      move: 1,
+      prevText: "",
+      nextText: ""
+  });
+
+  $('.images-300').flexslider({
+      animation: "slide",
+      animationSpeed: 600,
+      animationLoop: false,
+      controlNav: false,
+      directionNav: true,
+      slideshow: false,
+      itemWidth: 300,
       itemMargin: 30,
       minItems: 1,
       move: 1,
