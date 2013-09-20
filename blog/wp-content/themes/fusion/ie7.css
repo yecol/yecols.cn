@@ -1,0 +1,11 @@
+
+
+/* Internet Explorer 7 bug fixes */
+
+li.comment{
+   display: inline-block; /* fixes the new cool and improved IE 7 double-margin bug */
+}
+
+#sidebar ul.nav{
+  margin-top: 0px; /* no margin here because of IE d-m bug on "ul#sidelist li" */
+}

@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+#h {
+	background-image: url(h.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 53px;
+	display: block;
+	float: left;
+}
+#m {
+	background-image: url(m.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 53px;
+	display: block;
+	float: left;
+}
+#s {
+	background-image: url(s.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 100px;
+	display: block;
+	float: left;
+}
+#cd0 {
+	background-image: url(filmstrip.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 53px;
+	display: block;
+	float: left;
+}
+#cd1 {
+	background-image: url(filmstrip.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 53px;
+	display: block;
+	float: left;
+	background-position: center -618px;
+}
+#timeCountDown {
+	float: left;
+}
+
+#cd2 {
+	background-image: url(filmstrip.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 53px;
+	display: block;
+	float: left;
+	background-position: center -1236px;
+}
+#cd3 {
+	background-image: url(filmstrip.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 53px;
+	display: block;
+	float: left;
+	background-position: center -1854px;
+}
+#cd4 {
+	background-image: url(filmstrip.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 53px;
+	display: block;
+	float: left;
+	background-position: center -2472px;
+}
+#cd5 {
+	background-image: url(filmstrip.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 53px;
+	display: block;
+	float: left;
+	background-position: center -3090px;
+}
+#cd6 {
+	background-image: url(filmstrip.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 53px;
+	display: block;
+	float: left;
+	background-position: center -3708px;
+}
+#cd7 {
+	background-image: url(filmstrip.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 53px;
+	display: block;
+	float: left;
+	background-position: center -4326px;
+}
+#cd8 {
+	background-image: url(filmstrip.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 53px;
+	display: block;
+	float: left;
+	background-position: center -4944px;
+}
+#cd9 {
+	background-image: url(filmstrip.png);
+	background-repeat: no-repeat;
+	height: 103px;
+	width: 53px;
+	display: block;
+	float: left;
+	background-position: center -5562px;
+}

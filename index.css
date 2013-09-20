@@ -1,0 +1,159 @@
+@charset "utf-8";
+#index_left {
+	float: left;
+	height: 400px;
+	width: 350px;
+	margin-right: 10px;
+	margin-left: 130px;
+	padding-top: 30px;
+}
+
+/* CSS Document */
+
+#content {
+	float: left;
+	height: 420px;
+	width: 750px;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+#indexIframe {
+	background-color: #F8F4E8;
+	float: left;
+	width: 400px;
+	margin-right: 20px;
+	font-family: "Lucida Console", sans-serif, Verdana;
+	line-height: 160%;
+	color:#000000
+}
+#indexIndex {
+	float: left;
+	width: auto;
+	font-family: "Lucida Console", sans-serif, Verdana;
+	line-height: 160%;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	padding-left: 20px;
+}
+#divTop{
+	width:auto;
+	text-align:left;
+	height: 323px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	z-index: 1;
+	background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	background-position: top;
+}
+#IndexdivTop{
+	width:auto;
+	text-align:left;
+	height: 323px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	z-index: 1;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+.codeRed{
+    color:#7F0055;
+	}
+.codeGreen{
+    color:#008074;
+	}
+.codeBlue{
+    color:#186297;
+}
+.codeLarge{
+	font-size:14px;
+	font-weight: bold;
+	}
+
+a.graylink {
+    color:#555;
+	text-decoration:none
+}
+.codeBlue a,.codeBlue a:link,#linkdiv a,.scroll-pane a{
+    color:#186297;
+	text-decoration:none}
+.codeBlue a:hover,#linkdiv a:hover,.scroll-pane a:hover,a.static{
+    color:#186297;
+	text-decoration:underline;
+	}
+a:hover.graylink{
+    color:#186297;
+	text-decoration:none
+	}
+.linktable{
+    font-size:12px
+	}
+.blue14{
+        color:#186297;
+		font-size:14px;
+		font-weight:bold;
+		}
+.blue12{
+	color:#186297;
+	font-size:12px;
+	font-weight: normal;
+		}
+.bluew{
+        color:#186297;
+		font-size:12px;
+		font-weight:bold;
+		}
+#linkdiv{
+	float: left;
+	width: 890px;
+	padding-top: 20px;
+	padding-right: 45px;
+	padding-left: 45px;
+	}
+searchdiv {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#index_right {
+	margin: 0px;
+	float: left;
+	width: 400px;
+	height: 300px;
+	padding-top: 100px;
+}
+/*
+	 Customized Scroll
+*/
+#page-wrap			{
+	position: relative;
+	width: 350px;
+}
+
+.scroll-pane 		{
+	width: 332px;
+	overflow: auto;
+	padding-right: 10px;
+	height: 300px;
+	line-height: 140%;
+	color: #000000;
+}
+
+.bottomshadow 		{ position: absolute; top: 275px; z-index: 9999; }
+
+.jScrollPaneContainer 	{ position: relative; overflow: hidden; z-index: 1; }
+
+.jScrollPaneTrack 		{ position: absolute; cursor: pointer; right: 0; top: 0; height: 100%;
+						  background: url(images/bar.gif) top center repeat-y; padding: 3px; }
+
+.jScrollPaneDrag	{ position: absolute; background: url(images/ball.png) center center no-repeat;
+					  cursor: pointer; overflow: hidden; }

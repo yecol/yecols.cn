@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+h3 {color:#666666;font-size:12px;font-weight:normal;}
+a{
+	color:#186297;
+	text-decoration:none;
+}
+a:hover{
+    color:#498FA7;
+	text-decoration:underline;
+}
+A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none;
+}
+.left {float:left;}
+.picasaweb {text-align:right; margin-right:5px;float:right;font-size:12px;}
+.grey {
+	FONT-SIZE: small
+}
+
+.photobigbox {
+	MARGIN: 0pt auto;
+	WIDTH: 194px;
+	HEIGHT: 194px;
+	TEXT-ALIGN: center;
+	background-image: url(images/album.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.photosmallbox {
+	PADDING-TOP: 16px; TEXT-ALIGN: center
+}
+.album {
+	FLOAT: left; WIDTH: 194px
+}
+.photo {
+	FLOAT: left; WIDTH: 194px
+}
+.album IMG {
+	BORDER-RIGHT: #5c7fb9 2px solid; BORDER-TOP: #5c7fb9 2px solid; BORDER-LEFT: #5c7fb9 2px solid; WIDTH: 160px; BORDER-BOTTOM: #5c7fb9 2px solid; HEIGHT: 160px
+}
+.photo IMG {
+	BORDER-RIGHT: #5c7fb9 2px solid; BORDER-TOP: #5c7fb9 2px solid; BORDER-LEFT: #5c7fb9 2px solid; WIDTH: 160px; BORDER-BOTTOM: #5c7fb9 2px solid; HEIGHT: 160px
+}
+.center {
+	TEXT-ALIGN: center
+}
+.albumtitle {
+	HEIGHT: 45px; TEXT-ALIGN: center
+}
+.smallpicture {
+	display:inline-table !important;
+	display:inline-block;
+	position:relative;
+	border-collapse:collapse;
+}
+.smallpicture {	display:inline;}
+.picturebox {
+	PADDING: 10px; WIDTH: 164px; HEIGHT: 164px; TEXT-ALIGN: center;
+}
+.picturebox IMG {
+	border:1px solid #7F7F7F;
+}
+.pmenu {
+	background-image: url(images/picasalogo.jpg);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+}
+#photolist {
+background:#FFFFFF none repeat scroll 0 0;
+border:1px solid #CCCCCC;
+}
+#photo-list-div {
+	CLEAR: both
+}
+#show-photo-div {
+	CLEAR: both
+}
+#next-photo-preview {
+	CLEAR: both
+}
+#show-photo-div {
+	DISPLAY: none; PADDING-BOTTOM: 15px
+}
+#next-photo-preview {
+	DISPLAY: none; PADDING-BOTTOM: 15px
+}
+#previous {
+	MAX-WIDTH: 128px; HEIGHT: 96px
+}
+#next {
+	MAX-WIDTH: 128px; HEIGHT: 96px
+}
+#picbox { text-align:center;background:#EEEEEE none repeat scroll 0 0;}
+
+.wrap {
+background:#EEEEEE none repeat scroll 0 0;
+border:1px solid #CCCCCC;
+}
+.wrap A {font-weight:bold;}
+
+.pwimages{
+  border:1px;
+  border:#666666
+  }
+.standard{
+  font-size:12px
+  }
+

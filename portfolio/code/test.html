@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>SyntaxHighlighter Build Test Page</title>
+	<script type="text/javascript" src="scripts/shCore.js"></script>
+	<script type="text/javascript" src="scripts/shBrushBash.js"></script>
+	<script type="text/javascript" src="scripts/shBrushCpp.js"></script>
+	<script type="text/javascript" src="scripts/shBrushCSharp.js"></script>
+	<script type="text/javascript" src="scripts/shBrushCss.js"></script>
+	<script type="text/javascript" src="scripts/shBrushDelphi.js"></script>
+	<script type="text/javascript" src="scripts/shBrushDiff.js"></script>
+	<script type="text/javascript" src="scripts/shBrushGroovy.js"></script>
+	<script type="text/javascript" src="scripts/shBrushJava.js"></script>
+	<script type="text/javascript" src="scripts/shBrushJScript.js"></script>
+	<script type="text/javascript" src="scripts/shBrushPhp.js"></script>
+	<script type="text/javascript" src="scripts/shBrushPlain.js"></script>
+	<script type="text/javascript" src="scripts/shBrushPython.js"></script>
+	<script type="text/javascript" src="scripts/shBrushRuby.js"></script>
+	<script type="text/javascript" src="scripts/shBrushScala.js"></script>
+	<script type="text/javascript" src="scripts/shBrushSql.js"></script>
+	<script type="text/javascript" src="scripts/shBrushVb.js"></script>
+	<script type="text/javascript" src="scripts/shBrushXml.js"></script>
+	<link type="text/css" rel="stylesheet" href="styles/shCore.css"/>
+	<link type="text/css" rel="stylesheet" href="styles/shThemeDefault.css"/>
+	<script type="text/javascript">
+		
+		SyntaxHighlighter.all();
+	</script>
+    <style type="text/css">
+<!--
+.fixarea {
+	height: auto;
+	width: 800px;
+}
+-->
+    </style>
+</head>
+
+<body >
+<h1>SyntaxHihglighter Test</h1>
+<p>This is a test file to insure that everything is working well.</p>
+    <div class="fixarea">
+<pre class="brush: java;" width="600px">
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class DollarConverterGUI extends JPanel implements ActionListener {
+	JButton buttonConvert;
+	JTextField textFieldDollars;
+	JTextField textFieldEuros;
+	DollarConverter converter;
+	
+	public DollarConverterGUI() {
+		converter = new DollarConverter();
+		buttonConvert = new JButton("Dollars -> Euros");
+		textFieldDollars = new JTextField(15);
+		textFieldEuros = new JTextField(15);
+		
+		add(new JLabel("Dollars: "));
+		add(textFieldDollars);
+		add(new JLabel("to Euros: "));
+		add(textFieldEuros);
+		textFieldEuros.setEditable(false);
+		add(buttonConvert);
+		buttonConvert.addActionListener(this);
+	}
+	
+	public void actionPerformed(ActionEvent e) {
+		if(e.getSource() == buttonConvert) {
+			try {
+				converter.setDollars(Double.parseDouble(textFieldDollars.getText()));
+				textFieldEuros.setText(new Double(converter.getEuros()).toString());
+			}
+			catch (NegativeNumberException n) {
+				JOptionPane.showMessageDialog(null, "Please enter a 'positive' number", "Invalid value", JOptionPane.ERROR_MESSAGE);
+			}
+			catch (NumberFormatException n) {
+				JOptionPane.showMessageDialog(null, "Please enter a 'positive number'", "Invalid value", JOptionPane.ERROR_MESSAGE);
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("Dollars to Euros");
+		frame.add(new DollarConverterGUI());
+		frame.setSize(700, 100);
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}
+</pre></div>
+</html>

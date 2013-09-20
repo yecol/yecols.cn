@@ -1,0 +1,88 @@
+@charset "utf-8";
+.middlePage {
+	height: auto;
+	width: 800px;
+	border: 1px solid #000000;
+}
+.wholePage {
+	text-align: center;
+    overflow: auto;
+	height: auto;
+	width: auto;
+}
+
+.rec {
+	text-align: center;
+	height: 170px;
+	width: 180px;
+	float: left;
+}
+#divAll{
+	width:900px;
+	padding:1;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+#divPage{
+	width:900px;
+	margin:0;
+	padding:0px;
+	text-align:left;
+	float:left;
+}
+
+#divMiddle{
+	width:900px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	float:left;
+	z-index: -1;
+}
+
+#divTop{
+	width:auto;
+	text-align:left;
+	height: 323px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	z-index: 1;
+	background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	background-position: top;
+}
+#divSidebar{
+	width:220px;
+	text-align:center;
+	float:right;
+	margin-top: 2px;
+	margin-left: 0px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 30;
+	background-image: url(images/vline.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 629px;
+}
+
+#divMain{
+	width:620px;
+	margin:10px 0 0 20px;
+	padding: 1px;
+	text-align:left;
+	float:left;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
