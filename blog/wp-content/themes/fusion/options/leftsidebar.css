@@ -1,0 +1,21 @@
+
+/* sidebar to the left */
+
+#main-wrap{
+  float: right;
+}
+
+.with-sidebar{
+  margin-left: 340px;
+  margin-right: 0;
+}
+
+#sidebar{
+  float: right;
+  margin-right: -320px;
+  margin-left: 0;
+}
+
+div.clearcontent{
+  clear: right;
+}

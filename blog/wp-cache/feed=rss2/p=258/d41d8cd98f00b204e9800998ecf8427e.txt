@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 24 Feb 2012 16:25:14 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-Powered-By: PHP/5.2.5
+X-Pingback: http://yecols.cn/blog/xmlrpc.php
+Last-Modified: Sun, 19 Feb 2012 10:39:36 GMT
+ETag: "b9fd75182429d157ed1328019488f632"
+Content-Type: text/xml; charset=UTF-8

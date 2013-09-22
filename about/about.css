@@ -1,0 +1,103 @@
+#divTop{
+	width:auto;
+	text-align:left;
+	height: 323px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	background-position: top;
+}
+.singleWeb1 {
+	line-height: 160%;
+	color: #000000;
+	float: left;
+	display:block;
+	padding-top: 10px;
+	margin-left: 30px;
+}
+.singleWeb {
+	line-height: 160%;
+	color: #000000;
+	float: left;
+	display:block;
+	padding-top: 10px;
+}
+.blue14 {
+	color:#186297;
+	font-size:14px;
+	font-weight:bold;
+}
+a.weblink{
+	color:#186297;;
+	text-decoration:underline;
+}
+a:hover.weblink{
+    color:#498FA7;
+	text-decoration:underline;
+}
+.singleWeb p,.singleWeb1 p{
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+#divTab{
+	
+	overflow:hidden;
+	display: block;
+}
+
+#tab-title{
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 31px;
+	padding-right: 20px;
+}
+
+#tab-title .selected{
+	float: right;
+	color:#186297;
+	width: 183px;
+	height: 32px;
+	background: url(images/sel.gif);
+	text-align: center;
+	margin-right: 2px;
+} /*标题被选中时的样式*/
+
+#tab-title span{
+    float: right;
+	background-image: url(images/gra.gif);
+	width: 183px;
+	height: 32px;
+	text-align: center;
+	margin-right: 2px;
+}
+
+.tab-name{
+	padding-top: 7px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+#tab-content .hide{display:none;} /*默认让第一块内容显示，其余隐藏*/
+
+#location{
+	border: 1px solid #cccccc;
+	margin-left:10px;
+	display: block;
+	float: left;
+	width: 450;
+}
+.left{
+	margin-left: 3px;
+	display: block;
+	width: 300px;
+	float: left;
+}
+.blue {
+	color:#186297;
+}
