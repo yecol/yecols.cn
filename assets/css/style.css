@@ -47,6 +47,15 @@ nav .nav-list-container ul li:last-child a{border:0}
 #portfolio article.expanded#a-004{max-height:800px}
 #portfolio article.expanded#a-005{max-height:330px}
 #portfolio article.expanded#a-006{max-height:684px}
+#portfolio article.expanded#a-007{max-height:325px}
+#portfolio article.expanded#a-008{max-height:615px}
+#portfolio article.expanded#a-009{max-height:373px}
+#portfolio article.expanded#a-010{max-height:405px}
+#portfolio article.expanded#a-011{max-height:540px}
+#portfolio article.expanded#a-012{max-height:340px}
+#portfolio article.expanded#a-013{max-height:360px}
+#portfolio article.expanded#a-014{max-height:560px}
+#portfolio article.expanded#a-015{max-height:500px}
 #portfolio article.expanded .flex-direction-nav,#portfolio article.expanded .details{filter:alpha(opacity=100);opacity:1}
 #portfolio article.expanded .expand,#portfolio article.expanded:hover .expand{opacity:1;-webkit-transform:translateX(-100%) rotate(-45deg);-moz-transform:translateX(-100%) rotate(-45deg);-ms-transform:translateX(-100%) rotate(-45deg);-o-transform:translateX(-100%) rotate(-45deg);transform:translateX(-100%) rotate(-45deg)}
 #portfolio article:hover h3,#portfolio article.expanded h3{color:#096}
