@@ -64,10 +64,10 @@
 	"buffers":
 	[
 		{
-			"file": "portfolio.html",
+			"file": "/D/Site/yecols.cn/portfolio.php",
 			"settings":
 			{
-				"buffer_size": 10287,
+				"buffer_size": 17441,
 				"line_ending": "Windows"
 			}
 		},
@@ -75,7 +75,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 7992,
+				"buffer_size": 8328,
 				"line_ending": "Windows"
 			}
 		},
@@ -83,7 +83,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 7466,
+				"buffer_size": 7986,
 				"line_ending": "Unix"
 			}
 		}
@@ -99,16 +99,16 @@
 				"Git: Push"
 			],
 			[
-				"git",
-				"Git: Push"
-			],
-			[
 				"git com",
 				"Git: Commit"
 			],
 			[
 				"git add",
 				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Push"
 			],
 			[
 				"add",
@@ -192,6 +192,9 @@
 	},
 	"file_history":
 	[
+		"/D/Servers/xampp/xampp/htdocs/yecols.cn/portfolio.html",
+		"/D/Site/yecols.cn/portfolio.php",
+		"/D/Site/yecols.cn/portfolio.html",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
 		"/D/Site/xusite/sftp-config.json",
 		"/D/Site/xusite/portfolio.html",
@@ -243,18 +246,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "portfolio.html",
+					"file": "/D/Site/yecols.cn/portfolio.php",
 					"settings":
 					{
-						"buffer_size": 10287,
+						"buffer_size": 17441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7693,
-								7693
+								0,
+								0
 							]
 						],
 						"settings":
@@ -262,12 +265,12 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5205.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -283,15 +286,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 7992,
+						"buffer_size": 8328,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7172,
-								7172
+								7190,
+								7190
 							]
 						],
 						"settings":
@@ -303,7 +306,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5126.0,
+						"translation.y": 5351.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -313,7 +316,7 @@
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 7466,
+						"buffer_size": 7986,
 						"regions":
 						{
 						},
@@ -386,7 +389,7 @@
 	},
 	"output.sftp":
 	{
-		"height": 741.0
+		"height": 216.0
 	},
 	"replace":
 	{
