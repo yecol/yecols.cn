@@ -64,14 +64,6 @@
 	"buffers":
 	[
 		{
-			"file": "/D/Site/yecols.cn/portfolio.php",
-			"settings":
-			{
-				"buffer_size": 17441,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
@@ -192,8 +184,13 @@
 	},
 	"file_history":
 	[
-		"/D/Servers/xampp/xampp/htdocs/yecols.cn/portfolio.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/index.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/portfolio.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/yecol.smarty.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/assets/css/style.css",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/assets/css/style.less",
 		"/D/Site/yecols.cn/portfolio.php",
+		"/D/Servers/xampp/xampp/htdocs/yecols.cn/portfolio.html",
 		"/D/Site/yecols.cn/portfolio.html",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
 		"/D/Site/xusite/sftp-config.json",
@@ -241,15 +238,20 @@
 	"groups":
 	[
 		{
+			"sheets":
+			[
+			]
+		},
+		{
 			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/D/Site/yecols.cn/portfolio.php",
+					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 17441,
+						"buffer_size": 8328,
 						"regions":
 						{
 						},
@@ -265,54 +267,17 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "assets/css/style.less",
-					"settings":
-					{
-						"buffer_size": 8328,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7190,
-								7190
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5351.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "assets/css/style.css",
 					"settings":
 					{
@@ -332,9 +297,7 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -373,7 +336,7 @@
 		"cols":
 		[
 			0.0,
-			0.492861392029,
+			0.74509220702,
 			1.0
 		],
 		"rows":

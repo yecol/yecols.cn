@@ -4,8 +4,6 @@
 	
 	$time_start = microtime(true);
 
-	h2o::load('cache'); 
-
   	$tpl = new h2o('inc/tpls/portfolio.html', array(
   		'cache'=>'file',
   		'cache_dir'=>'cache',
