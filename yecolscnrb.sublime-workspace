@@ -64,6 +64,30 @@
 	"buffers":
 	[
 		{
+			"file": "portfolio/index.php",
+			"settings":
+			{
+				"buffer_size": 149,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/templates/index.tpl",
+			"settings":
+			{
+				"buffer_size": 1398,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/templates/portfolio.tpl",
+			"settings":
+			{
+				"buffer_size": 16400,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
@@ -83,7 +107,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -184,6 +208,10 @@
 	},
 	"file_history":
 	[
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/portfolio.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/index.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/LIB/Smarty-3.1.14/libs/debug.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/index.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/portfolio.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/yecol.smarty.php",
@@ -217,6 +245,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"./res",
+			"./res/",
+			"./res",
 			"image",
 			"a-001",
 			"{\n",
@@ -228,6 +259,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"../res",
+			"../res/",
+			"../res"
 		],
 		"reverse": true,
 		"show_context": true,
@@ -238,8 +272,99 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "portfolio/index.php",
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								139
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inc/templates/index.tpl",
+					"settings":
+					{
+						"buffer_size": 1398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								665,
+								665
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "inc/templates/portfolio.tpl",
+					"settings":
+					{
+						"buffer_size": 16400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								216
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -247,7 +372,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 0,
+					"buffer": 3,
 					"file": "assets/css/style.less",
 					"settings":
 					{
@@ -258,8 +383,12 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								627,
+								627
+							],
+							[
+								635,
+								635
 							]
 						],
 						"settings":
@@ -271,13 +400,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1755.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 4,
 					"file": "assets/css/style.css",
 					"settings":
 					{
@@ -288,8 +417,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								3254,
+								3254
 							]
 						],
 						"settings":
@@ -336,7 +465,7 @@
 		"cols":
 		[
 			0.0,
-			0.74509220702,
+			0.662403331351,
 			1.0
 		],
 		"rows":
@@ -356,7 +485,7 @@
 	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
