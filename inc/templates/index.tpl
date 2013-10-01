@@ -7,7 +7,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
 		<title>{block "title"}Yecols.cn{/block}</title>
-		<link type="text/css" rel="stylesheet" href="/lhycn/assets/css/style.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/style.css">
 	</head>
 	<body>
 		<nav class="site-nav" tabindex="-1">
@@ -18,19 +18,19 @@
 						<a href="#"><span class="reader-text">Navigation</span></a>
 					</li>
 					<li class="nav-list-item">
-						<a href="#">Photos</a>
+						<a href="/photos/">Photos</a>
 					</li>
 					<li class="nav-list-item">
-						<a href="#">Blog</a>
+						<a href="/blog/">Blog</a>
 					</li>
 					<li class="nav-list-item">
-						<a href="#">Portfolio</a>
+						<a href="/portfolio/">Portfolio</a>
 					</li>
 					<li class="nav-list-item">
-						<a href="#">Lab</a>
+						<a href="/lab/">Lab</a>
 					</li>
 					<li class="nav-list-item">
-						<a href="#">About</a>
+						<a href="/about/">About</a>
 					</li>
 				</ul>
 			</div>
@@ -41,6 +41,13 @@
 {/block}
 <!--FOOTER-->
 {block "footer"}
+<footer>
+	<div class="copyright">
+  		<p class="text-c9">
+			浙ICP备08101950号 Copyright © Jingbo Xu 2013-2016. All Rights Reserved. 
+		</p>
+	</div>
+</footer>
 {/block}
 <!--JAVASCRIPT-->
 {block "js"}

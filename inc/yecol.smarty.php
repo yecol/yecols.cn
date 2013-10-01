@@ -1,31 +1,17 @@
-
 <?php
-// load Smarty library
-require('Smarty.class.php');
 
-// The setup.php file is a good place to load
-// required application library files, and you
-// can do that right here. An example:
-// require('guestbook/guestbook.lib.php');
+ini_set('date.timezone', 'Asia/Chongqing');
+define("WEB_ROOT",realpath(dirname(__FILE__)."/.."));
 
-class Yecol_Smarty extends Smarty {
+require_once(WEB_ROOT."/smarty/Smarty.class.php");
 
-   function __construct()
-   {
-        // Class Constructor.
-        // These automatically get set with each new instance.
-        parent::__construct();
+$smarty = new Smarty();
 
-        $this->setCaching(Smarty::CACHING_LIFETIME_CURRENT);
-        $this->setCacheLifetime(3600);
-
-        $this->setTemplateDir('../inc/templates/');
-        $this->setCompileDir('../inc/templates_c/');
-        $this->setConfigDir('../inc/configs/');
-        $this->setCacheDir('../inc/cache/');
-
-        $this->assign('app_name', 'Yecols.cn');
-   }
-}
+$smarty->template_dir = WEB_ROOT."/inc/templates/";
+$smarty->compile_dir = WEB_ROOT."/inc/templates_c/";
+$smarty->config_dir = WEB_ROOT."/inc/configs/";
+$smarty->cache_dir =  WEB_ROOT."/inc/cache/";
+$smarty->caching=1;
+$smarty->cache_lifetime=60*60*24;
 
 ?>

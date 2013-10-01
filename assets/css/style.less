@@ -17,6 +17,14 @@ a{
 	text-decoration: none;
 }
 
+.text-c9{
+	color: #999999
+}
+
+.text-c6{
+	color: #666666
+}
+
 html {
 	font-family: "Microsoft Yahei", 'proxima-nova', 'Arial', sans-serif; 
 	font-size: 100%; 
@@ -46,7 +54,7 @@ body{
 	.container{
 		min-width: 1000px;
 		max-width: 1500px;
-		margin: 10px auto 10px auto;
+		margin: 10px auto 0 auto;
 	}
 
 	.hr, hr {
@@ -191,6 +199,27 @@ nav{
 	}
 }
 
+
+//footer
+footer{
+	position: relative;
+	z-index: 400;
+	background: #f9f9f7;
+	border-top: 1px solid #dededc;
+
+	.copyright{
+		width: auto;
+		max-width: 680px;
+		padding: 0 15px;
+		margin: 200px auto 0 auto;
+		border-top: solid 1px #dededc;
+		text-align:center;
+
+		p{
+			margin:20px auto 20px auto;
+		}
+	}
+}
 
 //main
 #portfolio{
@@ -451,5 +480,30 @@ nav{
 			transform: translateX(-100%) rotate(-90deg);
 		}
 	}
-
 }
+
+
+#photos{
+	img.thumb{
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		display: inline-block;
+		height: auto;
+		margin: 10px auto;
+		max-width: 100%;
+
+		&:not(.deferred){
+			padding: 8px;
+			-moz-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAOVBMV…Xt08EgydDZ6+dT+9Qh9AeGenhROFI0fPjMaCHx6uIlh9/xBSJuB3l0A/6JAAAAAElFTkSuQmCC) 9 / 9px stretch;
+			-ms-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAOVBMV…Xt08EgydDZ6+dT+9Qh9AeGenhROFI0fPjMaCHx6uIlh9/xBSJuB3l0A/6JAAAAAElFTkSuQmCC) 9 / 9px stretch;
+			-o-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAOVBMV…Xt08EgydDZ6+dT+9Qh9AeGenhROFI0fPjMaCHx6uIlh9/xBSJuB3l0A/6JAAAAAElFTkSuQmCC) 9 / 9px stretch;
+			border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAOVBMV…Xt08EgydDZ6+dT+9Qh9AeGenhROFI0fPjMaCHx6uIlh9/xBSJuB3l0A/6JAAAAAElFTkSuQmCC) 9 / 9px stretch;
+			-webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAOVBMV…Xt08EgydDZ6+dT+9Qh9AeGenhROFI0fPjMaCHx6uIlh9/xBSJuB3l0A/6JAAAAAElFTkSuQmCC) 9 / 9px stretch;
+			border-width: 9px;
+		}
+	}
+}
+

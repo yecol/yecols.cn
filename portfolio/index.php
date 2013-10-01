@@ -1,8 +1,6 @@
 <?php
-	// NOTE: Smarty has a capital 'S'
-	require('../inc/yecol.smarty.php');
 
-	$smarty = new Yecol_Smarty();
-
+	include('../inc/yecol.smarty.php');
 	$smarty->display('portfolio.tpl');
+
 ?>

@@ -1,6 +1,45 @@
-{extends file="index.tpl"}
 
-{block "content"}
+<!--This page is cached on 
+Warning: strftime(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Chongqing' for 'CST/8.0/no DST' instead in /var/www/html/smarty/plugins/modifier.date_format.php on line 59
+2013-10-01 19:05:10 -->
+<!--COMMON HEADER-->
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
+		<title>Yecols.cn</title>
+		<link type="text/css" rel="stylesheet" href="/assets/css/style.css">
+	</head>
+	<body>
+		<nav class="site-nav" tabindex="-1">
+			<button class="site-nav-logo" data-action="open-nav"><span class="reader-text">HOME</span></button>
+			<div class="nav-list-container">
+				<ul class="nav-list">
+					<li class="nav-list-item">
+						<a href="#"><span class="reader-text">Navigation</span></a>
+					</li>
+					<li class="nav-list-item">
+						<a href="/photos/">Photos</a>
+					</li>
+					<li class="nav-list-item">
+						<a href="/blog/">Blog</a>
+					</li>
+					<li class="nav-list-item">
+						<a href="/portfolio/">Portfolio</a>
+					</li>
+					<li class="nav-list-item">
+						<a href="/lab/">Lab</a>
+					</li>
+					<li class="nav-list-item">
+						<a href="/about/">About</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+<!--PAGE MODULE-->
+
 
 <div id="main" role="main" class="container">
   <section id="portfolio">
@@ -460,13 +499,27 @@
         </div><!-- .images -->
           
       </article><!-- article -->
-      
+
   </section><!-- #portfolio -->
   
 </div>
-{/block}
 
-{block "js"}
+<!--FOOTER-->
+
+<footer>
+
+<div class="copyright">
+  <p class="text-c9">
+浙ICP备08101950号 Copyright © Jingbo Xu 2013-2016. All Rights Reserved. 
+</p>
+
+</div>
+
+</footer>
+
+
+<!--JAVASCRIPT-->
+
 <script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
 <script src="/assets/js/jquery.flexslider-min.js"></script>
 <script>
@@ -514,4 +567,7 @@ $(document).ready(function() {
 });
 
 </script>
-{/block}
+
+<!--PAGE END-->
+	</body>
+</html>

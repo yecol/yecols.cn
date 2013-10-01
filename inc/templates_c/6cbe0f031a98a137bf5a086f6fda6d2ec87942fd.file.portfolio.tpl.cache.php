@@ -1,6 +1,71 @@
-{extends file="index.tpl"}
+<?php /* Smarty version Smarty-3.1.10, created on 2013-10-01 19:21:09
+         compiled from "D:\Servers\xampp\xampp\htdocs\lhycn\inc\templates\portfolio.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:14126524ab0256c84e5-03708084%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '6cbe0f031a98a137bf5a086f6fda6d2ec87942fd' => 
+    array (
+      0 => 'D:\\Servers\\xampp\\xampp\\htdocs\\lhycn\\inc\\templates\\portfolio.tpl',
+      1 => 1380617124,
+      2 => 'file',
+    ),
+    '1b95148edd5940d4a4787a2ad895615e184b8fd5' => 
+    array (
+      0 => 'D:\\Servers\\xampp\\xampp\\htdocs\\lhycn\\inc\\templates\\index.tpl',
+      1 => 1380625492,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '14126524ab0256c84e5-03708084',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.10',
+  'unifunc' => 'content_524ab0261fc328_24620800',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_524ab0261fc328_24620800')) {function content_524ab0261fc328_24620800($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'D:\\Servers\\xampp\\xampp\\htdocs\\lhycn\\smarty\\plugins\\modifier.date_format.php';
+?><!--This page is cached on <?php echo smarty_modifier_date_format(time(),'%Y-%m-%d %H:%M:%S');?>
+ -->
+<!--COMMON HEADER-->
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
+		<title>Yecols.cn</title>
+		<link type="text/css" rel="stylesheet" href="/assets/css/style.css">
+	</head>
+	<body>
+		<nav class="site-nav" tabindex="-1">
+			<button class="site-nav-logo" data-action="open-nav"><span class="reader-text">HOME</span></button>
+			<div class="nav-list-container">
+				<ul class="nav-list">
+					<li class="nav-list-item">
+						<a href="#"><span class="reader-text">Navigation</span></a>
+					</li>
+					<li class="nav-list-item">
+						<a href="/photos/">Photos</a>
+					</li>
+					<li class="nav-list-item">
+						<a href="/blog/">Blog</a>
+					</li>
+					<li class="nav-list-item">
+						<a href="/portfolio/">Portfolio</a>
+					</li>
+					<li class="nav-list-item">
+						<a href="/lab/">Lab</a>
+					</li>
+					<li class="nav-list-item">
+						<a href="/about/">About</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+<!--PAGE MODULE-->
 
-{block "content"}
 
 <div id="main" role="main" class="container">
   <section id="portfolio">
@@ -460,13 +525,18 @@
         </div><!-- .images -->
           
       </article><!-- article -->
+
+      <hr>
       
   </section><!-- #portfolio -->
   
 </div>
-{/block}
 
-{block "js"}
+<!--FOOTER-->
+
+
+<!--JAVASCRIPT-->
+
 <script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
 <script src="/assets/js/jquery.flexslider-min.js"></script>
 <script>
@@ -514,4 +584,8 @@ $(document).ready(function() {
 });
 
 </script>
-{/block}
+
+<!--PAGE END-->
+	</body>
+</html>
+<?php }} ?>
