@@ -1,6 +1,6 @@
 <?php
 
-ini_set('date.timezone', 'Asia/Chongqing');
+date_default_timezone_set("Asia/Shanghai");  
 define("WEB_ROOT",realpath(dirname(__FILE__)."/.."));
 
 require_once(WEB_ROOT."/smarty/Smarty.class.php");

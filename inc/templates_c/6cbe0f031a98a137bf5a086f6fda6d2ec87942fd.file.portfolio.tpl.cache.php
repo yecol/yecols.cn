@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2013-10-01 19:21:09
+<?php /* Smarty version Smarty-3.1.10, created on 2013-10-03 13:29:07
          compiled from "D:\Servers\xampp\xampp\htdocs\lhycn\inc\templates\portfolio.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:14126524ab0256c84e5-03708084%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6cbe0f031a98a137bf5a086f6fda6d2ec87942fd' => 
     array (
       0 => 'D:\\Servers\\xampp\\xampp\\htdocs\\lhycn\\inc\\templates\\portfolio.tpl',
-      1 => 1380617124,
+      1 => 1380627907,
       2 => 'file',
     ),
     '1b95148edd5940d4a4787a2ad895615e184b8fd5' => 
     array (
       0 => 'D:\\Servers\\xampp\\xampp\\htdocs\\lhycn\\inc\\templates\\index.tpl',
-      1 => 1380625492,
+      1 => 1380627853,
       2 => 'file',
     ),
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.10',
   'unifunc' => 'content_524ab0261fc328_24620800',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_524ab0261fc328_24620800')) {function content_524ab0261fc328_24620800($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'D:\\Servers\\xampp\\xampp\\htdocs\\lhycn\\smarty\\plugins\\modifier.date_format.php';
 ?><!--This page is cached on <?php echo smarty_modifier_date_format(time(),'%Y-%m-%d %H:%M:%S');?>
@@ -525,8 +525,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div><!-- .images -->
           
       </article><!-- article -->
-
-      <hr>
       
   </section><!-- #portfolio -->
   
@@ -534,6 +532,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <!--FOOTER-->
 
+<footer>
+	<div class="copyright">
+  		<p class="text-c9">
+			浙ICP备08101950号 Copyright © Jingbo Xu 2013-2016. All Rights Reserved. 
+		</p>
+	</div>
+</footer>
 
 <!--JAVASCRIPT-->
 

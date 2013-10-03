@@ -4,12 +4,32 @@
 		"selected_items":
 		[
 			[
-				"max",
-				"max-height"
+				"text",
+				"text-align"
+			],
+			[
+				"bod",
+				"border-top"
 			],
 			[
 				"mar",
-				"margin-bottom"
+				"margin"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"s",
+				"smarty"
+			],
+			[
+				"html",
+				"html	html"
 			],
 			[
 				"mx",
@@ -22,10 +42,6 @@
 			[
 				"marg",
 				"margin-left"
-			],
-			[
-				"text",
-				"text-indent"
 			],
 			[
 				"padding",
@@ -64,10 +80,26 @@
 	"buffers":
 	[
 		{
+			"file": "inc/yecol.smarty.php",
+			"settings":
+			{
+				"buffer_size": 439,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "portfolio/index.html",
+			"settings":
+			{
+				"buffer_size": 18038,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "portfolio/index.php",
 			"settings":
 			{
-				"buffer_size": 149,
+				"buffer_size": 83,
 				"line_ending": "Windows"
 			}
 		},
@@ -75,7 +107,7 @@
 			"file": "inc/templates/index.tpl",
 			"settings":
 			{
-				"buffer_size": 1398,
+				"buffer_size": 1580,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +115,7 @@
 			"file": "inc/templates/portfolio.tpl",
 			"settings":
 			{
-				"buffer_size": 16400,
+				"buffer_size": 16282,
 				"line_ending": "Windows"
 			}
 		},
@@ -91,7 +123,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 8328,
+				"buffer_size": 9981,
 				"line_ending": "Windows"
 			}
 		},
@@ -107,9 +139,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 288.0,
 		"selected_items":
 		[
+			[
+				"html",
+				"Tidy HTML"
+			],
 			[
 				"git push",
 				"Git: Push"
@@ -145,10 +181,6 @@
 			[
 				"package",
 				"Package Control: List Packages"
-			],
-			[
-				"html",
-				"Tidy HTML"
 			],
 			[
 				"list",
@@ -191,7 +223,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -208,9 +240,19 @@
 	},
 	"file_history":
 	[
-		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/sftp-config.json",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/smarty/sysplugins/smarty_internal_templatecompilerbase.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/portfolio.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/hello.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/index.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/index.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/hello.php",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php.back.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/rebuild.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/index.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/LIB/Smarty-3.1.14/libs/debug.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/index.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/portfolio.tpl",
@@ -245,6 +287,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hr",
+			"../res",
 			"\"./res",
 			"./res/",
 			"./res",
@@ -259,6 +303,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"/res",
 			"\"../res",
 			"../res/",
 			"../res"
@@ -272,23 +317,83 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "portfolio/index.php",
+					"file": "inc/yecol.smarty.php",
 					"settings":
 					{
-						"buffer_size": 149,
+						"buffer_size": 439,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								130,
-								139
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "portfolio/index.html",
+					"settings":
+					{
+						"buffer_size": 18038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16857,
+								16708
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10890.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "portfolio/index.php",
+					"settings":
+					{
+						"buffer_size": 83,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
 							]
 						],
 						"settings":
@@ -305,19 +410,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "inc/templates/index.tpl",
 					"settings":
 					{
-						"buffer_size": 1398,
+						"buffer_size": 1580,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								665,
-								665
+								1497,
+								1497
 							]
 						],
 						"settings":
@@ -329,25 +434,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 285.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "inc/templates/portfolio.tpl",
 					"settings":
 					{
-						"buffer_size": 16400,
+						"buffer_size": 16282,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								216,
-								216
+								15076,
+								15076
 							]
 						],
 						"settings":
@@ -360,7 +465,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 9444.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -372,23 +477,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 8328,
+						"buffer_size": 9981,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								627,
-								627
-							],
-							[
-								635,
-								635
+								8965,
+								8965
 							]
 						],
 						"settings":
@@ -400,13 +501,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1755.0,
+						"translation.y": 1910.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "assets/css/style.css",
 					"settings":
 					{
@@ -417,8 +518,8 @@
 						"selection":
 						[
 							[
-								3254,
-								3254
+								156,
+								408
 							]
 						],
 						"settings":
@@ -465,7 +566,7 @@
 		"cols":
 		[
 			0.0,
-			0.662403331351,
+			0.791600652633,
 			1.0
 		],
 		"rows":
@@ -481,7 +582,7 @@
 	},
 	"output.sftp":
 	{
-		"height": 216.0
+		"height": 593.0
 	},
 	"replace":
 	{
@@ -508,6 +609,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 239.0,
+	"side_bar_width": 536.0,
 	"status_bar_visible": true
 }

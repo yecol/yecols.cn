@@ -5,23 +5,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6cbe0f031a98a137bf5a086f6fda6d2ec87942fd' => 
     array (
       0 => 'D:\\Servers\\xampp\\xampp\\htdocs\\lhycn\\inc\\templates\\portfolio.tpl',
-      1 => 1380617124,
+      1 => 1380627907,
       2 => 'file',
     ),
     '1b95148edd5940d4a4787a2ad895615e184b8fd5' => 
     array (
       0 => 'D:\\Servers\\xampp\\xampp\\htdocs\\lhycn\\inc\\templates\\index.tpl',
-      1 => 1380625492,
+      1 => 1380627853,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '14126524ab0256c84e5-03708084',
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.10',
-  'unifunc' => 'content_524ab0263d25c0_05331947',
+  'unifunc' => 'content_524d00a5391dc8_23908461',
+  'has_nocache_code' => false,
   'cache_lifetime' => 86400,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_524ab0263d25c0_05331947')) {function content_524ab0263d25c0_05331947($_smarty_tpl) {?><!--This page is cached on 2013-10-01 19:21:10 -->
+<?php if ($_valid && !is_callable('content_524d00a5391dc8_23908461')) {function content_524d00a5391dc8_23908461($_smarty_tpl) {?><!--This page is cached on 2013-10-03 13:29:09 -->
 <!--COMMON HEADER-->
 <!DOCTYPE html>
 <html lang="zh-cn">
@@ -519,8 +519,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div><!-- .images -->
           
       </article><!-- article -->
-
-      <hr>
       
   </section><!-- #portfolio -->
   
@@ -528,6 +526,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <!--FOOTER-->
 
+<footer>
+	<div class="copyright">
+  		<p class="text-c9">
+			浙ICP备08101950号 Copyright © Jingbo Xu 2013-2016. All Rights Reserved. 
+		</p>
+	</div>
+</footer>
 
 <!--JAVASCRIPT-->
 
