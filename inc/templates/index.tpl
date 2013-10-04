@@ -1,4 +1,4 @@
-<!--This page is cached on {$smarty.now|date_format:'%Y-%m-%d %H:%M:%S'} -->
+<!--This page is cached on <{$smarty.now|date_format:'%Y-%m-%d %H:%M:%S'}> -->
 <!--COMMON HEADER-->
 <!DOCTYPE html>
 <html lang="zh-cn">
@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
-		<title>{block "title"}Yecols.cn{/block}</title>
+		<title><{block "title"}>Yecols.cn<{/block}></title>
 		<link type="text/css" rel="stylesheet" href="/assets/css/style.css">
 	</head>
 	<body>
@@ -36,11 +36,11 @@
 			</div>
 		</nav>
 <!--PAGE MODULE-->
-{block "content"}
+<{block "content"}>
 <div id="main" role="main" class="container"></div>
-{/block}
+<{/block}>
 <!--FOOTER-->
-{block "footer"}
+<{block "footer"}>
 <footer>
 	<div class="copyright">
   		<p class="text-c9">
@@ -48,10 +48,10 @@
 		</p>
 	</div>
 </footer>
-{/block}
+<{/block}>
 <!--JAVASCRIPT-->
-{block "js"}
-{/block}
+<{block "js"}>
+<{/block}>
 <!--PAGE END-->
 	</body>
 </html>

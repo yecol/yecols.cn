@@ -1,6 +1,6 @@
-{extends file="index.tpl"}
+<{extends file="index.tpl"}>
 
-{block "content"}
+<{block "content"}>
 
 <div id="main" role="main" class="container">
   <section id="portfolio">
@@ -464,9 +464,9 @@
   </section><!-- #portfolio -->
   
 </div>
-{/block}
+<{/block}>
 
-{block "js"}
+<{block "js"}>
 <script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
 <script src="/assets/js/jquery.flexslider-min.js"></script>
 <script>
@@ -514,4 +514,4 @@ $(document).ready(function() {
 });
 
 </script>
-{/block}
+<{/block}>

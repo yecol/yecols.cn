@@ -80,58 +80,26 @@
 	"buffers":
 	[
 		{
-			"file": "inc/yecol.smarty.php",
+			"file": "photos/travel-bali.php",
 			"settings":
 			{
-				"buffer_size": 439,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "portfolio/index.html",
-			"settings":
-			{
-				"buffer_size": 18038,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "portfolio/index.php",
-			"settings":
-			{
-				"buffer_size": 83,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/templates/index.tpl",
-			"settings":
-			{
-				"buffer_size": 1580,
+				"buffer_size": 193,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/templates/portfolio.tpl",
-			"settings":
-			{
-				"buffer_size": 16282,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 9981,
-				"line_ending": "Windows"
+				"buffer_size": 10952,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 7986,
+				"buffer_size": 10306,
 				"line_ending": "Unix"
 			}
 		}
@@ -240,6 +208,16 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Github/yecols.cn/inc/templates/portfolio.tpl",
+		"/Users/Yecol/Github/yecols.cn/inc/templates/photos.tpl",
+		"/Users/Yecol/Github/yecols.cn/inc/templates/index.tpl",
+		"/Users/Yecol/Github/yecols.cn/photos/travel-bali.php",
+		"/Users/Yecol/Github/yecols.cn/inc/yecol.smarty.php",
+		"/Users/Yecol/Github/yecols.cn/smarty/plugins/function.photos.php",
+		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/User/SFTP.errors.log",
+		"/Users/Yecol/Github/yecols.cn/smarty/plugins/function.html_image.php",
+		"/Users/Yecol/Github/yecols.cn/portfolio/index.php",
+		"/Users/Yecol/Github/yecols.cn/portfolio/index.html",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/sftp-config.json",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/smarty/sysplugins/smarty_internal_templatecompilerbase.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/portfolio.tpl",
@@ -317,83 +295,23 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "inc/yecol.smarty.php",
+					"file": "photos/travel-bali.php",
 					"settings":
 					{
-						"buffer_size": 439,
+						"buffer_size": 193,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6,
-								6
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "portfolio/index.html",
-					"settings":
-					{
-						"buffer_size": 18038,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16857,
-								16708
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"incomplete_sync": null,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 10890.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "portfolio/index.php",
-					"settings":
-					{
-						"buffer_size": 83,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								83,
-								83
+								156,
+								156
 							]
 						],
 						"settings":
@@ -408,67 +326,6 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "inc/templates/index.tpl",
-					"settings":
-					{
-						"buffer_size": 1580,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1497,
-								1497
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 285.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "inc/templates/portfolio.tpl",
-					"settings":
-					{
-						"buffer_size": 16282,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15076,
-								15076
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 9444.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
 				}
 			]
 		},
@@ -477,19 +334,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 5,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 9981,
+						"buffer_size": 10952,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8965,
-								8965
+								0,
+								0
 							]
 						],
 						"settings":
@@ -501,25 +358,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1910.0,
+						"translation.y": 2164.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 2,
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 7986,
+						"buffer_size": 10306,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								156,
-								408
+								0,
+								0
 							]
 						],
 						"settings":
@@ -566,7 +423,7 @@
 		"cols":
 		[
 			0.0,
-			0.791600652633,
+			0.947753396029,
 			1.0
 		],
 		"rows":
@@ -582,7 +439,7 @@
 	},
 	"output.sftp":
 	{
-		"height": 593.0
+		"height": 286.0
 	},
 	"replace":
 	{
@@ -609,6 +466,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 536.0,
+	"side_bar_width": 276.0,
 	"status_bar_visible": true
 }
