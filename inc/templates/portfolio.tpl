@@ -28,7 +28,7 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/service4all.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/service4all.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -58,9 +58,9 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/wenda-1.jpg" /></li>
-            <li><img src="/res/sites/wenda-2.jpg" /></li>
-            <li><img src="/res/sites/wenda-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/wenda-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/wenda-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/wenda-3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -90,11 +90,11 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/pr-face-1.jpg" /></li>
-            <li><img src="/res/sites/pr-face-2.jpg" /></li>
-            <li><img src="/res/sites/pr-face-3.jpg" /></li>
-            <li><img src="/res/sites/pr-face-4.jpg" /></li>
-            <li><img src="/res/sites/pr-face-5.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/pr-face-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/pr-face-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/pr-face-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/pr-face-4.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/pr-face-5.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -123,10 +123,10 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/rcbd-1.jpg" /></li>
-            <li><img src="/res/sites/rcbd-2.jpg" /></li>
-            <li><img src="/res/sites/rcbd-3.jpg" /></li>
-            <li><img src="/res/sites/rcbd-4.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/rcbd-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/rcbd-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/rcbd-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/rcbd-4.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -155,7 +155,7 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/prdemo.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/prdemo.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -184,11 +184,11 @@
 
         <div class="images-300">
           <ul class="slides cf">
-            <li><img src="/res/sites/soso-1.jpg" /></li>
-            <li><img src="/res/sites/soso-2.jpg" /></li>
-            <li><img src="/res/sites/soso-3.jpg" /></li>
-            <li><img src="/res/sites/soso-4.jpg" /></li>
-            <li><img src="/res/sites/soso-5.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/soso-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/soso-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/soso-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/soso-4.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/soso-5.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -212,9 +212,9 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/smgr-1.jpg" /></li>
-            <li><img src="/res/sites/smgr-2.jpg" /></li>
-            <li><img src="/res/sites/smgr-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/smgr-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/smgr-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/smgr-3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -243,7 +243,7 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/60.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/60.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -268,9 +268,9 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/meeting1.jpg" /></li>
-            <li><img src="/res/sites/meeting2.jpg" /></li>
-            <li><img src="/res/sites/meeting3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/meeting1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/meeting2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/meeting3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -295,9 +295,9 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/buaa1.jpg" /></li>
-            <li><img src="/res/sites/buaa2.jpg" /></li>
-            <li><img src="/res/sites/buaa3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/buaa1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/buaa2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/buaa3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -327,9 +327,9 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/nc-1.jpg" /></li>
-            <li><img src="/res/sites/nc-2.jpg" /></li>
-            <li><img src="/res/sites/nc-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/nc-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/nc-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/nc-3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -359,12 +359,12 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/yecolscn-1.jpg" /></li>
-            <li><img src="/res/sites/yecolscn-2.jpg" /></li>
-            <li><img src="/res/sites/yecolscn-3.jpg" /></li>
-            <li><img src="/res/sites/yecolscn-4.jpg" /></li>
-            <li><img src="/res/sites/yecolscn-5.jpg" /></li>
-            <li><img src="/res/sites/yecolscn-6.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/yecolscn-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/yecolscn-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/yecolscn-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/yecolscn-4.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/yecolscn-5.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/yecolscn-6.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -389,9 +389,9 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/jxo1.jpg" /></li>
-            <li><img src="/res/sites/jxo2.jpg" /></li>
-            <li><img src="/res/sites/jxo3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/jxo1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/jxo2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/jxo3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -420,9 +420,9 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/blog1.jpg" /></li>
-            <li><img src="/res/sites/blog2.jpg" /></li>
-            <li><img src="/res/sites/blog3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/blog1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/blog2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/blog3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -450,12 +450,12 @@
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/posters/p5.jpg" /></li>
-            <li><img src="/res/posters/p6.jpg" /></li>
-            <li><img src="/res/posters/p1.jpg" /></li>
-            <li><img src="/res/posters/p2.jpg" /></li>
-            <li><img src="/res/posters/p3.jpg" /></li>
-            <li><img src="/res/posters/p4.jpg" /></li>
+            <li><img class="lazy" src="/res/posters/p5.jpg" /></li>
+            <li><img class="lazy" src="/res/posters/p6.jpg" /></li>
+            <li><img class="lazy" src="/res/posters/p1.jpg" /></li>
+            <li><img class="lazy" src="/res/posters/p2.jpg" /></li>
+            <li><img class="lazy" src="/res/posters/p3.jpg" /></li>
+            <li><img class="lazy" src="/res/posters/p4.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -466,9 +466,8 @@
 </div>
 <{/block}>
 
-<{block "js"}>
-<script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
-<script src="/assets/js/jquery.flexslider-min.js"></script>
+<{block "js" append}>
+<script type="text/javascript" src="/assets/js/jquery.flexslider.min.js"></script>
 <script>
 $(document).ready(function() {
 	// Stuff to do as soon as the DOM is ready;

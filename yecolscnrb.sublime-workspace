@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"cam",
+				"camIso"
+			],
+			[
+				"imge",
+				"image_dir"
+			],
+			[
+				"image",
+				"imagePath"
+			],
+			[
+				"fa",
+				"fancybox"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -80,10 +96,18 @@
 	"buffers":
 	[
 		{
-			"file": "photos/travel-bali.php",
+			"file": "smarty/plugins/function.photos.php",
 			"settings":
 			{
-				"buffer_size": 193,
+				"buffer_size": 2714,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/templates/photos.tpl",
+			"settings":
+			{
+				"buffer_size": 1031,
 				"line_ending": "Unix"
 			}
 		},
@@ -208,13 +232,23 @@
 	},
 	"file_history":
 	[
-		"/Users/Yecol/Github/yecols.cn/inc/templates/portfolio.tpl",
-		"/Users/Yecol/Github/yecols.cn/inc/templates/photos.tpl",
-		"/Users/Yecol/Github/yecols.cn/inc/templates/index.tpl",
 		"/Users/Yecol/Github/yecols.cn/photos/travel-bali.php",
-		"/Users/Yecol/Github/yecols.cn/inc/yecol.smarty.php",
-		"/Users/Yecol/Github/yecols.cn/smarty/plugins/function.photos.php",
+		"/Users/Yecol/Github/yecols.cn/smarty/plugins/function.math.php",
+		"/Users/Yecol/Github/yecols.cn/smarty/plugins/function.html_options.php",
+		"/Users/Yecol/Github/yecols.cn/inc/templates/photos.tpl",
+		"/Users/Yecol/Github/yecols.cn/assets/fancybox/jquery.fancybox.css",
 		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/User/SFTP.errors.log",
+		"/Users/Yecol/Github/yecols.cn/inc/yecol.smarty.php",
+		"/Users/Yecol/Github/yecols.cn/inc/templates/index.tpl",
+		"/Users/Yecol/Github/yecols.cn/smarty/plugins/function.photos.php",
+		"/Users/Yecol/Github/yecols.cn/assets/fancybox/jquery.fancybox.js",
+		"/Users/Yecol/Github/yecols.cn/assets/fancybox/jquery.fancybox.pack.js",
+		"/Users/Yecol/Github/yecols.cn/sftp-config.json",
+		"/Users/Yecol/Github/yecols.cn/photos/travel-yunnan.php",
+		"/Users/Yecol/Github/yecols.cn/photos/travel-taiwan.php",
+		"/Users/Yecol/Github/yecols.cn/photos/travel-nanjing.php",
+		"/Users/Yecol/Github/yecols.cn/inc/templates/portfolio.tpl",
+		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
 		"/Users/Yecol/Github/yecols.cn/smarty/plugins/function.html_image.php",
 		"/Users/Yecol/Github/yecols.cn/portfolio/index.php",
 		"/Users/Yecol/Github/yecols.cn/portfolio/index.html",
@@ -295,23 +329,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "photos/travel-bali.php",
+					"file": "smarty/plugins/function.photos.php",
 					"settings":
 					{
-						"buffer_size": 193,
+						"buffer_size": 2714,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								156,
-								156
+								1980,
+								1986
 							]
 						],
 						"settings":
@@ -319,10 +353,43 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 850.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inc/templates/photos.tpl",
+					"settings":
+					{
+						"buffer_size": 1031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								773,
+								773
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 163.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -334,7 +401,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "assets/css/style.less",
 					"settings":
 					{
@@ -345,8 +412,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								9652,
+								9479
 							]
 						],
 						"settings":
@@ -357,14 +424,14 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 2164.0,
+						"translation.x": 32.0,
+						"translation.y": 9081.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "assets/css/style.css",
 					"settings":
 					{
@@ -423,7 +490,7 @@
 		"cols":
 		[
 			0.0,
-			0.947753396029,
+			0.788962224268,
 			1.0
 		],
 		"rows":
@@ -439,7 +506,7 @@
 	},
 	"output.sftp":
 	{
-		"height": 286.0
+		"height": 219.0
 	},
 	"replace":
 	{
@@ -466,6 +533,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 276.0,
+	"side_bar_width": 261.0,
 	"status_bar_visible": true
 }

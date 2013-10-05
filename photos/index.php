@@ -39,7 +39,17 @@
 <div id="main" role="main" class="container">
 
   <section id="photos-album">
-    
+ 
+    <div class="a-album">
+        <a class="origin" href="./travel-nanjing.php">
+            <img src="cover/nanjing.jpg" class="thumb">
+            <span class="info">
+                <p class="title travel">Travel Log. 南京</p>
+                <p class="date">2013-09-29</p>
+            </span>
+        </a>
+    </div>
+
     <div class="a-album">
         <a class="origin" href="./travel-bali.php">
             <img src="cover/bali.jpg" class="thumb">
@@ -71,11 +81,11 @@
     </div>
 
     <div class="a-album">
-        <a class="origin" href="/travel-taiwan/">
+        <a class="origin" href="./travel-yunnan.php">
             <img src="cover/yunnan.jpg" class="thumb">
             <span class="info">
                 <p class="title travel">Travel Log. 毕业旅行，云南。</p>
-                <p class="date">2012-02-17</p>
+                <p class="date">2013-01-21</p>
             </span>
         </a>
     </div>

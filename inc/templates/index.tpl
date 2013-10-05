@@ -7,7 +7,9 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
 		<title><{block "title"}>Yecols.cn<{/block}></title>
+		<{block "css"}>
 		<link type="text/css" rel="stylesheet" href="/assets/css/style.css">
+		<{/block}>
 	</head>
 	<body>
 		<nav class="site-nav" tabindex="-1">
@@ -51,6 +53,8 @@
 <{/block}>
 <!--JAVASCRIPT-->
 <{block "js"}>
+<!--<script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>-->
+<script type="text/javascript" src="/assets/js/jquery-1.10.2.min.js"></script>
 <{/block}>
 <!--PAGE END-->
 	</body>
