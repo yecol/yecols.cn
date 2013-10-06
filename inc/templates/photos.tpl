@@ -29,7 +29,10 @@
 $(document).ready(function(){
     $(".container-head").width($("#photos").width()+80);
     $(".origin").fancybox({
-    	padding:6,
+      beforeLoad: function() {
+        this.title = $(this.element).attr('exif');
+      },
+    	padding:8,
       openEffect  : 'none',
       closeEffect : 'none',
       helpers : {

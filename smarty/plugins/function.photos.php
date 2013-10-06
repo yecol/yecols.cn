@@ -72,7 +72,7 @@
 
 
     	    $html.= '<div class="a-photo">
-    	    			<a class="origin" href="./origin/'.$file.'" title="'.$title.'">
+    	    			<a class="origin" rel="group" href="./origin/'.$file.'" exif="'.$title.'">
                     		<img src="/assets/img/pixel.gif" data-original="'.$image_dir.$file.'" class="thumb" />
                 		</a>
                 	</div>';

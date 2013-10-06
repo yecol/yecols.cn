@@ -112,7 +112,7 @@
     </div>
 
     <div class="a-album">
-        <a class="origin" href="/life-hangzhou/">
+        <a class="origin" href="./life-hangzhou.php">
             <img src="cover/hangzhou.jpg" class="thumb">
             <span class="info">
                 <p class="title camera">Live in Hangzhou. 大学，杭州。</p>
