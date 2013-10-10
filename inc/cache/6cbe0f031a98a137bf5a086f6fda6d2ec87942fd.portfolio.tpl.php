@@ -5,23 +5,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6cbe0f031a98a137bf5a086f6fda6d2ec87942fd' => 
     array (
       0 => 'D:\\Servers\\xampp\\xampp\\htdocs\\lhycn\\inc\\templates\\portfolio.tpl',
-      1 => 1380627907,
+      1 => 1381122955,
       2 => 'file',
     ),
     '1b95148edd5940d4a4787a2ad895615e184b8fd5' => 
     array (
       0 => 'D:\\Servers\\xampp\\xampp\\htdocs\\lhycn\\inc\\templates\\index.tpl',
-      1 => 1380627853,
+      1 => 1381122955,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '14126524ab0256c84e5-03708084',
   'version' => 'Smarty-3.1.10',
-  'unifunc' => 'content_524d00a5391dc8_23908461',
+  'unifunc' => 'content_525631cb9b2ab2_45918673',
   'has_nocache_code' => false,
   'cache_lifetime' => 86400,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_524d00a5391dc8_23908461')) {function content_524d00a5391dc8_23908461($_smarty_tpl) {?><!--This page is cached on 2013-10-03 13:29:09 -->
+<?php if ($_valid && !is_callable('content_525631cb9b2ab2_45918673')) {function content_525631cb9b2ab2_45918673($_smarty_tpl) {?><!--This page is cached on 2013-10-10 12:49:15 -->
 <!--COMMON HEADER-->
 <!DOCTYPE html>
 <html lang="zh-cn">
@@ -30,7 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
 		<title>Yecols.cn</title>
+		
 		<link type="text/css" rel="stylesheet" href="/assets/css/style.css">
+		
 	</head>
 	<body>
 		<nav class="site-nav" tabindex="-1">
@@ -87,7 +89,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/service4all.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/service4all.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -117,9 +119,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/wenda-1.jpg" /></li>
-            <li><img src="/res/sites/wenda-2.jpg" /></li>
-            <li><img src="/res/sites/wenda-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/wenda-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/wenda-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/wenda-3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -149,11 +151,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/pr-face-1.jpg" /></li>
-            <li><img src="/res/sites/pr-face-2.jpg" /></li>
-            <li><img src="/res/sites/pr-face-3.jpg" /></li>
-            <li><img src="/res/sites/pr-face-4.jpg" /></li>
-            <li><img src="/res/sites/pr-face-5.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/pr-face-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/pr-face-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/pr-face-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/pr-face-4.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/pr-face-5.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -182,10 +184,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/rcbd-1.jpg" /></li>
-            <li><img src="/res/sites/rcbd-2.jpg" /></li>
-            <li><img src="/res/sites/rcbd-3.jpg" /></li>
-            <li><img src="/res/sites/rcbd-4.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/rcbd-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/rcbd-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/rcbd-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/rcbd-4.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -214,7 +216,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/prdemo.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/prdemo.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -243,11 +245,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images-300">
           <ul class="slides cf">
-            <li><img src="/res/sites/soso-1.jpg" /></li>
-            <li><img src="/res/sites/soso-2.jpg" /></li>
-            <li><img src="/res/sites/soso-3.jpg" /></li>
-            <li><img src="/res/sites/soso-4.jpg" /></li>
-            <li><img src="/res/sites/soso-5.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/soso-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/soso-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/soso-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/soso-4.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/soso-5.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -271,9 +273,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/smgr-1.jpg" /></li>
-            <li><img src="/res/sites/smgr-2.jpg" /></li>
-            <li><img src="/res/sites/smgr-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/smgr-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/smgr-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/smgr-3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -302,7 +304,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/60.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/60.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -327,9 +329,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/meeting1.jpg" /></li>
-            <li><img src="/res/sites/meeting2.jpg" /></li>
-            <li><img src="/res/sites/meeting3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/meeting1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/meeting2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/meeting3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -354,9 +356,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/buaa1.jpg" /></li>
-            <li><img src="/res/sites/buaa2.jpg" /></li>
-            <li><img src="/res/sites/buaa3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/buaa1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/buaa2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/buaa3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -386,9 +388,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/nc-1.jpg" /></li>
-            <li><img src="/res/sites/nc-2.jpg" /></li>
-            <li><img src="/res/sites/nc-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/nc-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/nc-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/nc-3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -418,12 +420,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/yecolscn-1.jpg" /></li>
-            <li><img src="/res/sites/yecolscn-2.jpg" /></li>
-            <li><img src="/res/sites/yecolscn-3.jpg" /></li>
-            <li><img src="/res/sites/yecolscn-4.jpg" /></li>
-            <li><img src="/res/sites/yecolscn-5.jpg" /></li>
-            <li><img src="/res/sites/yecolscn-6.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/yecolscn-1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/yecolscn-2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/yecolscn-3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/yecolscn-4.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/yecolscn-5.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/yecolscn-6.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -448,9 +450,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/jxo1.jpg" /></li>
-            <li><img src="/res/sites/jxo2.jpg" /></li>
-            <li><img src="/res/sites/jxo3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/jxo1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/jxo2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/jxo3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -479,9 +481,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/sites/blog1.jpg" /></li>
-            <li><img src="/res/sites/blog2.jpg" /></li>
-            <li><img src="/res/sites/blog3.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/blog1.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/blog2.jpg" /></li>
+            <li><img class="lazy" src="/res/sites/blog3.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -509,12 +511,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="images">
           <ul class="slides cf">
-            <li><img src="/res/posters/p5.jpg" /></li>
-            <li><img src="/res/posters/p6.jpg" /></li>
-            <li><img src="/res/posters/p1.jpg" /></li>
-            <li><img src="/res/posters/p2.jpg" /></li>
-            <li><img src="/res/posters/p3.jpg" /></li>
-            <li><img src="/res/posters/p4.jpg" /></li>
+            <li><img class="lazy" src="/res/posters/p5.jpg" /></li>
+            <li><img class="lazy" src="/res/posters/p6.jpg" /></li>
+            <li><img class="lazy" src="/res/posters/p1.jpg" /></li>
+            <li><img class="lazy" src="/res/posters/p2.jpg" /></li>
+            <li><img class="lazy" src="/res/posters/p3.jpg" /></li>
+            <li><img class="lazy" src="/res/posters/p4.jpg" /></li>
           </ul>
         </div><!-- .images -->
           
@@ -536,8 +538,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <!--JAVASCRIPT-->
 
-<script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
-<script src="/assets/js/jquery.flexslider-min.js"></script>
+<!--<script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>-->
+<script type="text/javascript" src="/assets/js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="/assets/js/jquery.flexslider.min.js"></script>
 <script>
 $(document).ready(function() {
 	// Stuff to do as soon as the DOM is ready;

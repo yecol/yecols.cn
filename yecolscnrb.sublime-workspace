@@ -4,40 +4,112 @@
 		"selected_items":
 		[
 			[
-				"contain",
-				"container"
-			],
-			[
-				"cam",
-				"camIso"
-			],
-			[
-				"imge",
-				"image_dir"
-			],
-			[
-				"image",
-				"imagePath"
-			],
-			[
-				"fa",
-				"fancybox"
-			],
-			[
 				"text",
 				"text-align"
 			],
 			[
-				"bod",
-				"border-top"
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"summa",
+				"summary-content"
+			],
+			[
+				"sum",
+				"summary"
+			],
+			[
+				"entry",
+				"entry-title"
+			],
+			[
+				"entry-sum",
+				"entry-summary-header"
+			],
+			[
+				"margin",
+				"margin-bottom"
 			],
 			[
 				"mar",
-				"margin"
+				"margin-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"resize",
+				"resize-header"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"y-g",
+				"y-green-1"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"backgrou",
+				"background-size"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"y-",
+				"y-green-1"
+			],
+			[
+				"border",
+				"border-bottom"
 			],
 			[
 				"padd",
-				"padding"
+				"padding-top"
+			],
+			[
+				"bo",
+				"border-top"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"bod",
+				"border-top"
 			],
 			[
 				"max",
@@ -56,20 +128,8 @@
 				"max-height"
 			],
 			[
-				"ma",
-				"margin-left"
-			],
-			[
 				"marg",
 				"margin-left"
-			],
-			[
-				"padding",
-				"padding-left"
-			],
-			[
-				"back",
-				"background-position"
 			],
 			[
 				"c",
@@ -86,23 +146,32 @@
 			[
 				"lin",
 				"link"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"bo",
-				"border"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "blog/wp-content/themes/yecolwp/functions.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 17136,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog/wp-content/themes/yecolwp/single.php",
+			"settings":
+			{
+				"buffer_size": 597,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blog/wp-content/themes/yecolwp/style.css",
+			"settings":
+			{
+				"buffer_size": 16542,
 				"line_ending": "Unix"
 			}
 		},
@@ -110,8 +179,8 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 10952,
-				"line_ending": "Unix"
+				"buffer_size": 10954,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -119,14 +188,14 @@
 			"settings":
 			{
 				"buffer_size": 10306,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 35.0,
 		"selected_items":
 		[
 			[
@@ -227,41 +296,35 @@
 	},
 	"file_history":
 	[
-		"/Users/Yecol/Github/yecols.cn/smarty/plugins/function.photos.php",
-		"/Users/Yecol/Github/yecols.cn/inc/templates/photos.tpl",
-		"/Users/Yecol/Github/yecols.cn/inc/templates/portfolio.tpl",
-		"/Users/Yecol/Github/yecols.cn/inc/templates/index.tpl",
-		"/Users/Yecol/Github/yecols.cn/inc/yecol.smarty.php",
-		"/Users/Yecol/Downloads/jquery-1.10.2.min.map",
-		"/Users/Yecol/Github/yecols.cn/assets/js/jquery.flexslider.min.js",
-		"/Users/Yecol/Github/yecols.cn/photos/travel-bali.php",
-		"/Users/Yecol/Github/yecols.cn/smarty/plugins/function.math.php",
-		"/Users/Yecol/Github/yecols.cn/smarty/plugins/function.html_options.php",
-		"/Users/Yecol/Github/yecols.cn/assets/fancybox/jquery.fancybox.css",
-		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/User/SFTP.errors.log",
-		"/Users/Yecol/Github/yecols.cn/assets/fancybox/jquery.fancybox.js",
-		"/Users/Yecol/Github/yecols.cn/assets/fancybox/jquery.fancybox.pack.js",
-		"/Users/Yecol/Github/yecols.cn/sftp-config.json",
-		"/Users/Yecol/Github/yecols.cn/photos/travel-yunnan.php",
-		"/Users/Yecol/Github/yecols.cn/photos/travel-taiwan.php",
-		"/Users/Yecol/Github/yecols.cn/photos/travel-nanjing.php",
-		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
-		"/Users/Yecol/Github/yecols.cn/smarty/plugins/function.html_image.php",
-		"/Users/Yecol/Github/yecols.cn/portfolio/index.php",
-		"/Users/Yecol/Github/yecols.cn/portfolio/index.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/content.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/style.css",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/content-category.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/header.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/search.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/404.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/functions.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/footer.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/single.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/languages/twentytwelve.pot",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/travel-taiwan.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/photos.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/index.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/travel-bali.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/portfolio.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/index.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/index.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/sftp-config.json",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/smarty/sysplugins/smarty_internal_templatecompilerbase.php",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/portfolio.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/hello.php",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/index.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/index.html",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/hello.php",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/index.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php.back.html",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/rebuild.html",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/index.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/LIB/Smarty-3.1.14/libs/debug.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/index.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/portfolio.tpl",
@@ -296,8 +359,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"src=\"/assets/img/pixel.gif\" data-original=",
-			"img src",
+			"link_page",
+			"link-page",
+			"article",
+			"entry-header",
+			"header",
+			"body",
+			"a",
+			"header",
+			"button",
+			"page",
+			".entry-content p",
+			".entry-content p, .entry-summary p, .comment-content p, .mu_register p",
+			"body p",
+			"font-family",
+			"site-content",
+			"content",
 			"hr",
 			"../res",
 			"\"./res",
@@ -314,8 +391,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"src=",
-			"img class=\"lazy\" src=\"/assets/img/pixel.gif\" data-original",
 			"/res",
 			"\"../res",
 			"../res/",
@@ -330,31 +405,95 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "blog/wp-content/themes/yecolwp/functions.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 17136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								12587,
+								12591
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 6943.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "blog/wp-content/themes/yecolwp/single.php",
+					"settings":
+					{
+						"buffer_size": 597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "blog/wp-content/themes/yecolwp/style.css",
+					"settings":
+					{
+						"buffer_size": 16542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4432,
+								4432
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3461.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -362,23 +501,23 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 10952,
+						"buffer_size": 10954,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10016,
-								10016
+								1956,
+								1978
 							]
 						],
 						"settings":
@@ -390,13 +529,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9463.0,
+						"translation.y": 2520.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "assets/css/style.css",
 					"settings":
 					{
@@ -419,7 +558,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 741.0,
+						"translation.y": 756.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -455,7 +594,7 @@
 		"cols":
 		[
 			0.0,
-			0.792454117952,
+			0.763974069434,
 			1.0
 		],
 		"rows":
@@ -471,7 +610,7 @@
 	},
 	"output.sftp":
 	{
-		"height": 219.0
+		"height": 593.0
 	},
 	"replace":
 	{
@@ -498,6 +637,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 209.0,
+	"side_bar_width": 388.0,
 	"status_bar_visible": true
 }
