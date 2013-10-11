@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -28,18 +52,6 @@
 				"entry-summary-header"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"mar",
-				"margin-top"
-			],
-			[
-				"font",
-				"font-weight"
-			],
-			[
 				"ba",
 				"background"
 			],
@@ -60,10 +72,6 @@
 				"resize-header"
 			],
 			[
-				"back",
-				"background"
-			],
-			[
 				"y-g",
 				"y-green-1"
 			],
@@ -72,16 +80,8 @@
 				"inline-block"
 			],
 			[
-				"margi",
-				"margin-bottom"
-			],
-			[
 				"backgrou",
 				"background-size"
-			],
-			[
-				"padding",
-				"padding-left"
 			],
 			[
 				"fon",
@@ -152,34 +152,18 @@
 	"buffers":
 	[
 		{
-			"file": "blog/wp-content/themes/yecolwp/functions.php",
+			"file": "photos/travel-taiwan.php",
 			"settings":
 			{
-				"buffer_size": 17136,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "blog/wp-content/themes/yecolwp/single.php",
-			"settings":
-			{
-				"buffer_size": 597,
+				"buffer_size": 3734,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "blog/wp-content/themes/yecolwp/style.css",
-			"settings":
-			{
-				"buffer_size": 16542,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 10954,
+				"buffer_size": 16446,
 				"line_ending": "Windows"
 			}
 		},
@@ -187,8 +171,8 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 10306,
-				"line_ending": "Windows"
+				"buffer_size": 10585,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -296,16 +280,16 @@
 	},
 	"file_history":
 	[
-		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/content.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/functions.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/style.css",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/single.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/content.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/index.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/content-category.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/header.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/search.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/404.php",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/functions.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/footer.php",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/single.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/languages/twentytwelve.pot",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/travel-taiwan.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/photos.tpl",
@@ -405,23 +389,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "blog/wp-content/themes/yecolwp/functions.php",
+					"file": "photos/travel-taiwan.php",
 					"settings":
 					{
-						"buffer_size": 17136,
+						"buffer_size": 3734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12587,
-								12591
+								3325,
+								3325
 							]
 						],
 						"settings":
@@ -430,70 +414,11 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6943.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "blog/wp-content/themes/yecolwp/single.php",
-					"settings":
-					{
-						"buffer_size": 597,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								423,
-								423
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 60.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "blog/wp-content/themes/yecolwp/style.css",
-					"settings":
-					{
-						"buffer_size": 16542,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4432,
-								4432
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3461.0,
+						"translation.y": 1980.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -505,19 +430,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 10954,
+						"buffer_size": 16446,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1956,
-								1978
+								9448,
+								9448
 							]
 						],
 						"settings":
@@ -529,17 +454,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2520.0,
+						"translation.y": 3203.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 10306,
+						"buffer_size": 10585,
 						"regions":
 						{
 						},
@@ -594,7 +519,7 @@
 		"cols":
 		[
 			0.0,
-			0.763974069434,
+			0.453577467724,
 			1.0
 		],
 		"rows":
@@ -637,6 +562,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 388.0,
+	"side_bar_width": 226.0,
 	"status_bar_visible": true
 }

@@ -100,12 +100,31 @@
 <!--FOOTER-->
 
 <footer>
+<div id="wrap">
+<div class="nav">
+  <a href="/photos/" title="摄影">Photos</a>
+  <a href="/blog/" title="文字">Blog</a>
+  <a href="/portfolio/" title="作品集">Portfolio</a>
+  <a href="/lab/" title="实验室">Lab</a>
+  <a href="/about/" title="关于">About</a>
+</div>
+<div class="search">
+  <div class="input-append">
+    <input class="span2" id="appendedInputButton" type="text">
+    <button class="btn" type="button">Search</button>
+  </div>
+</div>
 
-<div class="copyright">
-  <p class="text-c9">
-浙ICP备08101950号 Copyright © Jingbo Xu 2013-2016. All Rights Reserved. 
-</p>
+<div class="info">
+  <div class="beian">浙ICP备08101950号</div>
+  <div class="copyright">©Jingbo Xu</div>
+  <div class="social">
+    <a href="http://weibo.com/yecol" id="linkedin"></a>
+    <a href="http://weibo.com/yecol" id="facebook"></a>
+    <a href="http://weibo.com/yecol" id="weibo"></a>   
+  </div>
 
+</div>
 </div>
 
 </footer>
