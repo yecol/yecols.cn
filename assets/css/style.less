@@ -234,17 +234,26 @@ footer{
 		margin: 0 auto;
 
 		.nav{
-			margin-top: 50px;
+			margin-top: 60px;
 			text-align: center;
 			a{
 				display: inline-block;
 				color:#666;
 				margin: 0 15px;
 				font-size: 16px;
+				&:hover{
+					color:black;
+					text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+				}
+				&.ac,&.ac:hover{
+					font-weight: bold;
+					color:@y-green-1;
+					text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+				}
 			}
 		}
 		.search{
-			margin-top: 50px;
+			margin-top: 35px;
 			margin-bottom: 20px;
 			text-align: center;
 			.input-append{
@@ -270,11 +279,6 @@ footer{
 					padding: 1px;
 					background-color: white;
 					border: 2px inset;
-					border-image-source: initial;
-					border-image-slice: initial;
-					border-image-width: initial;
-					border-image-outset: initial;
-					border-image-repeat: initial;
 					-webkit-rtl-ordering: logical;
 					-webkit-user-select: text;
 					cursor: auto;
@@ -297,10 +301,6 @@ footer{
 					-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 					-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 					box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-					-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
-					-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
-					-o-transition: border linear 0.2s, box-shadow linear 0.2s;
-					transition: border linear 0.2s, box-shadow linear 0.2s;
 					float: none;
 					margin-left: 0;
 					font-size: 14px;
@@ -313,13 +313,12 @@ footer{
 					-webkit-border-radius: 4px 0 0 4px;
 					-moz-border-radius: 4px 0 0 4px;
 					border-radius: 4px 0 0 4px;
-					width: 156px;
+					width: 180px;
 				}
 				.btn{
 					white-space: nowrap;
 					-webkit-writing-mode: horizontal-tb;
 					margin: 0em;
-					font: -webkit-small-control;
 					color: initial;
 					letter-spacing: normal;
 					word-spacing: normal;
@@ -334,11 +333,6 @@ footer{
 					color: buttontext;
 					padding: 2px 6px 3px;
 					border: 2px outset buttonface;
-					border-image-source: initial;
-					border-image-slice: initial;
-					border-image-width: initial;
-					border-image-outset: initial;
-					border-image-repeat: initial;
 					background-color: buttonface;
 					box-sizing: border-box;
 					margin: 0;
@@ -348,7 +342,7 @@ footer{
 					margin-bottom: 0;
 					font-size: 14px;
 					line-height: 20px;
-					color: #333333;
+					color: #666;
 					text-align: center;
 					text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
 					vertical-align: middle;
@@ -367,8 +361,6 @@ footer{
 					-webkit-border-radius: 4px;
 					-moz-border-radius: 4px;
 					border-radius: 4px;
-					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
-					filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 					-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 					-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 					box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -388,21 +380,16 @@ footer{
 			border-top: solid 1px #dededc;
 			color: #999;
 			font-size: 14px;
-			.beian{
+			.copyright{
+				line-height: 25px;
 				width: 300px;
 				float: left;
 				height: 20px;
 			}
-			.copyright{
-				width: 300px;
-				float: right;
-				height: 20px;
-				text-align: right;
-			}
 
 			.social{
-				margin-top: 20px;
-				width: 680px;
+				margin-top: 15px;
+				width: 380px;
 				float: left;
 				a{
 					float: right;
@@ -415,13 +402,22 @@ footer{
 				#weibo{
 					width: 100px;
 					margin-left: 20px;
+					&:hover{
+						background-position: -105px 0;
+					}
 				}
 				#facebook{
 					background-position: 0 -32px;
+					&:hover{
+						background-position: -105px -32px;
+					}
 				}
 				#linkedin{
 					margin:0;
 					background-position: 0 -64px;
+					&:hover{
+						background-position: -105px -64px;
+					}
 				}
 			}
 
@@ -841,3 +837,121 @@ footer{
 
 	}
 }
+
+
+//bootstrap
+
+.tooltip {
+  position: absolute;
+  z-index: 1030;
+  display: block;
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  visibility: visible;
+}
+
+.tooltip.in {
+  opacity: 0.9;
+  filter: alpha(opacity=60);
+}
+
+.tooltip.top {
+  padding: 5px 0;
+  margin-top: -3px;
+}
+
+.tooltip.right {
+  padding: 0 5px;
+  margin-left: 3px;
+}
+
+.tooltip.bottom {
+  padding: 5px 0;
+  margin-top: 3px;
+}
+
+.tooltip.left {
+  padding: 0 5px;
+  margin-left: -3px;
+}
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-top-color: #000000;
+  border-width: 5px 5px 0;
+}
+
+.tooltip.top-left .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  border-top-color: #000000;
+  border-width: 5px 5px 0;
+}
+
+.tooltip.top-right .tooltip-arrow {
+  right: 5px;
+  bottom: 0;
+  border-top-color: #000000;
+  border-width: 5px 5px 0;
+}
+
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-right-color: #000000;
+  border-width: 5px 5px 5px 0;
+}
+
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-left-color: #000000;
+  border-width: 5px 0 5px 5px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-color: #000000;
+  border-width: 0 5px 5px;
+}
+
+.tooltip.bottom-left .tooltip-arrow {
+  top: 0;
+  left: 5px;
+  border-bottom-color: #000000;
+  border-width: 0 5px 5px;
+}
+
+.tooltip.bottom-right .tooltip-arrow {
+  top: 0;
+  right: 5px;
+  border-bottom-color: #000000;
+  border-width: 0 5px 5px;
+}
+
