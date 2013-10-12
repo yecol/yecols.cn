@@ -5,23 +5,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6cbe0f031a98a137bf5a086f6fda6d2ec87942fd' => 
     array (
       0 => 'D:\\Servers\\xampp\\xampp\\htdocs\\lhycn\\inc\\templates\\portfolio.tpl',
-      1 => 1381122955,
+      1 => 1381550911,
       2 => 'file',
     ),
     '1b95148edd5940d4a4787a2ad895615e184b8fd5' => 
     array (
       0 => 'D:\\Servers\\xampp\\xampp\\htdocs\\lhycn\\inc\\templates\\index.tpl',
-      1 => 1381122955,
+      1 => 1381546947,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '14126524ab0256c84e5-03708084',
   'version' => 'Smarty-3.1.10',
-  'unifunc' => 'content_525631cb9b2ab2_45918673',
+  'unifunc' => 'content_5258cb4a857393_93501051',
   'has_nocache_code' => false,
   'cache_lifetime' => 86400,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_525631cb9b2ab2_45918673')) {function content_525631cb9b2ab2_45918673($_smarty_tpl) {?><!--This page is cached on 2013-10-10 12:49:15 -->
+<?php if ($_valid && !is_callable('content_5258cb4a857393_93501051')) {function content_5258cb4a857393_93501051($_smarty_tpl) {?><!--This page is cached on 2013-10-12 12:08:42 -->
 <!--COMMON HEADER-->
 <!DOCTYPE html>
 <html lang="zh-cn">
@@ -529,10 +529,30 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <!--FOOTER-->
 
 <footer>
-	<div class="copyright">
-  		<p class="text-c9">
-			浙ICP备08101950号 Copyright © Jingbo Xu 2013-2016. All Rights Reserved. 
-		</p>
+	<div id="wrap">
+		<div class="nav">
+			<a href="/photos/"  title="摄影">Photos</a>
+			<a href="/blog/"  title="文字">Blog</a>
+			<a href="/portfolio/" 
+class="ac"
+ title="作品集">Portfolio</a>
+			<a href="/lab/"  title="试验">Lab</a>
+			<a href="/about/"  title="关于">About</a>
+		</div>
+		<div class="search">
+  			<div class="input-append">
+    			<input id="appendedInputButton" type="text">
+    			<button class="btn" type="button">Search</button>
+  			</div>
+		</div>
+		<div class="info">
+  			<div class="copyright">©Jingbo Xu<br/>浙 ICP 备08101950号</div>
+  			<div class="social">
+    			<a href="http://www.linkedin.com/pub/jingbo-xu/7a/427/532" id="linkedin" target="blank"></a>
+    			<a href="https://www.facebook.com/yecolhsu" id="facebook" target="blank"></a>
+    			<a href="http://weibo.com/yecol" id="weibo" target="blank"></a>   
+  			</div>
+		</div>
 	</div>
 </footer>
 
@@ -540,11 +560,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <!--<script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>-->
 <script type="text/javascript" src="/assets/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/assets/js/tooltip.js"></script>
 
 <script type="text/javascript" src="/assets/js/jquery.flexslider.min.js"></script>
 <script>
 $(document).ready(function() {
 	// Stuff to do as soon as the DOM is ready;
+  $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
+  $('footer .nav a').not('.ac').tooltip();
 	$('.expand').click(function(e){
 		$(this).closest('article').toggleClass('expanded');
     e.preventDefault();
@@ -586,8 +609,25 @@ $(document).ready(function() {
   });
 });
 
+$(window).resize(function(){
+    $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
+});
+
 </script>
 
+<!--GOOGLE ANALYTICS-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9074876-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 <!--PAGE END-->
 	</body>
 </html>

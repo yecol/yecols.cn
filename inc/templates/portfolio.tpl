@@ -466,11 +466,17 @@
 </div>
 <{/block}>
 
+<{block "portfolio-ac"}>
+class="ac"
+<{/block}>
+
 <{block "js" append}>
 <script type="text/javascript" src="/assets/js/jquery.flexslider.min.js"></script>
 <script>
 $(document).ready(function() {
 	// Stuff to do as soon as the DOM is ready;
+  $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
+  $('footer .nav a').not('.ac').tooltip();
 	$('.expand').click(function(e){
 		$(this).closest('article').toggleClass('expanded');
     e.preventDefault();
@@ -510,6 +516,10 @@ $(document).ready(function() {
       prevText: "",
       nextText: ""
   });
+});
+
+$(window).resize(function(){
+    $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
 });
 
 </script>

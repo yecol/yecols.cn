@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"to",
+				"toggle	.toggle() (show/hide)"
+			],
+			[
+				"backr",
+				"background-position"
+			],
+			[
+				"anima",
+				"animate	animate"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"y-g",
+				"y-green-2"
+			],
+			[
 				"margi",
 				"margin-left"
 			],
@@ -18,10 +38,6 @@
 			[
 				"padding",
 				"padding-top"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"mar",
@@ -70,10 +86,6 @@
 			[
 				"resize",
 				"resize-header"
-			],
-			[
-				"y-g",
-				"y-green-1"
 			],
 			[
 				"inl",
@@ -152,10 +164,18 @@
 	"buffers":
 	[
 		{
-			"file": "photos/travel-taiwan.php",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3734,
+				"buffer_size": 2163,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "rebuild.html",
+			"settings":
+			{
+				"buffer_size": 2163,
 				"line_ending": "Windows"
 			}
 		},
@@ -163,7 +183,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 16446,
+				"buffer_size": 17761,
 				"line_ending": "Windows"
 			}
 		},
@@ -171,7 +191,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 10585,
+				"buffer_size": 16043,
 				"line_ending": "Unix"
 			}
 		}
@@ -280,8 +300,19 @@
 	},
 	"file_history":
 	[
-		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/functions.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/albums.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/assets/css/reset.css",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/style.css",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/footer.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/index.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/photos.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/portfolio.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/travel-taiwan.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates_c/6cbe0f031a98a137bf5a086f6fda6d2ec87942fd.file.portfolio.tpl.cache.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/functions.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/single.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/content.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/index.php",
@@ -289,17 +320,10 @@
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/header.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/search.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/404.php",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/footer.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/languages/twentytwelve.pot",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/travel-taiwan.php",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/photos.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/index.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/travel-bali.php",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/index.php",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/portfolio.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/index.html",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/index.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/sftp-config.json",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/smarty/sysplugins/smarty_internal_templatecompilerbase.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/hello.php",
@@ -343,6 +367,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"summary-content",
+			"footer",
 			"link_page",
 			"link-page",
 			"article",
@@ -394,18 +420,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "photos/travel-taiwan.php",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3734,
+						"buffer_size": 2163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3325,
-								3325
+								1612,
+								1612
 							]
 						],
 						"settings":
@@ -413,12 +439,43 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1980.0,
+						"translation.y": 400.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "rebuild.html",
+					"settings":
+					{
+						"buffer_size": 2163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1612,
+								1612
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -426,23 +483,23 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 16446,
+						"buffer_size": 17761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9448,
-								9448
+								128,
+								128
 							]
 						],
 						"settings":
@@ -454,25 +511,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3203.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 10585,
+						"buffer_size": 16043,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								6917,
+								6917
 							]
 						],
 						"settings":
@@ -483,7 +540,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 756.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -519,7 +576,7 @@
 		"cols":
 		[
 			0.0,
-			0.453577467724,
+			0.739915565474,
 			1.0
 		],
 		"rows":
@@ -535,7 +592,7 @@
 	},
 	"output.sftp":
 	{
-		"height": 593.0
+		"height": 152.0
 	},
 	"replace":
 	{
@@ -562,6 +619,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 226.0,
+	"side_bar_width": 92.0,
 	"status_bar_visible": true
 }

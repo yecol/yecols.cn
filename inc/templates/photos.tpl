@@ -22,11 +22,18 @@
 </div>
 <{/block}>
 
+<{block "photos-ac"}>
+class="ac"
+<{/block}>
+
 <{block "js" append}>
 <script type="text/javascript" src="/assets/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.lazyload.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
+    $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
+    $('footer .nav a').not('.ac').tooltip();
+    
     $(".container-head").width($("#photos").width()+80);
     $(".origin").fancybox({
       beforeLoad: function() {
@@ -47,6 +54,7 @@ $(document).ready(function(){
 });
 $(window).resize(function(){
     $(".container-head").width($("#photos").width()+80);
+    $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
 });
 </script>
 <{/block}>
