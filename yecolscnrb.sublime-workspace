@@ -164,18 +164,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "about/index.php",
 			"settings":
 			{
-				"buffer_size": 2163,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "rebuild.html",
-			"settings":
-			{
-				"buffer_size": 2163,
+				"buffer_size": 5235,
 				"line_ending": "Windows"
 			}
 		},
@@ -183,7 +175,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 17761,
+				"buffer_size": 17850,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,12 +191,20 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 35.0,
+		"height": 288.0,
 		"selected_items":
 		[
 			[
 				"html",
 				"Tidy HTML"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
 			],
 			[
 				"git push",
@@ -237,10 +237,6 @@
 			[
 				"instal",
 				"Package Control: Install Package"
-			],
-			[
-				"package",
-				"Package Control: List Packages"
 			],
 			[
 				"list",
@@ -283,7 +279,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -300,6 +296,13 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/README.md",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/LESS/README.md",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/workspace_git/yecols.cn/about/index.php",
+		"/D/workspace_git/yecols.cn/rebuild.html",
+		"/D/workspace_git/yecols.cn/index.html",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/albums.tpl",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/assets/css/reset.css",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/style.css",
@@ -420,18 +423,22 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "about/index.php",
 					"settings":
 					{
-						"buffer_size": 2163,
+						"buffer_size": 5235,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1612,
-								1612
+								1687,
+								1687
+							],
+							[
+								1716,
+								1716
 							]
 						],
 						"settings":
@@ -440,42 +447,11 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 400.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "rebuild.html",
-					"settings":
-					{
-						"buffer_size": 2163,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1612,
-								1612
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 840.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -483,23 +459,23 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 17761,
+						"buffer_size": 17850,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								128,
-								128
+								15968,
+								15968
 							]
 						],
 						"settings":
@@ -511,13 +487,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1680.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "assets/css/style.css",
 					"settings":
 					{
@@ -576,7 +552,7 @@
 		"cols":
 		[
 			0.0,
-			0.739915565474,
+			0.336906872066,
 			1.0
 		],
 		"rows":
@@ -619,6 +595,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 92.0,
+	"side_bar_width": 223.0,
 	"status_bar_visible": true
 }

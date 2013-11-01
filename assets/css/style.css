@@ -88,6 +88,8 @@ footer #wrap .info:after{content:"";display:table;height:40px;clear:both}
 #photos-album .info p.phone{background-position:0 0}
 #photos-album .info p.camera{background-position:0 -20px}
 #photos-album .info p.date{color:#666;padding-left:30px;font-size:12px}
+#about{padding-top:60px;margin-left:180px;margin-right:60px}#about .overview{width:100%;background-color:#ccc;height:600px}#about .overview .title{margin:0 10px 40px 10px;vertical-align:baseline}#about .overview .title h1{font-size:60px;line-height:120px}
+#about .overview .title h2{font-size:16px;line-height:24px}
 .tooltip{position:absolute;z-index:1030;display:block;font-size:14px;line-height:1.4;opacity:0;filter:alpha(opacity=0);visibility:visible}
 .tooltip.in{opacity:.9;filter:alpha(opacity=60)}
 .tooltip.top{padding:5px 0;margin-top:-3px}
