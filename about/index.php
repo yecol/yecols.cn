@@ -37,40 +37,35 @@
         </nav><!--PAGE MODULE-->
         <div id="main" role="main" class="container">
             <section id="about">
-                <div class="overview">
+                <div class="content">
                     <div class="title">
-                        <h1>
-                            Yecol Hsu
-                        </h1>
-                        <h2>
-                            Ph.D. Student at Beihang University
-                        </h2>
+                        <h1>Yecol Hsu</h1>
+                        <h2>Ph.D. Student at Beihang University</h2>
+
+                        <ul>
+                            <li>
+                            <span class="location">Beijing, China.</span>
+                            </li>
+                            <li>
+                            <span class="email">xujb1987(a)gmail.com</span>
+                            </li>
+                            <li>
+                            <span class="qq">148269281</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="contact">
+                    <div class="intro">
                         <p>
-                            <span class="icon_cellphone gray">+86 l86l8l93543</span>
+                            计算机学科的码农。喜欢摄影。
                         </p>
+                    </div>
+                    <div class="social">
                         <p>
-                            <span class="icon_email gray">xujb1987(a)gmail.com</span>
-                        </p>
-                        <p>
-                            <a href="http://chenbw.name" target="_blank" class="icon_text icon_link gray">http://yecols.cn</a>
+                            我的社交圈
                         </p>
                     </div>
-                    <div class="photo">
-                    </div>
-                    <div>
-                        <div class="intro">
-                            <p>
-                                80后码农。
-                            </p>
-                        </div>
-                        <div class="social">
-                            <p>
-                                80后码农。
-                            </p>
-                        </div>
-                    </div>
+                </div>
+                <div class="photo"></div>
                 </div>
             </section><!-- #about -->
         </div><!--FOOTER-->

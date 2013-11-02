@@ -29,17 +29,17 @@
             <img src="cover/taiwan.jpg" class="thumb">
             <span class="info">
                 <p class="title travel">Travel Log. 台湾</p>
-                <p class="date">2012-02-17</p>
+                <p class="date">2012-12-17</p>
             </span>
         </a>
     </div>
 
     <div class="a-album">
-        <a class="origin" href="/travel-japan/">
+        <a class="origin" href="./travel-japan.php">
             <img src="cover/japan.jpg" class="thumb">
             <span class="info">
                 <p class="title travel">Travel Log. 日本</p>
-                <p class="date">2012-02-17</p>
+                <p class="date">2012-06-20</p>
             </span>
         </a>
     </div>
