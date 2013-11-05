@@ -55,7 +55,7 @@
     </div>
 
     <div class="a-album">
-        <a class="origin" href="/faces/">
+        <a class="origin" href="./portraits.php">
             <img src="cover/faces.jpg" class="thumb">
             <span class="info">
                 <p class="title camera">Faces. 人像</p>
@@ -66,7 +66,7 @@
 
 
     <div class="a-album">
-        <a class="origin" href="/life-beijing/">
+        <a class="origin" href="./life-beijing.php">
             <img src="cover/beijing.jpg" class="thumb">
             <span class="info">
                 <p class="title camera">Live in Beijing. 北漂生活</p>
@@ -86,7 +86,7 @@
     </div>
 
     <div class="a-album">
-        <a class="origin" href="/travel-taiwan/">
+        <a class="origin" href="./landscape.php">
             <img src="cover/landscape.jpg" class="thumb">
             <span class="info">
                 <p class="title camera">Landscape. 风光</p>
@@ -97,7 +97,7 @@
 
 
     <div class="a-album">
-        <a class="origin" href="/animal-plant/">
+        <a class="origin" href="./animal-plant.php">
             <img src="cover/animal.jpg" class="thumb">
             <span class="info">
                 <p class="title camera">Animal and Plant. 动植物</p>
@@ -107,7 +107,7 @@
     </div>
 
     <div class="a-album">
-        <a class="origin" href="/by-iphone/">
+        <a class="origin" href="./iphone.php">
             <img src="cover/iphone.jpg" class="thumb">
             <span class="info">
                 <p class="title phone">By iPhone. 手机，随手拍。</p>
