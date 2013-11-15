@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=IE9">
+<title>PR-QA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="Yecol Hsu">
+
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="./assets/html5shiv.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="./assets/jquery.1.10.js"></script>
+
+<!-- styles -->
+<link href="./assets/bootstrap.css" rel="stylesheet">
+<link href="./assets/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<header>
+</header>
+
+<section class="main-content">
+<div class="container container-1000">
+
+	<div class="cards span6">
+
+		<div id="cards-scroll">
+
+		<div class="card">
+			<div class="card-q-div"><span class="card-q">Q</span>明天天气怎么样？</div>
+			<div class="card-a-div t-weather">
+			<p>天气：晴
+			<p>最高气温：30
+			<p>最低气温：21
+			</div>
+			<div class="card-d-div"><a href="#">查看详细信息</a></div>
+		</div>
+
+		<div class="card">
+			<div class="card-q-div"><span class="card-q">Q</span>上海汽车的股票价格怎么样？</div>
+			<div class="card-a-div t-stock">
+			<p>开盘：20.87
+			<p>收盘：16.98
+			</div>
+			<div class="card-d-div"><a href="#">查看详细信息</a></div>
+		</div>
+
+		<div id="card_blank"></div>
+		
+		</div>
+	</div>
+
+	<div class="ins span6">
+		<div class="ask-title">输入您的问题</div>
+
+		<div class="input-append">
+			
+ 			<input class="span5" id="askInput" type="text">
+  			<button class="btn btn-success" type="button" id="askBtn">提问</button>
+		</div>
+
+		<div class="alert alert-error hide" id="emptyq">问题不能为空</div>
+
+		<div class="sample">
+			<p>从清华大学到故宫怎么走</p>
+			<p>五道口在哪</p>
+			<p>明天北京天气怎么样</p>
+			<p>上海今天温度如何</p>
+			<p>杭州的空气污染严重吗</p>
+			<p>8月12日从南京到西安的火车还有么</p>
+			<p>明天去国贸的吉野家吃牛肉饭</p>
+			<p>雍和宫附近有价格适中的酒店"</p>
+		</div>
+
+	</div>
+
+
+</div>
+</section>
+
+<footer>
+	关于腾讯 |  服务协议 |  客服中心 Copyright © 2012-2013 Tencent. All Rights Reserved.
+</footer>
+
+<script>
+
+	$(document).ready(function(){
+
+		$card_blank_height = $("#card_blank").css("height");
+		$card_empty_one_height = 362;
+
+
+		$("#askBtn").click(function(){
+
+			$("#emptyq").hide();
+			$question = $("#askInput").val();
+			$("#askInput").val('');
+
+			if(jQuery.trim($question)==""){
+				$("#emptyq").show();
+				return;
+			}
+
+			$D = new Date();
+			$msgId=$D.getTime();
+
+			$newcard='\
+			<div class="card" id="'+$msgId+'">\
+			<div class="card-q-div"><span class="card-q">Q</span>'
+			+$question+
+			'</div>\
+			<div class="card-a-div">\
+			<div class="card-loading"></div>\
+			</div>';
+
+			$("#cards-scroll").append($newcard);
+
+			$isNeedScroll = false;
+
+			//console.log(parseInt($("#cards-scroll").css("height")));
+			$cards_scroll_length = parseInt($("#cards-scroll").css("height"));
+
+			if ($cards_scroll_length>=600/*height_of_div*/+200-100/*height_of_animate_blank*/) {
+				$isNeedScroll = true;
+			};
+
+			if ($isNeedScroll==true) {
+
+				$toTop = 650-$cards_scroll_length;
+				$("#cards-scroll").animate({
+					top:$toTop
+				},300);
+
+			};
+
+			$("#card_blank").animate({
+				height:'0'
+			},200,function(){
+				$("#card_blank").next().after($("#card_blank"));
+				$("#card_blank").css("height",$card_blank_height);
+
+				$.post('answer.php', 
+					'q='+jQuery.trim($question), 
+					function(data, textStatus, xhr) {
+ 						//console.log(data);
+ 						var $oprDiv = $("#"+$msgId+" .card-a-div");
+ 						$curTop = parseInt($("#cards-scroll").css("top"));
+	
+ 						$json=jQuery.parseJSON(data);
+	
+						//vary from types
+
+						//map
+	 					if ($json.lable=="map") {
+	 						$oprDiv.addClass("t-map");
+
+	 						$place = $json.PA==undefined?$json.PB:$json.PA;
+	 						$oprDiv.html("<p>地点A："+$json.PA+"</p>\
+	 							<p>地点B："+$json.PB+"</p>\
+	 							<p>实体："+$json.LM+"</p>");
+	 						$curTop = $curTop-260;
+	 						$imgsrc = "http://maps.googleapis.com/maps/api/staticmap?center="+$place+"&zoom=15&size=330x228&sensor=false&markers=color:red%7C"+$place
+	 						$oprDiv.css("background-image","url("+$imgsrc+")");
+	 						$oprDiv.after("<div class='card-d-div'><a href='"+
+	 							"#"
+	 							+"'>查看详细信息</a></div>");
+	 					}
+
+
+	 					//climate:weather,air,temperature
+	 					else if ($json.lable=="climate") {
+
+	 						if($json.climate=="weather"){
+	 							$oprDiv.addClass("t-weather");
+	 						}
+	 						else if ($json.climate=="temperature") {
+	 							$oprDiv.addClass("t-temperature");
+	 						}
+	 						else if ($json.climate=="air") {
+	 							$oprDiv.addClass("t-air");
+	 						};
+	 						$oprDiv.html("<p>类型："+$json.climate+"</p>\
+	 							<p>地点："+($json.PA==undefined?$json.PB:$json.PA)+"</p>\
+	 							<p>时间："+$json.time+"</p>");
+	 						$oprDiv.after("<div class='card-d-div'><a href='"+
+	 							"#"
+	 							+"'>查看详细信息</a></div>");
+	 					}
+
+	 					//train
+						else if ($json.lable=="train") {
+	 						$oprDiv.addClass("t-train");
+	 						$oprDiv.html("<p class='s2e'>"+$json.PA+" > "+$json.PB+"</p>\
+	 							<p>时间："+$json.time+"</p>\
+	 							<p>其他："+$json.NM+"</p>");
+	 						$oprDiv.after("<div class='card-d-div'><a href='"+
+	 							"#"
+	 							+"'>查看详细信息</a></div>");
+	 					}
+
+	 					//airplane
+						else if ($json.lable=="airplane") {
+	 						$oprDiv.addClass("t-airplane");
+	 						$oprDiv.html("<p class='a2e'>"+$json.PA+" > "+$json.PB+"</p>\
+	 							<p>时间："+$json.time+"</p>\
+	 							<p>航班："+$json.NM+"</p>");
+	 						$oprDiv.after("<div class='card-d-div'><a href='"+
+	 							"#"
+	 							+"'>查看详细信息</a></div>");
+	 					}
+
+
+	 					//restaurant
+						else if ($json.lable=="restaurant") {
+	 						$oprDiv.addClass("t-restaurant");
+	 						$oprDiv.html("<p>地名："+($json.PA==undefined?$json.PB:$json.PA)+"</p>\
+	 							<p>餐厅："+$json.RN+"</p>\
+	 							<p>菜名："+$json.FN+"</p>\
+	 							<p>商圈："+$json.LM+"</p>\
+	 							<p>其他："+$json.NM+"</p>\
+	 							<p>时间："+$json.time+"</p>\
+	 							<p>描述："+$json.DE+"</p>");
+	 						$curTop = $curTop-100;
+	 						$oprDiv.after("<div class='card-d-div'><a href='"+
+	 							"#"
+	 							+"'>查看详细信息</a></div>");
+	 					}
+
+						//hotel
+						else if ($json.lable=="hotel") {
+	 						$oprDiv.addClass("t-hotel");
+	 						$oprDiv.html("<p>地名："+($json.PA==undefined?$json.PB:$json.PA)+"</p>\
+	 							<p>酒店："+$json.RN+"</p>\
+	 							<p>商圈："+$json.LM+"</p>\
+	 							<p>其他："+$json.NM+"</p>\
+	 							<p>时间："+$json.time+"</p>\
+	 							<p>描述："+$json.DE+"</p>");
+	 						$curTop = $curTop-100;
+	 						$oprDiv.after("<div class='card-d-div'><a href='"+
+	 							"#"
+	 							+"'>查看详细信息</a></div>");
+	 					}
+
+
+	 					else if ($json.lable=="traffic") {
+	 						$oprDiv.addClass("t-traffic");
+	 						$oprDiv.html("<p>地点A："+$json.PA+"</p>\
+	 							<p>地点B："+$json.PB+"</p>\
+	 							<p>时间："+$json.time+"</p>");
+	 						$oprDiv.after("<div class='card-d-div'><a href='"+
+	 							"#"
+	 							+"'>查看详细信息</a></div>");
+	 					}
+
+
+
+	 					else{
+	 						$oprDiv.html("<p>"+
+	 							"Label："+$json.lable+"</p>\
+	 							<p>Time："+$json.time+"</p>\
+	 							");
+	 					}
+
+	 					$("#cards-scroll").animate({
+							top:$curTop
+						},300);
+				});	
+			});
+
+		});
+	});
+</script>
+
+</body>

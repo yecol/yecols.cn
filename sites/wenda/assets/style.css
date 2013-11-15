@@ -1,0 +1,186 @@
+body {
+  font-family: Microsoft YaHei, "微软雅黑", Lucida, Verdana, Hiragino Sans GB, STHeiti, WenQuanYi Micro Hei, SimSun, sans-serif;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(logo.png);
+  background-position: 100px 15px;
+}
+footer {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: #999;
+  padding-top: 50px;
+}
+section.main-content {
+  height: 600px;
+  width: 100%;
+  background-image: url(content-bg.png);
+  background-repeat: x-repeat;
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+}
+.container-1000 {
+  width: 1000px;
+}
+.sample {
+  background-image: url(quote.png);
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  margin-top: 30px;
+  padding-top: 40px;
+}
+.sample p {
+  color: #999;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.cards {
+  overflow: hidden;
+  height: 600px;
+}
+.cards .card {
+  width: 350px;
+  border: solid 6px #fff;
+  margin-top: 20px;
+  background-color: white;
+  position: relative;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.cards .card .card-q-div {
+  padding: 10px;
+  border-bottom: solid 1px #e8e8e8;
+}
+.cards .card .card-a-div {
+  padding: 10px;
+}
+.cards .card .card-d-div {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  text-align: right;
+}
+.cards .card .card-q {
+  font-family: Georgia,serif;
+  color: #3a9326;
+  font-size: 22px;
+  margin-right: 10px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+.cards .card .card-loading {
+  width: 100%;
+  height: 50px;
+  background-image: url(loading.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.cards .card .t-weather {
+  height: 70px;
+  background-image: url(weather-bg.png);
+  background-position: 20px center;
+  background-repeat: no-repeat;
+  padding-left: 120px;
+}
+.cards .card .t-train {
+  height: 80px;
+  background-image: url(train.png);
+  background-position: 20px center;
+  background-repeat: no-repeat;
+  padding-left: 120px;
+}
+.cards .card .t-airplane {
+  height: 80px;
+  background-image: url(plane.png);
+  background-position: 20px center;
+  background-repeat: no-repeat;
+  padding-left: 120px;
+}
+.cards .card .t-temperature {
+  height: 78px;
+  background-image: url(temp.png);
+  background-position: 20px 10px;
+  background-repeat: no-repeat;
+  padding-left: 145px;
+}
+.cards .card .t-map {
+  height: 305px;
+  background-image: url(map-bg.png);
+  background-position: 10px 90px;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+.cards .card .t-air {
+  height: 125px;
+  background-image: url(air.png);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 120px;
+}
+.cards .card .t-traffic {
+  height: 70px;
+  background-image: url(traffic.png);
+  background-position: 20px center;
+  background-repeat: no-repeat;
+  padding-left: 120px;
+}
+.cards .card .t-restaurant {
+  height: 170px;
+  background-image: url(food.png);
+  background-position: 20px center;
+  background-repeat: no-repeat;
+  padding-left: 120px;
+}
+.cards .card .t-hotel {
+  height: 145px;
+  background-image: url(hotel.png);
+  background-position: 20px center;
+  background-repeat: no-repeat;
+  padding-left: 120px;
+}
+.cards .card .t-stock {
+  height: 70px;
+  background-image: url(stock-bg.png);
+  background-position: 20px center;
+  background-repeat: no-repeat;
+  padding-left: 120px;
+}
+.cards .card p.s2e {
+  font-size: 18px;
+  color: #3a9326;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.cards .card p.a2e {
+  font-size: 18px;
+  color: #3399ff;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+#cards-scroll {
+  position: relative;
+  top: 0px;
+}
+#card_blank {
+  height: 200px;
+}
+.ask-title {
+  color: #333332;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  margin-top: 60px;
+  height: 40px;
+  font-weight: bold;
+}
+#askBtn {
+  width: 90px;
+  height: 40px;
+  font-size: 16px;
+}
+#askInput {
+  height: 30px;
+}

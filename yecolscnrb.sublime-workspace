@@ -188,11 +188,27 @@
 			}
 		},
 		{
+			"file": "photos/iphone.php",
+			"settings":
+			{
+				"buffer_size": 194,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
 				"buffer_size": 18623,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/workspace_git/baidu-charity/assets/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 125975,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -442,7 +458,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -500,7 +516,36 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1800.0,
+						"translation.y": 2100.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "photos/iphone.php",
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -508,11 +553,11 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "assets/css/style.less",
 					"settings":
 					{
@@ -542,7 +587,37 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
+					"file": "/D/workspace_git/baidu-charity/assets/css/bootstrap.css",
+					"settings":
+					{
+						"buffer_size": 125975,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "assets/css/style.css",
 					"settings":
 					{

@@ -1,0 +1,142 @@
+@charset "utf-8";
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, image, q, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, tf, tr, th, input {
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 100%;
+	margin: 0px;
+	vertical-align: baseline;
+	font-family: inherit;
+}
+body {
+	/*background-color: #DDDDDD;*/
+	color: #515151;
+	line-height: 1.4em;
+	font-size: 12px;
+	font-family: "Microsoft YaHei", Tahoma, Arial;
+	margin: 0px;
+}
+img {
+	vertical-align:top;
+	border: 0px;
+}
+h1 {
+	font-size: 15px;
+	color: #cc3300;
+	height: 40px;
+	line-height: 37px;
+}
+h2 {
+	font-size: 15px;
+	color: #cc3300;
+	height: 40px;
+	line-height: 37px;
+}
+h3 {
+	font-size: 15px;
+	color: #cc3300;
+	line-height: 30px;
+}
+h4 {
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+}
+a:link {
+	color: #515151;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #515151;
+}
+a:hover {
+	text-decoration: underline;
+	color: #999999;
+}
+a:active {
+	text-decoration: none;
+	color: #515151;
+}
+.imgNews {
+	position:absolute;
+	width:226px;
+	height:300px;
+	left:465px;
+	top:55px;
+	overflow:hidden;
+}
+div.newlist {
+	width:420px;
+}
+table.articleList {
+	list-style:none;
+	width:420px;
+}
+table.articleList span {
+	float:right;
+	width:69px;
+}
+table.articleList a {
+	float:left;
+	width:290px;
+	font-family:'宋体', Arial, Helvetica, sans-serif;
+}
+table.articleList tr td {
+	height:21px;
+}
+table.articleList tr td div {
+	clear:both;
+	margin-bottom:5px;
+	overflow:hidden;
+}
+div.center_article_picture_list table {
+	width:100%;
+}
+div.center_article_picture_list td {
+	text-align:center;
+}
+div.navigation {
+	text-align:left;
+	padding-top:20px;
+}
+div.navigation td {
+	padding-right:8px;
+}
+div.pictureList {
+	clear:both;
+}
+div.pictureList table.pictureList {
+	padding:0;
+	border-collapse:collapse;
+}
+div.pictureList table.pictureList td {
+	padding-bottom:12px;
+	padding-right:12px;
+}
+div.pictureList table.pictureList td div.picture {
+	border:1px solid #666;
+}
+div.pictureList table.pictureList td div.picture a {
+	text-decoartion:none;
+}
+div.pictureList table.pictureList td div.picture a img {
+	border:1px solid #FFF;
+	width:142px;
+	height:100px;
+}
+div.pictureList table.pictureList td div.title {
+	display:none;
+}
+div.subColumnBar .columnTitle {
+	font-size: 15px;
+	color: #cc3300;
+	height: 50px;
+	line-height: 37px;
+	font-weight:bold;
+}

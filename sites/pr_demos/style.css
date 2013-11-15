@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* CSS Document */
+body {
+	background-color: #f6f6f6;
+	font-family: "Microsoft YaHei", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 14px;
+	color: #555;
+	background-image: url(img/bg_grid.png);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+div.wrapper {
+	display: block;
+	height: auto;
+	width: 1016px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.wrapper .title {
+	display: block;
+	float: left;
+	height: 200px;
+	width: 1016px;
+	background-image: url(img/title.png);
+	background-repeat: no-repeat;
+	background-position: center 35px;
+}
+.wrapper .main .main_center .product {
+	background-image: url(img/div_product.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	height: 240px;
+	width: 423px;
+	margin-top: 20px;
+	margin-left: 55px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.wrapper .main .main_center .product .pdt_title .pdt_title_icon .product_icon {
+	display: block;
+	margin: 10px;
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+.wrapper .main .main_center .product .pdt_title .pdt_title_h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #0086e3;
+	float: left;
+	height: 20px;
+	width: 320px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wrapper .main .main_center .product .pdt_title .pdt_title_h5 {
+	font-size: 12px;
+	display: block;
+	float: left;
+	height: 40px;
+	width: 320px;
+	overflow: hidden;
+	line-height: 160%;
+}
+.wrapper .main .main_center .product .pdt_detail {
+	height: 100px;
+	width: 405px;
+	display: block;
+	float: left;
+	padding-left:20px;
+}
+.wrapper .main .main_center .product .pdt_title {
+	background-image: url(img/prod_line.png);
+	background-position: left bottom;
+	display: block;
+	float: left;
+	height: 100px;
+	width: 405px;
+	margin-top: 20px;
+	margin-left: 5px;
+	background-repeat: no-repeat;
+}
+.wrapper .main .main_top_cap {
+	background-image: url(img/div_bg_top.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	height: 24px;
+	width: 1016px;
+}
+.wrapper .footer {
+	float: left;
+	height: 20px;
+	width: 1016px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	display: block;
+}
+.wrapper .main .main_center {
+	background-image: url(img/div_bg_mid.png);
+	background-repeat: repeat-y;
+	display: block;
+	float: left;
+	height: auto;
+	width: 1016px;
+}
+.wrapper .main .main_btm_cap {
+	background-image: url(img/div_bg_btm.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	height: 19px;
+	width: 1016px;
+}
+img.product_icon {
+	border: 0;
+	height: 50px;
+	width: 50px;
+}
+.pdt_detail ul {
+	list-style: none;
+	margin: 10px -15px 0;
+	padding: 0px 10px;
+	position: relative;
+}
+.pdt_detail ul li {
+	margin: 10px 10px;
+	height: 20px;
+	overflow: hidden;
+}
+.pdt_detail li a {
+	color:#39F;
+	text-decoration:none;
+	font-weight: normal;
+}
+.pdt_detail li a:hover{
+	color:#F30;
+	text-decoration:none;
+	font-weight: normal;
+}
+.pdt_detail .fav {
+	float: left;
+	vertical-align: text-top;
+	background-position: 0 4px;
+	height: 20px;
+}
+.pdt_detail .lnk{
+	margin-left: 30px;
+}
+.pdt_detail ul li span {
+	display: block;
+	font-size: 13px;
+}
+.fav_icon{
+	width:18px;
+	height:18px;
+	border:0;
+}

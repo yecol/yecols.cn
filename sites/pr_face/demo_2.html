@@ -1,0 +1,248 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>人脸识别开放平台</title>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/style.css" rel="stylesheet" media="screen">
+</head>
+<body>
+<div class="y_container">
+	<div class="y_header">
+		<div class="logo"></div>
+		<ul class="y_navbar nav pull-right">
+			<li><a class="a_nav" href="index.html">首页</a></li>
+			<li><a class="a_nav" href="doc.html">文档</a></li>
+			<li><a class="a_nav active_nav" href="demo.html">演示</a></li>
+			<li><a class="a_nav" href="case.html">案例</a></li>
+			<li><a class="a_nav" href="download.html">下载</a></li>
+		</ul>
+	</div>
+	<!--y_header-->
+	
+	<div class="y_body">
+		<ul class="nav nav-tabs y_tab">
+			<li><a href="demo.html">人脸检测</a></li>
+			<li class="active"><a class="tab_name" href="demo_2.html">明星脸对比</a></li>
+			<li><a href="demo_3.html">人脸相似度</a></li>
+		</ul>
+		<div class="demo_body_2">
+			<div class="y_block y_input_block_2">
+				<p>选择上传文件<br />
+					<span class="gray">上传图片大小请不要超过1M</p>
+				<div class="input-append">
+					<form id="star_form" action="upload_img.cgi?ref=star_face_demo" method="POST"  enctype="multipart/form-data">
+						<input class="span6" id="detect_url" type="text">
+						<button class="btn" type="button" id="detect_open"> 打开网络图片 </button>
+						<button class="btn" type="button" id="detect_upload"> 上传本地图片 </button>
+						<input type="file" name="imgfile" id="input_image"/>
+					</form>
+				</div>
+			</div>
+			<div class="thumbnail y_block" id="imgDivDec2" >
+				<div id="imgDiv">
+					<div id="loading" class="loading"></div>
+					<img id="resultImg"></img> </div>
+			</div>
+			<div class="y_block bs-docs-json" id="imgJson" >正在等待服务器返回JSON</div>
+			<div class="clearfix"></div>
+			<div class="y_block" id="result_2"></div>
+			<div class="y_block" id="similar"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!--y_body-->
+	
+	<div class="y_footer"> 关于腾讯 |  服务协议 |  客服中心<br />
+		Copyright ©2012-2013 Tencent Inc. All Rights Reserved. </div>
+	<!--y_footer--> 
+	
+</div>
+<!--y_container-->
+</body>
+<script language="javascript" src="js/jquery.js"></script>
+<script language="javascript" src="js/json2.js"></script>
+<script language="javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+
+      function parseResult(json){
+     
+      if( json.ret == 0 ) {
+		  //result wording
+          $("#result_2").html('<div class="alert alert-success"> <strong>检测成功</strong>&nbsp;&nbsp;检测到'+json.face.length+'张人脸 </div>'); 
+		  $('#imgJson').html(JSON.stringify(json,null,2));
+		  var oImgW = json.img_width;
+          var oImgH = json.img_height;
+		  var scale = 1.0;
+		  
+               if( oImgW > oImgH ) {
+                  if (oImgW > max_width) {
+					  scale = (max_width/oImgW);
+					  img.width(max_width);
+					  img.height(scale*oImgH);
+                  	}else{
+						img.width(oImgW);
+						img.height(oImgH);
+                  	}
+                }
+                else {
+                    if (oImgH > max_height) {
+						scale = (max_height/oImgH);
+						img.height(max_height);
+						img.width(oImgW*scale);                     
+                    }else{
+						img.width(oImgW);
+						img.height(oImgH);
+                    }             
+                }
+				img.attr('src',json.url);
+             
+                $('#loading').hide();
+			
+				img.show();
+				
+				$('#imgJson').height($('#imgDivDec2').height()-12);   
+
+		       
+        	for(var j=0;j<json.face.length;j++){ 
+            	var faceDiv = $('<div class="face_rect"></div>'); 
+				faceDiv.css('left',json.face[j].topleftX*scale);    
+				faceDiv.css('top',json.face[j].topleftY*scale);
+				faceDiv.width(json.face[j].width*scale);  
+				faceDiv.height(json.face[j].height*scale); 
+				
+				faceDiv.popover({
+					title:"Face Information",
+					content:"width:"+json.face[j].width+"px\n height:"+json.face[j].height+"px\ntopleftX:"+json.face[j].topleftX+"px\ntopleftY:"+json.face[j].topleftY+"px",
+					trigger:"hover"
+					});  
+				
+				
+				$('#imgDiv').append(faceDiv);   
+				                              
+                
+				if(json.face[j].eyes.yleft!=0 && json.face[j].eyes.xleft!=0){
+					var leye = $('<div class="dot_rect"></div>');
+                    leye.css('left',json.face[j].eyes.xleft*scale);    
+					leye.css('top',json.face[j].eyes.yleft*scale);
+					$('#imgDiv').append(leye);                            
+                 }
+				 
+			
+                if(json.face[j].eyes.yright!=0 && json.face[j].eyes.xright!=0){
+					var reye = $('<div class="dot_rect"></div>');
+                    reye.css('left',json.face[j].eyes.xright*scale);    
+					reye.css('top',json.face[j].eyes.yright*scale);
+					$('#imgDiv').append(reye);                            
+                 }
+				 
+				 if(json.face[j].mouth.yleft!=0 && json.face[j].mouth.xleft!=0){
+					var lmouth = $('<div class="dot_rect"></div>');
+                    lmouth.css('left',json.face[j].mouth.xleft*scale);    
+					lmouth.css('top',json.face[j].mouth.yleft*scale);
+					$('#imgDiv').append(lmouth);                            
+                 }
+				 
+				 if(json.face[j].mouth.yright!=0 && json.face[j].mouth.xright!=0){
+					var rmouth = $('<div class="dot_rect"></div>');
+                    rmouth.css('left',json.face[j].mouth.xright*scale);    
+					rmouth.css('top',json.face[j].mouth.yright*scale);
+					$('#imgDiv').append(rmouth);                            
+                 }
+				 
+				 var simline = $('<div class="simline"></div>');
+				 
+				 var s_face_width = json.face[j].width;
+				 var s_scale = 140.0/s_face_width; 
+						//140=frame width
+				 var s_offset_left = -s_scale*json.face[j].topleftX;
+			     var s_offset_top = -s_scale*json.face[j].topleftY;
+				 var s_width = json.img_width*s_scale;
+	
+				 
+				 simline.append('<div class="simone_o simone"><img id="o_img" src="'+json.url+'" style="width:'+s_width+'px;top:'+s_offset_top+'px;left:'+s_offset_left+'px"></img></div>');
+				 simline.append('<div class="s_arrow"></div>')
+				 var simline_sim=$('<div class="simline_sim"></div>');
+				 for(var k=0;k<json.face[j].stars.length;k++){
+					 	simline_sim.append('<div class="simone"><div class="simone_title">'+json.face[j].stars[k].name+'</div><img src="http://face.pr.oa.com/all/'+ json.face[j].stars[k].nLabel +'.jpg"></img></div>');
+				 }
+				 simline_sim.append("<div class='clearfix'></div>");
+				 simline.append(simline_sim);
+				 simline.append('<div class="clearfix"></div>');
+				 $('#similar').append(simline);
+				 			
+				
+        }
+		
+	
+      }
+      else {
+           $('#loading').css('background-image','url(img/error.png)');
+           $('#imgJson').html(JSON.stringify(json,null,2));
+           $("#result_2").html('<div class="alert alert-error"> <strong>检测失败</strong>&nbsp;&nbsp;错误码为 '+json.ret+'</div>');
+      	}      
+	  }
+	  
+	  
+    $(document).ready(function(){
+   
+      img = $('#resultImg'); 
+      
+	  max_width = $('#imgDiv').width();
+	  max_height = $('#imgDiv').height();
+	  
+	  $('#imgJson').height(max_height-12);   
+
+      var enurl = escape("http://face.pr.oa.com/upload_pics/7c44e1965dbf845a.jpg");
+      var data = { "url": enurl, "key": "demo_key", "secret": "demo_secret" };
+      $.getJSON("http://api.face.pr.qq.com/search?type=star_face&jsoncallback=?", data, parseResult);
+	   
+	   
+	  //var sousuo = document.getElementById("sousuo");
+    	$('#detect_open').click(function(){
+			var image_url = $('#detect_url').val();
+			if(image_url==""){
+				alert('请选择一张图片');
+        		return false;
+			}else{
+				var ext = "*.jpg,*.png,*bmp";
+        		image_url_ext = image_url.substr(image_url.lastIndexOf("."));
+				 if(ext.indexOf("*"+image_url_ext)==-1){ 
+          			alert("请输入后缀为.jpg、.png、.bmp的图片");
+          			return false;  
+        		}
+			}
+	
+		$('#loading').show();
+		$('#imgJson').html("正在等待服务器返回JSON");
+		img.hide();
+		$('.face_rect').remove();
+		$('.dot_rect').remove();
+		$('.simline').remove();
+		$("#result_2").html("");
+		
+			
+		var enurl = escape(image_url);
+		var data = { "url": enurl, "key": "demo_key", "secret": "demo_secret" };
+      	$.getJSON("http://api.face.pr.qq.com/search?type=star_face&jsoncallback=?", data, parseResult);
+		});
+		
+		$('#input_image').change(function(){
+			
+		if (!$('#input_image').val().match(/(?:jpg|png|bmp)$/)) {  
+            	alert("图片类型必须是jpeg,jpg,png中的一种");                
+            return false;  
+        }else{ 
+            $('#star_form').submit();
+        }
+			
+		});
+	
+	});
+	
+	  
+</script>
+</html>

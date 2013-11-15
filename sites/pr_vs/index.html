@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link href="assets/css/bootstrap.css" rel="stylesheet" />
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
+<link href="assets/css/style.css" rel="stylesheet" />
+
+<title>拍拍相似商品视觉搜索</title>
+</head>
+
+<body>
+<div class="container index_container">
+	<div class="mini-layout index-layout">
+	
+	
+
+<form class="form-inline" enctype="multipart/form-data" method="post" action="paipaidemo.php" onsubmit="return checkform();">
+  <div id="index-legend" class="legend"><img src="assets/img/logo.png"></div>
+  
+
+  <input id="vms-input-url" type="text" name="imgfileurl" placeholder="输入图片链接地址或点击右侧按钮上传图片" class="input-xxlarge offset1" />
+  <input id="vms-input-file" type="file" name="imgfile" />
+  <a id="input-file-action" class="button">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <button type="submit" id="button-search" class="button"></button>
+   <p class="help-block uploadtip"></p>
+</form>
+
+
+  <div id="errorInfo" class="alert alert-error upload-alert" style="display:none">
+  
+  <strong>Error:&nbsp;</strong>图片网址格式错误或没有选择上传图片
+  </div>
+  
+   </div>
+	
+</div>
+
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script>
+<script>
+
+$(document).ready(function() {
+	
+	if($.browser.msie){
+		$("#vms-input-file").show();
+		$("#vms-input-file").css("width",70);
+		$("#vms-input-file").css("height",20);
+		$("#input-file-action").hide();
+		
+		$("#vms-input-file").bind("change",function(){
+			$(".uploadtip").html("已选择文件："+$(this).val());
+			$("#vms-input-url").attr("value","");
+			$("#errorInfo").hide();
+		});
+	}
+	else{
+		$("#vms-input-file").bind("change",function(){
+			$("#vms-input-url").attr("placeholder",$(this).val());
+		});
+	}
+	
+	$("#input-file-action").click(function(){
+		$("#vms-input-file").click();
+		$("#vms-input-url").attr("value","");
+		$("#errorInfo").hide();
+	});
+	
+	$("#vms-input-url").click(function(){
+		$("#errorInfo").hide();
+	});
+	
+	$("#vms-input-url").keyup(function(){
+		$("#errorInfo").hide();
+		if($.browser.msie){
+			$(".uploadtip").html("");
+		}
+	});
+	
+});
+
+function checkform(){
+	
+	//no input
+	if($("#vms-input-url").val()==""&&$("#vms-input-file").val()==""){
+		$("#errorInfo").show();
+		return false;
+	}
+	
+	//clear inputfile and bind event.
+	if($("#vms-input-url").val()!=""){
+		var file = $(":file");
+		file.after(file.clone().val(""));
+		file.remove();
+		
+		if($.browser.msie){
+			$("#vms-input-file").bind("change",function(){
+			$(".uploadtip").html("已选择文件："+$(this).val());
+			$("#vms-input-url").attr("value","");
+			$("#errorInfo").hide();
+			});
+		}
+		
+		else{
+			$("#vms-input-file").bind("change",function(){
+				$("#vms-input-url").attr("placeholder",$(this).val());
+			});
+		}
+		
+
+	}
+	
+	//input url should be url
+    var RegUrl = new RegExp();
+    RegUrl.compile("^[A-Za-z]+://[A-Za-z0-9-_]+\\.[A-Za-z0-9-_%&\?\/.=]+$");
+    if ($("#vms-input-url").val()!=""&&!RegUrl.test($("#vms-input-url").val())) {
+		$("#errorInfo").show();
+        return false;
+    }
+	
+    return true;
+}
+
+</script>
+</body>
+</html>
