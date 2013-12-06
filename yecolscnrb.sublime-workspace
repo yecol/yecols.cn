@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"th",
+				"thumbs_dir"
+			],
+			[
+				"out",
+				"output_handle"
+			],
+			[
+				"ph",
+				"photo_file"
+			],
+			[
+				"tp",
+				"tpl_footer"
+			],
+			[
+				"tpl",
+				"tpl_header"
+			],
+			[
+				"alb",
+				"album_name"
+			],
+			[
+				"pro",
+				"processPhotoPage"
+			],
+			[
+				"ab",
+				"albums"
+			],
+			[
+				"page",
+				"page_file_handle"
+			],
+			[
+				"about",
+				"about_handle"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"get",
+				"getcwd"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"time",
+				"time2String"
+			],
+			[
+				"ge",
+				"generateFiles"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"pra",
+				"paragraph"
+			],
+			[
+				"input",
+				"input_paragraph"
+			],
+			[
+				"para",
+				"paragraph"
+			],
+			[
 				"padding",
 				"padding"
 			],
@@ -128,10 +204,6 @@
 				"border-top"
 			],
 			[
-				"cl",
-				"clear"
-			],
-			[
 				"bod",
 				"border-top"
 			],
@@ -171,61 +243,25 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "photos/index.php",
-			"settings":
-			{
-				"buffer_size": 86,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/templates/albums.tpl",
-			"settings":
-			{
-				"buffer_size": 4065,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "photos/iphone.php",
-			"settings":
-			{
-				"buffer_size": 194,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/css/style.less",
-			"settings":
-			{
-				"buffer_size": 18623,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/workspace_git/baidu-charity/assets/css/bootstrap.css",
-			"settings":
-			{
-				"buffer_size": 125975,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/style.css",
-			"settings":
-			{
-				"buffer_size": 16811,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 173.0,
 		"selected_items":
 		[
+			[
+				"error",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"er",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"err",
+				"SublimeLint: Show All Errors"
+			],
 			[
 				"html",
 				"Tidy HTML"
@@ -311,7 +347,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -328,13 +364,40 @@
 	},
 	"file_history":
 	[
+		"/D/workspace_git/yecols.cn/inc/generate.py",
+		"/D/workspace_git/yecols.cn/inc/templates/photos.tpl",
+		"/D/workspace_git/yecols.cn/smarty/plugins/function.photos.php",
+		"/D/workspace_git/yecols.cn/inc/outfile/photos/faces/index.html",
+		"/D/workspace_git/yecols.cn/inc/temp.py",
+		"/D/workspace_git/yecols.cn/inc/outfile/photos/live-hangzhou/index.html",
 		"/D/workspace_git/yecols.cn/photos/landscape.php",
+		"/D/workspace_git/yecols.cn/inc/templates/albums.tpl",
+		"/D/workspace_git/yecols.cn/inc/page/album.html",
+		"/D/workspace_git/yecols.cn/inc/page/portfolio.html",
+		"/D/workspace_git/yecols.cn/inc/tpl/footer.html",
+		"/D/workspace_git/yecols.cn/inc/templates/portfolio.tpl",
+		"/D/workspace_git/yecols.cn/inc/templates/index.tpl",
+		"/D/workspace_git/yecols.cn/portfolio/index.php",
+		"/D/workspace_git/yecols.cn/inc/tpl/header.html",
+		"/D/workspace_git/yecols.cn/generate.py",
+		"/D/workspace_git/yecols.cn/inc/tpls/footer.html",
+		"/D/workspace_git/yecols.cn/assets/css/wchk.css",
+		"/D/workspace_git/baidu-charity/index.html",
+		"/D/workspace_git/yecols.cn/index1.html",
+		"/D/workspace_git/yecols.cn/webpy/checkwords.py",
+		"/D/workspace_git/yecols.cn/webpy/code.py",
+		"/D/workspace_git/yecols.cn/code.py",
+		"/D/workspace_git/yecols.cn/webpy/template/index.html",
+		"/D/workspace_git/yecols.cn/webpy/result.html",
+		"/D/workspace_git/yecols.cn/assets/css/style.css",
+		"/D/workspace_git/baidu-charity/assets/css/bootstrap.css",
+		"/D/workspace_git/yecols.cn/assets/css/style.less",
+		"/D/workspace_git/yecols.cn/photos/index.php",
+		"/D/workspace_git/yecols.cn/photos/iphone.php",
 		"/D/workspace_git/yecols.cn/photos/portraits.php",
 		"/D/workspace_git/yecols.cn/photos/life-beijing.php",
 		"/D/workspace_git/yecols.cn/photos/animal-plant.php",
 		"/D/workspace_git/yecols.cn/about/index.php",
-		"/D/workspace_git/yecols.cn/inc/templates/albums.tpl",
-		"/D/workspace_git/yecols.cn/photos/index.php",
 		"/D/workspace_git/yecols.cn/photos/travel-japan.php",
 		"/D/workspace_git/yecols.cn/photos/travel-taiwan.php",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/README.md",
@@ -410,6 +473,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"();\n",
+			"checkwords.py",
 			"summary-content",
 			"footer",
 			"link_page",
@@ -458,193 +523,13 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "photos/index.php",
-					"settings":
-					{
-						"buffer_size": 86,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "inc/templates/albums.tpl",
-					"settings":
-					{
-						"buffer_size": 4065,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3735,
-								3735
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2100.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "photos/iphone.php",
-					"settings":
-					{
-						"buffer_size": 194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								194,
-								194
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 3,
-					"file": "assets/css/style.less",
-					"settings":
-					{
-						"buffer_size": 18623,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16724,
-								16724
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 17213.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/D/workspace_git/baidu-charity/assets/css/bootstrap.css",
-					"settings":
-					{
-						"buffer_size": 125975,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "assets/css/style.css",
-					"settings":
-					{
-						"buffer_size": 16811,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1176,
-								1176
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -676,7 +561,7 @@
 		"cols":
 		[
 			0.0,
-			0.729372297839,
+			0.713358873675,
 			1.0
 		],
 		"rows":
@@ -686,6 +571,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 213.0
+	},
 	"output.git":
 	{
 		"height": 161.0
