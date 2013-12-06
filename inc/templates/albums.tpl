@@ -2,7 +2,7 @@
 
 <{block "content"}>
 <div id="main" role="main" class="container">
- <section id="photos-album">
+    <section id="photos-album">
  
     <div class="a-album">
         <a class="origin" href="./travel-nanjing.php">

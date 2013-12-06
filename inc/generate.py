@@ -66,6 +66,13 @@ def processPhotoPage():
 	#generate photo pages
 	#affected pages : photos, albums
 
+	#album page
+	output_album_handle = open(output_dir +"photos/"+ filename,'w')
+	output_album_handle.write(tpl_header+"\n")
+	output_album_handle.write(
+'<div id="main" role="main" class="container">\n\
+    <section id="photos-album">\n\ ')
+
 	albums = {	"travel-nanjing" 	:	 "Travel Log. 南京",
 				"travel-bali" 		:	 "Travel Log. 巴厘岛",
 				"travel-taiwan" 	:	 "Travel Log. 台湾",
@@ -83,6 +90,20 @@ def processPhotoPage():
 	print time2String(time.time())+"\tINFO\t"+"Processing photos"
 	for album_name, album_readable_name in albums.items():
 		# print album_name, album_readable_name
+
+		output_album_handle.write('\n\
+	<div class="a-album">\n\
+        <a class="origin" href="./'+album_name+'>\n\
+            <img src="cover/'+ album_name +'.jpg" class="thumb">\n\
+            <span class="info">\n\
+                <p class="title camera">'+album_readable_name+'</p>\n\
+                <p class="date">2012-02-17</p>\n\
+            </span>\n\
+        </a>\n\
+    </div>\n\
+			')
+
+
 		print time2String(time.time())+"\tINFO\t"+"Processing album ["+album_name+"]"
 		path = output_dir +"photos/" + album_name+"/"
 		if not os.path.exists(path):
@@ -127,8 +148,14 @@ def processPhotoPage():
 
 		output_handle.write(tpl_footer+"\n")
 		output_handle.close()
+
 		print time2String(time.time())+"\tINFO\t"+"Generate index.html files on = " + path +" with " + str(count) +" photos"
 
+	output_album_handle.write('\n\
+  	</section><!-- #photos-album -->\n\
+</div>\n')
+	output_album_handle.write(tpl_footer)
+	output_album_handle.close()
 
 def generateFiles():
 	print time2String(time.time())+"\tINFO\t"+"Begin generating files. Working Directory = " + pwd
@@ -145,11 +172,10 @@ def generateFiles():
 	tpl_header_handle.close()
 	tpl_footer_handle.close()
 
-	#about
+	#generate files
 	processSinglePage("about");
 	processSinglePage("portfolio");
 	processPhotoPage();
-
 
 
 if __name__ == '__main__':

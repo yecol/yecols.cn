@@ -4,12 +4,20 @@
 		"selected_items":
 		[
 			[
-				"th",
-				"thumbs_dir"
+				"tpl",
+				"tpl_footer"
+			],
+			[
+				"w",
+				"write"
 			],
 			[
 				"out",
-				"output_handle"
+				"output_album_handle"
+			],
+			[
+				"th",
+				"thumbs_dir"
 			],
 			[
 				"ph",
@@ -18,10 +26,6 @@
 			[
 				"tp",
 				"tpl_footer"
-			],
-			[
-				"tpl",
-				"tpl_header"
 			],
 			[
 				"alb",
@@ -243,19 +247,35 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "inc/generate.py",
+			"settings":
+			{
+				"buffer_size": 5064,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/templates/albums.tpl",
+			"settings":
+			{
+				"buffer_size": 4068,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 173.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"error",
+				"er",
 				"SublimeLint: Show All Errors"
 			],
 			[
-				"er",
+				"error",
 				"SublimeLint: Show All Errors"
 			],
 			[
@@ -523,8 +543,69 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "inc/generate.py",
+					"settings":
+					{
+						"buffer_size": 5064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4362,
+								4362
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inc/templates/albums.tpl",
+					"settings":
+					{
+						"buffer_size": 4068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3326,
+								3004
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1980.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
