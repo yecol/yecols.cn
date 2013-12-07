@@ -1,0 +1,52 @@
+<script type="text/javascript" src="/assets/js/jquery.flexslider.min.js"></script>
+<script>
+$(document).ready(function() {
+	// Stuff to do as soon as the DOM is ready;
+  $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
+  $('footer .nav a').not('.ac').tooltip();
+	$('.expand').click(function(e){
+		$(this).closest('article').toggleClass('expanded');
+    e.preventDefault();
+	});
+
+  $('ul.slides').click(function(e){
+    $(this).closest('article').toggleClass('expanded');
+    e.preventDefault();
+  });
+
+  $('.images').flexslider({
+      animation: "slide",
+      animationSpeed: 600,
+      animationLoop: false,
+      controlNav: false,
+      directionNav: true,
+      slideshow: false,
+      itemWidth: 500,
+      itemMargin: 30,
+      minItems: 1,
+      move: 1,
+      prevText: "",
+      nextText: ""
+  });
+
+  $('.images-300').flexslider({
+      animation: "slide",
+      animationSpeed: 600,
+      animationLoop: false,
+      controlNav: false,
+      directionNav: true,
+      slideshow: false,
+      itemWidth: 300,
+      itemMargin: 30,
+      minItems: 1,
+      move: 1,
+      prevText: "",
+      nextText: ""
+  });
+});
+
+$(window).resize(function(){
+    $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
+});
+
+</script>
