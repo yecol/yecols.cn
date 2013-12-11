@@ -7,7 +7,7 @@ import exifread
 ISOTIMEFORMAT="%Y-%m-%d %X"
 pwd = os.getcwd();
 root_dir = "../"
-output_dir = "./outfile/";
+output_dir = root_dir
 filename = "index.html"
 
 #header and footer page path
@@ -120,7 +120,7 @@ def get_exif_data(fname):
         		exif_info += " ISO" + str(tags["EXIF ISOSpeedRatings"])
         	if 'EXIF DateTimeOriginal' in tags.keys():
         		exif_info += " "+ str(tags["EXIF DateTimeOriginal"]).replace(":","-",2);
-        	# print exif_info
+        # print exif_info
 
     except IOError:
         print 'IOERROR ' + fname
@@ -135,11 +135,11 @@ def processPhotoPage():
 	album_path = output_dir +"photos/"
 	if not os.path.exists(album_path):
 		os.makedirs(album_path)
-	output_album_handle = open(output_dir + filename,'w')
+	output_album_handle = open(album_path + filename,'w')
 	output_album_handle.write(add_header("photos")+"\n")
 	output_album_handle.write(
 '<div id="main" role="main" class="container">\n\
-    <section id="photos-album">\n\ ')
+    <section id="photos-album">\n')
 
 	albums = {	"travel-nanjing" 	:	 "Travel Log. 南京",
 				"travel-bali" 		:	 "Travel Log. 巴厘岛",
@@ -160,8 +160,8 @@ def processPhotoPage():
 
 		output_album_handle.write('\n\
 	<div class="a-album">\n\
-        <a class="origin" href="./'+album_name+'>\n\
-            <img src="cover/'+ album_name +'.jpg" class="thumb">\n\
+        <a class="origin" href="./'+album_name+'/">\n\
+            <img src="/res/photos/cover/'+ album_name +'.jpg" class="thumb">\n\
             <span class="info">\n\
                 <p class="title camera">'+album_readable_name+'</p>\n\
                 <p class="date">2012-02-17</p>\n\
@@ -187,13 +187,13 @@ def processPhotoPage():
  	<div class="container-head">\n\
     	<ol class="breadcrumb">\n\
       		<li><a href="/photos/">Photos 相册</a></li>\n\
-      		<li>'+album_name+'</li>\n\
+      		<li>'+album_readable_name+'</li>\n\
     	</ol>\n\
   	</div>\n\
   	<section id="photos">\n')
 
 		#content_per_photo
-		thumbs_dir = "../photos/album/"+album_name
+		thumbs_dir = "../res/photos/album/"+album_name
 		photo_files = os.listdir(thumbs_dir)
 		count = 0
 		for photo_file in photo_files:
@@ -204,10 +204,10 @@ def processPhotoPage():
 			count +=1
 			output_handle.write('\
 		<div class="a-photo">\n\
-		    <a class="origin" rel="group" href="/photos/origin/'+ photo_file +'" exif="'+\
+		    <a class="origin" rel="group" href="/res/photos/origin/'+ photo_file +'" exif="'+\
 		    # exif
-		    get_exif_data("../photos/album/"+album_name + "/" + str(photo_file)) +'">\n\
-		        <img src="/assets/img/pixel.gif" data-original="/photos/album/' + album_name +"/"+ photo_file + '" class="thumb" />\n\
+		    get_exif_data("../res/photos/origin/" + str(photo_file)) +'">\n\
+		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/' + album_name +"/"+ photo_file + '" class="thumb" />\n\
 		    </a>\n\
 		</div>'+'\n'
             )

@@ -88,10 +88,29 @@ footer #wrap .info:after{content:"";display:table;height:40px;clear:both}
 #photos-album .info p.phone{background-position:0 0}
 #photos-album .info p.camera{background-position:0 -20px}
 #photos-album .info p.date{color:#666;padding-left:30px;font-size:12px}
-#about{width:1000px;margin:0 auto;padding:60px 100px 0 100px}#about .content{width:600px;height:600px;float:left;background-color:#ccc}#about .content .title{vertical-align:baseline}#about .content .title h1{font-size:30px;line-height:60px;text-shadow:0 1px 2px rgba(0,0,0,0.5)}
-#about .content .title h2{font-family:Georgia,Cambria,"Times New Roman",Times,serif;font-size:24px;line-height:60px;font-weight:normal;text-shadow:0 1px 2px rgba(0,0,0,0.5)}
-#about .content .title li{list-style:none;display:list-item;height:30px}#about .content .title li span{height:30px;font-size:16px;line-height:30px;padding-left:30px}
-#about .photo{float:left;display:block;width:400px;height:600px;background-color:#333}
+#about{width:1000px;margin:0 auto;padding:60px 100px 0 100px}#about .content{width:1000px}#about .content .foto{background:url("../img/me.jpg") 0 0 no-repeat;border:solid 1px #ccc;width:1000px;height:750px}
+#about .content .me{padding:50px;width:900px;border-left:solid 1px #ccc;border-right:solid 1px #ccc;border-bottom:solid 1px #ccc;vertical-align:baseline;margin-bottom:80px}#about .content .me:after{content:"";display:table;height:0;clear:both}
+#about .content .me .me-text{width:500px;float:left}
+#about .content .me h1{font-size:30px;line-height:60px;text-shadow:0 1px 2px rgba(0,0,0,0.5)}
+#about .content .me h2{font-size:24px;line-height:60px;font-weight:normal;color:#666}
+#about .content .me li{list-style:none;display:list-item;height:30px}#about .content .me li span{height:30px;font-size:16px;line-height:30px;padding-left:30px}#about .content .me li span.location{background:url("../img/icon.png") 0 -140px no-repeat}
+#about .content .me li span.email{background:url("../img/icon.png") 0 -120px no-repeat}
+#about .content .me li span.qq{background:url("../img/icon.png") 0 -160px no-repeat}
+#about .content .me .wx{width:150px;height:150px;float:right;background:url("../img/qrc.jpg") 0 0 no-repeat;margin-bottom:10px}
+#about .content .me .social{width:400px;height:60px;float:right}#about .content .me .social a{float:right;background-color:#f00;width:40px;height:40px;margin:5px;display:block}#about .content .me .social a.facebook{background:url("../img/socialicons.png") 0 -40px no-repeat}#about .content .me .social a.facebook:hover{background:url("../img/socialicons.png") 0 0 no-repeat}
+#about .content .me .social a.linkedin{background:url("../img/socialicons.png") -40px -40px no-repeat}#about .content .me .social a.linkedin:hover{background:url("../img/socialicons.png") -40px 0 no-repeat}
+#about .content .me .social a.instagram{background:url("../img/socialicons.png") -80px -40px no-repeat}#about .content .me .social a.instagram:hover{background:url("../img/socialicons.png") -80px 0 no-repeat}
+#about .content .me .social a.flickr{background:url("../img/socialicons.png") -120px -40px no-repeat}#about .content .me .social a.flickr:hover{background:url("../img/socialicons.png") -120px 0 no-repeat}
+#about .content .me .social a.google{background:url("../img/socialicons.png") -160px -40px no-repeat}#about .content .me .social a.google:hover{background:url("../img/socialicons.png") -160px 0 no-repeat}
+#about .content .me .social a.github{background:url("../img/socialicons.png") -200px -40px no-repeat}#about .content .me .social a.github:hover{background:url("../img/socialicons.png") -200px 0 no-repeat}
+#about .content .me .social a.renren{background:url("../img/socialicons.png") -240px -40px no-repeat}#about .content .me .social a.renren:hover{background:url("../img/socialicons.png") -240px 0 no-repeat}
+#about .content .me .social a.weibo{background:url("../img/socialicons.png") -280px -40px no-repeat}#about .content .me .social a.weibo:hover{background:url("../img/socialicons.png") -280px 0 no-repeat}
+#about .content .timeline{margin-top:50px;padding-top:50px;border:solid 1px #ccc;margin-bottom:50px}#about .content .timeline .timeline-title{padding-left:100px;font-size:24px;margin-bottom:30px;color:#333;text-shadow:0 1px 2px rgba(0,0,0,0.5)}
+#about .content .timeline .a-year{width:1000px;line-height:24px}#about .content .timeline .a-year:after{content:"";display:table;height:0;clear:both}
+#about .content .timeline .a-year .left{float:left;padding:45px 20px 20px 20px;width:105px;text-align:right}
+#about .content .timeline .a-year .right{float:left;width:810px;padding:20px;border-left:solid 1px #ccc}#about .content .timeline .a-year .right a{color:#57ad68}
+#about .content .timeline .a-year .right a:hover{color:#096;text-decoration:underline}
+#about .content .timeline .a-year .year{font-weight:800;font-size:13px;height:15px;color:#096;margin-bottom:10px}
 #about:after{content:"";display:table;height:40px;clear:both}
 .tooltip{position:absolute;z-index:1030;display:block;font-size:14px;line-height:1.4;opacity:0;filter:alpha(opacity=0);visibility:visible}
 .tooltip.in{opacity:.9;filter:alpha(opacity=60)}

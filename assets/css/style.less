@@ -843,23 +843,44 @@ footer{
 	margin:0 auto;
 	padding: 60px 100px 0 100px;
 	.content{
-		width: 600px;
-		height: 600px;
-		float: left;
-		background-color: #ccc;
-		.title{
+		width: 1000px;
+		// float: left;
+		
+		.foto{
+			background: url("../img/me.jpg") 0 0 no-repeat;
+			border: solid 1px #ccc;
+			width: 1000px;
+			height: 750px;
+		}
+		
+		.me{
+			padding: 50px;
+			width: 900px;
+			border-left: solid 1px #ccc;
+			border-right: solid 1px #ccc;
+			border-bottom: solid 1px #ccc;
 			vertical-align: baseline;
+			margin-bottom: 80px;
+			&:after{
+				content: "";
+				display: table;
+				height: 0px;
+				clear: both;
+			}
+			.me-text{
+				width: 500px;
+				float: left;
+			}
 			h1{
 				font-size: 30px;
 				line-height: 60px;
 				text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 			}
 			h2{
-				font-family: Georgia,Cambria,"Times New Roman",Times,serif;
 				font-size: 24px;
 				line-height: 60px;
 				font-weight: normal;
-				text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+				color: #666;
 			}
 			li{
 				list-style: none;
@@ -870,16 +891,141 @@ footer{
 					font-size: 16px;
 					line-height: 30px;
 					padding-left: 30px;
+					&.location{
+						background: url("../img/icon.png") 0 -140px no-repeat;
+					}
+					&.email{
+						background: url("../img/icon.png") 0 -120px no-repeat;
+					}
+					&.qq{
+						background: url("../img/icon.png") 0 -160px no-repeat;
+					}
 				}
 			}
-		}	
-	}
-	.photo{
-			float: left;
-			display: block;
-			width: 400px;
-			height: 600px;
-			background-color: #333;
+			.wx{
+				width: 150px;
+				height: 150px;
+				float: right;
+				background: url("../img/qrc.jpg") 0 0 no-repeat;
+				margin-bottom: 10px;
+			}
+			.social{
+				width: 400px;
+				height: 60px;
+				float: right;
+				a{
+					float: right;
+					background-color: red;
+					width: 40px;
+					height: 40px;
+					margin: 5px;
+					display: block;
+					&.facebook{
+						background: url("../img/socialicons.png") 0 -40px no-repeat;
+						&:hover{
+							background: url("../img/socialicons.png") 0 0 no-repeat;
+						}
+					}
+					&.linkedin{
+						background: url("../img/socialicons.png") -40px -40px no-repeat;
+						&:hover{
+							background: url("../img/socialicons.png") -40px 0 no-repeat;
+						}
+					}
+					&.instagram{
+						background: url("../img/socialicons.png") -80px -40px no-repeat;
+						&:hover{
+							background: url("../img/socialicons.png") -80px 0 no-repeat;
+						}
+					}
+					&.flickr{
+						background: url("../img/socialicons.png") -120px -40px no-repeat;
+						&:hover{
+							background: url("../img/socialicons.png") -120px 0 no-repeat;
+						}
+					}
+					&.google{
+						background: url("../img/socialicons.png") -160px -40px no-repeat;
+						&:hover{
+							background: url("../img/socialicons.png") -160px 0 no-repeat;
+						}
+					}
+					&.github{
+						background: url("../img/socialicons.png") -200px -40px no-repeat;
+						&:hover{
+							background: url("../img/socialicons.png") -200px 0 no-repeat;
+						}
+					}
+					&.renren{
+						background: url("../img/socialicons.png") -240px -40px no-repeat;
+						&:hover{
+							background: url("../img/socialicons.png") -240px 0 no-repeat;
+						}
+					}
+					&.weibo{
+						background: url("../img/socialicons.png") -280px -40px no-repeat;
+						&:hover{
+							background: url("../img/socialicons.png") -280px 0 no-repeat;
+						}
+					}
+				}
+
+			}
+		}
+
+		.timeline{
+			margin-top: 50px;
+			padding-top: 50px;
+			border: solid 1px #ccc;
+			margin-bottom: 50px;
+			.timeline-title{
+				padding-left: 100px;
+				font-size: 24px;
+				margin-bottom: 30px;
+				color: #333;
+				text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+			}
+			.a-year{
+				width: 1000px;
+				line-height: 24px;
+				&:after{
+					content: "";
+					display: table;
+					height: 0px;
+					clear: both;
+				}
+				.left{
+					float: left;
+					padding: 45px 20px 20px 20px;
+					width: 145px-40px;
+					text-align: right;
+				}
+				.right{
+					a{
+						color: @y-green-2;
+					}
+					a:hover{
+						color: @y-green-1;
+						text-decoration: underline;
+					}
+					float: left;
+					width: 850px-40px;
+					padding: 20px;
+					border-left: solid 1px #ccc;
+				}
+				.year{
+					font-weight: 800;
+					font-size: 13px;
+					height: 15px;
+					color: @y-green-1;
+					margin-bottom: 10px;
+				}
+
+			}
+
+
+
+		}
 	}
 	&:after{
 		content: "";

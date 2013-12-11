@@ -4,8 +4,32 @@
 		"selected_items":
 		[
 			[
+				"add",
+				"add_header"
+			],
+			[
 				"tpl",
-				"tpl_footer"
+				"tpl_js"
+			],
+			[
+				"custo",
+				"custom_footer"
+			],
+			[
+				"page",
+				"page_dir"
+			],
+			[
+				"par",
+				"partition_af"
+			],
+			[
+				"exif",
+				"exif_info"
+			],
+			[
+				"photo",
+				"photo_file"
 			],
 			[
 				"w",
@@ -38,10 +62,6 @@
 			[
 				"ab",
 				"albums"
-			],
-			[
-				"page",
-				"page_file_handle"
 			],
 			[
 				"about",
@@ -251,23 +271,7 @@
 			"file": "inc/generate.py",
 			"settings":
 			{
-				"buffer_size": 5064,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Yecol/hello.py",
-			"settings":
-			{
-				"buffer_size": 12154,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/templates/albums.tpl",
-			"settings":
-			{
-				"buffer_size": 4068,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -275,15 +279,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 173.0,
 		"selected_items":
 		[
 			[
-				"er",
+				"error",
 				"SublimeLint: Show All Errors"
 			],
 			[
-				"error",
+				"er",
 				"SublimeLint: Show All Errors"
 			],
 			[
@@ -392,21 +396,27 @@
 	},
 	"file_history":
 	[
-		"/D/workspace_git/yecols.cn/inc/generate.py",
+		"/D/xampp/apache/conf/httpd.conf",
+		"/D/workspace_git/yecols.cn/inc/templates/index.tpl",
 		"/D/workspace_git/yecols.cn/inc/templates/photos.tpl",
+		"/D/workspace_git/yecols.cn/inc/page/photos_css.html",
+		"/D/workspace_git/yecols.cn/inc/page/photos_js.html",
 		"/D/workspace_git/yecols.cn/smarty/plugins/function.photos.php",
+		"/D/workspace_git/yecols.cn/inc/templates/albums.tpl",
+		"/D/workspace_git/yecols.cn/inc/page/portfolio.html",
+		"/D/workspace_git/yecols.cn/inc/templates/portfolio.tpl",
+		"/D/workspace_git/yecols.cn/inc/page/portfolio_js.html",
+		"/D/workspace_git/yecols.cn/inc/generate.py",
+		"/D/workspace_git/yecols.cn/inc/tpl/header.html",
+		"/D/workspace_git/yecols.cn/inc/tpl/footer.html",
+		"/D/workspace_git/yecols.cn/inc/tpl/js.html",
+		"/C/Users/Yecol/hello.py",
 		"/D/workspace_git/yecols.cn/inc/outfile/photos/faces/index.html",
 		"/D/workspace_git/yecols.cn/inc/temp.py",
 		"/D/workspace_git/yecols.cn/inc/outfile/photos/live-hangzhou/index.html",
 		"/D/workspace_git/yecols.cn/photos/landscape.php",
-		"/D/workspace_git/yecols.cn/inc/templates/albums.tpl",
 		"/D/workspace_git/yecols.cn/inc/page/album.html",
-		"/D/workspace_git/yecols.cn/inc/page/portfolio.html",
-		"/D/workspace_git/yecols.cn/inc/tpl/footer.html",
-		"/D/workspace_git/yecols.cn/inc/templates/portfolio.tpl",
-		"/D/workspace_git/yecols.cn/inc/templates/index.tpl",
 		"/D/workspace_git/yecols.cn/portfolio/index.php",
-		"/D/workspace_git/yecols.cn/inc/tpl/header.html",
 		"/D/workspace_git/yecols.cn/generate.py",
 		"/D/workspace_git/yecols.cn/inc/tpls/footer.html",
 		"/D/workspace_git/yecols.cn/assets/css/wchk.css",
@@ -501,6 +511,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"page",
 			"();\n",
 			"checkwords.py",
 			"summary-content",
@@ -551,7 +562,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -559,15 +570,15 @@
 					"file": "inc/generate.py",
 					"settings":
 					{
-						"buffer_size": 5064,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4362,
-								4362
+								0,
+								0
 							]
 						],
 						"settings":
@@ -578,68 +589,7 @@
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/Yecol/hello.py",
-					"settings":
-					{
-						"buffer_size": 12154,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12154,
-								12154
-							]
-						],
-						"settings":
-						{
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 7479.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "inc/templates/albums.tpl",
-					"settings":
-					{
-						"buffer_size": 4068,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3326,
-								3004
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1980.0,
+						"translation.y": 3498.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -680,7 +630,7 @@
 		"cols":
 		[
 			0.0,
-			0.713358873675,
+			0.908364818978,
 			1.0
 		],
 		"rows":
@@ -692,7 +642,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 213.0
+		"height": 271.0
 	},
 	"output.git":
 	{
