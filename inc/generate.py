@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import os,time
+import os,time,datetime
 import exifread
 
 #config
@@ -10,7 +10,9 @@ root_dir = "../"
 output_dir = root_dir
 filename = "index.html"
 
-#header and footer page path
+curTime = time.localtime()
+
+#common header and footer page path
 tpl_file_header="./tpl/header.html"
 tpl_file_footer="./tpl/footer.html"
 tpl_file_js="./tpl/js.html"
@@ -33,6 +35,17 @@ def time2String( s ):
 
 	#time format to string
     return time.strftime( ISOTIMEFORMAT, time.localtime( float(s)) )
+
+def offsetTime( s ):
+	#string time format to float
+    return time.mktime(curTime) - time.mktime(time.strptime(s, ISOTIMEFORMAT))
+
+def offsetTime2DateString (s):
+	#form offset time format to date string
+	dtime = datetime.datetime.fromtimestamp(time.mktime(curTime))
+	timedelta = datetime.timedelta(seconds=-s)
+	dtime = dtime + timedelta
+	return dtime.strftime("%Y-%m-%d")
 
 def add_footer(key):
 
@@ -94,6 +107,30 @@ def processSinglePage(key):
 	output_handle.close()
 	print time2String(time.time())+"\tINFO\t"+"Generated index.html file on "+ path
 
+def dt(d):
+	return d['dt']
+
+def get_shot_date(fname):
+	
+	shot_date = ""
+	try:
+		img = open(fname,'rb')
+		tags = exifread.process_file(img)
+
+		if tags != None:
+			if 'EXIF DateTimeOriginal' in tags.keys():
+				shot_date += " "+ str(tags["EXIF DateTimeOriginal"]).replace(":","-",2);
+				shot_date = shot_date.strip()
+			else:
+				shot_date = "1987-04-14 15:58:10"
+
+		# print offsetTime(shot_date) 
+
+	except IOError:
+		print 'IOERROR ' + fname
+
+	return offsetTime(shot_date)
+
 
 def get_exif_data(fname):
     
@@ -119,7 +156,7 @@ def get_exif_data(fname):
         	if 'EXIF ISOSpeedRatings' in tags.keys():
         		exif_info += " ISO" + str(tags["EXIF ISOSpeedRatings"])
         	if 'EXIF DateTimeOriginal' in tags.keys():
-        		exif_info += " "+ str(tags["EXIF DateTimeOriginal"]).replace(":","-",2);
+        		exif_info += " "+ str(tags["EXIF DateTimeOriginal"]).replace(":","-",2).strip();
         # print exif_info
 
     except IOError:
@@ -135,11 +172,6 @@ def processPhotoPage():
 	album_path = output_dir +"photos/"
 	if not os.path.exists(album_path):
 		os.makedirs(album_path)
-	output_album_handle = open(album_path + filename,'w')
-	output_album_handle.write(add_header("photos")+"\n")
-	output_album_handle.write(
-'<div id="main" role="main" class="container">\n\
-    <section id="photos-album">\n')
 
 	albums = {	"travel-nanjing" 	:	 "Travel Log. 南京",
 				"travel-bali" 		:	 "Travel Log. 巴厘岛",
@@ -155,21 +187,11 @@ def processPhotoPage():
 	}
 
 	print time2String(time.time())+"\tINFO\t"+"Processing photos"
+
+	album_list = []
+
 	for album_name, album_readable_name in albums.items():
 		# print album_name, album_readable_name
-
-		output_album_handle.write('\n\
-	<div class="a-album">\n\
-        <a class="origin" href="./'+album_name+'/">\n\
-            <img src="/res/photos/cover/'+ album_name +'.jpg" class="thumb">\n\
-            <span class="info">\n\
-                <p class="title camera">'+album_readable_name+'</p>\n\
-                <p class="date">2012-02-17</p>\n\
-            </span>\n\
-        </a>\n\
-    </div>\n\
-			')
-
 
 		print time2String(time.time())+"\tINFO\t"+"Processing album ["+album_name+"]"
 		path = output_dir +"photos/" + album_name+"/"
@@ -177,8 +199,6 @@ def processPhotoPage():
 			os.makedirs(path)
 		output_handle = open(path+ filename,'w')
 		output_handle.write(add_header("photos")+"\n")
-
-		#write contents
 
 		#content_header
 		output_handle.write(
@@ -196,18 +216,28 @@ def processPhotoPage():
 		thumbs_dir = "../res/photos/album/"+album_name
 		photo_files = os.listdir(thumbs_dir)
 		count = 0
+		photo_list = []
+
 		for photo_file in photo_files:
-			# print photo_file;
+			# get shot time
+			photo_list.append({"fn":str(photo_file),"dt":get_shot_date("../res/photos/origin/" + str(photo_file))})
 
-			# get_exif_data("../photos/album/"+album_name + "/" + str(photo_file))
+		# sort photos with shot time
+		photo_list = sorted(photo_list,key=dt)
 
+		# get latest photo as album time
+		album_list.append({"an":album_name,"arn":album_readable_name,"dt":dt(photo_list[0]),"bt":dt(photo_list[-1])})
+
+
+		for photo_file in photo_list:
 			count +=1
+
 			output_handle.write('\
 		<div class="a-photo">\n\
-		    <a class="origin" rel="group" href="/res/photos/origin/'+ photo_file +'" exif="'+\
+		    <a class="origin" rel="group" href="/res/photos/origin/'+ photo_file['fn'] +'" exif="'+\
 		    # exif
-		    get_exif_data("../res/photos/origin/" + str(photo_file)) +'">\n\
-		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/' + album_name +"/"+ photo_file + '" class="thumb" />\n\
+		    get_exif_data("../res/photos/origin/" + photo_file['fn']) +'">\n\
+		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/' + album_name +"/"+ photo_file['fn'] + '" class="thumb" />\n\
 		    </a>\n\
 		</div>'+'\n'
             )
@@ -222,6 +252,27 @@ def processPhotoPage():
 		output_handle.close()
 
 		print time2String(time.time())+"\tINFO\t"+"Generate index.html files on = " + path +" with " + str(count) +" photos"
+
+	# process album page
+	output_album_handle = open(album_path + filename,'w')
+	output_album_handle.write(add_header("photos")+"\n")
+	output_album_handle.write(
+'<div id="main" role="main" class="container">\n\
+    <section id="photos-album">\n')
+	
+	album_list = sorted(album_list,key=dt)
+	for album_item in album_list:
+		output_album_handle.write('\n\
+		<div class="a-album">\n\
+    	    <a class="origin" href="./'+album_item['an']+'/">\n\
+    	        <img src="/res/photos/cover/'+ album_item['an'] +'.jpg" class="thumb">\n\
+    	        <span class="info">\n\
+    	            <p class="title camera">'+album_item['arn']+'</p>\n\
+    	            <p class="date">from '+offsetTime2DateString(album_item['bt'])+' to '+offsetTime2DateString(album_item['dt'])+'</p>\n\
+    	        </span>\n\
+    	    </a>\n\
+    	</div>\n\
+				')
 
 	output_album_handle.write('\n\
   	</section><!-- #photos-album -->\n\

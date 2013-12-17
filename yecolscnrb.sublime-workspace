@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"alb",
+				"album_list"
+			],
+			[
+				"al",
+				"album_list"
+			],
+			[
+				"sor",
+				"sort_by_dt"
+			],
+			[
+				"ph",
+				"photo_list"
+			],
+			[
+				"n",
+				"nearTime"
+			],
+			[
+				"cur",
+				"curTime"
+			],
+			[
+				"str",
+				"string2Time"
+			],
+			[
+				"pho",
+				"photo_list"
+			],
+			[
+				"photo",
+				"photo"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
 				"mar",
 				"margin-bottom"
 			],
@@ -14,10 +58,6 @@
 			[
 				"so",
 				"social"
-			],
-			[
-				"padding",
-				"padding-left"
 			],
 			[
 				"te",
@@ -64,10 +104,6 @@
 				"exif_info"
 			],
 			[
-				"photo",
-				"photo_file"
-			],
-			[
 				"w",
 				"write"
 			],
@@ -80,16 +116,8 @@
 				"thumbs_dir"
 			],
 			[
-				"ph",
-				"photo_file"
-			],
-			[
 				"tp",
 				"tpl_footer"
-			],
-			[
-				"alb",
-				"album_name"
 			],
 			[
 				"pro",
@@ -287,18 +315,7 @@
 			"file": "inc/generate.py",
 			"settings":
 			{
-				"buffer_size": 7445,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<!--This page is cached on 2013-12-11 18:54:18-->\n<!-- ====================================BEGIN OF HEADERFILE==================================== -->\n<!DOCTYPE html>\n<html lang=\"zh-cn\">\n	<head>\n		<meta charset=\"utf-8\">\n		<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\" user-scalable=\"no\">\n		<title>Yecols.cn</title>\n		<link type=\"text/css\" rel=\"stylesheet\" href=\"../assets/css/style.css\">\n		\n	</head>\n	<body>\n		<nav class=\"site-nav\" tabindex=\"-1\">\n			<button class=\"site-nav-logo\" data-action=\"open-nav\"><span class=\"reader-text\">HOME</span></button>\n			<div class=\"nav-list-container\">\n				<ul class=\"nav-list\">\n					<li class=\"nav-list-item\">\n						<a href=\"#\"><span class=\"reader-text\">Navigation</span></a>\n					</li>\n					<li class=\"nav-list-item\">\n						<a href=\"/photos/\">Photos</a>\n					</li>\n					<li class=\"nav-list-item\">\n						<a href=\"/blog/\">Blog</a>\n					</li>\n					<li class=\"nav-list-item\">\n						<a href=\"/portfolio/\">Portfolio</a>\n					</li>\n					<li class=\"nav-list-item\">\n						<a href=\"/lab/\">Lab</a>\n					</li>\n					<li class=\"nav-list-item\">\n						<a href=\"/about/\">About</a>\n					</li>\n				</ul>\n			</div>\n		</nav>\n<!-- ====================================END OF HEADERFILE==================================== -->\n        <div id=\"main\" role=\"main\" class=\"container\">\n            <section id=\"about\">\n                <div class=\"content\">\n                    <div class=\"foto\"></div>\n                    <div class=\"me\">\n                        <div class=\"me-text\">\n                            <h1>Yecol Hsu</h1>\n                            <h2>北京航空航天大学 计算机科学与技术 在读博士</h2>\n                            <ul>\n                                <li>\n                                <span class=\"location\">Beijing, China.</span>\n                                </li>\n                                <li>\n                                <span class=\"email\">xujb1987(a)gmail.com</span>\n                                </li>\n                                <li>\n                                <span class=\"qq\">148269281</span>\n                                </li>\n                            </ul>\n                        </div>\n\n                        <div class=\"wx\">\n                        </div>\n                        <div class=\"social\">\n                            <a href=\"http://instagram.com/yecolhsu\" target=\"blank\" class=\"instagram\"></a>\n                            <a href=\"https://www.facebook.com/yecolhsu\" target=\"blank\" class=\"facebook\"></a>\n                            <a href=\"http://google.com/+YecolHsu\" target=\"blank\" class=\"google\"></a>\n                            <a href=\"http://www.linkedin.com/pub/jingbo-xu/7a/427/532\" target=\"blank\" class=\"linkedin\"></a>\n                            <a href=\"http://www.flickr.com/photos/yecolhsu\" target=\"blank\" class=\"flickr\"></a>\n                            <a href=\"https://github.com/yecol\" target=\"blank\" class=\"github\"></a>\n                            <a href=\"http://www.renren.com/yecol\" target=\"blank\" class=\"renren\"></a>\n                            <a href=\"http://weibo.com/yecol\" target=\"blank\" class=\"weibo\"></a>\n                        </div>\n                    </div>\n\n                <div class=\"timeline\">\n\n                    <div class=\"timeline-title\">版本历史</div>\n\n                    <div class=\"a-year\">\n                        <div class=\"left\">现在</div>\n                        <div class=\"right\">\n                            <div class=\"year\">2013</div>\n                            <div class=\"web\">距离上一版已有五年。这是一次在扁平化浪潮下化繁为简的迭代，以及一些后台自动化处理本站点的优化。</div>\n                        </div>\n                    </div>\n\n                    <div class=\"a-year\">\n                        <div class=\"left\"></div>\n                        <div class=\"right\">\n                            <div class=\"year\">2008</div>\n                            <div class=\"web\">再到后来，越来越觉得要有一个自己站子的必要性，非但是由于想挂载一个博客的原因，还因为想将做过的东西做个小小的展示，标记下我曾做过的努力。另外，常常有一些希望动手实践的技术。这便是本站 portfolio 和 lab 模块出现的缘由。这一次，缘于自己还算满意的页面设计，得以坚持到底，做出了一个整站。</div>\n                        </div>\n                    </div>\n\n                    <div class=\"a-year\">\n                        <div class=\"left\">大学</div>\n                        <div class=\"right\">\n                            <div class=\"year\">2007</div>\n                            <div class=\"web\">大二的暑假。买空间选程序，用z-blog搭建了一个博客。忙乎一周后出了效果，美工上太差强人意。不由感叹毕竟不是科班出身。那个风格也根本不可能衍化至整个站点。做完一个皮肤和摄影页，挂在了现在这个域名下，名为<a href=\"http://yecols.cn/v1/\" target=\"blank\">苔檐</a>。</div>\n                        </div>\n                    </div>\n\n                    <div class=\"a-year\">\n                        <div class=\"left\">高考</div>\n                        <div class=\"right\">\n                            <div class=\"year\">2006</div>\n                            <div class=\"web\">Web 2.0 席卷互联网。在大学前那个暑假时也加入了草根博客大军。在新浪申请了个<a href=\"http://blog.sina.com.cn/ddolphin\" target=\"blank\">博客</a>，记录些随笔随想。那时候很喜欢一段词：“柴门半掩清寒逸，寂寞苔檐碧。东风也欲报君知，又是莺歌蝶舞弄春时。”故名为“苔檐之居”。进入后台，最自由的布局只是在侧边栏加减一个模块，最个性的域名不过是尾缀一个用户名。厌倦之心渐起。再者，前面被网易突然中止服务的经历也让我对网络的免费服务有点阴影。偶然间看到朋友的独立博客后台有丰富的管理功能、自由的页面设计、个性的域名。心生向往。</div>\n                        </div>\n                    </div>\n\n                    <div class=\"a-year\">\n                        <div class=\"left\">高中</div>\n                        <div class=\"right\">\n                            <div class=\"year\">2003</div>\n                            <div class=\"web\">制作了一个简单的site，名为“半成年”，挂在网易的免费空间下。由于网易服务中止的缘故，只存活了短短一个月。仅余<a href=\"http://www.x-woods.com/service/book/x.aspx?id=38956\" target=\"blank\">留言簿</a></div>\n                        </div>\n                    </div>\n\n                    <div class=\"a-year\">\n                        <div class=\"left\">初中</div>\n                        <div class=\"right\">\n                            <div class=\"year\">2001</div>\n                            <div class=\"web\">那时候个人建站正是最风行的时候，网易、搜狐、新浪等门户都有专门的板块介绍建站以及提供免费的空间。其实无非是可以往一些模板里填一些字罢了，但在当时，自己排列的几个汉字以宋体呈现在浏览器上，还能以网址访问，足以让初二的小屁孩激动了。</div>\n                        </div>\n                    </div>\n\n                </div>\n                </div>\n            </section><!-- #about -->\n        </div>\n<!-- ====================================BEGIN OF FOOTERFILE==================================== -->\n<footer>\n	<div id=\"wrap\">\n		<div class=\"nav\">\n      \n			<a href=\"/photos/\" title=\"摄影\"  >Photos</a>\n			<a href=\"/blog/\" title=\"文字\"  >Blog</a>\n			<a href=\"/portfolio/\" title=\"作品集\" >Portfolio</a>\n			<a href=\"/lab/\" title=\"试验\" >Lab</a>\n			<a href=\"/about/\" title=\"关于\" class=\"ac\">About</a>\n		</div>\n		<div class=\"search\">\n  			<div class=\"input-append\">\n    			<input id=\"appendedInputButton\" type=\"text\">\n    			<button class=\"btn\" type=\"button\">Search</button>\n  			</div>\n		</div>\n		<div class=\"info\">\n  			<div class=\"copyright\">©Jingbo Xu<br/>浙 ICP 备08101950号</div>\n  			<div class=\"social\">\n    			<a href=\"http://www.linkedin.com/pub/jingbo-xu/7a/427/532\" id=\"linkedin\" target=\"blank\"></a>\n    			<a href=\"https://www.facebook.com/yecolhsu\" id=\"facebook\" target=\"blank\"></a>\n    			<a href=\"http://weibo.com/yecol\" id=\"weibo\" target=\"blank\"></a>   \n  			</div>\n		</div>\n	</div>\n</footer>\n<!--JAVASCRIPT-->\n<!--<script type=\"text/javascript\" src=\"http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js\"></script>-->\n<script type=\"text/javascript\" src=\"/assets/js/jquery-1.10.2.min.js\"></script>\n<script type=\"text/javascript\" src=\"/assets/js/tooltip.js\"></script>\n<script type=\"text/javascript\">\n$(document).ready(function(){\n    $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');\n    $('footer .nav a').not('.ac').tooltip();\n});\n$(window).resize(function(){\n    $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');\n});\n</script>\n\n<!--GOOGLE ANALYTICS-->\n<script type=\"text/javascript\">\n  var _gaq = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-9074876-1']);\n  _gaq.push(['_trackPageview']);\n\n  (function() {\n    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n  })();\n\n</script>\n	</body>\n</html>\n<!-- ====================================END OF FOOTERFILE====================================\n",
-			"file": "about/index.html",
-			"file_size": 9991,
-			"file_write_time": 130312328809302068,
-			"settings":
-			{
-				"buffer_size": 8369,
+				"buffer_size": 8782,
 				"line_ending": "Windows"
 			}
 		},
@@ -306,7 +323,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 21801,
+				"buffer_size": 21846,
 				"line_ending": "Windows"
 			}
 		},
@@ -314,7 +331,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 17357,
+				"buffer_size": 20058,
 				"line_ending": "Unix"
 			}
 		}
@@ -322,9 +339,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 173.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"show",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"shoe",
+				"SublimeLint: Show All Errors"
+			],
 			[
 				"error",
 				"SublimeLint: Show All Errors"
@@ -439,6 +464,9 @@
 	},
 	"file_history":
 	[
+		"/D/workspace_git/yecols.cn/sftp-config.json",
+		"/D/workspace_git/yecols.cn/inc/generate.py",
+		"/D/workspace_git/yecols.cn/about/index.html",
 		"/D/workspace_git/yecols.cn/about/index1.html",
 		"/C/Windows/System32/drivers/etc/hosts"
 	],
@@ -511,7 +539,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -519,15 +547,15 @@
 					"file": "inc/generate.py",
 					"settings":
 					{
-						"buffer_size": 7445,
+						"buffer_size": 8782,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								575,
-								575
+								1136,
+								1136
 							]
 						],
 						"settings":
@@ -538,38 +566,7 @@
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 198.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "about/index.html",
-					"settings":
-					{
-						"buffer_size": 8369,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								473,
-								473
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 660.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -577,23 +574,23 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 21801,
+						"buffer_size": 21846,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17287,
-								17287
+								4024,
+								4024
 							]
 						],
 						"settings":
@@ -605,25 +602,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 19353.0,
+						"translation.y": 4470.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 17357,
+						"buffer_size": 20058,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15813,
-								15813
+								0,
+								0
 							]
 						],
 						"settings":
@@ -670,7 +667,7 @@
 		"cols":
 		[
 			0.0,
-			0.970273483948,
+			0.819957912861,
 			1.0
 		],
 		"rows":
@@ -682,7 +679,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 271.0
+		"height": 328.0
 	},
 	"output.git":
 	{
@@ -690,7 +687,7 @@
 	},
 	"output.sftp":
 	{
-		"height": 152.0
+		"height": 262.0
 	},
 	"replace":
 	{
