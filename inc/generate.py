@@ -11,6 +11,7 @@ output_dir = root_dir
 filename = "index.html"
 
 curTime = time.localtime()
+threshold = 86400*30*3
 
 #common header and footer page path
 tpl_file_header="./tpl/header.html"
@@ -237,8 +238,11 @@ def processPhotoPage():
 		    <a class="origin" rel="group" href="/res/photos/origin/'+ photo_file['fn'] +'" exif="'+\
 		    # exif
 		    get_exif_data("../res/photos/origin/" + photo_file['fn']) +'">\n\
-		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/' + album_name +"/"+ photo_file['fn'] + '" class="thumb" />\n\
-		    </a>\n\
+		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/' + album_name +"/"+ photo_file['fn'] + '" class="thumb" />\n')
+			# print photo_file['dt']
+			if(photo_file['dt']<threshold):
+				output_handle.write('<img class="new" src="/assets/img/new.png" />')
+			output_handle.write('</a>\n\
 		</div>'+'\n'
             )
 
@@ -268,8 +272,10 @@ def processPhotoPage():
     	        <img src="/res/photos/cover/'+ album_item['an'] +'.jpg" class="thumb">\n\
     	        <span class="info">\n\
     	            <p class="title camera">'+album_item['arn']+'</p>\n\
-    	            <p class="date">from '+offsetTime2DateString(album_item['bt'])+' to '+offsetTime2DateString(album_item['dt'])+'</p>\n\
-    	        </span>\n\
+    	            <p class="date">from '+offsetTime2DateString(album_item['bt'])+' to '+offsetTime2DateString(album_item['dt']))
+		if(album_item['dt']<threshold):
+			output_album_handle.write('<span class="update">UPDATE</span>\n')
+		output_album_handle.write('</p></span>\n\
     	    </a>\n\
     	</div>\n\
 				')

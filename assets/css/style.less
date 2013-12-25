@@ -35,6 +35,17 @@ html {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+.clearfix{
+	&:before,
+  	&:after {
+  	  content: " ";
+  	  display: table;
+  	}
+  	&:after {
+  	  clear: both;
+  	}
+}
+
 .hidden{
 	display: none;
 }
@@ -447,6 +458,7 @@ footer{
 		opacity: 0.9;
 		margin-left: 100px;
 		margin-right: 60px;
+		z-index: 200;
 
 		.breadcrumb{
 			padding: 8px 15px;
@@ -727,9 +739,11 @@ footer{
 	margin-left: 180px;
 	margin-right: 60px;
 	display: block;
+	.clearfix;
 
 	.a-photo{
 		float: left;
+		position: relative;
 	}
 
 	&:after{
@@ -737,6 +751,13 @@ footer{
 		display: table;
 		height: 40px;
 		clear: both;
+	}
+
+	img.new{
+		z-index: 20;
+		position: absolute;
+		top: 6px;
+		left:250px;
 	}
 
 	img.thumb{
@@ -776,6 +797,7 @@ footer{
 
 	.a-album{
 		float: left;
+		min-width: 360px;
 	}
 
 	&:after{
@@ -798,7 +820,7 @@ footer{
 
 	.info{
 		display: block;
-		margin:0 @infom 0 @infom;
+		margin:0 20px 0 @infom;
 
 		p{
 			text-indent: 0;
@@ -833,6 +855,15 @@ footer{
 				color:#666;
 				padding-left: 30px;
 				font-size: 12px;
+				.update{
+					border-radius: 3px;
+					padding:0 5px 0 5px;
+					margin-left: 5px;
+					color: white;
+					font-size: 12px;
+					font-weight: normal;
+					background-color: @y-green-3;
+				}
 			}
 		}
 
@@ -1154,3 +1185,26 @@ footer{
   border-width: 0 5px 5px;
 }
 
+
+
+@media(max-width:1500px){
+	#photos-album{
+
+		@mlr:10px;
+		@mup:45px;
+		@infom:@mlr+30px;
+		@mdown:5px;
+
+		.a-album{
+			min-width: 300px;
+		}
+
+		img.thumb{
+			margin: @mup @mlr @mdown @mlr;
+			max-width: 100%;
+			width: 270px;
+			height: 180px;
+			background-size: 100%
+		}
+	}
+}

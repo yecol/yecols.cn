@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"output",
+				"output_album_handle"
+			],
+			[
+				"out",
+				"output_handle"
+			],
+			[
+				"th",
+				"threshold"
+			],
+			[
+				"photo",
+				"photo_file"
+			],
+			[
+				"c",
+				"clearfix"
+			],
+			[
+				"cl",
+				"clearfix"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"y-g",
+				"y-green-3"
+			],
+			[
 				"alb",
 				"album_list"
 			],
@@ -36,24 +76,12 @@
 				"photo_list"
 			],
 			[
-				"photo",
-				"photo"
-			],
-			[
 				"min",
 				"min-width"
 			],
 			[
 				"padding",
 				"padding-bottom"
-			],
-			[
-				"mar",
-				"margin-bottom"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"so",
@@ -70,10 +98,6 @@
 			[
 				"bo",
 				"border"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"bor",
@@ -108,14 +132,6 @@
 				"write"
 			],
 			[
-				"out",
-				"output_album_handle"
-			],
-			[
-				"th",
-				"thumbs_dir"
-			],
-			[
 				"tp",
 				"tpl_footer"
 			],
@@ -138,10 +154,6 @@
 			[
 				"get",
 				"getcwd"
-			],
-			[
-				"cl",
-				"close"
 			],
 			[
 				"time",
@@ -194,10 +206,6 @@
 			[
 				"anima",
 				"animate	animate"
-			],
-			[
-				"y-g",
-				"y-green-2"
 			],
 			[
 				"margi",
@@ -292,10 +300,6 @@
 				"max-height"
 			],
 			[
-				"c",
-				"color"
-			],
-			[
 				"bac",
 				"background-color"
 			],
@@ -315,7 +319,23 @@
 			"file": "inc/generate.py",
 			"settings":
 			{
-				"buffer_size": 8782,
+				"buffer_size": 9151,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "photos/index.html",
+			"settings":
+			{
+				"buffer_size": 8261,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "photos/iphone/index.html",
+			"settings":
+			{
+				"buffer_size": 11638,
 				"line_ending": "Windows"
 			}
 		},
@@ -323,7 +343,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 21846,
+				"buffer_size": 22585,
 				"line_ending": "Windows"
 			}
 		},
@@ -331,8 +351,16 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 20058,
+				"buffer_size": 20662,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/bootstrap.min.css",
+			"settings":
+			{
+				"buffer_size": 97339,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -464,6 +492,7 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/htdocs/baidu-charity/static/assets/css/style.less",
 		"/D/workspace_git/yecols.cn/sftp-config.json",
 		"/D/workspace_git/yecols.cn/inc/generate.py",
 		"/D/workspace_git/yecols.cn/about/index.html",
@@ -486,6 +515,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"print",
+			"a-album",
+			"a-al",
+			"media",
 			";\n",
 			"img",
 			"page",
@@ -547,15 +580,15 @@
 					"file": "inc/generate.py",
 					"settings":
 					{
-						"buffer_size": 8782,
+						"buffer_size": 9151,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1136,
-								1136
+								6531,
+								6531
 							]
 						],
 						"settings":
@@ -566,31 +599,25 @@
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 660.0,
+						"translation.y": 4875.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
-					"file": "assets/css/style.less",
+					"file": "photos/index.html",
 					"settings":
 					{
-						"buffer_size": 21846,
+						"buffer_size": 8261,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4024,
-								4024
+								471,
+								471
 							]
 						],
 						"settings":
@@ -598,21 +625,22 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4470.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "assets/css/style.css",
+					"file": "photos/iphone/index.html",
 					"settings":
 					{
-						"buffer_size": 20058,
+						"buffer_size": 11638,
 						"regions":
 						{
 						},
@@ -628,10 +656,104 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "assets/css/style.less",
+					"settings":
+					{
+						"buffer_size": 22585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9327,
+								9327
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9451.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/css/style.css",
+					"settings":
+					{
+						"buffer_size": 20662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20397,
+								20397
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1729.0,
+						"translation.y": 2653.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/css/bootstrap.min.css",
+					"settings":
+					{
+						"buffer_size": 97339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97339,
+								97339
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 970392.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -667,7 +789,7 @@
 		"cols":
 		[
 			0.0,
-			0.819957912861,
+			0.520909161375,
 			1.0
 		],
 		"rows":
@@ -679,7 +801,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 328.0
+		"height": 314.0
 	},
 	"output.git":
 	{
