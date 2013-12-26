@@ -316,26 +316,10 @@
 	"buffers":
 	[
 		{
-			"file": "inc/generate.py",
+			"file": "/D/workspace_git/dengt/index.html",
 			"settings":
 			{
-				"buffer_size": 9151,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "photos/index.html",
-			"settings":
-			{
-				"buffer_size": 8261,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "photos/iphone/index.html",
-			"settings":
-			{
-				"buffer_size": 11638,
+				"buffer_size": 11941,
 				"line_ending": "Windows"
 			}
 		},
@@ -351,7 +335,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 20662,
+				"buffer_size": 20674,
 				"line_ending": "Unix"
 			}
 		},
@@ -492,9 +476,12 @@
 	},
 	"file_history":
 	[
+		"/D/workspace_git/yecols.cn/index.html",
+		"/D/workspace_git/yecols.cn/photos/index.html",
+		"/D/workspace_git/yecols.cn/photos/iphone/index.html",
+		"/D/workspace_git/yecols.cn/inc/generate.py",
 		"/D/xampp/htdocs/baidu-charity/static/assets/css/style.less",
 		"/D/workspace_git/yecols.cn/sftp-config.json",
-		"/D/workspace_git/yecols.cn/inc/generate.py",
 		"/D/workspace_git/yecols.cn/about/index.html",
 		"/D/workspace_git/yecols.cn/about/index1.html",
 		"/C/Windows/System32/drivers/etc/hosts"
@@ -577,47 +564,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "inc/generate.py",
+					"file": "/D/workspace_git/dengt/index.html",
 					"settings":
 					{
-						"buffer_size": 9151,
+						"buffer_size": 11941,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6531,
-								6531
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4875.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "photos/index.html",
-					"settings":
-					{
-						"buffer_size": 8261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								471,
-								471
+								435,
+								435
 							]
 						],
 						"settings":
@@ -634,35 +592,6 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "photos/iphone/index.html",
-					"settings":
-					{
-						"buffer_size": 11638,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
 				}
 			]
 		},
@@ -671,7 +600,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
@@ -701,19 +630,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 20662,
+						"buffer_size": 20674,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20397,
-								20397
+								0,
+								0
 							]
 						],
 						"settings":
@@ -730,7 +659,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "assets/css/bootstrap.min.css",
 					"settings":
 					{
