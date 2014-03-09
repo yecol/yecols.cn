@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"j",
+				"jpegOptimQuality"
+			],
+			[
+				"roo",
+				"root_dir"
+			],
+			[
+				"pro",
+				"processJPEGOptim"
+			],
+			[
+				"de",
+				"deploy"
+			],
+			[
+				"com",
+				"commands"
+			],
+			[
 				"font",
 				"font-size"
 			],
@@ -134,10 +154,6 @@
 			[
 				"tp",
 				"tpl_footer"
-			],
-			[
-				"pro",
-				"processPhotoPage"
 			],
 			[
 				"ab",
@@ -316,10 +332,10 @@
 	"buffers":
 	[
 		{
-			"file": "/D/workspace_git/dengt/index.html",
+			"file": "inc/generate.py",
 			"settings":
 			{
-				"buffer_size": 11941,
+				"buffer_size": 9585,
 				"line_ending": "Windows"
 			}
 		},
@@ -351,9 +367,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"err",
+				"SublimeLint: Show All Errors"
+			],
 			[
 				"show",
 				"SublimeLint: Show All Errors"
@@ -368,10 +388,6 @@
 			],
 			[
 				"er",
-				"SublimeLint: Show All Errors"
-			],
-			[
-				"err",
 				"SublimeLint: Show All Errors"
 			],
 			[
@@ -476,6 +492,8 @@
 	},
 	"file_history":
 	[
+		"/D/workspace_git/yecols.cn/inc/page/portfolio.html",
+		"/D/workspace_git/dengt/index.html",
 		"/D/workspace_git/yecols.cn/index.html",
 		"/D/workspace_git/yecols.cn/photos/index.html",
 		"/D/workspace_git/yecols.cn/photos/iphone/index.html",
@@ -502,6 +520,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"str",
+			"get_exif_data",
 			"print",
 			"a-album",
 			"a-al",
@@ -564,18 +584,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/D/workspace_git/dengt/index.html",
+					"file": "inc/generate.py",
 					"settings":
 					{
-						"buffer_size": 11941,
+						"buffer_size": 9585,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								435,
-								435
+								820,
+								820
 							]
 						],
 						"settings":
@@ -583,12 +603,10 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 924.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -718,7 +736,7 @@
 		"cols":
 		[
 			0.0,
-			0.520909161375,
+			0.87049299015,
 			1.0
 		],
 		"rows":

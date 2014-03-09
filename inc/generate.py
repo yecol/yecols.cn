@@ -1,12 +1,17 @@
-#!/usr/bin/python
+#!/bin/env python
 # -*- coding: utf-8 -*-
-import os,time,datetime
+import os,time,datetime,commands
 import exifread
 
 #config
 ISOTIMEFORMAT="%Y-%m-%d %X"
 pwd = os.getcwd();
-root_dir = "../"
+if os.name == "posix":
+	#deploy-env
+	root_dir = "/var/www/html/"
+else:
+	#dev-env
+	root_dir = "../"
 output_dir = root_dir
 filename = "index.html"
 
@@ -14,12 +19,12 @@ curTime = time.localtime()
 threshold = 86400*30*3
 
 #common header and footer page path
-tpl_file_header="./tpl/header.html"
-tpl_file_footer="./tpl/footer.html"
-tpl_file_js="./tpl/js.html"
+tpl_file_header = root_dir + "inc/tpl/header.html"
+tpl_file_footer = root_dir + "inc/tpl/footer.html"
+tpl_file_js = root_dir + "inc/tpl/js.html"
 
 #pages
-page_dir = "./page/"
+page_dir = root_dir + "inc/page/"
 page = {	'about'   	: 'about.html',
             'photos'    : 'photos.html',
             'portfolio' : 'portfolio.html',
@@ -214,14 +219,14 @@ def processPhotoPage():
   	<section id="photos">\n')
 
 		#content_per_photo
-		thumbs_dir = "../res/photos/album/"+album_name
+		thumbs_dir = root_dir + "res/photos/album/"+album_name
 		photo_files = os.listdir(thumbs_dir)
 		count = 0
 		photo_list = []
 
 		for photo_file in photo_files:
 			# get shot time
-			photo_list.append({"fn":str(photo_file),"dt":get_shot_date("../res/photos/origin/" + str(photo_file))})
+			photo_list.append({"fn":str(photo_file),"dt":get_shot_date(root_dir + "res/photos/origin/" + str(photo_file))})
 
 		# sort photos with shot time
 		photo_list = sorted(photo_list,key=dt)
@@ -237,7 +242,7 @@ def processPhotoPage():
 		<div class="a-photo">\n\
 		    <a class="origin" rel="group" href="/res/photos/origin/'+ photo_file['fn'] +'" exif="'+\
 		    # exif
-		    get_exif_data("../res/photos/origin/" + photo_file['fn']) +'">\n\
+		    get_exif_data(root_dir+"res/photos/origin/" + photo_file['fn']) +'">\n\
 		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/' + album_name +"/"+ photo_file['fn'] + '" class="thumb" />\n')
 			# print photo_file['dt']
 			if(photo_file['dt']<threshold):
@@ -286,6 +291,13 @@ def processPhotoPage():
 	output_album_handle.write(add_footer("photos"))
 	output_album_handle.close()
 
+def processJPEGOptim():
+
+	#content_per_photo
+	for root, dirs, files in os.walk(root_dir+"res/"):
+		for name in files:
+			(status, output) = commands.getstatusoutput('/usr/local/bin/jpegoptim ' + root + "/" + name);
+			print status, output;
 
 
 def generateFiles():
@@ -307,9 +319,12 @@ def generateFiles():
 	tpl_footer_handle.close()
 	tpl_js_handle.close()
 
+
+
 	#generate files
 	processSinglePage("about");
 	processSinglePage("portfolio");
+	processJPEGOptim();
 	processPhotoPage();
 
 
