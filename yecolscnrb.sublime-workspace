@@ -492,6 +492,7 @@
 	},
 	"file_history":
 	[
+		"/D/workspace_git/yecols.cn/sites/pr_vs/result.html",
 		"/D/workspace_git/yecols.cn/inc/page/portfolio.html",
 		"/D/workspace_git/dengt/index.html",
 		"/D/workspace_git/yecols.cn/index.html",
@@ -594,8 +595,8 @@
 						"selection":
 						[
 							[
-								820,
-								820
+								343,
+								343
 							]
 						],
 						"settings":
@@ -606,7 +607,7 @@
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 924.0,
+						"translation.y": 726.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
