@@ -1,4 +1,4 @@
-<!--This page is cached on 2014-03-09 18:54:48-->
+<!--This page is cached on 2014-05-17 22:14:43-->
 <!-- ====================================BEGIN OF HEADERFILE==================================== -->
 <!DOCTYPE html>
 <html lang="zh-cn">
@@ -39,7 +39,7 @@
 		</nav>
 <!-- ====================================END OF HEADERFILE==================================== -->
 <div id="main" role="main" class="container">
- 	<div class="container-head">
+ 	<div class="container-head photos-head">
     	<ol class="breadcrumb">
       		<li><a href="/photos/">Photos 相册</a></li>
       		<li>Travel Log. 毕业旅行，云南。</li>
@@ -431,7 +431,6 @@ $(document).ready(function(){
     $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
     $('footer .nav a').not('.ac').tooltip();
     
-    $(".container-head").width($("#photos").width()+80);
     $(".origin").fancybox({
       beforeLoad: function() {
         this.title = $(this.element).attr('exif');
@@ -450,7 +449,6 @@ $(document).ready(function(){
     });
 });
 $(window).resize(function(){
-    $(".container-head").width($("#photos").width()+80);
     $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
 });
 </script>

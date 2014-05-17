@@ -1,4 +1,4 @@
-<!--This page is cached on 2014-03-09 18:54:48-->
+<!--This page is cached on 2014-05-17 22:14:44-->
 <!-- ====================================BEGIN OF HEADERFILE==================================== -->
 <!DOCTYPE html>
 <html lang="zh-cn">
@@ -39,13 +39,48 @@
 		</nav>
 <!-- ====================================END OF HEADERFILE==================================== -->
 <div id="main" role="main" class="container">
- 	<div class="container-head">
+ 	<div class="container-head photos-head">
     	<ol class="breadcrumb">
       		<li><a href="/photos/">Photos 相册</a></li>
       		<li>By iPhone. 手机随手拍</li>
     	</ol>
   	</div>
   	<section id="photos">
+		<div class="a-photo">
+		    <a class="origin" rel="group" href="/res/photos/origin/IMG_1528.JPG" exif="iPhone 5s 1/2160 f/2.2 ISO32 2014-03-01 15:42:57">
+		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/iphone/IMG_1528.JPG" class="thumb" />
+<img class="new" src="/assets/img/new.png" /></a>
+		</div>
+		<div class="a-photo">
+		    <a class="origin" rel="group" href="/res/photos/origin/IMG_1461.JPG" exif="iPhone 5s 1/30 f/2.2 ISO125 2014-02-11 13:29:02">
+		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/iphone/IMG_1461.JPG" class="thumb" />
+</a>
+		</div>
+		<div class="a-photo">
+		    <a class="origin" rel="group" href="/res/photos/origin/IMG_1446.JPG" exif="iPhone 5s 1/30 f/2.2 ISO40 2014-02-11 11:44:58">
+		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/iphone/IMG_1446.JPG" class="thumb" />
+</a>
+		</div>
+		<div class="a-photo">
+		    <a class="origin" rel="group" href="/res/photos/origin/IMG_0801.JPG" exif="iPhone 5s 1/15 f/2.2 ISO320 2014-01-01 09:36:13">
+		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/iphone/IMG_0801.JPG" class="thumb" />
+</a>
+		</div>
+		<div class="a-photo">
+		    <a class="origin" rel="group" href="/res/photos/origin/IMG_0797.JPG" exif="iPhone 5s 1/236 f/2.2 ISO32 2014-01-01 08:26:11">
+		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/iphone/IMG_0797.JPG" class="thumb" />
+</a>
+		</div>
+		<div class="a-photo">
+		    <a class="origin" rel="group" href="/res/photos/origin/IMG_0655.JPG" exif="iPhone 5s 1/40 f/2.2 ISO40 2013-12-31 08:29:12">
+		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/iphone/IMG_0655.JPG" class="thumb" />
+</a>
+		</div>
+		<div class="a-photo">
+		    <a class="origin" rel="group" href="/res/photos/origin/IMG_0551.JPG" exif="iPhone 5s 1/820 f/2.2 ISO32 2013-12-28 13:27:11">
+		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/iphone/IMG_0551.JPG" class="thumb" />
+</a>
+		</div>
 		<div class="a-photo">
 		    <a class="origin" rel="group" href="/res/photos/origin/IMG_2725.JPG" exif="iPhone 4S 1/3460 f/2.4 ISO50 2013-10-16 14:33:00">
 		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/iphone/IMG_2725.JPG" class="thumb" />
@@ -196,7 +231,6 @@ $(document).ready(function(){
     $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
     $('footer .nav a').not('.ac').tooltip();
     
-    $(".container-head").width($("#photos").width()+80);
     $(".origin").fancybox({
       beforeLoad: function() {
         this.title = $(this.element).attr('exif');
@@ -215,7 +249,6 @@ $(document).ready(function(){
     });
 });
 $(window).resize(function(){
-    $(".container-head").width($("#photos").width()+80);
     $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
 });
 </script>

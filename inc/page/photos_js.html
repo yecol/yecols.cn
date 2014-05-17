@@ -5,7 +5,6 @@ $(document).ready(function(){
     $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
     $('footer .nav a').not('.ac').tooltip();
     
-    $(".container-head").width($("#photos").width()+80);
     $(".origin").fancybox({
       beforeLoad: function() {
         this.title = $(this.element).attr('exif');
@@ -24,7 +23,6 @@ $(document).ready(function(){
     });
 });
 $(window).resize(function(){
-    $(".container-head").width($("#photos").width()+80);
     $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
 });
 </script>
