@@ -179,7 +179,8 @@ def processPhotoPage():
 	if not os.path.exists(album_path):
 		os.makedirs(album_path)
 
-	albums = {	"travel-nanjing" 	:	 "Travel Log. 南京",
+	albums = {	"travel-pingyao" 	:	 "Travel Log. 平遥",
+				"travel-nanjing" 	:	 "Travel Log. 南京",
 				"travel-bali" 		:	 "Travel Log. 巴厘岛",
 				"travel-taiwan" 	:	 "Travel Log. 台湾",
 				"travel-japan" 		:	 "Travel Log. 日本",
