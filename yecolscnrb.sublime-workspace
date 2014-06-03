@@ -335,7 +335,7 @@
 			"file": "inc/generate.py",
 			"settings":
 			{
-				"buffer_size": 9585,
+				"buffer_size": 9668,
 				"line_ending": "Windows"
 			}
 		},
@@ -343,23 +343,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 22585,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/css/style.css",
-			"settings":
-			{
-				"buffer_size": 20674,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/bootstrap.min.css",
-			"settings":
-			{
-				"buffer_size": 97339,
+				"buffer_size": 24614,
 				"line_ending": "Windows"
 			}
 		}
@@ -492,6 +476,14 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/htdocs/yecols.cn/inc/page/portfolio.html",
+		"/D/xampp/htdocs/yecols.cn/sites/pr_demos/index.html",
+		"/D/xampp/htdocs/yecols.cn/assets/css/style.css",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/D/xampp/htdocs/yecols.cn/assets/css/bootstrap.min.css",
+		"/D/xampp/htdocs/yecols.cn/sites/pr_face/index.html",
+		"/D/xampp/htdocs/yecols.cn/sites/pr_face/css/style.css",
+		"/D/xampp/htdocs/yecols.cn/inc/generate.py",
 		"/D/workspace_git/yecols.cn/sites/pr_vs/result.html",
 		"/D/workspace_git/yecols.cn/inc/page/portfolio.html",
 		"/D/workspace_git/dengt/index.html",
@@ -588,15 +580,15 @@
 					"file": "inc/generate.py",
 					"settings":
 					{
-						"buffer_size": 9585,
+						"buffer_size": 9668,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								343,
-								343
+								292,
+								292
 							]
 						],
 						"settings":
@@ -607,7 +599,7 @@
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 726.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -623,15 +615,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 22585,
+						"buffer_size": 24614,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9327,
-								9327
+								9366,
+								9366
 							]
 						],
 						"settings":
@@ -644,64 +636,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 9451.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "assets/css/style.css",
-					"settings":
-					{
-						"buffer_size": 20674,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2653.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "assets/css/bootstrap.min.css",
-					"settings":
-					{
-						"buffer_size": 97339,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								97339,
-								97339
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 970392.0,
-						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -737,7 +671,7 @@
 		"cols":
 		[
 			0.0,
-			0.87049299015,
+			0.736723667914,
 			1.0
 		],
 		"rows":
@@ -749,7 +683,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 314.0
+		"height": 110.0
 	},
 	"output.git":
 	{
