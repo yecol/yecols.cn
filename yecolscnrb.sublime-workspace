@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"if",
+				"if	If Condition"
+			],
+			[
+				"y-g",
+				"y-green-1"
+			],
+			[
+				"y-gr",
+				"y-gray"
+			],
+			[
 				"j",
 				"jpegOptimQuality"
 			],
@@ -58,10 +70,6 @@
 			[
 				"mar",
 				"margin-right"
-			],
-			[
-				"y-g",
-				"y-green-3"
 			],
 			[
 				"alb",
@@ -178,10 +186,6 @@
 			[
 				"ge",
 				"generateFiles"
-			],
-			[
-				"if",
-				"ifmain	if __name__ == '__main__'"
 			],
 			[
 				"pra",
@@ -332,27 +336,35 @@
 	"buffers":
 	[
 		{
-			"file": "inc/generate.py",
+			"file": "inc/page/about.html",
 			"settings":
 			{
-				"buffer_size": 9668,
-				"line_ending": "Windows"
+				"buffer_size": 5273,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "inc/page/portfolio.html",
+			"file": "inc/page/album.html",
 			"settings":
 			{
-				"buffer_size": 17542,
-				"line_ending": "Windows"
+				"buffer_size": 3629,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 24614,
-				"line_ending": "Windows"
+				"buffer_size": 22539,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 19422,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -484,6 +496,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/style.less",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/portfolio.html",
 		"/D/xampp/htdocs/yecols.cn/inc/page/portfolio.html",
 		"/D/xampp/htdocs/yecols.cn/sites/pr_demos/index.html",
 		"/D/xampp/htdocs/yecols.cn/assets/css/style.css",
@@ -521,6 +538,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"album",
+			"social",
+			"weibo",
+			"social",
 			"str",
 			"get_exif_data",
 			"print",
@@ -585,47 +606,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "inc/generate.py",
+					"file": "inc/page/about.html",
 					"settings":
 					{
-						"buffer_size": 9668,
+						"buffer_size": 5273,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								211,
-								211
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 264.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "inc/page/portfolio.html",
-					"settings":
-					{
-						"buffer_size": 17542,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1464,
-								1464
+								1776,
+								1776
 							]
 						],
 						"settings":
@@ -634,11 +626,42 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 462.0,
+						"translation.y": 164.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inc/page/album.html",
+					"settings":
+					{
+						"buffer_size": 3629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -646,7 +669,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -654,15 +677,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 24614,
+						"buffer_size": 22539,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9366,
-								9366
+								17233,
+								17233
 							]
 						],
 						"settings":
@@ -674,7 +697,36 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9451.0,
+						"translation.y": 14567.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/css/style.css",
+					"settings":
+					{
+						"buffer_size": 19422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19302,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -710,7 +762,7 @@
 		"cols":
 		[
 			0.0,
-			0.736723667914,
+			0.65064700179,
 			1.0
 		],
 		"rows":
@@ -730,7 +782,7 @@
 	},
 	"output.sftp":
 	{
-		"height": 262.0
+		"height": 135.0
 	},
 	"replace":
 	{
@@ -757,6 +809,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 238.0,
+	"side_bar_width": 345.0,
 	"status_bar_visible": true
 }

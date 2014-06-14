@@ -404,33 +404,13 @@ footer{
 				margin-top: 15px;
 				width: 380px;
 				float: left;
+				font-size: 30px;
+				text-align: right;
 				a{
-					float: right;
-					display: inline-block;
-					height: 32px;
-					background: url("/assets/img/social.png") 0 0 no-repeat;
-					width: 105px;
-					margin: 0 15px;
+					color: #666;
 				}
-				#weibo{
-					width: 100px;
-					margin-left: 20px;
-					&:hover{
-						background-position: -105px 0;
-					}
-				}
-				#facebook{
-					background-position: 0 -32px;
-					&:hover{
-						background-position: -105px -32px;
-					}
-				}
-				#linkedin{
-					margin:0;
-					background-position: 0 -64px;
-					&:hover{
-						background-position: -105px -64px;
-					}
+				a:hover,a:active{
+					color: @y-gray;
 				}
 			}
 
@@ -893,8 +873,9 @@ footer{
 		p{
 			text-indent: 0;
 			&.title{
-				background: url("../img/icon.png") 0 -20px no-repeat;
-				padding-left: 30px;
+				i{
+					margin-right: 10px;
+				}
 				line-height: 20px;
 				color:@y-green-1;
 				font-weight: bold;
@@ -987,19 +968,14 @@ footer{
 				display: list-item;
 				height: 30px;
 				span{
+					padding-left: 10px;
 					height: 30px;
 					font-size: 16px;
 					line-height: 30px;
-					padding-left: 30px;
-					&.location{
-						background: url("../img/icon.png") 0 -140px no-repeat;
-					}
-					&.email{
-						background: url("../img/icon.png") 0 -120px no-repeat;
-					}
-					&.qq{
-						background: url("../img/icon.png") 0 -160px no-repeat;
-					}
+				}
+				i{
+					color: @y-green-1;
+					font-size: 16px;
 				}
 			}
 			.wx{
@@ -1013,60 +989,16 @@ footer{
 				width: 400px;
 				height: 60px;
 				float: right;
+				font-size: 40px;
 				a{
+					color: #666;
 					float: right;
-					background-color: red;
 					width: 40px;
 					height: 40px;
 					margin: 5px;
 					display: block;
-					&.facebook{
-						background: url("../img/socialicons.png") 0 -40px no-repeat;
-						&:hover{
-							background: url("../img/socialicons.png") 0 0 no-repeat;
-						}
-					}
-					&.linkedin{
-						background: url("../img/socialicons.png") -40px -40px no-repeat;
-						&:hover{
-							background: url("../img/socialicons.png") -40px 0 no-repeat;
-						}
-					}
-					&.instagram{
-						background: url("../img/socialicons.png") -80px -40px no-repeat;
-						&:hover{
-							background: url("../img/socialicons.png") -80px 0 no-repeat;
-						}
-					}
-					&.flickr{
-						background: url("../img/socialicons.png") -120px -40px no-repeat;
-						&:hover{
-							background: url("../img/socialicons.png") -120px 0 no-repeat;
-						}
-					}
-					&.google{
-						background: url("../img/socialicons.png") -160px -40px no-repeat;
-						&:hover{
-							background: url("../img/socialicons.png") -160px 0 no-repeat;
-						}
-					}
-					&.github{
-						background: url("../img/socialicons.png") -200px -40px no-repeat;
-						&:hover{
-							background: url("../img/socialicons.png") -200px 0 no-repeat;
-						}
-					}
-					&.renren{
-						background: url("../img/socialicons.png") -240px -40px no-repeat;
-						&:hover{
-							background: url("../img/socialicons.png") -240px 0 no-repeat;
-						}
-					}
-					&.weibo{
-						background: url("../img/socialicons.png") -280px -40px no-repeat;
-						&:hover{
-							background: url("../img/socialicons.png") -280px 0 no-repeat;
-						}
+					&:hover,&:active{
+						color: @y-gray;
 					}
 				}
 

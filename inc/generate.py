@@ -277,7 +277,7 @@ def processPhotoPage():
     	    <a class="origin" href="./'+album_item['an']+'/">\n\
     	        <img src="/res/photos/cover/'+ album_item['an'] +'.jpg" class="thumb">\n\
     	        <span class="info">\n\
-    	            <p class="title '+album_item['an'].split('-')[0]+'">'+album_item['arn']+'</p>\n\
+    	            <p class="title">'+generateAlbumTypeIcon(album_item['an'].split('-')[0])+album_item['arn']+'</p>\n\
     	            <p class="date">from '+offsetTime2DateString(album_item['bt'])+' to '+offsetTime2DateString(album_item['dt']))
 		if(album_item['dt']<threshold):
 			output_album_handle.write('<span class="update">UPDATE</span>\n')
@@ -327,6 +327,16 @@ def generateFiles():
 	processSinglePage("portfolio");
 	processJPEGOptim();
 	processPhotoPage();
+
+def generateAlbumTypeIcon(key):
+	if key=="travel":
+		return '<i class="fa fa-paper-plane"></i>';
+	elif key=="life":
+		return '<i class="fa fa-coffee"></i>';
+	elif key=="faces":
+		return '<i class="fa fa-users"></i>';
+	else: 
+		return '<i class="fa fa-camera"></i>';
 
 
 if __name__ == '__main__':
