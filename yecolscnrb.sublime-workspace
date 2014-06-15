@@ -336,18 +336,10 @@
 	"buffers":
 	[
 		{
-			"file": "inc/page/about.html",
+			"file": "portfolio/index.html",
 			"settings":
 			{
-				"buffer_size": 5273,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/page/album.html",
-			"settings":
-			{
-				"buffer_size": 3629,
+				"buffer_size": 22156,
 				"line_ending": "Unix"
 			}
 		},
@@ -496,11 +488,14 @@
 	},
 	"file_history":
 	[
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/portfolio/index.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/album.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/about.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/portfolio.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/style.less",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/portfolio.html",
 		"/D/xampp/htdocs/yecols.cn/inc/page/portfolio.html",
 		"/D/xampp/htdocs/yecols.cn/sites/pr_demos/index.html",
 		"/D/xampp/htdocs/yecols.cn/assets/css/style.css",
@@ -601,23 +596,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "inc/page/about.html",
+					"file": "portfolio/index.html",
 					"settings":
 					{
-						"buffer_size": 5273,
+						"buffer_size": 22156,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1776,
-								1776
+								5186,
+								5186
 							]
 						],
 						"settings":
@@ -626,42 +621,11 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 164.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "inc/page/album.html",
-					"settings":
-					{
-						"buffer_size": 3629,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 529.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -673,7 +637,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
@@ -703,7 +667,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "assets/css/style.css",
 					"settings":
 					{
@@ -762,7 +726,7 @@
 		"cols":
 		[
 			0.0,
-			0.65064700179,
+			0.895838211836,
 			1.0
 		],
 		"rows":
@@ -809,6 +773,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 345.0,
+	"side_bar_width": 235.0,
 	"status_bar_visible": true
 }
