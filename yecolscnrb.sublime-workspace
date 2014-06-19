@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"palias"
+			],
+			[
+				"arti",
+				"article"
+			],
+			[
+				"blog",
+				"blog-index"
+			],
+			[
+				"inde",
+				"index_content"
+			],
+			[
+				"gen",
+				"generate"
+			],
+			[
+				"li",
+				"line"
+			],
+			[
+				"str",
+				"strip"
+			],
+			[
+				"pro",
+				"processBlog"
+			],
+			[
+				"pti",
+				"ptime"
+			],
+			[
+				"html",
+				"html_content"
+			],
+			[
+				"get",
+				"get"
+			],
+			[
+				"ar",
+				"article"
+			],
+			[
 				"if",
 				"if	If Condition"
 			],
@@ -22,10 +70,6 @@
 			[
 				"roo",
 				"root_dir"
-			],
-			[
-				"pro",
-				"processJPEGOptim"
 			],
 			[
 				"de",
@@ -94,10 +138,6 @@
 			[
 				"cur",
 				"curTime"
-			],
-			[
-				"str",
-				"string2Time"
 			],
 			[
 				"pho",
@@ -176,10 +216,6 @@
 				"filename"
 			],
 			[
-				"get",
-				"getcwd"
-			],
-			[
 				"time",
 				"time2String"
 			],
@@ -202,10 +238,6 @@
 			[
 				"padd",
 				"padding-left"
-			],
-			[
-				"li",
-				"list-style"
 			],
 			[
 				"f",
@@ -312,10 +344,6 @@
 				"smarty"
 			],
 			[
-				"html",
-				"html	html"
-			],
-			[
 				"mx",
 				"max-height"
 			],
@@ -336,36 +364,56 @@
 	"buffers":
 	[
 		{
-			"file": "portfolio/index.html",
+			"file": "inc/tpl/header.html",
 			"settings":
 			{
-				"buffer_size": 22156,
-				"line_ending": "Unix"
+				"buffer_size": 1678,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/blog/2013-001.log",
+			"settings":
+			{
+				"buffer_size": 3095,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/generate.py",
+			"settings":
+			{
+				"buffer_size": 12838,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 22539,
-				"line_ending": "Unix"
+				"buffer_size": 23688,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 19422,
-				"line_ending": "Unix"
+				"buffer_size": 20863,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 173.0,
 		"selected_items":
 		[
+			[
+				"error",
+				"SublimeLint: Show All Errors"
+			],
 			[
 				"err",
 				"SublimeLint: Show All Errors"
@@ -376,10 +424,6 @@
 			],
 			[
 				"shoe",
-				"SublimeLint: Show All Errors"
-			],
-			[
-				"error",
 				"SublimeLint: Show All Errors"
 			],
 			[
@@ -488,6 +532,14 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/htdocs/yecols.cn/inc/page/blog-index.html",
+		"/D/xampp/htdocs/yecols.cn/inc/tpl/header.html",
+		"/D/xampp/htdocs/yecols.cn/inc/page/blog-post.html",
+		"/D/xampp/htdocs/yecols.cn/inc/generate.py",
+		"/D/xampp/htdocs/yecols.cn/inc/blog/2013-001.log",
+		"/D/xampp/htdocs/yecols.cn/inc/page/about.html",
+		"/D/xampp/htdocs/yecols.cn/inc/blog/2013-10-09.log",
+		"/D/xampp/htdocs/yecols.cn/portfolio/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/portfolio/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/album.html",
@@ -503,7 +555,6 @@
 		"/D/xampp/htdocs/yecols.cn/assets/css/bootstrap.min.css",
 		"/D/xampp/htdocs/yecols.cn/sites/pr_face/index.html",
 		"/D/xampp/htdocs/yecols.cn/sites/pr_face/css/style.css",
-		"/D/xampp/htdocs/yecols.cn/inc/generate.py",
 		"/D/workspace_git/yecols.cn/sites/pr_vs/result.html",
 		"/D/workspace_git/yecols.cn/inc/page/portfolio.html",
 		"/D/workspace_git/dengt/index.html",
@@ -533,6 +584,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"os.path.exists(path)",
+			"and",
+			"\")\n",
+			"page_dir",
+			"processSin",
+			"output_handle",
+			"add_header",
+			"output_handle",
+			"filename",
+			"inc",
+			"blog",
 			"album",
 			"social",
 			"weibo",
@@ -596,23 +658,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "portfolio/index.html",
+					"file": "inc/tpl/header.html",
 					"settings":
 					{
-						"buffer_size": 22156,
+						"buffer_size": 1678,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5186,
-								5186
+								763,
+								763
 							]
 						],
 						"settings":
@@ -621,11 +683,69 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 529.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inc/blog/2013-001.log",
+					"settings":
+					{
+						"buffer_size": 3095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								25
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "inc/generate.py",
+					"settings":
+					{
+						"buffer_size": 12838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10370,
+								10370
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7163.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -633,23 +753,23 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 22539,
+						"buffer_size": 23688,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17233,
-								17233
+								20498,
+								20498
 							]
 						],
 						"settings":
@@ -661,24 +781,24 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 14567.0,
+						"translation.y": 23311.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 19422,
+						"buffer_size": 20863,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19302,
+								0,
 								0
 							]
 						],
@@ -726,7 +846,7 @@
 		"cols":
 		[
 			0.0,
-			0.895838211836,
+			0.663197262281,
 			1.0
 		],
 		"rows":
@@ -738,7 +858,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 110.0
+		"height": 213.0
 	},
 	"output.git":
 	{

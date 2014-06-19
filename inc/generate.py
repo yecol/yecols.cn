@@ -335,13 +335,16 @@ def processBlog():
 					palias = line[6:].strip('\n')
 				elif line.startswith("date:"):
 					ptime = line[5:].strip('\n')
-				elif len(line.strip('\n'))>0 and not line.startswith("#####"):
+				elif len(line.strip('\n'))>1 and not line.startswith("#####"):
+					# print "len="+str(len(line.strip('\n')))
 					if(len(pabstract)==0):
 						pabstract = "<p>"+line+"</p>\n";
 					pcontent += "<p>"+line+"</p>\n";
 
 		# generate post page
-		path = output_dir +"blog/" + palias +"/"
+
+		print "alias = " + palias;
+		path = output_dir +"blog/it-is-hard-to-be-phd/"
 		if not os.path.exists(path):
 			os.makedirs(path)
 		output_handle = open(path+ filename,'w')
@@ -363,7 +366,7 @@ def processBlog():
 		'\t<time class="entry-date" datetime="'+ptime+'">'+ptime+'</time>\n'\
 		'\t<header class="entry-summary-header">\n'\
 			'\t\t<h1 class="entry-title">\n'\
-				'\t\t\t<a href=/blog/"'+palias+'" rel="bookmark">'+ptitle+'</a>\n'\
+				'\t\t\t<a href="/blog/'+palias+'" rel="bookmark">'+ptitle+'</a>\n'\
 			'\t\t</h1>\n'\
 		'\t</header><!-- .entry-header -->\n'\
 		'\t<div class="entry-summary">\n'\
