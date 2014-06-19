@@ -5,6 +5,7 @@ import exifread
 
 #config
 ISOTIMEFORMAT="%Y-%m-%d %X"
+LOCALTIMEFORMAT="%Y年%m月%d日"
 pwd = os.getcwd();
 if os.name == "posix":
 	#deploy-env
@@ -41,6 +42,11 @@ def time2String( s ):
 
 	#time format to string
     return time.strftime( ISOTIMEFORMAT, time.localtime( float(s)) )
+
+def time2LocalString( s ):
+
+	#time format to string
+    return time.strftime( LOCALTIMEFORMAT, time.localtime( float(s)) )
 
 def offsetTime( s ):
 	#string time format to float
@@ -298,7 +304,91 @@ def processJPEGOptim():
 	for root, dirs, files in os.walk(root_dir+"res/"):
 		for name in files:
 			(status, output) = commands.getstatusoutput('/usr/local/bin/jpegoptim ' + root + "/" + name);
-			print status, output;
+			# print status, output;
+
+def generateAlbumTypeIcon(key):
+	if key=="travel":
+		return '<i class="fa fa-paper-plane"></i>';
+	elif key=="life":
+		return '<i class="fa fa-coffee"></i>';
+	elif key=="faces":
+		return '<i class="fa fa-users"></i>';
+	else: 
+		return '<i class="fa fa-camera"></i>';
+
+def processBlog():
+	articles_dir = root_dir + "inc/blog/"
+	articles = os.listdir(articles_dir);
+	index_content = ""
+	for article in articles:
+		print time2String(time.time())+"\tINFO\t"+"Processing article ["+article+"]"
+		ptitle = ""
+		palias = ""
+		ptime = ""
+		pcontent = ""
+		pabstract = ""
+		with open(articles_dir+article) as post:
+			for line in post:
+				if line.startswith("title:"):
+					ptitle = line[6:].strip('\n')
+				elif line.startswith("alias:"):
+					palias = line[6:].strip('\n')
+				elif line.startswith("date:"):
+					ptime = line[5:].strip('\n')
+				elif len(line.strip('\n'))>0 and not line.startswith("#####"):
+					if(len(pabstract)==0):
+						pabstract = "<p>"+line+"</p>\n";
+					pcontent += "<p>"+line+"</p>\n";
+
+		# generate post page
+		path = output_dir +"blog/" + palias +"/"
+		if not os.path.exists(path):
+			os.makedirs(path)
+		output_handle = open(path+ filename,'w')
+		output_handle.write(add_header("blog")+"\n")
+		page_file_handle = open(page_dir+"blog-post.html")
+		html_content = page_file_handle.read();
+		html_content = html_content.replace("$BLOG-TITLE$",ptitle);
+		html_content = html_content.replace("$BLOG-TIME$",ptime);
+		html_content = html_content.replace("$BLOG-CONTENT$",pcontent);
+		output_handle.write(html_content+"\n")
+		output_handle.write(add_footer("blog")+"\n")
+
+		page_file_handle.close()
+		output_handle.close()
+
+		#gather to the index-page
+
+		index_content +='<article id="'+str(article)[:8]+'" class="abstract">\n'\
+		'\t<time class="entry-date" datetime="'+ptime+'">'+ptime+'</time>\n'\
+		'\t<header class="entry-summary-header">\n'\
+			'\t\t<h1 class="entry-title">\n'\
+				'\t\t\t<a href=/blog/"'+palias+'" rel="bookmark">'+ptitle+'</a>\n'\
+			'\t\t</h1>\n'\
+		'\t</header><!-- .entry-header -->\n'\
+		'\t<div class="entry-summary">\n'\
+			+pabstract+"\n"\
+		'\t</div><!-- .entry-summary -->\n'\
+		'\t<hr>\n'\
+		'</article><!-- #post -->\n'
+
+		print time2String(time.time())+"\tINFO\t"+"Generated index.html file on "+ path
+
+	# generate blog index-page
+	print time2String(time.time())+"\tINFO\t"+"Processing blog-index"
+	path = output_dir +"blog/"
+	if not os.path.exists(path):
+		os.makedirs(path)
+	output_handle = open(path+ filename,'w')
+	output_handle.write(add_header("blog")+"\n")
+	page_file_handle = open(page_dir+"blog-index.html")
+	html_content = page_file_handle.read();
+	html_content = html_content.replace("$BLOG-INDEX$",index_content);
+	output_handle.write(html_content+"\n")
+	output_handle.write(add_footer("blog")+"\n")
+	page_file_handle.close()
+	output_handle.close()
+	print time2String(time.time())+"\tINFO\t"+"Generated index.html file on "+ path
 
 
 def generateFiles():
@@ -325,18 +415,9 @@ def generateFiles():
 	#generate files
 	processSinglePage("about");
 	processSinglePage("portfolio");
+	processBlog();
 	processJPEGOptim();
 	processPhotoPage();
-
-def generateAlbumTypeIcon(key):
-	if key=="travel":
-		return '<i class="fa fa-paper-plane"></i>';
-	elif key=="life":
-		return '<i class="fa fa-coffee"></i>';
-	elif key=="faces":
-		return '<i class="fa fa-users"></i>';
-	else: 
-		return '<i class="fa fa-camera"></i>';
 
 
 if __name__ == '__main__':
