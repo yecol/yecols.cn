@@ -372,6 +372,14 @@
 			}
 		},
 		{
+			"file": "/D/skydrive/GoodReader/spank/lust/新兵航海日记.txt",
+			"settings":
+			{
+				"buffer_size": 19831,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "inc/blog/2013-001.log",
 			"settings":
 			{
@@ -399,8 +407,8 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 20863,
-				"line_ending": "Windows"
+				"buffer_size": 21092,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -658,7 +666,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -693,6 +701,35 @@
 				},
 				{
 					"buffer": 1,
+					"file": "/D/skydrive/GoodReader/spank/lust/新兵航海日记.txt",
+					"settings":
+					{
+						"buffer_size": 19831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "inc/blog/2013-001.log",
 					"settings":
 					{
@@ -721,7 +758,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "inc/generate.py",
 					"settings":
 					{
@@ -732,8 +769,8 @@
 						"selection":
 						[
 							[
-								10370,
-								10370
+								9995,
+								9995
 							]
 						],
 						"settings":
@@ -745,7 +782,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7163.0,
+						"translation.y": 6371.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -757,7 +794,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "assets/css/style.less",
 					"settings":
 					{
@@ -787,11 +824,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 20863,
+						"buffer_size": 21092,
 						"regions":
 						{
 						},
