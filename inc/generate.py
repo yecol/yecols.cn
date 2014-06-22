@@ -5,7 +5,6 @@ import exifread
 
 #config
 ISOTIMEFORMAT="%Y-%m-%d %X"
-LOCALTIMEFORMAT="%Y年%m月%d日"
 pwd = os.getcwd();
 if os.name == "posix":
 	#deploy-env
@@ -42,11 +41,6 @@ def time2String( s ):
 
 	#time format to string
     return time.strftime( ISOTIMEFORMAT, time.localtime( float(s)) )
-
-def time2LocalString( s ):
-
-	#time format to string
-    return time.strftime( LOCALTIMEFORMAT, time.localtime( float(s)) )
 
 def offsetTime( s ):
 	#string time format to float
@@ -344,7 +338,7 @@ def processBlog():
 		# generate post page
 
 		print "alias = " + palias;
-		path = output_dir +"blog/it-is-hard-to-be-phd/"
+		path = output_dir +"blog/"+ palias +"/"
 		if not os.path.exists(path):
 			os.makedirs(path)
 		output_handle = open(path+ filename,'w')
