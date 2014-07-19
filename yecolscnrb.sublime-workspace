@@ -372,14 +372,6 @@
 			}
 		},
 		{
-			"file": "/D/skydrive/GoodReader/spank/lust/新兵航海日记.txt",
-			"settings":
-			{
-				"buffer_size": 19831,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "inc/blog/2013-001.log",
 			"settings":
 			{
@@ -391,7 +383,7 @@
 			"file": "inc/generate.py",
 			"settings":
 			{
-				"buffer_size": 12838,
+				"buffer_size": 12678,
 				"line_ending": "Windows"
 			}
 		},
@@ -540,6 +532,7 @@
 	},
 	"file_history":
 	[
+		"/D/skydrive/GoodReader/spank/lust/新兵航海日记.txt",
 		"/D/xampp/htdocs/yecols.cn/inc/page/blog-index.html",
 		"/D/xampp/htdocs/yecols.cn/inc/tpl/header.html",
 		"/D/xampp/htdocs/yecols.cn/inc/page/blog-post.html",
@@ -666,7 +659,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -681,8 +674,8 @@
 						"selection":
 						[
 							[
-								763,
-								763
+								646,
+								646
 							]
 						],
 						"settings":
@@ -701,35 +694,6 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/D/skydrive/GoodReader/spank/lust/新兵航海日记.txt",
-					"settings":
-					{
-						"buffer_size": 19831,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "inc/blog/2013-001.log",
 					"settings":
 					{
@@ -758,19 +722,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "inc/generate.py",
 					"settings":
 					{
-						"buffer_size": 12838,
+						"buffer_size": 12678,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9995,
-								9995
+								10144,
+								10144
 							]
 						],
 						"settings":
@@ -782,7 +746,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6371.0,
+						"translation.y": 5547.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -794,7 +758,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "assets/css/style.less",
 					"settings":
 					{
@@ -818,13 +782,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 23311.0,
+						"translation.y": 21199.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "assets/css/style.css",
 					"settings":
 					{
