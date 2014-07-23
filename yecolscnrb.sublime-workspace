@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background"
+			],
+			[
+				"li",
+				"links"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"flex-de",
+				"flex-direction-nav"
+			],
+			[
 				"pa",
 				"palias"
 			],
@@ -22,10 +38,6 @@
 			[
 				"gen",
 				"generate"
-			],
-			[
-				"li",
-				"line"
 			],
 			[
 				"str",
@@ -82,10 +94,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"back",
-				"background-size"
 			],
 			[
 				"output",
@@ -348,10 +356,6 @@
 				"max-height"
 			],
 			[
-				"bac",
-				"background-color"
-			],
-			[
 				"rea",
 				"ready	$(document).ready"
 			],
@@ -372,26 +376,10 @@
 			}
 		},
 		{
-			"file": "inc/blog/2013-001.log",
-			"settings":
-			{
-				"buffer_size": 3095,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/generate.py",
-			"settings":
-			{
-				"buffer_size": 12678,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 23688,
+				"buffer_size": 24612,
 				"line_ending": "Windows"
 			}
 		},
@@ -532,12 +520,13 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/htdocs/fornet/assets/css/style.less",
+		"/D/xampp/htdocs/yecols.cn/inc/generate.py",
+		"/D/xampp/htdocs/yecols.cn/inc/blog/2013-001.log",
 		"/D/skydrive/GoodReader/spank/lust/新兵航海日记.txt",
 		"/D/xampp/htdocs/yecols.cn/inc/page/blog-index.html",
 		"/D/xampp/htdocs/yecols.cn/inc/tpl/header.html",
 		"/D/xampp/htdocs/yecols.cn/inc/page/blog-post.html",
-		"/D/xampp/htdocs/yecols.cn/inc/generate.py",
-		"/D/xampp/htdocs/yecols.cn/inc/blog/2013-001.log",
 		"/D/xampp/htdocs/yecols.cn/inc/page/about.html",
 		"/D/xampp/htdocs/yecols.cn/inc/blog/2013-10-09.log",
 		"/D/xampp/htdocs/yecols.cn/portfolio/index.html",
@@ -585,6 +574,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"icon",
+			"media",
+			"icon",
 			"os.path.exists(path)",
 			"and",
 			"\")\n",
@@ -674,8 +666,8 @@
 						"selection":
 						[
 							[
-								646,
-								646
+								840,
+								840
 							]
 						],
 						"settings":
@@ -691,65 +683,6 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "inc/blog/2013-001.log",
-					"settings":
-					{
-						"buffer_size": 3095,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								45,
-								25
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "inc/generate.py",
-					"settings":
-					{
-						"buffer_size": 12678,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10144,
-								10144
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5547.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
 				}
 			]
 		},
@@ -758,19 +691,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 23688,
+						"buffer_size": 24612,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20498,
-								20498
+								24468,
+								24468
 							]
 						],
 						"settings":
@@ -782,13 +715,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 21199.0,
+						"translation.y": 25660.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "assets/css/style.css",
 					"settings":
 					{
@@ -847,7 +780,7 @@
 		"cols":
 		[
 			0.0,
-			0.663197262281,
+			0.440051861688,
 			1.0
 		],
 		"rows":

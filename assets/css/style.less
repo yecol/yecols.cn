@@ -534,7 +534,7 @@ footer{
 			width: 20px;
 			height: 20px;
 			display: block;
-			background: url('../img/close.png') no-repeat 0 0;
+			background: url('../img/icon.png') no-repeat 0 -40px;
 			position: absolute;
 			left: -13px;
 			filter: alpha(opacity=0);
@@ -582,7 +582,7 @@ footer{
 		.slides > li:first-child {margin: 0;}
 		.slides img {width: 100%; display: block;}
 		.flex-direction-nav li {margin: 0 0 4px;}
-		.flex-direction-nav a {width: 20px; height: 20px; display: block; background: url('../img/next-prev.png') no-repeat 0 0;}
+		.flex-direction-nav a {width: 20px; height: 20px; display: block; background: url('../img/icon.png') no-repeat 0 0;}
 		.flex-direction-nav a.flex-prev { background-position: 0 -20px;}
 		.flex-direction-nav .flex-disabled {filter: alpha(opacity=30); opacity: .3; cursor: default;}
 
@@ -603,7 +603,7 @@ footer{
 				a{
 					padding: 3px 25px 0px 0;
 					display: inline-block;
-					background: url('../img/link.png') no-repeat right 2px;
+					background: url('../img/icon.png') no-repeat right -60px;
 					color: @y-green-1;
 					font-size: 14px;
 					font-weight: 700;
@@ -1281,5 +1281,40 @@ footer{
   right: 5px;
   border-bottom-color: #000000;
   border-width: 0 5px 5px;
+}
+
+// for retina use
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+#portfolio{
+	article{
+		.expand{
+			background: url("../img/cross@2x.png") no-repeat 0 0;
+			background-size: 20px 20px;
+		}
+		.flex-direction-nav a{
+			background: url("../img/next@2x.png") no-repeat 0 0;
+			background-size: 20px 20px;
+			&.flex-prev{
+				background: url("../img/prev@2x.png") no-repeat 0 0;
+				background-size: 20px 20px;
+			} 
+		}
+		.links li a{
+			background: url("../img/links@2x.png") no-repeat right 0;
+			background-size: 20px 20px;
+		}
+	}
+}
+nav .site-nav-logo{
+	background-image: url("../img/logo@2x.png");
+	background-size: 44px 44px;
+}
 }
 

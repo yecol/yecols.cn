@@ -40,7 +40,7 @@ footer #wrap .info:after{content:"";display:table;height:40px;clear:both}
 #portfolio article{max-height:200px;margin-left:-60px;padding:30px 0 0 60px;overflow:hidden;-webkit-transition:all .6s ease;-moz-transition:all .6s ease;-ms-transition:all .6s ease;-o-transition:all .6s ease;transition:all .6s ease}#portfolio article .keywords{margin:20px 0 15px}
 #portfolio article .keywords li{margin:0 5px 5px 0;padding:2px 12px 2px 12px;display:inline-block;background:#8c9;color:#fff;font-size:12px;letter-spacing:1px;font-weight:600;text-transform:uppercase;-webkit-border-radius:3px;-moz-border-radius:3px;-o-border-radius:3px;border-radius:3px}
 #portfolio article .description{width:40%;max-width:480px;margin-right:50px;float:left;position:relative;line-height:160%;font-size:14px}
-#portfolio article .expand{width:20px;height:20px;display:block;background:url('../img/close.png') no-repeat 0 0;position:absolute;left:-13px;filter:alpha(opacity=0);opacity:0;-webkit-transform:translateX(0) rotate(0deg)}
+#portfolio article .expand{width:20px;height:20px;display:block;background:url('../img/icon.png') no-repeat 0 -40px;position:absolute;left:-13px;filter:alpha(opacity=0);opacity:0;-webkit-transform:translateX(0) rotate(0deg)}
 #portfolio article .details{filter:alpha(opacity=0);opacity:0;margin-bottom:30px}
 #portfolio article .no-indent{text-indent:0}
 #portfolio article .flex-direction-nav{position:absolute;left:0;top:8px;filter:alpha(opacity=0);opacity:0}
@@ -52,11 +52,11 @@ footer #wrap .info:after{content:"";display:table;height:40px;clear:both}
 #portfolio article .slides>li:first-child{margin:0}
 #portfolio article .slides img{width:100%;display:block}
 #portfolio article .flex-direction-nav li{margin:0 0 4px}
-#portfolio article .flex-direction-nav a{width:20px;height:20px;display:block;background:url('../img/next-prev.png') no-repeat 0 0}
+#portfolio article .flex-direction-nav a{width:20px;height:20px;display:block;background:url('../img/icon.png') no-repeat 0 0}
 #portfolio article .flex-direction-nav a.flex-prev{background-position:0 -20px}
 #portfolio article .flex-direction-nav .flex-disabled{filter:alpha(opacity=30);opacity:.3;cursor:default}
 #portfolio article .flex-direction-nav a{-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-ms-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease}
-#portfolio article .links{margin:0 0 20px;padding:6px 0 0}#portfolio article .links li{margin:0 0 3px}#portfolio article .links li a{padding:3px 25px 0 0;display:inline-block;background:url('../img/link.png') no-repeat right 2px;color:#096;font-size:14px;font-weight:700;border-bottom:1px dashed #dedede;-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-ms-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease}
+#portfolio article .links{margin:0 0 20px;padding:6px 0 0}#portfolio article .links li{margin:0 0 3px}#portfolio article .links li a{padding:3px 25px 0 0;display:inline-block;background:url('../img/icon.png') no-repeat right -60px;color:#096;font-size:14px;font-weight:700;border-bottom:1px dashed #dedede;-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-ms-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease}
 #portfolio article.expanded{max-height:500px}#portfolio article.expanded#a-001{max-height:561px}
 #portfolio article.expanded#a-002{max-height:321px}
 #portfolio article.expanded#a-003{max-height:595px}
@@ -133,3 +133,4 @@ footer #wrap .info:after{content:"";display:table;height:40px;clear:both}
 .tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-bottom-color:#000;border-width:0 5px 5px}
 .tooltip.bottom-left .tooltip-arrow{top:0;left:5px;border-bottom-color:#000;border-width:0 5px 5px}
 .tooltip.bottom-right .tooltip-arrow{top:0;right:5px;border-bottom-color:#000;border-width:0 5px 5px}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){#portfolio article .expand{background:url("../img/cross@2x.png") no-repeat 0 0;background-size:20px 20px} #portfolio article .flex-direction-nav a{background:url("../img/next@2x.png") no-repeat 0 0;background-size:20px 20px}#portfolio article .flex-direction-nav a.flex-prev{background:url("../img/prev@2x.png") no-repeat 0 0;background-size:20px 20px} #portfolio article .links li a{background:url("../img/links@2x.png") no-repeat right 0;background-size:20px 20px} nav .site-nav-logo{background-image:url("../img/logo@2x.png");background-size:44px 44px}}
