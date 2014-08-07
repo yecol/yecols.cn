@@ -4,16 +4,84 @@
 		"selected_items":
 		[
 			[
+				"me",
+				"menuheight"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"colr",
+				"fade(color, 50%)"
+			],
+			[
+				"full",
+				"fullheight"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"index",
+				"index-title"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
 				"bac",
 				"background"
 			],
 			[
 				"li",
 				"links"
-			],
-			[
-				"back",
-				"background-position"
 			],
 			[
 				"flex-de",
@@ -120,10 +188,6 @@
 				"clearfix"
 			],
 			[
-				"mar",
-				"margin-right"
-			],
-			[
 				"alb",
 				"album_list"
 			],
@@ -156,28 +220,12 @@
 				"min-width"
 			],
 			[
-				"padding",
-				"padding-bottom"
-			],
-			[
 				"so",
 				"social"
 			],
 			[
-				"te",
-				"text-decoration"
-			],
-			[
 				"y-gre",
 				"y-green-1"
-			],
-			[
-				"bo",
-				"border"
-			],
-			[
-				"bor",
-				"border"
 			],
 			[
 				"add",
@@ -276,10 +324,6 @@
 				"margin-right"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"ma",
 				"margin-bottom"
 			],
@@ -336,10 +380,6 @@
 				"y-green-1"
 			],
 			[
-				"border",
-				"border-bottom"
-			],
-			[
 				"bod",
 				"border-top"
 			],
@@ -368,26 +408,58 @@
 	"buffers":
 	[
 		{
-			"file": "inc/tpl/header.html",
+			"file": "index-new.html",
 			"settings":
 			{
-				"buffer_size": 1678,
-				"line_ending": "Windows"
+				"buffer_size": 6485,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2166,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/owl/owl.carousel.css",
+			"settings":
+			{
+				"buffer_size": 1476,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/owl/owl.theme.css",
+			"settings":
+			{
+				"buffer_size": 1665,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 24612,
+				"buffer_size": 26662,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/Yecol/Workspace/git-repo/demo-analytics/assets/css/style.less",
+			"settings":
+			{
+				"buffer_size": 9582,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 21092,
+				"buffer_size": 23176,
 				"line_ending": "Unix"
 			}
 		}
@@ -395,9 +467,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 173.0,
+		"height": 47.0,
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"error",
 				"SublimeLint: Show All Errors"
@@ -459,10 +535,6 @@
 				"Git: Status"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"list",
 				"Package Control: List Packages"
 			],
@@ -503,7 +575,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 400.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -520,6 +592,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
 		"/D/xampp/htdocs/fornet/assets/css/style.less",
 		"/D/xampp/htdocs/yecols.cn/inc/generate.py",
 		"/D/xampp/htdocs/yecols.cn/inc/blog/2013-001.log",
@@ -530,7 +603,6 @@
 		"/D/xampp/htdocs/yecols.cn/inc/page/about.html",
 		"/D/xampp/htdocs/yecols.cn/inc/blog/2013-10-09.log",
 		"/D/xampp/htdocs/yecols.cn/portfolio/index.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/portfolio/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/album.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/about.html",
@@ -564,7 +636,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
@@ -574,6 +646,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"    ",
 			"icon",
 			"media",
 			"icon",
@@ -656,18 +729,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "inc/tpl/header.html",
+					"file": "index-new.html",
 					"settings":
 					{
-						"buffer_size": 1678,
+						"buffer_size": 6485,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								840,
-								840
+								2122,
+								2122
 							]
 						],
 						"settings":
@@ -676,6 +749,98 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 800.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/owl/owl.carousel.css",
+					"settings":
+					{
+						"buffer_size": 1476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/owl/owl.theme.css",
+					"settings":
+					{
+						"buffer_size": 1665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1100,
+								1102
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -691,19 +856,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 4,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 24612,
+						"buffer_size": 26662,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24468,
-								24468
+								25825,
+								25824
 							]
 						],
 						"settings":
@@ -715,17 +880,48 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 25660.0,
+						"translation.y": 23267.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 5,
+					"file": "/Users/Yecol/Workspace/git-repo/demo-analytics/assets/css/style.less",
+					"settings":
+					{
+						"buffer_size": 9582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5705,
+								5655
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5593.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 21092,
+						"buffer_size": 23176,
 						"regions":
 						{
 						},
@@ -744,7 +940,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1303.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -780,7 +976,7 @@
 		"cols":
 		[
 			0.0,
-			0.440051861688,
+			0.785254041321,
 			1.0
 		],
 		"rows":
@@ -827,6 +1023,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 235.0,
+	"side_bar_width": 192.0,
 	"status_bar_visible": true
 }

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="yecol">
+
+    <title>数据监控</title>
+
+<!--     <link href="./assets/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/owl/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/owl/owl.theme.css">
+
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="index">
+
+      <div class="section section-hfull" id="head-section">
+        <div class="mid-section" id="ms-1">
+          <div class="index-title">
+            YECOL STUDIO
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-bar">
+        <div class="mid-section">
+          <ul class="nav nav-pills main-menu">
+            <li><a href="#design" class="menu-item">界面设计</a></li>
+            <li><a href="#section-3" class="menu-item">前端开发</a></li>
+            <li><a href="#section-4" class="menu-item">网站建设</a></li>
+            <li><a href="#section-4" class="menu-item">iOS 应用开发</a></li>
+            <li><a href="#photography" class="menu-item">摄影</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section" id="design">
+        <div class="mid-section">
+          <div class="wording-center">
+              <p class="w-p b">界面设计</p>
+              <p class="w-p b">INTERFACE DESIGN</p>
+              <a class="more-btn b" href="/portfolio/">查看全部</a>
+          </div>
+        </div>
+        <div id="owl-example" class="owl-carousel">
+                <div class="item"><img src="/res/index/service4all.jpg"></img></div>
+                <div class="item"><img src="/res/index/nc-1.jpg"></img></div>
+                <div class="item"><img src="/res/index/pr-face-1.jpg"></img></div>
+                <div class="item"><img src="/res/index/yecolscn-1.jpg"></img></div>
+                <div class="item"><img src="/res/index/prdemo.jpg"></img></div>
+                <div class="item"><img src="/res/index/60.jpg"></img></div>
+                <div class="item"><img src="/res/index/baidu-1.jpg"></img></div>
+                <div class="item"><img src="/res/index/blog2.jpg"></img></div>
+                <div class="item"><img src="/res/index/buaa1.jpg"></img></div>
+                <div class="item"><img src="/res/index/meeting1.jpg"></img></div>
+                <div class="item"><img src="/res/index/rcbd-1.jpg"></img></div>
+              </div>
+        <div class="mid-section btm-line">
+        </div>
+      </div>
+
+            <div class="section" id="design">
+        <div class="mid-section">
+          <div class="part clearfix">
+          </div>
+
+
+          <!-- ====================================================== -->
+
+          <div class="part clearfix">
+            <div class="wording">该技术还把数字显示和摄像头扩展到了车内的后视镜和倒车镜，这样能与 3D 仪表及头部追踪技术协同工作，可以为驾驶员提供全方位的汽车信息，并能提供四周清晰的视野。
+            此外，该系统还配备了基于手势的操控，它可以控制遮阳板、后挡风玻璃雨刷以及地图显示等等。这个功能可以使得驾驶员简化从中控面板寻找实体按钮的过程，直接使用手势来控制汽车。
+            </div>
+            <div class="pic-for-wording">
+              <img src="./assets/img/pic-for-wording.jpg"></img>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section section-full" id="photography">
+        <div class="mid-section">
+            <div class="wording-center">
+              <p class="w-p">摄影</p>
+              <p class="w-p">PHOTOGRAPHY</p>
+              <!-- <p><a href="#">查看更多</a></p> -->
+              <a class="more-btn" href="/photos/">查看更多</a>
+            </div>
+        </div>
+      </div>
+
+     
+
+      <div class="section">
+        <div class="mid-section">
+          <div class="wording">一句话说明产品的价值</div>
+          <div class="pull-right"><a href="#">联系我们</a></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="mid-section">
+            ©2014  京ICP证110507号 京ICP备10046444号 京公网安备1101080212535号
+        </div>
+      </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery-1.10.2.min.js"></script>
+    <script src="./assets/owl/owl.carousel.js"></script>
+    <script>
+
+    var $menuheight = 40
+
+    $(window).resize(function(event) {
+      // //full screen
+      // $fullheight = $(window).height() - menuheight;
+      // if($fullheight<600){
+      //   $pt = 0;
+      // }else{
+      //   $pt = ($fullheight-600)/2
+      // }
+      // $(".section-1").css("height",$fullheight-80);
+      // $(".section-1-middle").css("padding-top",$pt);
+      // $(".section-4 .mid-section").css("padding-top",$pt);
+    });
+
+    $(document).ready(function() {
+
+      //full screen
+      $fullheight = $(window).height();
+      $(".section-hfull").css("height",$fullheight-$menuheight);
+      $(".section-full").css("height",$fullheight);
+      $("#ms-1").css("padding-top",($fullheight-400)/2);
+
+      // fix menu-bar
+      var $hoverItem = $(".menu-bar");
+      var mt = $hoverItem.offset().top;
+      window.onscroll = function () {
+          var t = $(window).scrollTop();
+          if (t > mt) {
+            $hoverItem.css({
+              position: 'fixed',
+              top:'0',
+              'z-index':'10000'
+            });
+            $("#head-section").css('margin-bottom',$menuheight+'px');
+          }
+          else {
+            $hoverItem.css({
+              position: 'static'
+            });
+            $("#head-section").css('margin-bottom','0');
+          }
+      };
+
+      // scroll-page;
+      $(".menu-item").click(function(e) {
+        /* Act on the event */
+        e.preventDefault();
+        var $id = $(this).attr('href');
+        $('html,body').animate(
+          {scrollTop:($($id).offset().top)}, 500);
+      });
+
+      $(".head").click(function(e) {
+        /* Act on the event */
+        e.preventDefault();
+        $('html,body').animate(
+          {scrollTop:0}, 500);
+      });
+
+
+      $("#owl-example").owlCarousel({
+        items:3
+      });
+
+    });
+
+    </script>
+  </body>
+</html>

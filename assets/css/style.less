@@ -1318,3 +1318,113 @@ nav .site-nav-logo{
 }
 }
 
+
+#index{
+	.section{
+		width: 100%;
+  		min-height: 400px;
+  		padding: 0;
+  		vertical-align: middle;
+	}
+
+	.mid-section{
+  		width: 1000px;
+  		margin: 0 auto;
+  		&.btm-line{
+  			border-bottom: solid #e5e5e5 1px;
+  		}
+	}
+
+	.index-title{
+		width: 1000px;
+		height: 150px;
+		background-color: red;
+		text-align: center;
+		margin: auto;
+		padding-top: 150px;
+		letter-spacing:50px;
+		background: url("../img/index-title-bg.png") center 0 no-repeat;
+	}
+
+	.menu-bar{
+  		width: 100%;
+  		background-color: fade(white, 70%);
+  		height: 39px;
+  		border-top: solid fade(#e5e5e5, 70%) 1px;
+  		border-bottom: solid fade(#e5e5e5, 70%) 1px;
+  		.main-menu{
+  			width: 680px;
+  			margin: 13px auto 0 auto;
+    		text-align: center;
+    		list-style-type: none;
+    		li{
+    			display: table-cell;
+    		}
+    		a,a:hover,a:active{
+      			color: @y-green-1;
+      			text-decoration: none;
+      			padding-right: 40px;
+      			padding-left: 40px;
+      		}
+      		a:hover,a:active{
+      			text-decoration: underline;
+      		}
+    	}
+  	}
+
+  	#photography{
+  		background-size: 100%;
+  		background: url("../img/index-photo.jpg") center center no-repeat;
+  	}
+  	#design{
+  		.owl-carousel{
+  			margin: 60px 0 60px 0;
+  			.item{
+  				width: 400px;
+    			margin: 10px;
+    			color: #FFF;
+   				-webkit-border-radius: 3px;
+   				-moz-border-radius: 3px;
+    			border-radius: 3px;
+    			text-align: center;
+    			img{
+    				border: solid 1px #e5e5e5;
+    			}
+  			}
+  		}
+  	}
+
+  	.wording-center{
+  		padding-top: 100px;
+  		width: 100%;
+  		text-align: center;
+  		p{
+  			text-indent: 40px;
+  			margin-bottom: 30px;
+  			&.w-p{
+  				color: white;
+  				letter-spacing: 40px;
+  			}
+  			&.b{
+  				color: black;
+  			}
+  		}
+  		.more-btn{
+  			line-height: 20px;
+  			width: 150px;
+  			height: 28px;
+  			display: block;
+  			color: white;
+  			margin: 40px auto 0 auto;
+  			border: solid 1px white;
+  			border-radius: 5px;
+  			padding-top: 8px;
+  			&.b{
+  				color: #666;
+  				border: solid 1px #666;
+  			}
+  		}
+  	}
+
+}
+
