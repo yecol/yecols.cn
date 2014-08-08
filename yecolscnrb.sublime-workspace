@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"back",
-				"background-size"
+				"mar",
+				"margin-top"
 			],
 			[
-				"mar",
-				"margin-right"
+				"text",
+				"text-align"
+			],
+			[
+				"back",
+				"background-size"
 			],
 			[
 				"y-gre",
@@ -38,10 +42,6 @@
 			[
 				"le",
 				"letter-spacing"
-			],
-			[
-				"text",
-				"text-indent"
 			],
 			[
 				"ph",
@@ -432,27 +432,11 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 9855,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
 				"buffer_size": 30173,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/tpl/footer.html",
-			"settings":
-			{
-				"buffer_size": 2184,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -584,10 +568,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/owl/owl.carousel.css",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index-new.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/owl/owl.theme.css",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/style.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/style.css",
@@ -611,7 +596,6 @@
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/about.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/portfolio.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
 		"/D/xampp/htdocs/yecols.cn/inc/page/portfolio.html",
 		"/D/xampp/htdocs/yecols.cn/sites/pr_demos/index.html",
 		"/D/xampp/htdocs/yecols.cn/assets/css/style.css",
@@ -731,48 +715,16 @@
 	"groups":
 	[
 		{
+			"sheets":
+			[
+			]
+		},
+		{
 			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 9855,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6354,
-								6354
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2314.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
@@ -783,8 +735,8 @@
 						"selection":
 						[
 							[
-								24777,
-								24777
+								28898,
+								28898
 							]
 						],
 						"settings":
@@ -796,38 +748,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 22241.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "inc/tpl/footer.html",
-					"settings":
-					{
-						"buffer_size": 2184,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								176,
-								176
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 18.0,
+						"translation.y": 25333.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -863,7 +784,7 @@
 		"cols":
 		[
 			0.0,
-			0.812989488871,
+			0.823375025763,
 			1.0
 		],
 		"rows":
