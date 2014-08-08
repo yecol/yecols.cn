@@ -1320,9 +1320,20 @@ nav .site-nav-logo{
 
 
 #index{
-	.section{
+	.footer{
+		margin: 40px 0 0 0;
+		height: 20px;
+		color: #ccc;
+		font-size: 12px;
+		text-align: center;
+		position: absolute;
+		bottom: 30px;
 		width: 100%;
-  		min-height: 400px;
+	}
+	.section{
+		position: relative;;
+		width: 100%;
+  		min-height: 650px;
   		padding: 0;
   		vertical-align: middle;
 	}
@@ -1369,7 +1380,22 @@ nav .site-nav-logo{
       			padding-left: 40px;
       		}
       		a:hover,a:active{
-      			text-decoration: underline;
+      			color: @y-green-2;
+      		}
+    	}
+    	.menu-contact{
+
+    		position: absolute;
+    		right: 20px;
+    		top: 14px;
+    		a,a:hover,a:active{
+      			color: @y-green-1;
+      		}
+      		a:hover,a:active{
+      			color: @y-green-2;
+      		}
+      		.fa{
+      			margin-right: 5px;
       		}
     	}
   	}
