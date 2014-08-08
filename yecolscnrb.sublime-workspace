@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin"
+			],
+			[
+				"y-g",
+				"y-green-2"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"ph",
+				"photography"
+			],
+			[
+				"index",
+				"index-photo"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"w-p",
+				"w-p-desc"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"inlie",
+				"inline-block"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
 				"me",
 				"menuheight"
 			],
@@ -24,28 +84,12 @@
 				"padding"
 			],
 			[
-				"text",
-				"text-indent"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
 				"col",
 				"color"
 			],
 			[
-				"tex",
-				"text-decoration"
-			],
-			[
 				"tab",
 				"table-cell"
-			],
-			[
-				"list",
-				"list-style-type"
 			],
 			[
 				"bor",
@@ -64,24 +108,12 @@
 				"padding-top"
 			],
 			[
-				"index",
-				"index-title"
-			],
-			[
-				"back",
-				"background"
-			],
-			[
 				"te",
 				"text-align"
 			],
 			[
 				"bac",
 				"background"
-			],
-			[
-				"li",
-				"links"
 			],
 			[
 				"flex-de",
@@ -134,10 +166,6 @@
 			[
 				"if",
 				"if	If Condition"
-			],
-			[
-				"y-g",
-				"y-green-1"
 			],
 			[
 				"y-gr",
@@ -198,10 +226,6 @@
 			[
 				"sor",
 				"sort_by_dt"
-			],
-			[
-				"ph",
-				"photo_list"
 			],
 			[
 				"n",
@@ -290,10 +314,6 @@
 			[
 				"para",
 				"paragraph"
-			],
-			[
-				"padd",
-				"padding-left"
 			],
 			[
 				"f",
@@ -408,14 +428,6 @@
 	"buffers":
 	[
 		{
-			"file": "index-new.html",
-			"settings":
-			{
-				"buffer_size": 6485,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
@@ -440,26 +452,34 @@
 			}
 		},
 		{
-			"file": "assets/css/style.less",
+			"file": "inc/tpl/header.html",
 			"settings":
 			{
-				"buffer_size": 26662,
+				"buffer_size": 1687,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/Users/Yecol/Workspace/git-repo/demo-analytics/assets/css/style.less",
+			"file": "index-new.html",
 			"settings":
 			{
-				"buffer_size": 9582,
+				"buffer_size": 8503,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/style.less",
+			"settings":
+			{
+				"buffer_size": 29730,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 23176,
+				"buffer_size": 23609,
 				"line_ending": "Unix"
 			}
 		}
@@ -592,6 +612,12 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/index-new.html",
+		"/Users/Yecol/Workspace/git-repo/demo-analytics/assets/css/style.less",
+		"/Users/Yecol/Workspace/git-repo/demo-analytics/data.html",
+		"/Users/Yecol/Desktop/untitled folder/index.css",
+		"/Users/Yecol/Desktop/untitled folder/hel.js",
+		"/Users/Yecol/Desktop/untitled folder/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
 		"/D/xampp/htdocs/fornet/assets/css/style.less",
 		"/D/xampp/htdocs/yecols.cn/inc/generate.py",
@@ -636,7 +662,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -646,6 +672,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"}\n",
+			"simg",
 			"    ",
 			"icon",
 			"media",
@@ -724,42 +752,11 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index-new.html",
-					"settings":
-					{
-						"buffer_size": 6485,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2122,
-								2122
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 800.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "index.html",
 					"settings":
 					{
@@ -790,7 +787,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "assets/owl/owl.carousel.css",
 					"settings":
 					{
@@ -820,7 +817,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "assets/owl/owl.theme.css",
 					"settings":
 					{
@@ -848,6 +845,67 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "inc/tpl/header.html",
+					"settings":
+					{
+						"buffer_size": 1687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								816,
+								737
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index-new.html",
+					"settings":
+					{
+						"buffer_size": 8503,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6077,
+								6077
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2783.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
@@ -856,19 +914,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 26662,
+						"buffer_size": 29730,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25825,
-								25824
+								29192,
+								29192
 							]
 						],
 						"settings":
@@ -879,39 +937,8 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 23267.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Users/Yecol/Workspace/git-repo/demo-analytics/assets/css/style.less",
-					"settings":
-					{
-						"buffer_size": 9582,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5705,
-								5655
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5593.0,
+						"translation.x": 3.0,
+						"translation.y": 25675.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -921,7 +948,7 @@
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 23176,
+						"buffer_size": 23609,
 						"regions":
 						{
 						},
@@ -976,7 +1003,7 @@
 		"cols":
 		[
 			0.0,
-			0.785254041321,
+			0.584417683127,
 			1.0
 		],
 		"rows":
@@ -1023,6 +1050,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 192.0,
+	"side_bar_width": 227.0,
 	"status_bar_visible": true
 }
