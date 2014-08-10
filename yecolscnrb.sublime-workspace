@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"new",
+				"new_albums"
+			],
+			[
 				"mar",
 				"margin-top"
 			],
@@ -432,10 +436,42 @@
 	"buffers":
 	[
 		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9766,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/tpl/header.html",
+			"settings":
+			{
+				"buffer_size": 1912,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "new-photo.html",
+			"settings":
+			{
+				"buffer_size": 12216,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/generate.py",
+			"settings":
+			{
+				"buffer_size": 15049,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 30173,
+				"buffer_size": 30601,
 				"line_ending": "Windows"
 			}
 		}
@@ -568,6 +604,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/photos_js.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/owl/owl.carousel.css",
@@ -632,6 +669,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"thumb",
+			"b-photo",
+			"a-photo",
 			"trans",
 			"t'ran's",
 			"ms-1",
@@ -701,6 +741,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"large",
+			"a-photo",
+			"b-photo",
 			"/res",
 			"\"../res",
 			"../res/",
@@ -715,8 +758,130 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 9766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1012,
+								864
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inc/tpl/header.html",
+					"settings":
+					{
+						"buffer_size": 1912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								972,
+								972
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "new-photo.html",
+					"settings":
+					{
+						"buffer_size": 12216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9349,
+								9349
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2965.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "inc/generate.py",
+					"settings":
+					{
+						"buffer_size": 15049,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8621,
+								8621
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4956.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -724,19 +889,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 0,
+					"buffer": 4,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 30173,
+						"buffer_size": 30601,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28898,
-								28898
+								868,
+								868
 							]
 						],
 						"settings":
@@ -748,7 +913,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 25333.0,
+						"translation.y": 595.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -784,7 +949,7 @@
 		"cols":
 		[
 			0.0,
-			0.823375025763,
+			0.517345375352,
 			1.0
 		],
 		"rows":
@@ -831,6 +996,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 227.0,
+	"side_bar_width": 276.0,
 	"status_bar_visible": true
 }

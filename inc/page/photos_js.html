@@ -21,6 +21,9 @@ $(document).ready(function(){
     $("img.thumb").lazyload({
       threshold : 400
     });
+    $("img.large").lazyload({
+      threshold : 400
+    });
 });
 $(window).resize(function(){
     $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');

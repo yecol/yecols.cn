@@ -193,10 +193,16 @@ def processPhotoPage():
 				"iphone" 			:	 "By iPhone. 手机随手拍",
 	}
 
+	new_albums = {
+				"travel-wuzhen" 	:	 "Travel Log. 乌镇",
+				"travel-shanghai" 	:	 "Travel Log. 上海",
+	}
+
 	print time2String(time.time())+"\tINFO\t"+"Processing photos"
 
 	album_list = []
 
+	# old version of print
 	for album_name, album_readable_name in albums.items():
 		# print album_name, album_readable_name
 
@@ -262,6 +268,76 @@ def processPhotoPage():
 		output_handle.close()
 
 		print time2String(time.time())+"\tINFO\t"+"Generate index.html files on = " + path +" with " + str(count) +" photos"
+
+	# new version of print 2014-08-09
+	for album_name, album_readable_name in new_albums.items():
+		# print album_name, album_readable_name
+
+		print time2String(time.time())+"\tINFO\t"+"Processing album ["+album_name+"]"
+		path = output_dir +"photos/" + album_name+"/"
+		if not os.path.exists(path):
+			os.makedirs(path)
+		output_handle = open(path+ filename,'w')
+		output_handle.write(add_header("photos")+"\n")
+
+		#content_header
+		output_handle.write(
+			'\
+<div id="main" role="main" class="container">\n\
+ 	<div class="container-head photos-head">\n\
+    	<ol class="breadcrumb">\n\
+      		<li><a href="/photos/">Photos 相册</a></li>\n\
+      		<li>'+album_readable_name+'</li>\n\
+    	</ol>\n\
+  	</div>\n\
+  	<section id="photos">\n')
+
+		#content_per_photo
+		only_dir = root_dir + "res/photos/album/"+album_name
+		photo_files = os.listdir(only_dir)
+		count = 0
+		photo_list = []
+
+		for photo_file in photo_files:
+			# get shot time
+			photo_list.append({"fn":str(photo_file),"dt":get_shot_date(root_dir + "res/photos/album/" + album_name + "/"+ str(photo_file))})
+
+		# sort photos with shot time
+		photo_list = sorted(photo_list,key=dt)
+
+		# get latest photo as album time
+		album_list.append({"an":album_name,"arn":album_readable_name,"dt":dt(photo_list[0]),"bt":dt(photo_list[-1])})
+
+
+		for photo_file in photo_list:
+			count +=1
+
+			output_handle.write('\
+		<div class="a-photo fwidth">\n\
+		    <a class="origin" rel="group" href="/res/photos/album/' + album_name + '/' + photo_file['fn'] +'" exif="'+\
+		    # exif
+		    get_exif_data(root_dir+"res/photos/album/" + album_name + '/' + photo_file['fn']) +'">\n\
+		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/' + album_name +"/"+ photo_file['fn'] + '" class="large" />\n')
+			# print photo_file['dt']
+			if(photo_file['dt']<threshold):
+				output_handle.write('<img class="new" src="/assets/img/new.png" />')
+			output_handle.write('</a>\n\
+		</div>'+'\n'
+            )
+
+		#content_footer
+		output_handle.write('\
+	</section><!-- #photos -->\n\
+</div>\n')
+
+
+		output_handle.write(add_footer("photos")+"\n")
+		output_handle.close()
+
+		print time2String(time.time())+"\tINFO\t"+"Generate index.html files on = " + path +" with " + str(count) +" photos"
+
+
+
 
 	# process album page
 	output_album_handle = open(album_path + filename,'w')
