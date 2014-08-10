@@ -179,12 +179,9 @@ def processPhotoPage():
 	if not os.path.exists(album_path):
 		os.makedirs(album_path)
 
-	albums = {	"travel-pingyao" 	:	 "Travel Log. 平遥",
-				"travel-nanjing" 	:	 "Travel Log. 南京",
-				"travel-bali" 		:	 "Travel Log. 巴厘岛",
+	albums = {	
 				"travel-taiwan" 	:	 "Travel Log. 台湾",
 				"travel-japan" 		:	 "Travel Log. 日本",
-				"travel-yunnan" 	:	 "Travel Log. 毕业旅行，云南。",
 				"life-hangzhou" 	:	 "Live in Hangzhou. 大学，杭州。",
 				"life-beijing" 		:	 "Live in Beijing. 北漂生活。",
 				"landscape" 		:	 "Landscape. 风光",
@@ -194,8 +191,12 @@ def processPhotoPage():
 	}
 
 	new_albums = {
+				"travel-pingyao" 	:	 "Travel Log. 平遥",
+				"travel-nanjing" 	:	 "Travel Log. 南京",
+				"travel-bali" 		:	 "Travel Log. 巴厘岛",
 				"travel-wuzhen" 	:	 "Travel Log. 乌镇",
 				"travel-shanghai" 	:	 "Travel Log. 上海",
+				"travel-yunnan" 	:	 "Travel Log. 毕业旅行，云南。"
 	}
 
 	print time2String(time.time())+"\tINFO\t"+"Processing photos"
