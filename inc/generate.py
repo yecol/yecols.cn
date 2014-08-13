@@ -217,14 +217,15 @@ def processPhotoPage():
 		#content_header
 		output_handle.write(
 			'\
-<div id="main" role="main" class="container">\n\
- 	<div class="container-head photos-head">\n\
-    	<ol class="breadcrumb">\n\
-      		<li><a href="/photos/">Photos 相册</a></li>\n\
-      		<li>'+album_readable_name+'</li>\n\
-    	</ol>\n\
-  	</div>\n\
-  	<section id="photos">\n')
+<div class="hover-btn">\n\
+  			<a href="/photos/" title="其他相册"><i class="fa fa-book"></i></a>\n\
+  			<a href="#" class="toHead"><i class="fa fa-arrow-circle-up"></i></a>\n\
+</div>\n\
+<div id="main" role="main" class="container photos">\n\
+  	<section id="photos"  class="nofix-head">\n\
+  	<div class="inner-header">\n\
+      		'+album_readable_name+'\n\
+  		</div>\n')
 
 		#content_per_photo
 		thumbs_dir = root_dir + "res/photos/album/"+album_name
@@ -284,14 +285,15 @@ def processPhotoPage():
 		#content_header
 		output_handle.write(
 			'\
-<div id="main" role="main" class="container">\n\
- 	<div class="container-head photos-head">\n\
-    	<ol class="breadcrumb">\n\
-      		<li><a href="/photos/">Photos 相册</a></li>\n\
-      		<li>'+album_readable_name+'</li>\n\
-    	</ol>\n\
-  	</div>\n\
-  	<section id="photos">\n')
+<div class="hover-btn">\n\
+  			<a href="/photos/" title="其他相册"><i class="fa fa-book"></i></a>\n\
+  			<a href="#" class="toHead"><i class="fa fa-arrow-circle-up"></i></a>\n\
+</div>\n\
+<div id="main" role="main" class="container photos">\n\
+  	<section id="photos"  class="nofix-head">\n\
+  	<div class="inner-header">\n\
+      		'+album_readable_name+'\n\
+  		</div>\n')
 
 		#content_per_photo
 		only_dir = root_dir + "res/photos/album/"+album_name

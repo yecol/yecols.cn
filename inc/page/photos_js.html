@@ -4,6 +4,7 @@
 $(document).ready(function(){
     $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
     $('footer .nav a').not('.ac').tooltip();
+    $('.hover-btn a').tooltip();
     
     $(".origin").fancybox({
       beforeLoad: function() {
@@ -24,8 +25,23 @@ $(document).ready(function(){
     $("img.large").lazyload({
       threshold : 400
     });
+    $(".toHead").click(function(e) {
+        e.preventDefault();
+        $('html,body').animate(
+          {scrollTop:0}, 500);
+    });
 });
 $(window).resize(function(){
     $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
+});
+$(window).scroll(function() {
+  $bottom = $('.fwidth:last').offset().top + parseInt($('.fwidth:last').css('height')) - $(window).scrollTop() - parseInt($(window).height());
+
+  if($bottom<0){
+    $(".hover-btn").css('bottom', 8-$bottom+'px');
+  }
+  else{
+    $(".hover-btn").css('bottom', '20px');
+  }
 });
 </script>

@@ -51,14 +51,20 @@
 			</div>
 		</nav>
 <!-- ====================================END OF HEADERFILE==================================== -->
-<div id="main" role="main" class="container">
- 	<div class="container-head photos-head">
-    	<ol class="breadcrumb">
-      		<li><a href="/photos/">Photos 相册</a></li>
-      		<li>Travel Log. 乌镇</li>
-    	</ol>
-  	</div>
-  	<section id="photos">
+<div class="hover-btn">
+  			<a href="/photos/" title="其他相册"><i class="fa fa-book"></i></a>
+  			<a href="#" class="toHead"><i class="fa fa-arrow-circle-up"></i></a>
+</div>
+
+<div id="main" role="main" class="container photos">
+ 	
+  	<section id="photos" class="nofix-head">
+
+
+  		<div class="inner-header">
+      		Travel Log. 乌镇
+  		</div>
+
 		<div class="a-photo fwidth">
 		    <a class="origin" rel="group" href="/res/photos/album/travel-wuzhen/IMG_1304.jpg" exif="Canon EOS 5D Mark II 1/1250 f/5.6 ISO500 2014-08-03 15:14:06">
 		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/travel-wuzhen/IMG_1304.jpg" class="large" />
@@ -179,6 +185,7 @@
 $(document).ready(function(){
     $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
     $('footer .nav a').not('.ac').tooltip();
+    $('.hover-btn a').tooltip();
     
     $(".origin").fancybox({
       beforeLoad: function() {
@@ -199,9 +206,28 @@ $(document).ready(function(){
     $("img.large").lazyload({
       threshold : 400
     });
+
+    $(".toHead").click(function(e) {
+        e.preventDefault();
+        $('html,body').animate(
+          {scrollTop:0}, 500);
+     });
 });
 $(window).resize(function(){
     $('footer .nav a.ac').tooltip({trigger:'manual'}).tooltip('show');
+});
+
+$(window).scroll(function() {
+	$bottom = $('.fwidth:last').offset().top + parseInt($('.fwidth:last').css('height')) - $(window).scrollTop() - parseInt($(window).height());
+
+	console.log($bottom, 20-$bottom+'px');
+
+	if($bottom<0){
+		$(".hover-btn").css('bottom', 8-$bottom+'px');
+	}
+	else{
+		$(".hover-btn").css('bottom', '20px');
+	}
 });
 </script>
 
