@@ -4,24 +4,48 @@
 		"selected_items":
 		[
 			[
+				"hover",
+				"hover-btn"
+			],
+			[
+				"boo",
+				"bottom"
+			],
+			[
+				"out",
+				"outerHeight	.outerHeight"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"y-gre",
+				"y-green-2"
+			],
+			[
+				"y-g",
+				"y-green-1"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
 				"new",
 				"new_albums"
 			],
 			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"text",
 				"text-align"
-			],
-			[
-				"back",
-				"background-size"
-			],
-			[
-				"y-gre",
-				"y-green-3"
 			],
 			[
 				"bo",
@@ -34,10 +58,6 @@
 			[
 				"css",
 				"css	.css() - single"
-			],
-			[
-				"y-g",
-				"y-green-2"
 			],
 			[
 				"tex",
@@ -74,10 +94,6 @@
 			[
 				"inlie",
 				"inline-block"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"li",
@@ -212,10 +228,6 @@
 				"output_album_handle"
 			],
 			[
-				"out",
-				"output_handle"
-			],
-			[
 				"th",
 				"threshold"
 			],
@@ -278,10 +290,6 @@
 			[
 				"page",
 				"page_dir"
-			],
-			[
-				"par",
-				"partition_af"
 			],
 			[
 				"exif",
@@ -436,10 +444,10 @@
 	"buffers":
 	[
 		{
-			"file": "new-photo.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11164,
+				"buffer_size": 9771,
 				"line_ending": "Unix"
 			}
 		},
@@ -447,7 +455,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 31313,
+				"buffer_size": 30596,
 				"line_ending": "Windows"
 			}
 		}
@@ -580,11 +588,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/new-photo.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/photos_js.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/new-photo.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/photos_js.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/owl/owl.carousel.css",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index-new.html",
@@ -740,18 +748,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "new-photo.html",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 11164,
+						"buffer_size": 9771,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2143,
-								2143
+								332,
+								332
 							]
 						],
 						"settings":
@@ -759,10 +767,12 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1611.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -778,15 +788,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 31313,
+						"buffer_size": 30596,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14827,
-								14827
+								14444,
+								14444
 							]
 						],
 						"settings":
@@ -798,7 +808,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 13404.0,
+						"translation.y": 12460.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -834,7 +844,7 @@
 		"cols":
 		[
 			0.0,
-			0.384096610318,
+			0.703865900384,
 			1.0
 		],
 		"rows":
@@ -881,6 +891,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 276.0,
+	"side_bar_width": 350.0,
 	"status_bar_visible": true
 }

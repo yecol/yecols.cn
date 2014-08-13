@@ -16,7 +16,7 @@ output_dir = root_dir
 filename = "index.html"
 
 curTime = time.localtime()
-threshold = 86400*30*3
+threshold = 86400*30
 
 #common header and footer page path
 tpl_file_header = root_dir + "inc/tpl/header.html"
@@ -179,14 +179,9 @@ def processPhotoPage():
 	if not os.path.exists(album_path):
 		os.makedirs(album_path)
 
-	albums = {	
-				"travel-taiwan" 	:	 "Travel Log. 台湾",
-				"travel-japan" 		:	 "Travel Log. 日本",
+	albums = {					
 				"life-hangzhou" 	:	 "Live in Hangzhou. 大学，杭州。",
-				"life-beijing" 		:	 "Live in Beijing. 北漂生活。",
-				"landscape" 		:	 "Landscape. 风光",
-				"animal-plant"		:	 "Animal and Plant. 动植物",	
-				"faces" 			:	 "Faces. 人像",
+				"faces" 			:	 "Faces. 人像",				
 				"iphone" 			:	 "By iPhone. 手机随手拍",
 	}
 
@@ -196,7 +191,12 @@ def processPhotoPage():
 				"travel-bali" 		:	 "Travel Log. 巴厘岛",
 				"travel-wuzhen" 	:	 "Travel Log. 乌镇",
 				"travel-shanghai" 	:	 "Travel Log. 上海",
-				"travel-yunnan" 	:	 "Travel Log. 毕业旅行，云南。"
+				"travel-yunnan" 	:	 "Travel Log. 毕业旅行，云南。",
+				"travel-taiwan" 	:	 "Travel Log. 台湾",
+				"travel-japan" 		:	 "Travel Log. 日本",
+				"landscape" 		:	 "Landscape. 风光",
+				"animal-plant"		:	 "Animal and Plant. 动植物",	
+				"life-beijing" 		:	 "Live in Beijing. 北漂生活。"
 	}
 
 	print time2String(time.time())+"\tINFO\t"+"Processing photos"
