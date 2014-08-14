@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"bo",
+				"border"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bod",
+				"border"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"site",
+				"site-nav-logo"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"image",
+				"imageaddress"
+			],
+			[
+				"data",
+				"data-original"
+			],
+			[
 				"hover",
 				"hover-btn"
 			],
@@ -20,24 +68,12 @@
 				"parseInt"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
-				"padd",
-				"padding"
-			],
-			[
 				"y-gre",
 				"y-green-2"
 			],
 			[
 				"y-g",
 				"y-green-1"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"new",
@@ -48,20 +84,12 @@
 				"text-align"
 			],
 			[
-				"bo",
-				"bottom"
-			],
-			[
 				"fu",
 				"fullheight"
 			],
 			[
 				"css",
 				"css	.css() - single"
-			],
-			[
-				"tex",
-				"text-indent"
 			],
 			[
 				"le",
@@ -122,10 +150,6 @@
 			[
 				"tab",
 				"table-cell"
-			],
-			[
-				"bor",
-				"border-top"
 			],
 			[
 				"colr",
@@ -416,10 +440,6 @@
 				"y-green-1"
 			],
 			[
-				"bod",
-				"border-top"
-			],
-			[
 				"max",
 				"max-width"
 			],
@@ -444,10 +464,26 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "mobile.html",
 			"settings":
 			{
-				"buffer_size": 9771,
+				"buffer_size": 19149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/tpl/header.html",
+			"settings":
+			{
+				"buffer_size": 3024,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/tpl/footer.html",
+			"settings":
+			{
+				"buffer_size": 2285,
 				"line_ending": "Unix"
 			}
 		},
@@ -455,7 +491,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 30596,
+				"buffer_size": 33616,
 				"line_ending": "Windows"
 			}
 		}
@@ -588,11 +624,15 @@
 	},
 	"file_history":
 	[
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/new-photo.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/photos_js.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/js.html",
+		"/Users/Yecol/Downloads/bootstrap-3.2.0/dist/css/bootstrap.css",
+		"/Users/Yecol/Downloads/bootstrap-3.2.0/less/navbar.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/photos_js.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/new-photo.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/fancybox/jquery.fancybox.js",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/owl/owl.carousel.css",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index-new.html",
@@ -654,6 +694,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"site-nav-logo",
+			"navbar-collapse",
+			"navbar-nav",
+			"navbar",
+			"nav",
+			"jpg",
+			"j'p'g",
 			"thumb",
 			"b-photo",
 			"a-photo",
@@ -748,18 +795,79 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "mobile.html",
 					"settings":
 					{
-						"buffer_size": 9771,
+						"buffer_size": 19149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								332,
-								332
+								19149,
+								19149
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 30299.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inc/tpl/header.html",
+					"settings":
+					{
+						"buffer_size": 3024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								516,
+								516
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "inc/tpl/footer.html",
+					"settings":
+					{
+						"buffer_size": 2285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								534,
+								534
 							]
 						],
 						"settings":
@@ -784,19 +892,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 30596,
+						"buffer_size": 33616,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14444,
-								14444
+								33611,
+								33611
 							]
 						],
 						"settings":
@@ -808,7 +916,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 12460.0,
+						"translation.y": 30316.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -844,7 +952,7 @@
 		"cols":
 		[
 			0.0,
-			0.703865900384,
+			0.204760259137,
 			1.0
 		],
 		"rows":
@@ -891,6 +999,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 350.0,
+	"side_bar_width": 258.0,
 	"status_bar_visible": true
 }
