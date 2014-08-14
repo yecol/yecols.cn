@@ -18,6 +18,8 @@ filename = "index.html"
 curTime = time.localtime()
 threshold = 86400*30
 
+cdnBase = "http://yecolcdn.b0.upaiyun.com/"
+
 #common header and footer page path
 tpl_file_header = root_dir + "inc/tpl/header.html"
 tpl_file_footer = root_dir + "inc/tpl/footer.html"
@@ -80,7 +82,7 @@ def add_footer(key):
 def add_header(key):
 
 	#custom header section
-	custom_header = "<!--This page is cached on "+time2String(time.time())+"-->"+"\n"
+	custom_header = "<!DOCTYPE html>\n<!--This page is cached on "+time2String(time.time())+"-->"+"\n"
 	#append specific css file
 	append_css_file = page_dir + key + "_css.html"
 	if os.path.exists(append_css_file):
@@ -317,10 +319,10 @@ def processPhotoPage():
 
 			output_handle.write('\
 		<div class="a-photo fwidth">\n\
-		    <a class="origin" rel="group" href="/res/photos/album/' + album_name + '/' + photo_file['fn'] +'" exif="'+\
+		    <a class="origin" rel="group" href="'+ cdnBase + album_name + '/' + photo_file['fn'] +'!1000" exif="'+\
 		    # exif
 		    get_exif_data(root_dir+"res/photos/album/" + album_name + '/' + photo_file['fn']) +'">\n\
-		        <img src="/assets/img/pixel.gif" data-original="/res/photos/album/' + album_name +"/"+ photo_file['fn'] + '" class="large" />\n')
+		        <img src="/assets/img/pixel.gif" data-original="'+ cdnBase + album_name +"/"+ photo_file['fn'] + '!1000" class="large" />\n')
 			# print photo_file['dt']
 			if(photo_file['dt']<threshold):
 				output_handle.write('<img class="new" src="/assets/img/new.png" />')
@@ -353,7 +355,7 @@ def processPhotoPage():
 	for album_item in album_list:
 		output_album_handle.write('\n\
 		<div class="a-album">\n\
-    	    <a class="origin" href="./'+album_item['an']+'/">\n\
+    	    <a href="./'+album_item['an']+'/">\n\
     	        <img src="/res/photos/cover/'+ album_item['an'] +'.jpg" class="thumb">\n\
     	        <span class="info">\n\
     	            <p class="title">'+generateAlbumTypeIcon(album_item['an'].split('-')[0])+album_item['arn']+'</p>\n\
