@@ -6,44 +6,51 @@ $(document).ready(function(){
     $('footer .nav a').not('.ac').tooltip();
     $('.hover-btn a').tooltip();
     
-    $(".origin").fancybox({
-      beforeLoad: function() {
-        this.title = $(this.element).attr('exif');
-      },
-      padding:8,
-      openEffect  : 'none',
-      closeEffect : 'none',
-      helpers : {
-        title : {
-          type : 'over'
-        }
-      }
-    });
+    if($(window).width()>1000){
+        $(".origin").fancybox({
+            beforeLoad: function() {
+                this.title = $(this.element).attr('exif');
+            },
+            padding:8,
+            openEffect  : 'none',
+            closeEffect : 'none',
+            helpers : {
+                title : {
+                type : 'over'
+                }
+            }
+        });
+    }
+    else{
+      $('.fwidth .origin').click(function(event) {
+        event.preventDefault();
+      });
+    }
 
     //get suitable image src according to the resolution.
     if ($(window).width()<=1024) {
-        $('.origin').each(function(){
+        $('.fwidth .origin').each(function(){
           $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("!"))+'!800';
           $(this).attr('href',$imageaddress);
           $(this).children('img.large').attr('data-original',$imageaddress);
         });
     }
     else if ($(window).width()>=2000) {
-        $('.origin').each(function(){
+        $('.fwidth .origin').each(function(){
           $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("!"))+'!1920';
           $(this).attr('href',$imageaddress);
           $(this).children('img.large').attr('data-original',$imageaddress);
         });
     }
     else if ($(window).width()>=1500) {
-        $('.origin').each(function(){
+        $('.fwidth .origin').each(function(){
           $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("!"))+'!1500';
           $(this).attr('href',$imageaddress);
           $(this).children('img.large').attr('data-original',$imageaddress);
         });
     }
     else if ($(window).width()>=1280) {
-        $('.origin').each(function(){
+        $('.fwidth .origin').each(function(){
           $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("!"))+'!1280';
           $(this).attr('href',$imageaddress);
           $(this).children('img.large').attr('data-original',$imageaddress);

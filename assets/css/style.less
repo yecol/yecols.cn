@@ -878,16 +878,16 @@ footer{
 		width: (@album-width*3);
 		margin-left: calc(~"(100% + 120px - 1230px)/2 - 120px");
 	}
-	@media(min-width:(@album-width*2+120px)) and
+	@media(min-width:1000px) and
 	(max-width:(@album-width*3+120px)){
 		width: (@album-width*2);
 		margin-left: calc(~"(100% + 120px - 820px)/2 - 120px");
 	}
-	@media(min-width:(@album-width+120px)) and 
-	(max-width:(@album-width*2+120px)){
-		width: (@album-width);
-		margin-left: calc(~"(100% + 120px - 410px)/2 - 120px");
-	}
+	// @media(min-width:(@album-width+120px)) and 
+	// (max-width:(@album-width*2+120px)){
+	// 	width: (@album-width);
+	// 	margin-left: calc(~"(100% + 120px - 410px)/2 - 120px");
+	// }
 
 	.a-album{
 		float: left;
@@ -999,15 +999,16 @@ footer{
 				float: left;
 			}
 			h1{
-				font-size: 30px;
-				line-height: 60px;
-				text-shadow: 0 1px 2px rgba(0,0,0,0.5);
-			}
-			h2{
 				font-size: 24px;
 				line-height: 60px;
+				font-weight: bold;
+			}
+			h2{
+				font-size: 20px;
+				line-height: 30px;
 				font-weight: normal;
 				color: #666;
+				margin-bottom: 20px;
 			}
 			li{
 				list-style: none;
@@ -1062,7 +1063,6 @@ footer{
 				font-size: 24px;
 				margin-bottom: 30px;
 				color: #333;
-				text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 			}
 			.a-year{
 				width: 1000px;
@@ -1821,4 +1821,185 @@ footer{
 		margin: 5px auto 5px auto;
 	}
 }
+//index page
+#index{
+	.section{
+		border-bottom: solid 1px #e5e5e5;
+	}
+	.mid-section{
+		width: 100%;
+	}
+	.index-title{
+		width: 100%;
+		letter-spacing:5px;
+		text-indent:5px;
+	}
+	
+	.wording-center{
+		p.w-p{
+			width: 100%;
+			letter-spacing:5px;
+			text-indent:5px;
+		}
+		.w-div-desc-web,
+		{
+			width: 100%;
+			background: url("../img/companies.png") center top no-repeat;
+			background-size: 300px 175px;
+			padding: 30px 0 0 0;
+			p{
+				margin: 0 auto 0 auto;
+				width: 250px;
+				padding-top: 150px;
+			}
+		}
+		.w-div-desc,
+		{
+			width: 100%;
+			background: url("../img/iphone+ipad.jpg") center top no-repeat;
+			background-size: 300px 175px;
+			padding: 30px 0 0 0;
+			p{
+				margin: 0 auto 0 auto;
+				width: 300px;
+				padding-top: 180px;
+			}
+		}
+	}
+	#design .owl-carousel .item img{
+		width: 300px;
+	}
+	.html-pic{
+		height: 130px;
+		background-size: 400px 129px;
+	}
+	.features{
+		display: block;
+		width: 200px;
+		margin: 40px auto 0 auto;
+		li{
+			display: block;
+			font-size: 16px;
+			line-height: 30px;
+			text-align: left;
+		}
+	}
+	.photos-slider ul li{
+		&.slide-1{
+			background-size: auto auto;
+		}
+
+	}
+}
+
+// portfolio
+#portfolio{
+	hr{
+		width: 90%;
+		margin: 40px auto 0 auto;
+	}
+	padding:0;
+	.date{
+		width: 90%;
+		margin: 80px auto 0 auto;
+		span{
+			top: -20px;
+			left: 0;
+		}
+	}
+	article{
+		max-height: 3000px;
+		.description{
+			max-width: 1000px;
+			width: 80%;
+			float: none;
+			margin: 0 auto 0 auto;
+		}
+		.expand,
+		.flex-direction-nav{
+			display: none;
+		}
+		.details{
+			opacity: 1;
+		}
+		.images,
+		.images-300,
+		.image{
+			width: 100%;
+			padding-left: 0;
+		}
+		.keywords li{
+			display: table;
+		}
+
+	}
+}
+
+//blog content-table
+#blog{
+	margin: 0;
+	&.blog-post{
+		box-shadow:none;
+	}
+}
+//blog page
+.gray-container{
+	background-color: white;
+	padding: 0;
+}
+
+//about
+#about{
+	width: 100%;
+	margin: 0;
+	padding: 60px 0 0 0;
+	.content{
+		width: 100%;
+		.foto{
+			width: 100%;
+			background-position: center center;
+		}
+		.me{
+			width: 90%;
+			padding: 5%;
+			h2{
+				line-height:40px;
+				margin: 10px 0 10px 0;
+			}
+			.me-text{
+				width: auto;
+			}
+			.social{
+				width: 100%;
+				font-size: 30px;
+				a{
+					width: 30px;
+					height: 30px;
+					margin: 3px;
+				}
+			}
+		}
+		.timeline{
+			.timeline-title{
+				padding-left: 0;
+			}
+			width: 90%;
+			padding: 5%;
+			.a-year{
+				.left{
+					padding: 0;
+					text-align: left;
+					margin: 5px 0 5px 0;
+				}
+				.right{
+					width: auto;
+				}
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+
 }

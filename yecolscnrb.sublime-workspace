@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
 				"bo",
 				"border"
 			],
@@ -12,24 +48,12 @@
 				"border"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
 				"tex",
 				"text-align"
 			],
 			[
 				"bod",
 				"border"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"nav",
@@ -140,16 +164,8 @@
 				"padding-top"
 			],
 			[
-				"pad",
-				"padding"
-			],
-			[
 				"col",
 				"color"
-			],
-			[
-				"tab",
-				"table-cell"
 			],
 			[
 				"colr",
@@ -158,10 +174,6 @@
 			[
 				"full",
 				"fullheight"
-			],
-			[
-				"padding",
-				"padding-top"
 			],
 			[
 				"te",
@@ -242,10 +254,6 @@
 			[
 				"com",
 				"commands"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"output",
@@ -408,10 +416,6 @@
 				"entry-summary-header"
 			],
 			[
-				"ba",
-				"background"
-			],
-			[
 				"inli",
 				"inline-block"
 			],
@@ -440,10 +444,6 @@
 				"y-green-1"
 			],
 			[
-				"max",
-				"max-width"
-			],
-			[
 				"s",
 				"smarty"
 			],
@@ -467,23 +467,7 @@
 			"file": "mobile.html",
 			"settings":
 			{
-				"buffer_size": 19149,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/tpl/header.html",
-			"settings":
-			{
-				"buffer_size": 3024,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/tpl/footer.html",
-			"settings":
-			{
-				"buffer_size": 2285,
+				"buffer_size": 11209,
 				"line_ending": "Unix"
 			}
 		},
@@ -491,7 +475,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 33616,
+				"buffer_size": 36042,
 				"line_ending": "Windows"
 			}
 		}
@@ -624,16 +608,17 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/photos_js.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/mobile.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/js.html",
 		"/Users/Yecol/Downloads/bootstrap-3.2.0/dist/css/bootstrap.css",
 		"/Users/Yecol/Downloads/bootstrap-3.2.0/less/navbar.less",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/photos_js.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/new-photo.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/fancybox/jquery.fancybox.js",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/owl/owl.carousel.css",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index-new.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/owl/owl.theme.css",
@@ -694,6 +679,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"max-width:",
+			"max-width: 940px",
 			"site-nav-logo",
 			"navbar-collapse",
 			"navbar-nav",
@@ -790,7 +777,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -798,76 +785,15 @@
 					"file": "mobile.html",
 					"settings":
 					{
-						"buffer_size": 19149,
+						"buffer_size": 11209,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19149,
-								19149
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 30299.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "inc/tpl/header.html",
-					"settings":
-					{
-						"buffer_size": 3024,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								516,
-								516
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "inc/tpl/footer.html",
-					"settings":
-					{
-						"buffer_size": 2285,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								534,
-								534
+								3701,
+								3701
 							]
 						],
 						"settings":
@@ -880,31 +806,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1431.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 33616,
+						"buffer_size": 36042,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								33611,
-								33611
+								35999,
+								35999
 							]
 						],
 						"settings":
@@ -916,11 +836,16 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 30316.0,
+						"translation.y": 33257.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -952,7 +877,7 @@
 		"cols":
 		[
 			0.0,
-			0.204760259137,
+			0.666074504061,
 			1.0
 		],
 		"rows":
