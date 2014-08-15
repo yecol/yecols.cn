@@ -224,7 +224,7 @@ def processPhotoPage():
   			<a href="#" class="toHead"><i class="fa fa-arrow-circle-up"></i></a>\n\
 </div>\n\
 <div id="main" role="main" class="container photos">\n\
-  	<section id="photos"  class="nofix-head">\n\
+  	<section id="photos">\n\
   	<div class="inner-header">\n\
       		'+album_readable_name+'\n\
   		</div>\n')

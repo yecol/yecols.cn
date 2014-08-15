@@ -721,10 +721,10 @@ footer{
 	}
 }
 
-#main.photos{
-	width: calc(~"100% - 200px");
-	margin-left: 200px; 
-}
+// #main.photos{
+// 	width: calc(~"100% - 200px");
+// 	margin-left: 200px; 
+// }
 
 .hover-btn{
 	z-index: 800;
@@ -751,7 +751,6 @@ footer{
 
 	@photo-width:312px;
 
-	padding-top: 60px;
 	display: block;
 
 	@media(min-width:(@photo-width*4+120px*2)){
@@ -765,16 +764,10 @@ footer{
 		margin-left: calc(~"(100% + 120px - 936px)/2 - 120px");
 		// .container
 	}
-	@media(min-width:(@photo-width*2+120px)) and 
+	@media(min-width:1000px) and 
 	(max-width:(@photo-width*3+120px*2)){
 		width: (@photo-width*2);
 		margin-left: calc(~"(100% + 120px - 624px)/2 - 120px");
-		// .container
-	}
-	@media(min-width:(@photo-width+120px)) and 
-	(max-width:(@photo-width*2+120px)){
-		width: (@photo-width);
-		margin-left: calc(~"(100% + 120px - 314px)/2 - 120px");
 		// .container
 	}
 
@@ -1787,6 +1780,8 @@ footer{
 	display: none;
 }
 #photos{
+	width: 100%;
+	margin: 0;
 	&.nofix-head{
 		width: 100%;
 		margin: 0;
@@ -1797,7 +1792,9 @@ footer{
 		text-align: center;
 	}
 	.a-photo{
+		margin: 0 auto 0 auto;
 		float: none;
+		text-align: center;
 	}
 	.fwidth{
 		margin: 0 auto 0 auto;
