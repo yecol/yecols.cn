@@ -291,7 +291,7 @@ def processPhotoPage():
   			<a href="/photos/" title="其他相册"><i class="fa fa-book"></i></a>\n\
   			<a href="#" class="toHead"><i class="fa fa-arrow-circle-up"></i></a>\n\
 </div>\n\
-<div id="main" role="main" class="container photos">\n\
+<div id="main" role="main" class="container photos nofix">\n\
   	<section id="photos"  class="nofix-head">\n\
   	<div class="inner-header">\n\
       		'+album_readable_name+'\n\
