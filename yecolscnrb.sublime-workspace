@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"padd",
-				"padding-left"
+				"mar",
+				"margin-left"
 			],
 			[
-				"mar",
-				"margin"
+				"padd",
+				"padding-left"
 			],
 			[
 				"font",
@@ -464,18 +464,26 @@
 	"buffers":
 	[
 		{
-			"file": "mobile.html",
+			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 11209,
+				"buffer_size": 35988,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 11413,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/css/style.less",
+			"file": "inc/generate.py",
 			"settings":
 			{
-				"buffer_size": 36042,
+				"buffer_size": 15268,
 				"line_ending": "Windows"
 			}
 		}
@@ -608,10 +616,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/mobile.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/about.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/photos_js.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/mobile.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/js.html",
 		"/Users/Yecol/Downloads/bootstrap-3.2.0/dist/css/bootstrap.css",
@@ -641,7 +650,6 @@
 		"/D/xampp/htdocs/yecols.cn/portfolio/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/portfolio/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/album.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/about.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/portfolio.html",
 		"/D/xampp/htdocs/yecols.cn/inc/page/portfolio.html",
 		"/D/xampp/htdocs/yecols.cn/sites/pr_demos/index.html",
@@ -679,6 +687,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"120px",
+			"120p'x",
+			"media",
+			"padding-top",
+			"photos",
+			"padding: 60",
+			"main.photos",
+			"main",
 			"max-width:",
 			"max-width: 940px",
 			"site-nav-logo",
@@ -777,23 +793,53 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mobile.html",
+					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 11209,
+						"buffer_size": 35988,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3701,
-								3701
+								16538,
+								16538
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 14448.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 11413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2257,
+								2257
 							]
 						],
 						"settings":
@@ -806,25 +852,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1431.0,
+						"translation.y": 733.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "assets/css/style.less",
+					"buffer": 2,
+					"file": "inc/generate.py",
 					"settings":
 					{
-						"buffer_size": 36042,
+						"buffer_size": 15268,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35999,
-								35999
+								8583,
+								8583
 							]
 						],
 						"settings":
@@ -832,11 +878,11 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 33257.0,
+						"translation.y": 4659.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -877,7 +923,7 @@
 		"cols":
 		[
 			0.0,
-			0.666074504061,
+			0.957698815567,
 			1.0
 		],
 		"rows":
