@@ -198,7 +198,8 @@ def processPhotoPage():
 				"travel-japan" 		:	 "Travel Log. 日本",
 				"landscape" 		:	 "Landscape. 风光",
 				"animal-plant"		:	 "Animal and Plant. 动植物",	
-				"life-beijing" 		:	 "Live in Beijing. 北漂生活。"
+				"life-beijing" 		:	 "Live in Beijing. 北漂生活。",
+				"edinburgh-impression" 	:	 "Edinburgh Impression. 爱丁堡 初印象"
 	}
 
 	print time2String(time.time())+"\tINFO\t"+"Processing photos"
