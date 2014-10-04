@@ -488,10 +488,10 @@
 			}
 		},
 		{
-			"file": "photos.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 16819,
+				"buffer_size": 11916,
 				"line_ending": "Unix"
 			}
 		},
@@ -632,6 +632,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/photos.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/fancybox/jquery.fancybox.css",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/style.less",
@@ -878,27 +879,31 @@
 				},
 				{
 					"buffer": 2,
-					"file": "photos.html",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 16819,
+						"buffer_size": 11916,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3795,
-								3795
+								11897,
+								11897
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1934.0,
+						"translation.y": 5963.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
