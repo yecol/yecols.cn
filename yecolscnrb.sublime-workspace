@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"fa",
+				"fancybox-nav"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
 				"mar",
 				"margin-left"
 			],
@@ -14,10 +26,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"back",
-				"background-position"
 			],
 			[
 				"padding",
@@ -467,7 +475,7 @@
 			"file": "inc/generate.py",
 			"settings":
 			{
-				"buffer_size": 15268,
+				"buffer_size": 15328,
 				"line_ending": "Windows"
 			}
 		},
@@ -477,6 +485,22 @@
 			{
 				"buffer_size": 6147,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "photos.html",
+			"settings":
+			{
+				"buffer_size": 16819,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/style.less",
+			"settings":
+			{
+				"buffer_size": 36019,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -608,6 +632,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/fancybox/jquery.fancybox.css",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/style.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/mobile.html",
@@ -679,6 +704,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"new.png",
+			"new",
 			"120px",
 			"120p'x",
 			"media",
@@ -785,7 +812,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -793,15 +820,15 @@
 					"file": "inc/generate.py",
 					"settings":
 					{
-						"buffer_size": 15268,
+						"buffer_size": 15328,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8583,
-								8583
+								5618,
+								5618
 							]
 						],
 						"settings":
@@ -813,7 +840,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3048.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -844,7 +871,34 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 592.0,
+						"translation.y": 626.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "photos.html",
+					"settings":
+					{
+						"buffer_size": 16819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3795,
+								3795
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1934.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -852,8 +906,39 @@
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 3,
+					"file": "assets/css/style.less",
+					"settings":
+					{
+						"buffer_size": 36019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15644,
+								15644
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13961.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -885,7 +970,7 @@
 		"cols":
 		[
 			0.0,
-			0.957698815567,
+			0.515284607657,
 			1.0
 		],
 		"rows":
