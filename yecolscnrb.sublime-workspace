@@ -4,24 +4,44 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
 				"fa",
 				"fancybox-nav"
 			],
 			[
 				"no",
 				"no-repeat"
-			],
-			[
-				"back",
-				"background"
-			],
-			[
-				"mar",
-				"margin-left"
-			],
-			[
-				"padd",
-				"padding-left"
 			],
 			[
 				"font",
@@ -46,10 +66,6 @@
 			[
 				"max",
 				"max-height"
-			],
-			[
-				"bo",
-				"border"
 			],
 			[
 				"bor",
@@ -472,18 +488,10 @@
 	"buffers":
 	[
 		{
-			"file": "inc/generate.py",
+			"file": "shop/cowgate.html",
 			"settings":
 			{
-				"buffer_size": 15328,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "404.html",
-			"settings":
-			{
-				"buffer_size": 6147,
+				"buffer_size": 2964,
 				"line_ending": "Unix"
 			}
 		},
@@ -492,6 +500,14 @@
 			"settings":
 			{
 				"buffer_size": 11916,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/shop.less",
+			"settings":
+			{
+				"buffer_size": 3199,
 				"line_ending": "Unix"
 			}
 		},
@@ -632,10 +648,13 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/shop/assets/style.less",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/style.less",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/404.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/photos.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/fancybox/jquery.fancybox.css",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/style.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/mobile.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/about.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
@@ -645,7 +664,6 @@
 		"/Users/Yecol/Downloads/bootstrap-3.2.0/dist/css/bootstrap.css",
 		"/Users/Yecol/Downloads/bootstrap-3.2.0/less/navbar.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/new-photo.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/fancybox/jquery.fancybox.js",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/owl/owl.carousel.css",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index-new.html",
@@ -705,6 +723,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nav",
+			"#index",
 			"new.png",
 			"new",
 			"120px",
@@ -813,57 +833,28 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "inc/generate.py",
+					"file": "shop/cowgate.html",
 					"settings":
 					{
-						"buffer_size": 15328,
+						"buffer_size": 2964,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5618,
-								5618
+								2419,
+								2419
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3048.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "404.html",
-					"settings":
-					{
-						"buffer_size": 6147,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3509,
-								3509
-							]
-						],
-						"settings":
-						{
+							"auto_name": "",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -872,13 +863,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 626.0,
+						"translation.y": 778.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "index.html",
 					"settings":
 					{
@@ -889,8 +880,8 @@
 						"selection":
 						[
 							[
-								11897,
-								11897
+								0,
+								11916
 							]
 						],
 						"settings":
@@ -903,7 +894,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5963.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -914,6 +905,36 @@
 			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 2,
+					"file": "assets/css/shop.less",
+					"settings":
+					{
+						"buffer_size": 3199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1256,
+								1256
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 827.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
 				{
 					"buffer": 3,
 					"file": "assets/css/style.less",
@@ -926,8 +947,8 @@
 						"selection":
 						[
 							[
-								15644,
-								15644
+								4332,
+								4336
 							]
 						],
 						"settings":
@@ -938,8 +959,8 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 13961.0,
+						"translation.x": 52.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -975,7 +996,7 @@
 		"cols":
 		[
 			0.0,
-			0.515284607657,
+			0.701723773266,
 			1.0
 		],
 		"rows":
