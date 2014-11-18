@@ -491,7 +491,7 @@
 			"file": "shop/cowgate.html",
 			"settings":
 			{
-				"buffer_size": 2964,
+				"buffer_size": 3117,
 				"line_ending": "Unix"
 			}
 		},
@@ -507,7 +507,7 @@
 			"file": "assets/css/shop.less",
 			"settings":
 			{
-				"buffer_size": 3199,
+				"buffer_size": 3225,
 				"line_ending": "Unix"
 			}
 		},
@@ -841,15 +841,15 @@
 					"file": "shop/cowgate.html",
 					"settings":
 					{
-						"buffer_size": 2964,
+						"buffer_size": 3117,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2419,
-								2419
+								2240,
+								2240
 							]
 						],
 						"settings":
@@ -863,7 +863,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 778.0,
+						"translation.y": 969.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -910,15 +910,15 @@
 					"file": "assets/css/shop.less",
 					"settings":
 					{
-						"buffer_size": 3199,
+						"buffer_size": 3225,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1256,
-								1256
+								1150,
+								1150
 							]
 						],
 						"settings":
@@ -930,7 +930,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 827.0,
+						"translation.y": 802.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -996,7 +996,7 @@
 		"cols":
 		[
 			0.0,
-			0.701723773266,
+			0.488396917302,
 			1.0
 		],
 		"rows":

@@ -68,6 +68,10 @@
 
       // fix menu-bar
 
+      if($(window).width()>500){
+        window.location.replace("/");
+      }
+
       $("#owl-example").owlCarousel({
           items : 5,
           itemsCustom : false,
