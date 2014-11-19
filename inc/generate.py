@@ -196,6 +196,8 @@ def processPhotoPage():
 				"travel-yunnan" 	:	 "Travel Log. 毕业旅行，云南。",
 				"travel-taiwan" 	:	 "Travel Log. 台湾",
 				"travel-japan" 		:	 "Travel Log. 日本",
+				"travel-uk" 		:	 "Travel Log. 苏格兰",
+				"symmetric" 		:	 "Symmetric. 对称",
 				"landscape" 		:	 "Landscape. 风光",
 				"animal-plant"		:	 "Animal and Plant. 动植物",	
 				"life-beijing" 		:	 "Live in Beijing. 北漂生活。",
