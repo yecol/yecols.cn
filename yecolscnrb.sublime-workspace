@@ -504,10 +504,18 @@
 			}
 		},
 		{
+			"file": "inc/generate.py",
+			"settings":
+			{
+				"buffer_size": 15328,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "assets/css/shop.less",
 			"settings":
 			{
-				"buffer_size": 3225,
+				"buffer_size": 3224,
 				"line_ending": "Unix"
 			}
 		},
@@ -833,7 +841,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -898,6 +906,36 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "inc/generate.py",
+					"settings":
+					{
+						"buffer_size": 15328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								182,
+								182
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
@@ -906,19 +944,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "assets/css/shop.less",
 					"settings":
 					{
-						"buffer_size": 3225,
+						"buffer_size": 3224,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1150,
-								1150
+								1547,
+								1547
 							]
 						],
 						"settings":
@@ -936,7 +974,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "assets/css/style.less",
 					"settings":
 					{
