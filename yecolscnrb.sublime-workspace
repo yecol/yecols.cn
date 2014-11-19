@@ -515,7 +515,7 @@
 			"file": "assets/css/shop.less",
 			"settings":
 			{
-				"buffer_size": 3224,
+				"buffer_size": 3223,
 				"line_ending": "Unix"
 			}
 		},
@@ -948,15 +948,15 @@
 					"file": "assets/css/shop.less",
 					"settings":
 					{
-						"buffer_size": 3224,
+						"buffer_size": 3223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1547,
-								1547
+								306,
+								306
 							]
 						],
 						"settings":
@@ -968,7 +968,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 802.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
