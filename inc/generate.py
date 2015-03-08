@@ -188,6 +188,10 @@ def processPhotoPage():
 	}
 
 	new_albums = {
+				"travel-london" 	:	 "Travel Log. 伦敦",
+				"travel-standrews" 	:	 "Travel Log. 圣安德鲁斯",
+				"travel-livepool-york" 	:	 "Travel Log. 利物浦，约克。",
+				"christmas-2014" 	:	 "Christmas 2014. 圣诞",
 				"travel-pingyao" 	:	 "Travel Log. 平遥",
 				"travel-nanjing" 	:	 "Travel Log. 南京",
 				"travel-bali" 		:	 "Travel Log. 巴厘岛",
