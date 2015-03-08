@@ -488,34 +488,10 @@
 	"buffers":
 	[
 		{
-			"file": "shop/cowgate.html",
+			"file": "inc/page/portfolio.html",
 			"settings":
 			{
-				"buffer_size": 3117,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 11916,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/generate.py",
-			"settings":
-			{
-				"buffer_size": 15604,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/page/about.html",
-			"settings":
-			{
-				"buffer_size": 5321,
+				"buffer_size": 20651,
 				"line_ending": "Unix"
 			}
 		},
@@ -656,16 +632,17 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/shop/cowgate.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/about.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/shop.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/shop/assets/style.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/style.less",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/404.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/photos.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/fancybox/jquery.fancybox.css",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/mobile.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/about.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/photos_js.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
@@ -842,55 +819,35 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "shop/cowgate.html",
+					"file": "inc/page/portfolio.html",
 					"settings":
 					{
-						"buffer_size": 3117,
+						"buffer_size": 20651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2240,
-								2240
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 969.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 11916,
-						"regions":
-						{
-						},
-						"selection":
-						[
+								2911,
+								2911
+							],
 							[
-								0,
-								11916
+								2982,
+								2982
+							],
+							[
+								3053,
+								3053
+							],
+							[
+								3124,
+								3124
 							]
 						],
 						"settings":
@@ -903,68 +860,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "inc/generate.py",
-					"settings":
-					{
-						"buffer_size": 15604,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5237,
-								5237
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4032.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "inc/page/about.html",
-					"settings":
-					{
-						"buffer_size": 5321,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								407,
-								407
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 898.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -976,7 +872,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
