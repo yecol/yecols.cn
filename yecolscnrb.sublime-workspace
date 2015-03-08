@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-family"
+			],
+			[
 				"back",
-				"background-color"
+				"background-size"
 			],
 			[
 				"paddi",
@@ -42,10 +46,6 @@
 			[
 				"no",
 				"no-repeat"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"padding",
@@ -507,15 +507,15 @@
 			"file": "inc/generate.py",
 			"settings":
 			{
-				"buffer_size": 15411,
+				"buffer_size": 15604,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/css/shop.less",
+			"file": "inc/page/about.html",
 			"settings":
 			{
-				"buffer_size": 3223,
+				"buffer_size": 5321,
 				"line_ending": "Unix"
 			}
 		},
@@ -523,7 +523,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 36019,
+				"buffer_size": 36113,
 				"line_ending": "Windows"
 			}
 		}
@@ -656,6 +656,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/shop.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/shop/assets/style.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/style.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
@@ -841,7 +842,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -912,15 +913,15 @@
 					"file": "inc/generate.py",
 					"settings":
 					{
-						"buffer_size": 15411,
+						"buffer_size": 15604,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								818,
-								818
+								5237,
+								5237
 							]
 						],
 						"settings":
@@ -932,7 +933,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1026.0,
+						"translation.y": 4032.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "inc/page/about.html",
+					"settings":
+					{
+						"buffer_size": 5321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								407,
+								407
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -944,19 +976,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
-					"file": "assets/css/shop.less",
+					"buffer": 4,
+					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 3223,
+						"buffer_size": 36113,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								306,
-								306
+								18642,
+								18642
 							]
 						],
 						"settings":
@@ -968,37 +1000,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "assets/css/style.less",
-					"settings":
-					{
-						"buffer_size": 36019,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4332,
-								4336
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 52.0,
-						"translation.y": 0.0,
+						"translation.y": 13646.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1034,7 +1036,7 @@
 		"cols":
 		[
 			0.0,
-			0.638417406938,
+			0.66200692682,
 			1.0
 		],
 		"rows":
