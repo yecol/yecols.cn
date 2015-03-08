@@ -880,9 +880,11 @@ footer #wrap .info:after {
   background: url("http://yecolcdn.b0.upaiyun.com/me/2.pic_hd.jpg!1920") 0 0 no-repeat;
   border: solid 1px #ccc;
   width: 1000px;
-  height: 750px;
+  height: 660px;
+  background-size: 100%;
 }
 #about .content .me {
+  font-family: Georgia;
   padding: 50px;
   width: 900px;
   border-left: solid 1px #ccc;
