@@ -501,7 +501,7 @@ def generateFiles():
 	processSinglePage("about");
 	processSinglePage("portfolio");
 	processBlog();
-	processJPEGOptim();
+	# processJPEGOptim();
 	processPhotoPage();
 
 
