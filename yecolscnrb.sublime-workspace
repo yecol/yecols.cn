@@ -491,7 +491,7 @@
 			"file": "inc/page/portfolio.html",
 			"settings":
 			{
-				"buffer_size": 20651,
+				"buffer_size": 20694,
 				"line_ending": "Unix"
 			}
 		},
@@ -499,7 +499,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 36113,
+				"buffer_size": 36162,
 				"line_ending": "Windows"
 			}
 		}
@@ -827,27 +827,15 @@
 					"file": "inc/page/portfolio.html",
 					"settings":
 					{
-						"buffer_size": 20651,
+						"buffer_size": 20694,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2911,
-								2911
-							],
-							[
-								2982,
-								2982
-							],
-							[
-								3053,
-								3053
-							],
-							[
-								3124,
-								3124
+								2202,
+								2202
 							]
 						],
 						"settings":
@@ -860,7 +848,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 898.0,
+						"translation.y": 298.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -876,15 +864,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 36113,
+						"buffer_size": 36162,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18642,
-								18642
+								12734,
+								12734
 							]
 						],
 						"settings":
@@ -896,7 +884,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 13646.0,
+						"translation.y": 8542.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -932,7 +920,7 @@
 		"cols":
 		[
 			0.0,
-			0.66200692682,
+			0.510264646786,
 			1.0
 		],
 		"rows":

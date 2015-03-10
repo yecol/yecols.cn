@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import os,time,datetime,commands
 import exifread
+import shutil
 
 #config
 ISOTIMEFORMAT="%Y-%m-%d %X"
@@ -495,7 +496,7 @@ def generateFiles():
 	tpl_footer_handle.close()
 	tpl_js_handle.close()
 
-
+	shutil.copy2(root_dir+'inc/index.html', root_dir+'index.html')
 
 	#generate files
 	processSinglePage("about");
