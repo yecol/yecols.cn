@@ -5,7 +5,7 @@
 		[
 			[
 				"font",
-				"font-family"
+				"font-size"
 			],
 			[
 				"back",
@@ -488,19 +488,19 @@
 	"buffers":
 	[
 		{
-			"file": "inc/page/portfolio.html",
+			"file": "EdiLife/page/20150407.html",
 			"settings":
 			{
-				"buffer_size": 20694,
+				"buffer_size": 4735,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/css/style.less",
+			"file": "EdiLife/assets/css/edi.less",
 			"settings":
 			{
-				"buffer_size": 36162,
-				"line_ending": "Windows"
+				"buffer_size": 792,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -632,13 +632,17 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/page/template.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/page/1.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/assets/css/style.less",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/style.less",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/portfolio.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/shop/cowgate.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/about.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/shop.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/shop/assets/style.less",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/style.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/404.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/photos.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/fancybox/jquery.fancybox.css",
@@ -672,7 +676,6 @@
 		"/D/xampp/htdocs/yecols.cn/portfolio/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/portfolio/index.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/album.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/portfolio.html",
 		"/D/xampp/htdocs/yecols.cn/inc/page/portfolio.html",
 		"/D/xampp/htdocs/yecols.cn/sites/pr_demos/index.html",
 		"/D/xampp/htdocs/yecols.cn/assets/css/style.css",
@@ -709,6 +712,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"keyword",
+			"keywords",
 			"nav",
 			"#index",
 			"new.png",
@@ -824,31 +829,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "inc/page/portfolio.html",
+					"file": "EdiLife/page/20150407.html",
 					"settings":
 					{
-						"buffer_size": 20694,
+						"buffer_size": 4735,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2202,
-								2202
+								2109,
+								2109
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 298.0,
+						"translation.y": 473.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -861,18 +864,18 @@
 			[
 				{
 					"buffer": 1,
-					"file": "assets/css/style.less",
+					"file": "EdiLife/assets/css/edi.less",
 					"settings":
 					{
-						"buffer_size": 36162,
+						"buffer_size": 792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12734,
-								12734
+								388,
+								388
 							]
 						],
 						"settings":
@@ -880,11 +883,10 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 8542.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -920,7 +922,7 @@
 		"cols":
 		[
 			0.0,
-			0.510264646786,
+			0.533807899746,
 			1.0
 		],
 		"rows":

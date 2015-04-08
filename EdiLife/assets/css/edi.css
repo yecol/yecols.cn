@@ -10,6 +10,9 @@
   -o-border-radius: 3px;
   border-radius: 3px;
 }
+.post .lead {
+  margin-bottom: 10px;
+}
 .post .post-description {
   font-size: 14px;
   color: #999;
@@ -17,14 +20,28 @@
 .post img {
   width: 100%;
 }
+.post p.chapter {
+  color: #999;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px 0 5px 0;
+}
 .post p.imgword {
   color: #009966;
   font-size: 12px;
   margin: 5px 0 15px 0;
 }
+.post p.imgcc {
+  color: #ccc;
+  font-size: 10px;
+  margin: 5px 0 -2px 0;
+}
 .post p {
   line-height: 150%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+.post .ref {
+  padding-left: 20px;
 }
 .post #map-canvas {
   height: 200px;
@@ -44,4 +61,7 @@
   -moz-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
+}
+.post .blog-footer p {
+  margin-bottom: 10px;
 }
