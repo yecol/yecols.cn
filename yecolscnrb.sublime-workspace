@@ -5,7 +5,7 @@
 		[
 			[
 				"font",
-				"font-size"
+				"font-weight"
 			],
 			[
 				"back",
@@ -491,15 +491,31 @@
 			"file": "EdiLife/page/20150407.html",
 			"settings":
 			{
-				"buffer_size": 4735,
+				"buffer_size": 4427,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "EdiLife/page/maptest.html",
+			"settings":
+			{
+				"buffer_size": 870,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/generate.py",
+			"settings":
+			{
+				"buffer_size": 15736,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "EdiLife/assets/css/edi.less",
 			"settings":
 			{
-				"buffer_size": 792,
+				"buffer_size": 1024,
 				"line_ending": "Unix"
 			}
 		}
@@ -632,6 +648,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Documents/unimap.kml",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/page/template.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/page/1.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/assets/css/style.less",
@@ -712,6 +729,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"faces",
 			"keyword",
 			"keywords",
 			"nav",
@@ -824,7 +842,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -832,26 +850,89 @@
 					"file": "EdiLife/page/20150407.html",
 					"settings":
 					{
-						"buffer_size": 4735,
+						"buffer_size": 4427,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2109,
-								2109
+								2634,
+								2634
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 473.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "EdiLife/page/maptest.html",
+					"settings":
+					{
+						"buffer_size": 870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								724,
+								724
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "inc/generate.py",
+					"settings":
+					{
+						"buffer_size": 15736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5884,
+								5884
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 27.0,
+						"translation.y": 2360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -863,19 +944,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "EdiLife/assets/css/edi.less",
 					"settings":
 					{
-						"buffer_size": 792,
+						"buffer_size": 1024,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								388,
-								388
+								404,
+								354
 							]
 						],
 						"settings":
@@ -883,7 +964,8 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -922,7 +1004,7 @@
 		"cols":
 		[
 			0.0,
-			0.533807899746,
+			0.763004309433,
 			1.0
 		],
 		"rows":

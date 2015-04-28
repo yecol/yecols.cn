@@ -206,7 +206,8 @@ def processPhotoPage():
 				"landscape" 		:	 "Landscape. 风光",
 				"animal-plant"		:	 "Animal and Plant. 动植物",	
 				"life-beijing" 		:	 "Live in Beijing. 北漂生活。",
-				"edinburgh-impression" 	:	 "Edinburgh Impression. 爱丁堡"
+				"edinburgh-impression" 	:	 "Edinburgh Impression. 爱丁堡",
+				"portrait" 	:	 "Portrait. 人像"
 	}
 
 	print time2String(time.time())+"\tINFO\t"+"Processing photos"
@@ -394,7 +395,7 @@ def generateAlbumTypeIcon(key):
 		return '<i class="fa fa-paper-plane"></i>';
 	elif key=="life":
 		return '<i class="fa fa-coffee"></i>';
-	elif key=="faces":
+	elif key=="faces" or key =="portrait":
 		return '<i class="fa fa-users"></i>';
 	else: 
 		return '<i class="fa fa-camera"></i>';
