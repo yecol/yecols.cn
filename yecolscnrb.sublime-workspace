@@ -507,7 +507,7 @@
 			"file": "inc/generate.py",
 			"settings":
 			{
-				"buffer_size": 15736,
+				"buffer_size": 15782,
 				"line_ending": "Windows"
 			}
 		},
@@ -912,15 +912,15 @@
 					"file": "inc/generate.py",
 					"settings":
 					{
-						"buffer_size": 15736,
+						"buffer_size": 15782,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5884,
-								5884
+								5717,
+								5717
 							]
 						],
 						"settings":
@@ -931,8 +931,8 @@
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 27.0,
-						"translation.y": 2360.0,
+						"translation.x": 28.0,
+						"translation.y": 2476.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
