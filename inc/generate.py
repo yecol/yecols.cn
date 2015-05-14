@@ -202,6 +202,7 @@ def processPhotoPage():
 				"travel-taiwan" 	:	 "Travel Log. 台湾",
 				"travel-japan" 		:	 "Travel Log. 日本",
 				"travel-scotland" 	:	 "Travel Log. 苏格兰",
+				"travel-fr-nl" 		:	 "Travel Log. 荷兰，法国。",
 				"symmetric" 		:	 "Symmetric. 对称",
 				"landscape" 		:	 "Landscape. 风光",
 				"animal-plant"		:	 "Animal and Plant. 动植物",	
