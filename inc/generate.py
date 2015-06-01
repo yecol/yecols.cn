@@ -19,7 +19,8 @@ filename = "index.html"
 curTime = time.localtime()
 threshold = 86400*30
 
-cdnBase = "http://yecolcdn.b0.upaiyun.com/"
+# cdnBase = "http://yecolcdn.b0.upaiyun.com/"
+cdnBase = "/res/photos/album/"
 
 #common header and footer page path
 tpl_file_header = root_dir + "inc/tpl/header.html"
