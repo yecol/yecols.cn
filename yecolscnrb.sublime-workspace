@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"sor",
+				"sort"
+			],
+			[
 				"a",
 				"album"
 			],
@@ -320,10 +324,6 @@
 				"album_list"
 			],
 			[
-				"sor",
-				"sort_by_dt"
-			],
-			[
 				"n",
 				"nearTime"
 			],
@@ -500,14 +500,6 @@
 	"buffers":
 	[
 		{
-			"file": "EdiLife/page/20150407.html",
-			"settings":
-			{
-				"buffer_size": 4427,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "EdiLife/page/maptest.html",
 			"settings":
 			{
@@ -519,7 +511,7 @@
 			"file": "inc/generate.py",
 			"settings":
 			{
-				"buffer_size": 15815,
+				"buffer_size": 15836,
 				"line_ending": "Windows"
 			}
 		},
@@ -537,6 +529,14 @@
 			{
 				"buffer_size": 3368,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/style.less",
+			"settings":
+			{
+				"buffer_size": 36162,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -676,6 +676,13 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/page/20150407.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2007-001.log",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2014-001.log",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2010-001.log",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2008-001.log",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2007-002.log",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2008-001",
 		"/Users/Yecol/Documents/unimap.kml",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/page/template.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/page/1.html",
@@ -757,6 +764,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"post",
 			"index",
 			"faces",
 			"keyword",
@@ -871,42 +879,11 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "EdiLife/page/20150407.html",
-					"settings":
-					{
-						"buffer_size": 4427,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2634,
-								2634
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "EdiLife/page/maptest.html",
 					"settings":
 					{
@@ -937,19 +914,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "inc/generate.py",
 					"settings":
 					{
-						"buffer_size": 15815,
+						"buffer_size": 15836,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								431,
-								431
+								12462,
+								12462
 							]
 						],
 						"settings":
@@ -961,13 +938,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2788.0,
+						"translation.y": 5835.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "inc/index.html",
 					"settings":
 					{
@@ -992,13 +969,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 78.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "inc/page/photos_js.html",
 					"settings":
 					{
@@ -1009,8 +986,8 @@
 						"selection":
 						[
 							[
-								2341,
-								2341
+								868,
+								868
 							]
 						],
 						"settings":
@@ -1023,7 +1000,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 545.0,
+						"translation.y": 731.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1034,6 +1011,36 @@
 			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 4,
+					"file": "assets/css/style.less",
+					"settings":
+					{
+						"buffer_size": 36162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22037,
+								22044
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 17696.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
 				{
 					"buffer": 5,
 					"file": "EdiLife/assets/css/edi.less",
@@ -1046,8 +1053,8 @@
 						"selection":
 						[
 							[
-								404,
-								354
+								19,
+								38
 							]
 						],
 						"settings":
@@ -1095,7 +1102,7 @@
 		"cols":
 		[
 			0.0,
-			0.763004309433,
+			0.426389329526,
 			1.0
 		],
 		"rows":

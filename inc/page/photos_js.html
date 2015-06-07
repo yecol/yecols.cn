@@ -57,13 +57,13 @@ $(document).ready(function(){
         });
     }
 
-    if($('.fwidth .origin').first().attr("href").indexOf("res")>=0){
-        $('.fwidth .origin').each(function(){
-          $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("!"));
-          $(this).attr('href',$imageaddress);
-          $(this).children('img.large').attr('data-original',$imageaddress);
-        });
-    }
+    // if($('.fwidth .origin').first().attr("href").indexOf("res")>=0){
+    //     $('.fwidth .origin').each(function(){
+    //       $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("!"));
+    //       $(this).attr('href',$imageaddress);
+    //       $(this).children('img.large').attr('data-original',$imageaddress);
+    //     });
+    // }
 
 
     $("img.thumb").lazyload({
