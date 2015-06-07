@@ -799,13 +799,13 @@ footer #wrap .info:after {
 }
 @media (min-width: 1350px) {
   #photos-album {
-    width: 1230px;
+    width: 1232px;
     margin-left: calc((100% + 120px - 1230px)/2 - 120px);
   }
 }
 @media (min-width: 1000px) and (max-width: 1350px) {
   #photos-album {
-    width: 820px;
+    width: 822px;
     margin-left: calc((100% + 120px - 820px)/2 - 120px);
   }
 }
