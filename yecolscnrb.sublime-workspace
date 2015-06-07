@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"album"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"la",
+				"lang"
+			],
+			[
 				"font",
 				"font-weight"
 			],
@@ -507,8 +519,24 @@
 			"file": "inc/generate.py",
 			"settings":
 			{
-				"buffer_size": 15782,
+				"buffer_size": 15815,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/index.html",
+			"settings":
+			{
+				"buffer_size": 12026,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/page/photos_js.html",
+			"settings":
+			{
+				"buffer_size": 3368,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -729,6 +757,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"index",
 			"faces",
 			"keyword",
 			"keywords",
@@ -842,7 +871,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -912,15 +941,15 @@
 					"file": "inc/generate.py",
 					"settings":
 					{
-						"buffer_size": 15782,
+						"buffer_size": 15815,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5717,
-								5717
+								431,
+								431
 							]
 						],
 						"settings":
@@ -931,8 +960,70 @@
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 28.0,
-						"translation.y": 2476.0,
+						"translation.x": 0.0,
+						"translation.y": 2788.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "inc/index.html",
+					"settings":
+					{
+						"buffer_size": 12026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								974,
+								974
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "inc/page/photos_js.html",
+					"settings":
+					{
+						"buffer_size": 3368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2341,
+								2341
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 545.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -944,7 +1035,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "EdiLife/assets/css/edi.less",
 					"settings":
 					{
