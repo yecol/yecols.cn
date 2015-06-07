@@ -404,7 +404,7 @@ def generateAlbumTypeIcon(key):
 
 def processBlog():
 	articles_dir = root_dir + "inc/blog/"
-	articles = os.listdir(articles_dir).sort();
+	articles = sorted(os.listdir(articles_dir));
 	index_content = ""
 	for article in articles:
 		print time2String(time.time())+"\tINFO\t"+"Processing article ["+article+"]"
