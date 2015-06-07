@@ -695,19 +695,19 @@ footer #wrap .info:after {
 }
 @media (min-width: 1488px) {
   #photos {
-    width: 1248px;
+    width: 1250px;
     margin-left: calc((100% + 120px - 1248px)/2 - 120px);
   }
 }
 @media (min-width: 1176px) and (max-width: 1488px) {
   #photos {
-    width: 936px;
+    width: 938px;
     margin-left: calc((100% + 120px - 936px)/2 - 120px);
   }
 }
 @media (min-width: 1000px) and (max-width: 1176px) {
   #photos {
-    width: 624px;
+    width: 626px;
     margin-left: calc((100% + 120px - 624px)/2 - 120px);
   }
 }
