@@ -527,7 +527,7 @@
 			"file": "inc/page/photos_js.html",
 			"settings":
 			{
-				"buffer_size": 3368,
+				"buffer_size": 3389,
 				"line_ending": "Unix"
 			}
 		},
@@ -535,7 +535,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 36162,
+				"buffer_size": 36172,
 				"line_ending": "Windows"
 			}
 		},
@@ -879,7 +879,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -979,15 +979,15 @@
 					"file": "inc/page/photos_js.html",
 					"settings":
 					{
-						"buffer_size": 3368,
+						"buffer_size": 3389,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								868,
-								868
+								2650,
+								2650
 							]
 						],
 						"settings":
@@ -1000,7 +1000,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 731.0,
+						"translation.y": 603.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1016,15 +1016,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 36162,
+						"buffer_size": 36172,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22037,
-								22044
+								15034,
+								15034
 							]
 						],
 						"settings":
@@ -1036,7 +1036,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 17696.0,
+						"translation.y": 11058.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1102,7 +1102,7 @@
 		"cols":
 		[
 			0.0,
-			0.426389329526,
+			0.413847689298,
 			1.0
 		],
 		"rows":
