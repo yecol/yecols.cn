@@ -519,7 +519,7 @@
 			"file": "inc/index.html",
 			"settings":
 			{
-				"buffer_size": 12026,
+				"buffer_size": 11914,
 				"line_ending": "Unix"
 			}
 		},
@@ -528,6 +528,14 @@
 			"settings":
 			{
 				"buffer_size": 3389,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/tpl/footer.html",
+			"settings":
+			{
+				"buffer_size": 2285,
 				"line_ending": "Unix"
 			}
 		},
@@ -676,8 +684,8 @@
 	},
 	"file_history":
 	[
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/page/20150407.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2007-001.log",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/page/20150407.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2014-001.log",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2010-001.log",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2008-001.log",
@@ -764,6 +772,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"吧",
 			"post",
 			"index",
 			"faces",
@@ -879,6 +888,7 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -947,15 +957,15 @@
 					"file": "inc/index.html",
 					"settings":
 					{
-						"buffer_size": 12026,
+						"buffer_size": 11914,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3257,
-								2646
+								7902,
+								7902
 							]
 						],
 						"settings":
@@ -968,7 +978,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1320.0,
+						"translation.y": 1561.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1003,6 +1013,37 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "inc/tpl/footer.html",
+					"settings":
+					{
+						"buffer_size": 2285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								781,
+								781
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
@@ -1011,7 +1052,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "assets/css/style.less",
 					"settings":
 					{
@@ -1041,7 +1082,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "EdiLife/assets/css/edi.less",
 					"settings":
 					{
@@ -1101,7 +1142,7 @@
 		"cols":
 		[
 			0.0,
-			0.413847689298,
+			0.648487071701,
 			1.0
 		],
 		"rows":
