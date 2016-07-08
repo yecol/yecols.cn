@@ -500,67 +500,10 @@
 	"buffers":
 	[
 		{
-			"file": "EdiLife/page/maptest.html",
+			"file": "inc/blog/2015-002.log",
 			"settings":
 			{
-				"buffer_size": 870,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/generate.py",
-			"settings":
-			{
-				"buffer_size": 15879,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/index.html",
-			"settings":
-			{
-				"buffer_size": 11914,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/page/photos_js.html",
-			"settings":
-			{
-				"buffer_size": 3389,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/tpl/footer.html",
-			"settings":
-			{
-				"buffer_size": 2285,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/blog/2015-001.log",
-			"settings":
-			{
-				"buffer_size": 3655,
-				"line_ending": "Unix",
-				"name": "title:丽端的武侠"
-			}
-		},
-		{
-			"file": "inc/page/blog-post.html",
-			"settings":
-			{
-				"buffer_size": 610,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/Yecol/Dropbox/爱丁堡闺蜜",
-			"settings":
-			{
-				"buffer_size": 3574,
+				"buffer_size": 1742,
 				"line_ending": "Unix"
 			}
 		},
@@ -726,6 +669,15 @@
 	],
 	"file_history":
 	[
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2015-002.log",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2015-001.log",
+		"/Users/Yecol/Dropbox/2015-12-25.txt",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/photos_js.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/index.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/page/maptest.html",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
+		"/Users/Yecol/Dropbox/爱丁堡闺蜜",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2007-001.log",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/EdiLife/page/20150407.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog/2014-001.log",
@@ -741,7 +693,6 @@
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/portfolio.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/shop/cowgate.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/index.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/generate.py",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/about.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/css/shop.less",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/shop/assets/style.less",
@@ -750,8 +701,6 @@
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets/fancybox/jquery.fancybox.css",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/mobile.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/header.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page/photos_js.html",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/footer.html",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/tpl/js.html",
 		"/Users/Yecol/Downloads/bootstrap-3.2.0/dist/css/bootstrap.css",
 		"/Users/Yecol/Downloads/bootstrap-3.2.0/less/navbar.less",
@@ -930,24 +879,24 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "EdiLife/page/maptest.html",
+					"file": "inc/blog/2015-002.log",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 870,
+						"buffer_size": 1742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								724,
-								724
+								740,
+								740
 							]
 						],
 						"settings":
@@ -955,232 +904,13 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "inc/generate.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15879,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5486,
-								5486
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5738.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "inc/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11914,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6339,
-								6339
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1557.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "inc/page/photos_js.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3389,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2650,
-								2650
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "inc/tpl/footer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2285,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								781,
-								781
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "inc/blog/2015-001.log",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3655,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								96,
-								96
-							]
-						],
-						"settings":
-						{
-							"auto_name": "title:丽端的武侠",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 722.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "inc/page/blog-post.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 610,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/Users/Yecol/Dropbox/爱丁堡闺蜜",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3574,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								3574
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1190,7 +920,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 8,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"semi_transient": false,
 					"settings":
@@ -1218,11 +948,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 2,
 					"file": "EdiLife/assets/css/edi.less",
 					"semi_transient": false,
 					"settings":
@@ -1250,7 +980,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
