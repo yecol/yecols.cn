@@ -502,11 +502,6 @@ def generateFiles():
 
 	shutil.copy2(root_dir+'inc/index.html', root_dir+'index.html')
 
-	try:
-		os.remove(root_dir+'index.html')
-	except OSError:
-		pass
-
 	#generate files
 	processSinglePage("about");
 	processSinglePage("portfolio");
