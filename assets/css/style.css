@@ -201,6 +201,31 @@ nav .nav-list-container ul li:first-child a {
 nav .nav-list-container ul li:last-child a {
   border: 0;
 }
+.gongan {
+  display: inline-block;
+  height: 20px;
+  margin-left: 30px;
+  background-size: 15px 15px;
+  background-image: url(../img/beian.png);
+  background-repeat: no-repeat;
+  color: #ccc;
+}
+.gongan p {
+  font-size: 12px;
+  text-indent: 22px;
+}
+.gongan-2 {
+  display: inline-block;
+  height: 20px;
+  background-size: 15px 15px;
+  background-image: url(../img/beian.png);
+  background-position: 0 4px;
+  background-repeat: no-repeat;
+  color: #999;
+}
+.gongan-2 p {
+  text-indent: 22px;
+}
 footer {
   position: relative;
   z-index: 400;
