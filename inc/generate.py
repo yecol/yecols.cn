@@ -7,12 +7,12 @@ import shutil
 #config
 ISOTIMEFORMAT="%Y-%m-%d %X"
 pwd = os.getcwd();
-if os.name == "posix":
+#if os.name == "posix":
 	#deploy-env
-	root_dir = "/var/www/html/"
-else:
+#	root_dir = "/var/www/html/"
+#else:
 	#dev-env
-	root_dir = "../"
+root_dir = "../"
 output_dir = root_dir
 filename = "index.html"
 
