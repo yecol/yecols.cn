@@ -30,6 +30,7 @@ jobs:
             git config user.name "yecol"
             git branch -D gh-pages || true
             git checkout -b gh-pages
+            echo yecols.cn > CNAME
             git add .
             git commit -a -m "auto build from $CIRCLE_SHA1."
             git push -f origin gh-pages

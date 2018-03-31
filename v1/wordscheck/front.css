@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.yecolbutton {
+	height: 25px;
+	width: 60px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+body {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-family: Verdana, "宋体";
+}
+#toCheck {
+	height: 250px;
+	width: 600px;
+	margin: 20px;
+}
+#footer {
+	font-size: 12px;
+	line-height: 140%;
+	text-decoration: none;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+#logo {
+	background-image: url(logo.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 20px;
+	padding-top: 80px;
+}
+ul#nav{
+	margin-top: 0;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+li.nav{
+	display: block;
+	float: left;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+div#menu
+{
+	position:absolute;
+	top:0;
+	left:0;
+	border-bottom:1px solid #000;
+	width:100%;
+	height:20px;
+	line-height:20px;
+	background:#134459;
+}
+#nav a:hover,#nav a:active,#nav a.navnow 
+{
+	font-family:"Courier New", Courier, monospace;
+	font-size:14px;
+	color:#fff;
+	text-decoration:none;
+}
+
+#nav a
+{
+	font-family:"Courier New", Courier, monospace;
+	font-size:14px;
+	color:#8EA6AB;
+	text-decoration:none;
+}
+
+#rscontext {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.c4 {
+	color:blue;
+}
+.c6 {
+	color:green;
+}
+#footer {
+	font-size: 12px;
+	line-height: 140%;
+	text-decoration: none;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-family: Verdana, "宋体";
+	text-align: center;
+}
+

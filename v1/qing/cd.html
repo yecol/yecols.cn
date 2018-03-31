@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>yecols.cn</title>
+<script language="javascript">
+<!--
+function clock(){
+i=i+1
+document.getElementById("sec2").style.backgroundPosition="center "+((i%60+1)*103-6180)+"px";
+if(i>0)setTimeout("clock();",200);
+else javascript:window.history.go(-2);}
+var i=0
+//-->
+</script>
+
+<style type="text/css">
+#sec2 {
+	background-image: url(filmstrip.png);
+	background-repeat: no-repeat;
+	background-position: center -1030px;
+	display: block;
+	width: 53px;
+	height: 103px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+</style>
+</head>
+<body onload="clock()"><center>
+<div id="sec2"></div>
+
+</center>
+</BODY>
+</HTML>

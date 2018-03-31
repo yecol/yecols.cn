@@ -125,7 +125,7 @@
 			],
 			[
 				"out",
-				"outerHeight	.outerHeight"
+				"outerHeight\t.outerHeight"
 			],
 			[
 				"par",
@@ -153,7 +153,7 @@
 			],
 			[
 				"css",
-				"css	.css() - single"
+				"css\t.css() - single"
 			],
 			[
 				"le",
@@ -273,7 +273,7 @@
 			],
 			[
 				"if",
-				"if	If Condition"
+				"if\tIf Condition"
 			],
 			[
 				"y-gr",
@@ -413,7 +413,7 @@
 			],
 			[
 				"to",
-				"toggle	.toggle() (show/hide)"
+				"toggle\t.toggle() (show/hide)"
 			],
 			[
 				"backr",
@@ -421,7 +421,7 @@
 			],
 			[
 				"anima",
-				"animate	animate"
+				"animate\tanimate"
 			],
 			[
 				"margi",
@@ -489,7 +489,7 @@
 			],
 			[
 				"rea",
-				"ready	$(document).ready"
+				"ready\t$(document).ready"
 			],
 			[
 				"lin",
@@ -500,10 +500,11 @@
 	"buffers":
 	[
 		{
-			"file": "inc/blog/2015-002.log",
+			"file": ".circleci/config.yml",
 			"settings":
 			{
-				"buffer_size": 1742,
+				"buffer_size": 1005,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -511,12 +512,15 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 36172,
+				"buffer_size": 36634,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "@acolor-1:#009966;\n@acolor-2:#88cc99;\n\n.help-tag{\n\tmargin: 0 1px 5px 0;\n\tpadding: 2px 6px 2px 6px;\n\tdisplay: inline-block;\n\tbackground: @acolor-2;\n\tcolor: rgba(255, 255, 255, 1);\n\t// color: black;\n\tfont-size: 12px;\n\t-webkit-border-radius: 3px;\n\t-moz-border-radius: 3px;\n\t-o-border-radius: 3px;\n\tborder-radius: 3px;\n\t// border: solid @acolor-1 1px;\n}\n\n// a{\n// \tcolor: @acolor-2;\n// \t:hover{\n\t\t\n// \t}\n// }\n\n.post{\n\t.lead{\n\t\tmargin-bottom: 10px;\n\t}\n\t.post-description{\n\t\tfont-size: 14px;\n\t\tcolor: #999;\n\t}\n\timg{\n\t\twidth: 100%;\n\t}\n\tp.chapter{\n\t\tcolor: #999;\n\t\tfont-size: 14px;\n\t\tfont-weight: bold;\n\t\tmargin: 15px 0 5px 0;\n\t}\n\tp.imgword{\n\t\tcolor: @acolor-1;\n\t\tfont-size: 12px;\n\t\tmargin: 5px 0 15px 0;\n\t}\n\tp.imgcc{\n\t\tcolor: #ccc;\n\t\tfont-size: 10px;\n\t\tmargin: 5px 0 -2px 0;\n\t}\n\tp{\n\t\tline-height: 150%;\n\t\tmargin-bottom: 30px;\n\t}\n\t.ref{\n\t\tpadding-left: 20px;\n\t}\n\t#map-canvas{\n\t\theight: 200px;\n\t\tborder: 1px #ccc solid;\n\t}\n\t.keywords{\n\t\tpadding-left: 0;\n\t\tli{\n\t\t\t.help-tag;\n\t\t}\n\t}\n\t.blog-footer{\n\t\tp{\n\t\t\tmargin-bottom: 10px;\n\t\t}\n\t}\n}",
 			"file": "EdiLife/assets/css/edi.less",
+			"file_size": 1024,
+			"file_write_time": 131669479787222630,
 			"settings":
 			{
 				"buffer_size": 1024,
@@ -661,11 +665,10 @@
 	},
 	"expanded_folders":
 	[
+		"/D/xampp/htdocs/yecols.cn",
 		"/Users/Yecol/Workspace/git-repo/yecols.cn",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/blog",
-		"/Users/Yecol/Workspace/git-repo/yecols.cn/inc/page"
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/.circleci",
+		"/Users/Yecol/Workspace/git-repo/yecols.cn/assets"
 	],
 	"file_history":
 	[
@@ -749,7 +752,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -884,27 +887,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "inc/blog/2015-002.log",
+					"file": ".circleci/config.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1742,
+						"buffer_size": 1005,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								740,
-								740
+								192,
+								192
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -925,14 +927,14 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 36172,
+						"buffer_size": 36634,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20,
+								0,
 								0
 							]
 						],
@@ -988,7 +990,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -1044,7 +1046,7 @@
 	"project": "yecolscnrb.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
