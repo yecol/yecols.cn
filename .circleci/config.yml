@@ -15,11 +15,30 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            pip install exifread
+            sudo pip install exifread
         
       - run:
           name: build the web
           command: |
             cd inc
             python generate.py
+            
+      - run:
+          name: push to gh-pages
+          command: |
+            git config user.email "xujb1987@gmail.com"
+            git config user.name "yecol"
+            git branch -D gh-pages || true
+            git checkout -b gh-pages
+            git add .
+            git commit -a -m "auto build from $CIRCLE_SHA1."
+            git push -f origin gh-pages
           
+workflows:
+  version: 2
+  deploy-web:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
