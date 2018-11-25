@@ -190,7 +190,16 @@ def processPhotoPage():
 	}
 
 	new_albums = {
+				"traval-chongqing"	:    "Travel. 山城重庆",
+				"traval-kansai"		:    "Travel. 再游关西",
+				"traval-chongqing"	:    "Travel. 山城重庆",
+				"traval-easteuro"	:    "Travel. 东欧风情",
+				"traval-barcelona"	:    "Travel. 巴塞罗那",
+				"traval-westcoast"	:    "Travel. 美国西海岸",
 				"travel-hawaii" 	:	 "Travel Log. 夏威夷",
+				"traval-highland"	:    "Travel. 高地",
+				"traval-italy"	    :    "Travel. 意大利",
+				"traval-saigon"	    :    "Travel. 西贡西贡",
 				"travel-london" 	:	 "Travel Log. 伦敦",
 				"travel-standrews" 	:	 "Travel Log. 圣安德鲁斯",
 				"travel-livepool-york" 	:	 "Travel Log. 利物浦，约克。",
