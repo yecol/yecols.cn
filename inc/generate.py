@@ -195,7 +195,7 @@ def processPhotoPage():
 				"travel-chongqing"	:    "Travel. 山城重庆",
 				"travel-easteuro"	:    "Travel. 东欧风情",
 				"travel-barcelona"	:    "Travel. 巴塞罗那",
-				"travel-westcoast"	:    "Travel. 美国西海岸",
+				"travel-west-coast"	:    "Travel. 美国西海岸",
 				"travel-hawaii" 	:	 "Travel Log. 夏威夷",
 				"travel-highland"	:    "Travel. 高地",
 				"travel-italy"	    :    "Travel. 意大利",
