@@ -19,7 +19,8 @@ filename = "index.html"
 curTime = time.localtime()
 threshold = 86400*30
 
-cdnBase = "http://yecolcdn.b0.upaiyun.com/"
+cdnBase = "https://yecol-photos.oss-cn-zhangjiakou.aliyuncs.com/album/"
+# cdnBase = "http://yecolcdn.b0.upaiyun.com/"
 # cdnBase = "/res/photos/album/"
 
 #common header and footer page path
@@ -340,10 +341,10 @@ def processPhotoPage():
 
 			output_handle.write('\
 		<div class="a-photo fwidth">\n\
-		    <a class="origin" rel="group" href="'+ cdnBase + album_name + '/' + photo_file['fn'] +'!1000" exif="'+\
+		    <a class="origin" rel="group" href="'+ cdnBase + album_name + '/' + photo_file['fn'] +'?x-oss-process=image/resize,l_1000" exif="'+\
 		    # exif
 		    get_exif_data(root_dir+"res/photos/album/" + album_name + '/' + photo_file['fn']) +'">\n\
-		        <img src="/assets/img/pixel.gif" data-original="'+ cdnBase + album_name +"/"+ photo_file['fn'] + '!1000" class="large" />\n')
+		        <img src="/assets/img/pixel.gif" data-original="'+ cdnBase + album_name +"/"+ photo_file['fn'] + '?x-oss-process=image/resize,l_1000" class="large" />\n')
 			# print photo_file['dt']
 			if(photo_file['dt']<threshold):
 				output_handle.write('<img class="new" src="/assets/img/new.png" />')

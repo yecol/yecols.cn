@@ -30,28 +30,28 @@ $(document).ready(function(){
     //get suitable image src according to the resolution.
     if ($(window).width()<=1024) {
         $('.fwidth .origin').each(function(){
-          $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("!"))+'!800';
+          $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("_"))+'_800';
           $(this).attr('href',$imageaddress);
           $(this).children('img.large').attr('data-original',$imageaddress);
         });
     }
     else if ($(window).width()>=2000) {
         $('.fwidth .origin').each(function(){
-          $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("!"))+'!1920';
+          $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("_"))+'_1920';
           $(this).attr('href',$imageaddress);
           $(this).children('img.large').attr('data-original',$imageaddress);
         });
     }
     else if ($(window).width()>=1500) {
         $('.fwidth .origin').each(function(){
-          $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("!"))+'!1500';
+          $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("_"))+'_1500';
           $(this).attr('href',$imageaddress);
           $(this).children('img.large').attr('data-original',$imageaddress);
         });
     }
     else if ($(window).width()>=1280) {
         $('.fwidth .origin').each(function(){
-          $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("!"))+'!1280';
+          $imageaddress = $(this).attr('href').substring(0,$(this).attr('href').lastIndexOf("_"))+'_1280';
           $(this).attr('href',$imageaddress);
           $(this).children('img.large').attr('data-original',$imageaddress);
         });
