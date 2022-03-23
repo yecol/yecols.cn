@@ -1,258 +1,286 @@
-03-18 23:31:42 gphotos.Main WARNING  gphotos-sync 2.14.2 2022-03-18 23:31:42.288374
-03-18 23:31:42 gphotos.Utils DEBUG    MINIMUM_DATE = 1800-01-01 00:00:00
-03-18 23:31:42 gphotos.Checks INFO     Target filesystem /users/yecol/workspace/git-repo/yweb/inc/test is apfs
-03-18 23:31:42 gphotos.Checks DEBUG    Checking if is filesystem supports symbolic links...
-03-18 23:31:42 gphotos.Checks DEBUG    attempting to symlink /Users/Yecol/Workspace/git-repo/yweb/inc/test/test_src_279714421 to /Users/Yecol/Workspace/git-repo/yweb/inc/test/test_dst_3504410296
-03-18 23:31:42 gphotos.Checks DEBUG    Checking if File system supports unicode filenames...
-03-18 23:31:42 gphotos.Checks INFO     Filesystem supports Unicode filenames
-03-18 23:31:42 gphotos.Checks DEBUG    Checking if File system is case insensitive...
-03-18 23:31:42 gphotos.Checks INFO     Case insensitive file system found
-03-18 23:31:42 gphotos.Checks INFO     Max Path Length: 1024
-03-18 23:31:42 gphotos.Checks INFO     Max filename length: 255
-03-18 23:31:42 gphotos.Main INFO     version: 2.14.2, database schema version 5.7
-03-18 23:31:43 gphotos.BadIds DEBUG    bad_ids file, loaded 0 bad ids
-03-18 23:31:43 gphotos.GooglePhotosDownload WARNING  Downloading Photos ...
-03-18 23:31:43 gphotos.GooglePhotosDownload DEBUG    SKIPPED download (file exists) 1 photos/2022/03/_DSC0620.JPG
-03-18 23:31:43 gphotos.GooglePhotosDownload DEBUG    SKIPPED download (file exists) 2 photos/2022/03/_DSC0621.JPG
-03-18 23:31:43 gphotos.GooglePhotosDownload DEBUG    SKIPPED download (file exists) 3 photos/2022/03/_DSC0623.JPG
-03-18 23:31:43 gphotos.GooglePhotosDownload DEBUG    SKIPPED download (file exists) 4 photos/2022/03/_DSC0624.JPG
-03-18 23:31:43 gphotos.GooglePhotosDownload DEBUG    SKIPPED download (file exists) 5 photos/2022/03/_DSC0625.JPG
-03-18 23:31:43 gphotos.GooglePhotosDownload DEBUG    SKIPPED download (file exists) 6 photos/2022/03/_DSC0626.JPG
-03-18 23:31:43 gphotos.GooglePhotosDownload DEBUG    SKIPPED download (file exists) 7 photos/2022/03/_DSC0646.JPG
-03-18 23:31:43 gphotos.GooglePhotosDownload DEBUG    SKIPPED download (file exists) 8 photos/2022/03/_DSC0649.JPG
-03-18 23:31:43 gphotos.GooglePhotosDownload WARNING  Downloaded 0 Items, Failed 0, Already Downloaded 8
-03-18 23:31:43 gphotos.GoogleAlbumsSync WARNING  Indexing Shared (titled) Albums ...
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: iOS Wallpapers, photos: 694 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Christmas-2021, photos: 275 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 2021-Northwest, photos: 2959 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Journey in Guizhou, photos: 365 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 2017-graduation, photos: 291 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: skye-trip, photos: 562 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-lake-district, photos: 321 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-grad2015, photos: 61 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Barcelona, photos: 731 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: none, photos: 1 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: none, photos: 1 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: none, photos: 1 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: none, photos: 1 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync WARNING  Indexed 13 Shared (titled) Albums
-03-18 23:31:45 gphotos.GoogleAlbumsSync WARNING  Indexing Albums ...
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yweb, photos: 8
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Cheng, photos: 6170 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: mx, photos: 654 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Sifeng, photos: 1257 (does not match --album)
-03-18 23:31:45 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: YuJing, photos: 1209 (does not match --album)
-03-18 23:31:46 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Christmas-2021, photos: 275 (does not match --album)
-03-18 23:31:46 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 2021-Northwest, photos: 2959 (does not match --album)
-03-18 23:31:46 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Journey in Guizhou, photos: 365 (does not match --album)
-03-18 23:31:46 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2018-11-03, photos: 222 (does not match --album)
-03-18 23:31:46 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Together, photos: 24 (does not match --album)
-03-18 23:31:47 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Me, photos: 121 (does not match --album)
-03-18 23:31:47 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: BestZongcheng, photos: 4 (does not match --album)
-03-18 23:31:47 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-vldb2017, photos: 474 (does not match --album)
-03-18 23:31:47 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 2017-graduation, photos: 291 (does not match --album)
-03-18 23:31:47 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: skye-trip, photos: 562 (does not match --album)
-03-18 23:31:47 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2017-03-20, photos: 489 (does not match --album)
-03-18 23:31:47 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-lake-district, photos: 321 (does not match --album)
-03-18 23:31:47 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2017-02-18, photos: 123 (does not match --album)
-03-18 23:31:47 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2016-12-18, photos: 197 (does not match --album)
-03-18 23:31:48 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2016-08-12, photos: 261 (does not match --album)
-03-18 23:31:48 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-LA, photos: 99 (does not match --album)
-03-18 23:31:48 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-mom-taiwan, photos: 67 (does not match --album)
-03-18 23:31:48 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Venice-Florence, photos: 1287 (does not match --album)
-03-18 23:31:48 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Barcelona, photos: 731 (does not match --album)
-03-18 23:31:48 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-grad2015, photos: 61 (does not match --album)
-03-18 23:31:48 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: archive-2015-11-01, photos: 70 (does not match --album)
-03-18 23:31:48 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-products-panda, photos: 17 (does not match --album)
-03-18 23:31:48 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: HandsomeMe, photos: 26 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-09-16, photos: 144 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-09-05, photos: 326 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-08-25, photos: 97 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-07-30, photos: 315 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-06-29, photos: 229 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-06-20, photos: 51 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: MC organised trip in Pitlochry, photos: 16 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-06-11, photos: 22 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Trip to Netherland and Paris, photos: 110 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-05-12, photos: 688 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-04-25, photos: 486 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Food, photos: 109 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-03-23, photos: 25 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-02-01, photos: 118 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-01-18, photos: 23 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Saturday Trip to York, photos: 12 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-01-03, photos: 227 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yachive-2014-12-30-ma, photos: 15 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-12-30, photos: 542 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-12-20, photos: 83 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-11-23, photos: 215 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-11-15, photos: 212 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Saturday in Glasgow, photos: 21 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-09-27, photos: 212 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-09-26, photos: 27 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-09-20, photos: 200 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-09-06, photos: 249 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 624, photos: 554 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-08-02, photos: 276 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_wuzhen, photos: 17 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_wuzhen, photos: 15 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-08-03, photos: 148 (does not match --album)
-03-18 23:31:49 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_shanghai, photos: 11 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-06-28, photos: 631 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_pingyao, photos: 37 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-05-12, photos: 472 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-05-01, photos: 76 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_life_in_beijing, photos: 28 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-04-25, photos: 75 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-04-06, photos: 121 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Uncategorized1, photos: 62 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-02-13, photos: 1156 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-02-01, photos: 122 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-sunglasses, photos: 35 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2014-01-03, photos: 124 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2013-12-18, photos: 565 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2013-12-02, photos: 215 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2013-12-11, photos: 152 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2013-10-02, photos: 770 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_nanjing, photos: 35 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-08-11, photos: 314 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: portfolio, photos: 28 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: iPhone_1, photos: 691 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Family, photos: 196 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Boy'Z, photos: 36 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-07-11, photos: 556 (does not match --album)
-03-18 23:31:50 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: zzc, photos: 2 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Travel_Bali, photos: 864 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_bali, photos: 34 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-05-07, photos: 61 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-01-29, photos: 102 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-01-28, photos: 385 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_yunnan, photos: 31 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yachive-2013-01-26, photos: 355 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-01-23, photos: 130 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-01-22, photos: 262 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-01-20, photos: 379 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Travel_Taiwan, photos: 387 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-12-19, photos: 297 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-12-12, photos: 168 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-12-01, photos: 77 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-11-25, photos: 43 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-11-16, photos: 62 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-11-12, photos: 25 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-11-11, photos: 269 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-10-23, photos: 100 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-10-17, photos: 42 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-09-28, photos: 175 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-09-20, photos: 12 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-08-20, photos: 196 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Friends, photos: 84 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Tao, photos: 271 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Yu, photos: 1 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-07-14, photos: 50 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Travel_Japan, photos: 122 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-06-24, photos: 430 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_japan, photos: 23 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-05-20, photos: 92 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-05-13, photos: 42 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-05-01, photos: 105 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-04-16, photos: 43 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Ango, photos: 115 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-01-26, photos: 259 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-01-23, photos: 32 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Teaya, photos: 39 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 小清新, photos: 29 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Drop Box, photos: 22 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: wintam, photos: 10 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-12-03, photos: 54 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-11-28, photos: 21 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-11-12, photos: 5 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-10-22, photos: 56 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-09-22, photos: 84 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Portrait, photos: 181 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-09-12, photos: 34 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: GreatPics, photos: 56 (does not match --album)
-03-18 23:31:51 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_animals_and_plants, photos: 9 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-08-30, photos: 119 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-08-28, photos: 45 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Rosie Hardy, photos: 12 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-08-16, photos: 195 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-07-24, photos: 24 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-07-16, photos: 215 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-07-10, photos: 167 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: couples, photos: 7 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-06-25, photos: 97 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-06-22, photos: 196 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-06-19, photos: 31 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-06-14, photos: 92 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-05-27, photos: 60 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-05-19, photos: 177 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: AlexStoddard, photos: 74 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 加星标的照片, photos: 179 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-05-15, photos: 8 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-05-05, photos: 691 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-04-16, photos: 74 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-04-15, photos: 63 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive_yuyantang, photos: 35 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-04-07, photos: 94 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 小明, photos: 64 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-03-31, photos: 84 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: kaptive, photos: 566 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ForWeb, photos: 63 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-03-20, photos: 22 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-03-07, photos: 37 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-03-06, photos: 92 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-02-27, photos: 56 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive_homemade_products, photos: 234 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-02-17, photos: 44 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-02-14, photos: 86 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-02-06, photos: 62 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-02-03, photos: 3 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-01-21, photos: 95 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-12-24, photos: 199 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-12-23, photos: 45 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-12-19, photos: 86 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-12-08, photos: 23 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-12-05, photos: 72 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-12-04, photos: 99 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-11-09, photos: 22 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-11-13, photos: 132 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive_happy_valley, photos: 121 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Graduation_Uniform, photos: 362 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Shanghai Expo 2010, photos: 46 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_7&8, photos: 233 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_6, photos: 183 (does not match --album)
-03-18 23:31:52 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Alumni_Association_2009, photos: 90 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive_parents_snow, photos: 202 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_5, photos: 241 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_4, photos: 337 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive_001, photos: 90 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Zhejiang University of Technology, photos: 29 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_3, photos: 432 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: As child, photos: 201 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_2, photos: 457 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Senior High School, photos: 128 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_1, photos: 415 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Taken by Dad, photos: 27 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Taken by Mum, photos: 77 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Dragon Boats, photos: 139 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Hometown, photos: 16 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Castles, photos: 16 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2017-07-10, photos: 0 (does not match --album)
-03-18 23:31:53 gphotos.GoogleAlbumsSync WARNING  Indexed 201 Albums
-03-18 23:31:53 gphotos.GooglePhotosDownload WARNING  Downloading Photos ...
-03-18 23:31:53 gphotos.GooglePhotosDownload WARNING  Downloaded 0 Items, Failed 0, Already Downloaded 8
-03-18 23:31:53 gphotos.GoogleAlbumsSync WARNING  Creating album folder links to media ...
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../../photos/2022/03/_DSC0620.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/2022/0312 yweb/0000__DSC0620.JPG
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    new album folder /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/2022/0312 yweb
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../../photos/2022/03/_DSC0621.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/2022/0312 yweb/0001__DSC0621.JPG
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../../photos/2022/03/_DSC0623.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/2022/0312 yweb/0002__DSC0623.JPG
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../../photos/2022/03/_DSC0624.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/2022/0312 yweb/0003__DSC0624.JPG
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../../photos/2022/03/_DSC0625.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/2022/0312 yweb/0004__DSC0625.JPG
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../../photos/2022/03/_DSC0626.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/2022/0312 yweb/0005__DSC0626.JPG
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../../photos/2022/03/_DSC0646.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/2022/0312 yweb/0006__DSC0646.JPG
-03-18 23:31:53 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../../photos/2022/03/_DSC0649.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/2022/0312 yweb/0007__DSC0649.JPG
-03-18 23:31:53 gphotos.GoogleAlbumsSync WARNING  Created 8 new album folder links
-03-18 23:31:53 gphotos.LocalData INFO     Saving Database ...
-03-18 23:31:53 gphotos.LocalData INFO     Database Saved.
-03-18 23:31:53 gphotos.Main WARNING  Done.
-03-18 23:31:53 gphotos.Main INFO     Elapsed time = 0:00:11.122236
+03-19 20:38:28 gphotos.Main WARNING  gphotos-sync 2.14.2 2022-03-19 20:38:28.511709
+03-19 20:38:28 gphotos.Utils DEBUG    MINIMUM_DATE = 1800-01-01 00:00:00
+03-19 20:38:28 gphotos.Checks INFO     Target filesystem /users/yecol/workspace/git-repo/yweb/inc/test is apfs
+03-19 20:38:28 gphotos.Checks DEBUG    Checking if is filesystem supports symbolic links...
+03-19 20:38:28 gphotos.Checks DEBUG    attempting to symlink /Users/Yecol/Workspace/git-repo/yweb/inc/test/test_src_3582634770 to /Users/Yecol/Workspace/git-repo/yweb/inc/test/test_dst_323011044
+03-19 20:38:28 gphotos.Checks DEBUG    Checking if File system supports unicode filenames...
+03-19 20:38:28 gphotos.Checks INFO     Filesystem supports Unicode filenames
+03-19 20:38:28 gphotos.Checks DEBUG    Checking if File system is case insensitive...
+03-19 20:38:28 gphotos.Checks INFO     Case insensitive file system found
+03-19 20:38:28 gphotos.Checks INFO     Max Path Length: 1024
+03-19 20:38:28 gphotos.Checks INFO     Max filename length: 255
+03-19 20:38:28 gphotos.Main INFO     version: 2.14.2, database schema version 5.7
+03-19 20:38:28 gphotos.LocalData INFO     Saving Database ...
+03-19 20:38:28 gphotos.LocalData INFO     Database Saved.
+03-19 20:38:28 gphotos.LocalData INFO     Saving Database ...
+03-19 20:38:28 gphotos.LocalData INFO     Database Saved.
+03-19 20:38:29 gphotos.BadIds DEBUG    no bad_ids file, bad ids list is empty
+03-19 20:38:29 gphotos.GooglePhotosDownload WARNING  Downloading Photos ...
+03-19 20:38:29 gphotos.GooglePhotosDownload WARNING  Downloaded 0 Items, Failed 0, Already Downloaded 0
+03-19 20:38:29 gphotos.GoogleAlbumsSync WARNING  Indexing Shared (titled) Albums ...
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: iOS Wallpapers, photos: 694 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Christmas-2021, photos: 275 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 2021-Northwest, photos: 2959 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Journey in Guizhou, photos: 365 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 2017-graduation, photos: 291 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: skye-trip, photos: 562 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-lake-district, photos: 321 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-grad2015, photos: 61 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Barcelona, photos: 731 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: none, photos: 1 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: none, photos: 1 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: none, photos: 1 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: none, photos: 1 (does not match --album)
+03-19 20:38:30 gphotos.GoogleAlbumsSync WARNING  Indexed 13 Shared (titled) Albums
+03-19 20:38:30 gphotos.GoogleAlbumsSync WARNING  Indexing Albums ...
+03-19 20:38:30 gphotos.GoogleAlbumsSync INFO     Indexing Album: yweb, photos: 8
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    ----_DSC0620.JPG
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    Adding album media item photos/2022-03/_DSC0620.JPG _DSC0620.JPG 0
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    ----_DSC0621.JPG
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    Adding album media item photos/2022-03/_DSC0621.JPG _DSC0621.JPG 0
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    ----_DSC0623.JPG
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    Adding album media item photos/2022-03/_DSC0623.JPG _DSC0623.JPG 0
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    ----_DSC0624.JPG
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    Adding album media item photos/2022-03/_DSC0624.JPG _DSC0624.JPG 0
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    ----_DSC0625.JPG
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    Adding album media item photos/2022-03/_DSC0625.JPG _DSC0625.JPG 0
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    ----_DSC0626.JPG
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    Adding album media item photos/2022-03/_DSC0626.JPG _DSC0626.JPG 0
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    ----_DSC0646.JPG
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    Adding album media item photos/2022-03/_DSC0646.JPG _DSC0646.JPG 0
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    ----_DSC0649.JPG
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    Adding album media item photos/2022-03/_DSC0649.JPG _DSC0649.JPG 0
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Cheng, photos: 6170 (does not match --album)
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: mx, photos: 654 (does not match --album)
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Sifeng, photos: 1257 (does not match --album)
+03-19 20:38:31 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: YuJing, photos: 1209 (does not match --album)
+03-19 20:38:32 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Christmas-2021, photos: 275 (does not match --album)
+03-19 20:38:32 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 2021-Northwest, photos: 2959 (does not match --album)
+03-19 20:38:32 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Journey in Guizhou, photos: 365 (does not match --album)
+03-19 20:38:32 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2018-11-03, photos: 222 (does not match --album)
+03-19 20:38:32 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Together, photos: 24 (does not match --album)
+03-19 20:38:33 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Me, photos: 121 (does not match --album)
+03-19 20:38:33 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: BestZongcheng, photos: 4 (does not match --album)
+03-19 20:38:33 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-vldb2017, photos: 474 (does not match --album)
+03-19 20:38:33 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 2017-graduation, photos: 291 (does not match --album)
+03-19 20:38:33 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: skye-trip, photos: 562 (does not match --album)
+03-19 20:38:33 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2017-03-20, photos: 489 (does not match --album)
+03-19 20:38:33 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-lake-district, photos: 321 (does not match --album)
+03-19 20:38:33 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2017-02-18, photos: 123 (does not match --album)
+03-19 20:38:33 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2016-12-18, photos: 197 (does not match --album)
+03-19 20:38:34 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2016-08-12, photos: 261 (does not match --album)
+03-19 20:38:34 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-LA, photos: 99 (does not match --album)
+03-19 20:38:34 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-mom-taiwan, photos: 67 (does not match --album)
+03-19 20:38:34 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Venice-Florence, photos: 1287 (does not match --album)
+03-19 20:38:34 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Barcelona, photos: 731 (does not match --album)
+03-19 20:38:34 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-grad2015, photos: 61 (does not match --album)
+03-19 20:38:34 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: archive-2015-11-01, photos: 70 (does not match --album)
+03-19 20:38:34 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-products-panda, photos: 17 (does not match --album)
+03-19 20:38:34 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: HandsomeMe, photos: 26 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-09-16, photos: 144 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-09-05, photos: 326 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-08-25, photos: 97 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-07-30, photos: 315 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-06-29, photos: 229 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-06-20, photos: 51 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: MC organised trip in Pitlochry, photos: 16 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-06-11, photos: 22 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Trip to Netherland and Paris, photos: 110 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-05-12, photos: 688 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-04-25, photos: 486 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Food, photos: 109 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-03-23, photos: 25 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-02-01, photos: 118 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-01-18, photos: 23 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Saturday Trip to York, photos: 12 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2015-01-03, photos: 227 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yachive-2014-12-30-ma, photos: 15 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-12-30, photos: 542 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-12-20, photos: 83 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-11-23, photos: 215 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-11-15, photos: 212 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Saturday in Glasgow, photos: 21 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-09-27, photos: 212 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-09-26, photos: 27 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-09-20, photos: 200 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-09-06, photos: 249 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 624, photos: 554 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-08-02, photos: 276 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_wuzhen, photos: 17 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_wuzhen, photos: 15 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-08-03, photos: 148 (does not match --album)
+03-19 20:38:35 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_shanghai, photos: 11 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-06-28, photos: 631 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_pingyao, photos: 37 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-05-12, photos: 472 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-05-01, photos: 76 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_life_in_beijing, photos: 28 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-04-25, photos: 75 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-04-06, photos: 121 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Uncategorized1, photos: 62 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-02-13, photos: 1156 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2014-02-01, photos: 122 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-sunglasses, photos: 35 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2014-01-03, photos: 124 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2013-12-18, photos: 565 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2013-12-02, photos: 215 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2013-12-11, photos: 152 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2013-10-02, photos: 770 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_nanjing, photos: 35 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-08-11, photos: 314 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: portfolio, photos: 28 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: iPhone_1, photos: 691 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Family, photos: 196 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Boy'Z, photos: 36 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-07-11, photos: 556 (does not match --album)
+03-19 20:38:36 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: zzc, photos: 2 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Travel_Bali, photos: 864 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_bali, photos: 34 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-05-07, photos: 61 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-01-29, photos: 102 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-01-28, photos: 385 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_yunnan, photos: 31 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yachive-2013-01-26, photos: 355 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-01-23, photos: 130 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-01-22, photos: 262 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2013-01-20, photos: 379 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Travel_Taiwan, photos: 387 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-12-19, photos: 297 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-12-12, photos: 168 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-12-01, photos: 77 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-11-25, photos: 43 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-11-16, photos: 62 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-11-12, photos: 25 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-11-11, photos: 269 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-10-23, photos: 100 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-10-17, photos: 42 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-09-28, photos: 175 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-09-20, photos: 12 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-08-20, photos: 196 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Friends, photos: 84 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Tao, photos: 271 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Yu, photos: 1 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-07-14, photos: 50 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Travel_Japan, photos: 122 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-06-24, photos: 430 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_travel_japan, photos: 23 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-05-20, photos: 92 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-05-13, photos: 42 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-05-01, photos: 105 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-04-16, photos: 43 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Ango, photos: 115 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-01-26, photos: 259 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2012-01-23, photos: 32 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Teaya, photos: 39 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 小清新, photos: 29 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Drop Box, photos: 22 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: wintam, photos: 10 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-12-03, photos: 54 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-11-28, photos: 21 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-11-12, photos: 5 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-10-22, photos: 56 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-09-22, photos: 84 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Portrait, photos: 181 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-09-12, photos: 34 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: GreatPics, photos: 56 (does not match --album)
+03-19 20:38:37 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: public_animals_and_plants, photos: 9 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-08-30, photos: 119 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-08-28, photos: 45 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Rosie Hardy, photos: 12 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-08-16, photos: 195 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-07-24, photos: 24 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-07-16, photos: 215 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-07-10, photos: 167 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: couples, photos: 7 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-06-25, photos: 97 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-06-22, photos: 196 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-06-19, photos: 31 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-06-14, photos: 92 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-05-27, photos: 60 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-05-19, photos: 177 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: AlexStoddard, photos: 74 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 加星标的照片, photos: 179 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-05-15, photos: 8 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-05-05, photos: 691 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-04-16, photos: 74 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-04-15, photos: 63 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive_yuyantang, photos: 35 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-04-07, photos: 94 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: 小明, photos: 64 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-03-31, photos: 84 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: kaptive, photos: 566 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ForWeb, photos: 63 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-03-20, photos: 22 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-03-07, photos: 37 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-03-06, photos: 92 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-02-27, photos: 56 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive_homemade_products, photos: 234 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-02-17, photos: 44 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-02-14, photos: 86 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-02-06, photos: 62 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-02-03, photos: 3 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-01-21, photos: 95 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-12-24, photos: 199 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-12-23, photos: 45 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-12-19, photos: 86 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-12-08, photos: 23 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-12-05, photos: 72 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-12-04, photos: 99 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2010-11-09, photos: 22 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: ypreview-2011-11-13, photos: 132 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive_happy_valley, photos: 121 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Graduation_Uniform, photos: 362 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Shanghai Expo 2010, photos: 46 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_7&8, photos: 233 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_6, photos: 183 (does not match --album)
+03-19 20:38:38 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Alumni_Association_2009, photos: 90 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive_parents_snow, photos: 202 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_5, photos: 241 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_4, photos: 337 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive_001, photos: 90 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Zhejiang University of Technology, photos: 29 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_3, photos: 432 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: As child, photos: 201 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_2, photos: 457 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Senior High School, photos: 128 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: University_Sem_1, photos: 415 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Taken by Dad, photos: 27 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Taken by Mum, photos: 77 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Dragon Boats, photos: 139 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Hometown, photos: 16 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: Castles, photos: 16 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync DEBUG    Skipping Album: yarchive-2017-07-10, photos: 0 (does not match --album)
+03-19 20:38:39 gphotos.GoogleAlbumsSync WARNING  Indexed 201 Albums
+03-19 20:38:39 gphotos.GooglePhotosDownload WARNING  Downloading Photos ...
+03-19 20:38:39 gphotos.GooglePhotosDownload INFO     downloading 1 photos/2022-03/_DSC0620.JPG
+03-19 20:38:39 gphotos.GooglePhotosDownload INFO     downloading 2 photos/2022-03/_DSC0621.JPG
+03-19 20:38:39 gphotos.GooglePhotosDownload INFO     downloading 3 photos/2022-03/_DSC0623.JPG
+03-19 20:38:39 gphotos.GooglePhotosDownload INFO     downloading 4 photos/2022-03/_DSC0624.JPG
+03-19 20:38:39 gphotos.GooglePhotosDownload INFO     downloading 5 photos/2022-03/_DSC0625.JPG
+03-19 20:38:39 gphotos.GooglePhotosDownload INFO     downloading 6 photos/2022-03/_DSC0626.JPG
+03-19 20:38:39 gphotos.GooglePhotosDownload INFO     downloading 7 photos/2022-03/_DSC0646.JPG
+03-19 20:38:39 gphotos.GooglePhotosDownload INFO     downloading 8 photos/2022-03/_DSC0649.JPG
+03-19 20:38:56 gphotos.GooglePhotosDownload DEBUG    COMPLETED 1 downloading photos/2022-03/_DSC0620.JPG
+03-19 20:38:57 gphotos.GooglePhotosDownload DEBUG    COMPLETED 2 downloading photos/2022-03/_DSC0621.JPG
+03-19 20:38:57 gphotos.GooglePhotosDownload DEBUG    COMPLETED 3 downloading photos/2022-03/_DSC0623.JPG
+03-19 20:38:57 gphotos.GooglePhotosDownload DEBUG    COMPLETED 4 downloading photos/2022-03/_DSC0624.JPG
+03-19 20:38:57 gphotos.GooglePhotosDownload DEBUG    COMPLETED 5 downloading photos/2022-03/_DSC0625.JPG
+03-19 20:38:58 gphotos.GooglePhotosDownload DEBUG    COMPLETED 6 downloading photos/2022-03/_DSC0626.JPG
+03-19 20:38:58 gphotos.GooglePhotosDownload DEBUG    COMPLETED 7 downloading photos/2022-03/_DSC0646.JPG
+03-19 20:38:58 gphotos.GooglePhotosDownload DEBUG    COMPLETED 8 downloading photos/2022-03/_DSC0649.JPG
+03-19 20:38:58 gphotos.GooglePhotosDownload WARNING  Downloaded 8 Items, Failed 0, Already Downloaded 0
+03-19 20:38:58 gphotos.GoogleAlbumsSync WARNING  Creating album folder links to media ...
+03-19 20:38:58 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../photos/2022-03/_DSC0620.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/yweb/0000__DSC0620.JPG
+03-19 20:38:58 gphotos.GoogleAlbumsSync DEBUG    new album folder /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/yweb
+03-19 20:38:58 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../photos/2022-03/_DSC0621.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/yweb/0001__DSC0621.JPG
+03-19 20:38:58 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../photos/2022-03/_DSC0623.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/yweb/0002__DSC0623.JPG
+03-19 20:38:58 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../photos/2022-03/_DSC0624.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/yweb/0003__DSC0624.JPG
+03-19 20:38:58 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../photos/2022-03/_DSC0625.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/yweb/0004__DSC0625.JPG
+03-19 20:38:58 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../photos/2022-03/_DSC0626.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/yweb/0005__DSC0626.JPG
+03-19 20:38:58 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../photos/2022-03/_DSC0646.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/yweb/0006__DSC0646.JPG
+03-19 20:38:58 gphotos.GoogleAlbumsSync DEBUG    adding album link ../../photos/2022-03/_DSC0649.JPG -> /Users/Yecol/Workspace/git-repo/yweb/inc/test/albums/yweb/0007__DSC0649.JPG
+03-19 20:38:58 gphotos.GoogleAlbumsSync WARNING  Created 8 new album folder links
+03-19 20:38:58 gphotos.LocalData INFO     Saving Database ...
+03-19 20:38:58 gphotos.LocalData INFO     Database Saved.
+03-19 20:38:58 gphotos.Main WARNING  Done.
+03-19 20:38:58 gphotos.Main INFO     Elapsed time = 0:00:29.693797

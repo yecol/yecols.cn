@@ -7,6 +7,7 @@ name = "pypi"
 exifread = "*"
 labelimg = "*"
 gphotos-sync = "*"
+google-cloud-vision = "*"
 
 [dev-packages]
 
