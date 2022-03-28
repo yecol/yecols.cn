@@ -3,7 +3,8 @@ const initOneDotLogosAnimated = () => {
     const animatedLogoEls = document.querySelectorAll('.OneDotLogoAnimated')
 
     let loaded = 0
-    let position = 1050
+    let position = 450
+    let containerSize = 300
 
     let bgWidth
     const image = new Image()
@@ -17,6 +18,7 @@ const initOneDotLogosAnimated = () => {
     let maskWidth
     let maskHeight
     const mask = new Image()
+
     mask.onload = function () {
         loaded += 1
         maskWidth = this.width
@@ -49,14 +51,14 @@ const initOneDotLogosAnimated = () => {
             }
 
             const draw = () => {
-                canvas.width = maskWidth
-                canvas.height = maskHeight
+                canvas.width = containerSize
+                canvas.height = containerSize
 
                 context.drawImage(image, -position, 0, bgWidth, maskHeight)
                 context.drawImage(image, bgWidth - position, 0, bgWidth, maskHeight)
 
                 context.globalCompositeOperation = 'xor'
-                context.drawImage(mask, 0, 0, maskWidth, maskHeight)
+                context.drawImage(mask, 0, 0, containerSize, containerSize)
             }
 
             frame()

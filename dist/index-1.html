@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
+    <meta name="keywords" content="">
+    <meta name="description" content="" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+    <title>-</title>
+    <link type="text/css" rel="stylesheet" href="/assets/css/animate.min.css">
+    <!-- <link type="text/css" rel="stylesheet" href="/assets/css/bootstrap.min.css"> -->
+    <link type="text/css" rel="stylesheet" href="/assets/css/style-2.css">
+    <!--[if lt IE 9]>
+        <script src="/assets/js/html5shiv.js"></script>
+        <script src="/assets/js/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <nav class="site-nav desktop-only" tabindex="-1">
+        <button class="site-nav-logo" data-action="open-nav"><span class="reader-text">HOME</span></button>
+        <div class="nav-list-container">
+            <ul class="nav-list">
+                <li class="nav-list-item">
+                    <a href="#"><span class="reader-text">Navigation</span></a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="/photos/">照片</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="/blog/">About</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="/portfolio/">Portfolio</a>
+                </li>
+
+                <li class="nav-list-item">
+                    <a href="/about/">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="photo-frame">
+        <div id="slides" class="photo">
+            <img src="100.jpg" />
+            <img src="102.jpg" />
+        </div>
+
+        <div class="info">
+            <div class="tl"> this is a title.</div>
+            <div class="exif"> Shot by <a href="/" class="tag">#SONY-A7R3</a> and <a href="/"
+                    class="tag">#100-400MM</a>, on 2021.4.15, with f2.8/500/ISO640 </div>
+            <div class="rel">Collected on <a href="/" class="tag">#latest</a>, <a href="/" class="tag">#Spring2022</a>
+            </div>
+            <div class="cr"> &copy; author </div>
+        </div>
+
+    </section>
+
+    <footer>
+    </footer>
+
+    <script type="text/javascript" src="/assets/js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.lazyload.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.dimensions.js"></script>
+    <!-- <script type="text/javascript" src="/assets/js/jquery.accordion.2.0.min.js"></script> -->
+    <script type="text/javascript" src="/assets/js/jquery.slides.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            // if ($(window).width() <= 1024) {
+            //     $('img').each(function () {
+            //         $(this).attr('src', $(this).attr('src').substring(0, $(this).attr('src')
+            //             .lastIndexOf("!")) + '?x-oss-process=image/resize,l_1024');
+            //     });
+            // } else {
+            //     $('img').each(function () {
+            //         $(this).attr('src', $(this).attr('src').substring(0, $(this).attr('src')
+            //             .lastIndexOf("!")) + '?x-oss-process=image/resize,l_1500');
+            //     });
+            // }
+            $('.info').hover(
+                function () {
+                    $(this).find('.tl, .exif, .rel').css({
+                        visibility: "visible",
+                        opacity: 0.0
+                    }).animate({
+                        opacity: 1.0
+                    }, 200);
+                },
+                function () {
+                    $(this).find('.tl, .exif, .rel').animate({
+                        opacity: 0.0
+                    }, 200, function () {
+                        $(this).css("visibility", "hidden");
+                    });
+                }
+            )
+
+            $('#slides').slidesjs({
+                width: 1280,
+                height: 853,
+                navigation: {
+                    active: false
+                },
+                pagination: {
+                    active: true
+                },
+                play: {
+                    active: false,
+                    effect: "fade",
+                    interval: 1200,
+                    auto: true
+                },
+                effect: {
+                    slide: {
+                        // Slide effect settings.
+                        speed: 1200
+                        // [number] Speed in milliseconds of the slide animation.
+                    },
+                    fade: {
+                        speed: 1200
+                    }
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>
