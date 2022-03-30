@@ -41,6 +41,7 @@ jobs:
       # Using gphotos-sync
       - name: gphotos-sync
         run: |
+          echo "output-token=" ${{ steps.auth.outputs.access_token }}
           echo ${{ secrets.GPHOTOS_TOKEN }} > .gphotos.token
           cat .gphotos.token
           cd gphotos-sync
