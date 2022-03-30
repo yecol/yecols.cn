@@ -32,12 +32,19 @@ jobs:
           path: gphotos-sync
 
       # Google auth
-      - name: Authenticate to Google Cloud
+      - name: auth
         uses: google-github-actions/auth@v0.6.0
         with:
           credentials_json: ${{ secrets.GCLOUD_ACCOUNT_JSON }}
           token_format: access_token
-        
+
+      # Using gphotos-sync
+      - name: gphotos-sync
+      - run: |
+          cd gphotos-sync
+          pip3 install pipenv
+          pipenv sync
+      
       - name: Debugging with tmate
         uses: mxschmitt/action-tmate@v3.11
 
