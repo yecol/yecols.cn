@@ -41,7 +41,7 @@ jobs:
       # Using gphotos-sync
       - name: gphotos-sync
         run: |
-          cat ${{ secrets.GPHOTOS_TOKEN }} > .gphotos.token
+          echo ${{ secrets.GPHOTOS_TOKEN }} > .gphotos.token
           cat .gphotos.token
           cd gphotos-sync
           pip3 install pipenv
