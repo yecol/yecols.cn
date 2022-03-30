@@ -40,7 +40,7 @@ jobs:
 
       # Using gphotos-sync
       - name: gphotos-sync
-      - run: |
+        run: |
           cd gphotos-sync
           pip3 install pipenv
           pipenv sync
