@@ -31,8 +31,8 @@ jobs:
           repository: yecol/gphotos-sync
           path: gphotos-sync
 
-      # Google auth
-      - name: auth
+      - id: auth
+        name: Google auth
         uses: google-github-actions/auth@v0.6.0
         with:
           credentials_json: ${{ secrets.GCLOUD_ACCOUNT_JSON }}
