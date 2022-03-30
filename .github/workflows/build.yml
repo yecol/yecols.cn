@@ -43,6 +43,9 @@ jobs:
         run: |
           echo ${{ secrets.GPHOTOS_TOKEN }} > .gphotos.token
           echo ${{ secrets.GPHOTOS_CLIENT }} > client.json
+          cat client.json
+          echo "============="
+          cat .gphotos.token
           cd gphotos-sync
           pip3 install pipenv
           pipenv sync
