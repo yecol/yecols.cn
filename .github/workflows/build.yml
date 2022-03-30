@@ -31,19 +31,28 @@ jobs:
           repository: yecol/gphotos-sync
           path: gphotos-sync
 
-      # Google auth
-      - name: auth
-        uses: google-github-actions/auth@v0.6.0
-        with:
-          credentials_json: ${{ secrets.GCLOUD_ACCOUNT_JSON }}
-          token_format: access_token
+#       # Google auth
+#       - name: auth
+#         uses: google-github-actions/auth@v0.6.0
+#         with:
+#           credentials_json: ${{ secrets.GCLOUD_ACCOUNT_JSON }}
+#           token_format: access_token
 
       # Using gphotos-sync
       - name: gphotos-sync
         run: |
+          cat ${{ secrets.GPHOTOS_TOKEN }} > .gphotos.token
+          cat .gphotos.token
           cd gphotos-sync
           pip3 install pipenv
           pipenv sync
+          pipenv run gphotos-sync .. \
+            --album-regex "^yweb-" \
+            --use-flat-path \
+            --skip-video \
+            --flush-index \
+            --log-level trace
+          grep -w yweb-token ../gphotos.log | cut -d" " -f9-10 > ../photostream/yweb_origins.txt
       
       - name: Debugging with tmate
         uses: mxschmitt/action-tmate@v3.11
