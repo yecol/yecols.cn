@@ -46,13 +46,13 @@ jobs:
           cd gphotos-sync
           pip3 install pipenv
           pipenv sync
-          pipenv run gphotos-sync .. \
+          pipenv run ./gphotos-sync .. \
             --album-regex "^yweb-" \
             --use-flat-path \
             --skip-video \
             --flush-index \
             --log-level trace
-          grep -w yweb-token ../gphotos.log | cut -d" " -f9-10 > ../photostream/yweb_origins.txt
+          grep -w yweb-token ../gphotos.log | cut -d" " -f9-10 > ../yweb_origins.txt
       
       - name: Debugging with tmate
         uses: mxschmitt/action-tmate@v3.11
