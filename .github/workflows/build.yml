@@ -42,11 +42,12 @@ jobs:
       - name: gphotos-sync
         run: |
           echo ${{ secrets.GPHOTOS_TOKEN }} > .gphotos.token
-          cat .gphotos.token
+          echo ${{ secrets.GPHOTOS_CLIENT }} > client.json
           cd gphotos-sync
           pip3 install pipenv
           pipenv sync
           pipenv run ./gphotos-sync .. \
+            --secret ../client.json \
             --album-regex "^yweb-" \
             --use-flat-path \
             --skip-video \
