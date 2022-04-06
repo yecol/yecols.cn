@@ -60,7 +60,7 @@ jobs:
             --log-level trace
           grep -w yweb-token ../photostream/gphotos.log | cut -d" " -f9-10 > ../photostream/yweb_origins.txt
           cd ../
-          ./ossutil64 sync ./photostream oss://yweb-bucket/photostream
+          ./ossutil64 sync -u ./photostream oss://yweb-bucket/photostream
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
