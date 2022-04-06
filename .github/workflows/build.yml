@@ -36,12 +36,12 @@ jobs:
 
       - name: Prepare OSS env
         run: |
-          wget https://gosspublic.alicdn.com/ossutil/1.7.10/ossutil64
+          wget -q https://gosspublic.alicdn.com/ossutil/1.7.10/ossutil64
           chmod 755 ossutil64
-          echo "[Credentials]" > .ossutilconfig
-          echo "endpoint=oss-cn-beijing.aliyuncs.com" >> .ossutilconfig
-          echo "accessKeyID=${{ secrets.ALIYUN_AK_ID }}" >> .ossutilconfig
-          echo "accessKeySecret=${{ secrets.ALIYUN_AK_SECRET }}" >> .ossutilconfig
+          echo "[Credentials]" > ~/.ossutilconfig
+          echo "endpoint=oss-cn-beijing.aliyuncs.com" >> ~/.ossutilconfig
+          echo "accessKeyID=${{ secrets.ALIYUN_AK_ID }}" >> ~/.ossutilconfig
+          echo "accessKeySecret=${{ secrets.ALIYUN_AK_SECRET }}" >> ~/.ossutilconfig
 
           ./ossutil64 sync oss://yweb-bucket/photostream ./photostream
 
