@@ -31,8 +31,8 @@ jobs:
           repository: yecol/gphotos-sync
           path: gphotos-sync
 
-      - name: Debugging with tmate
-        uses: mxschmitt/action-tmate@v3.11
+#       - name: Debugging with tmate
+#         uses: mxschmitt/action-tmate@v3.11
 
       - name: Prepare OSS env
         run: |
@@ -51,7 +51,7 @@ jobs:
           cd gphotos-sync
           pip3 install pipenv
           pipenv sync
-          pipenv run ../gphotos-sync ../photostream \
+          pipenv run ./gphotos-sync ../photostream \
             --secret ./client.json \
             --album-regex "^yweb-" \
             --use-flat-path \
