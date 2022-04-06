@@ -32,7 +32,8 @@ a {
 }
 
 html {
-	font-family: "Microsoft Yahei", 'proxima-nova', 'Arial', sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	// font-family: "Microsoft Yahei", 'proxima-nova', 'Arial', sans-serif;
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -278,6 +279,7 @@ section.photo-frame {
 	}
 }
 
+// v3 identifier
 .yweb{
 	#head-section .bg-photo{
 		position: relative;
@@ -310,6 +312,59 @@ section.photo-frame {
 		max-width: 1000px;
 		line-height: 140%;
 		margin: 0 auto;
+	}
+
+	// v3 grid album page
+	#albums{
+		@cover-psize: 60px;
+		@cover-gap: 2px;
+		width: 80%;
+		display: grid;
+  		grid-gap: 20px;
+  		grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+		.album{
+			margin: 20px;
+			.cover{
+				border-radius: 8px;
+				height: @cover-psize*2+@cover-gap;
+				width: @cover-psize*2+@cover-gap;
+				overflow: hidden;
+				display: grid;
+  				grid-gap: @cover-gap;
+  				grid-template-columns: repeat(auto-fit, @cover-psize);
+				img{
+					object-fit: cover;
+					width: @cover-psize;
+					height: @cover-psize;
+				}
+			}
+			.title{
+				margin: 10px 0 5px 0;
+				font-size: 16px;
+				font-weight: 600;
+				color: black;
+			}
+			.info{
+				margin: 0 0 10px 0;
+				color: #999;
+				font-size: 12px;
+				font-weight: 300;
+			}
+		}
+	}
+
+	// tags
+	#tags{
+		position: flex;
+		max-width: 60%;
+		margin: 0 auto;
+		justify-content: center; 
+		a{
+			margin: 10px 2px;
+			color: #009966;
+			font-size: 30px;
+			font-weight: 200;
+		}
 	}
 }
 

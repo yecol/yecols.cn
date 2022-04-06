@@ -31,15 +31,36 @@ jobs:
           repository: yecol/gphotos-sync
           path: gphotos-sync
 
+      - name: Debugging with tmate
+        uses: mxschmitt/action-tmate@v3.11
+
+      - name: Prepare OSS env
+        run: |
+          wget https://gosspublic.alicdn.com/ossutil/1.7.10/ossutil64
+          chmod 755 ossutil64
+          echo "[Credentials]" > .ossutilconfig
+          echo "endpoint=oss-cn-beijing.aliyuncs.com" >> .ossutilconfig
+          echo "accessKeyID=${{ secrets.ALIYUN_AK_ID }}" >> .ossutilconfig
+          echo "accessKeySecret=${{ secrets.ALIYUN_AK_SECRET }}" >> .ossutilconfig
+
+          ./ossutil64 sync oss://yweb-bucket/photostream ./photostream
+
       # Using gphotos-sync
       - name: gphotos-sync
         run: |
           cd gphotos-sync
           pip3 install pipenv
           pipenv sync
-      
-      - name: Debugging with tmate
-        uses: mxschmitt/action-tmate@v3.11
+          pipenv run ../gphotos-sync ../photostream \
+            --secret ./client.json \
+            --album-regex "^yweb-" \
+            --use-flat-path \
+            --skip-video \
+            --flush-index \
+            --log-level trace
+          grep -w yweb-token ../photostream/gphotos.log | cut -d" " -f9-10 > ../photostream/yweb_origins.txt
+          cd ../
+          ./ossutil64 sync ./photostream oss://yweb-bucket/photostream
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
