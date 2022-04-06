@@ -52,7 +52,7 @@ jobs:
           pip3 install pipenv
           pipenv sync
           pipenv run ./gphotos-sync ../photostream \
-            --secret ./client.json \
+            --secret ./test/client.json \
             --album-regex "^yweb-" \
             --use-flat-path \
             --skip-video \
