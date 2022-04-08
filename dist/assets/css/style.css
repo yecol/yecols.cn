@@ -222,14 +222,24 @@ section.photo-frame .info .exif,
 section.photo-frame .info .rel {
   opacity: 0;
 }
-.yweb #head-section .bg-photo {
-  position: relative;
+.yweb #head-section {
   height: 100vh;
   width: 100%;
   z-index: 0;
   background-image: url("/100.jpg");
   background-size: 100%;
-  filter: grayscale(100%);
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+}
+.yweb #head-section .bgmask {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  position: absolute;
 }
 .yweb .midz {
   margin: 0 auto;
@@ -245,37 +255,44 @@ section.photo-frame .info .rel {
 }
 .yweb .yan-subtitle {
   font-size: 30px;
-  color: #999999;
+  color: white;
   margin: 20px auto;
+  position: relative;
+  z-index: 20;
+  font-weight: 200;
 }
 .yweb .desc {
+  color: #fff;
   font-size: 18px;
   max-width: 1000px;
   line-height: 140%;
   margin: 0 auto;
+  position: relative;
+  z-index: 20;
 }
 .yweb #albums {
   width: 80%;
+  margin: 60px auto;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 .yweb #albums .album {
-  margin: 20px;
+  margin: 20px auto;
 }
 .yweb #albums .album .cover {
   border-radius: 8px;
-  height: 122px;
-  width: 122px;
+  height: 205px;
+  width: 205px;
   overflow: hidden;
   display: grid;
-  grid-gap: 2px;
-  grid-template-columns: repeat(auto-fit, 60px);
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, 100px);
 }
 .yweb #albums .album .cover img {
   object-fit: cover;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
 }
 .yweb #albums .album .title {
   margin: 10px 0 5px 0;
@@ -290,16 +307,45 @@ section.photo-frame .info .rel {
   font-weight: 300;
 }
 .yweb #tags {
-  position: flex;
   max-width: 60%;
-  margin: 0 auto;
+  margin: 60px auto;
   justify-content: center;
+  text-align: center;
+  line-height: 1.2;
 }
 .yweb #tags a {
   margin: 10px 2px;
   color: #009966;
   font-size: 30px;
   font-weight: 200;
+}
+.yweb .section-title {
+  color: #333;
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px auto;
+  text-transform: uppercase;
+}
+.yweb .footer {
+  border-top: #cecece solid 1px;
+  margin: 40px auto;
+  height: 20px;
+  font-size: 12px;
+  bottom: 30px;
+  width: 80%;
+  padding: 10px 0;
+}
+.yweb .footer a {
+  color: #999;
+  margin-right: 25px;
+}
+.yweb .footer a:hover {
+  color: #009966;
+}
+.yweb .footer .pull-right {
+  color: #999;
+  float: right;
 }
 .hero-section {
   position: relative;
@@ -325,27 +371,15 @@ section.photo-frame .info .rel {
   padding-bottom: 3.5em;
   max-width: 100%;
 }
-.HeroSection--logo::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(/100.jpg);
-  background-size: 100%;
-  filter: grayscale(100%);
-  z-index: -1;
-}
 .HeroSection--logo {
-  display: relative;
+  position: relative;
   z-index: 20;
   justify-content: center;
   max-width: 400px;
   max-height: 400px;
-  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20vh;
 }
 .HeroSection--title-wrapper {
   margin: 1.333em auto;
@@ -908,20 +942,8 @@ footer #wrap .info:after {
     background-size: 44px 44px;
   }
 }
-#index .footer {
-  margin: 40px 0 0 0;
-  height: 20px;
-  color: #ccc;
-  font-size: 12px;
-  text-align: center;
-  position: absolute;
-  bottom: 30px;
-  width: 100%;
-}
 #index .section {
-  position: relative;
-  width: 100%;
-  min-height: 650px;
+  position: static;
   padding: 0;
   vertical-align: middle;
 }
