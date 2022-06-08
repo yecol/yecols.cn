@@ -22,7 +22,7 @@ def get_exif_data(fname):
 
 		if tags != None:
 			for k in tags.keys():
-				logger.info(k)
+				logger.info(k, repr(tags[k]))
 
 			if 'Image Model' in tags.keys():
 				exif_info += str(tags['Image Model'])

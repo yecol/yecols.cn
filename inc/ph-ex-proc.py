@@ -1,5 +1,6 @@
 #!/bin/env python
 # -*- coding: utf-8 -*-
+from cmath import e
 import os,time,datetime,sys
 import exifread
 import shutil
@@ -12,17 +13,16 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logger = logging.getLogger()
 
 try:
-     path = Path("./test/photos/2022-03/_dsc0620.jpg")
-     lf = LocalFilesMedia(path)
-     logger.info("indexed local file: %s %s %s %s %s %s %s",
-                    lf.relative_folder,
-                    lf.filename,
-                    lf.camera_model,
-                    lf.uid,
-                    lf.description,
-                    lf.url,
-                    lf.__exif,
-                )
+	opath = Path("./test/photos/2022-03/_dsc0620.jpg")
+	lf = LocalFilesMedia(opath)
+	lf.get_exif()
+	logger.info("indexed local file: %s %s %s %s %s %s",
+	lf.relative_folder, 
+	lf.filename,
+	lf.camera_model,
+	lf.uid,
+	lf.description,
+	lf.url)
+	logger.info(lf)
 except Exception:
-        logger.error("file %s could not be made into a media obj", path, exc_info=True)
-# local_file = LocalFilesMedia("")
+	logger.error("file %s could not be made into a media obj", opath, exc_info=True)
