@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="graph, graph computation, graph analytics, graph algorithms, gnn, graph learning, graph embedding, gremlin, graph query">
+    <meta name="description" content="GraphScope, A One-Stop Large-Scale Graph Computing System">
+    <meta name="author" content="yecol">
+
+    <meta property="og:title" content="GraphScope">
+    <meta property="og:description" content="A One-Stop Large-Scale Graph Computing System.">
+    <meta property="og:image" content="img/logo.png">
+    <meta property="og:url" content="http://graphscope.io">
+
+    <title>GraphScope</title>
+
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+<!--headerend-->
+
+<body id="index">
+    <nav class="navbar navbar-expand-lg sticky-top ynav" aria-label="Eighth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+                aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">摄影</a></li>
+                    <li class="breadcrumb-item"><a href="#">按关键字浏览</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">ShotoniPhone</li>
+                </ul>
+            </div>
+
+            <div class="pull-right">
+                <a href="#"> About</a>
+            </div>
+        </div>
+    </nav>
+    <!--navend-->
+
+    <header class="album-title border-bottom">
+        <div class="container pt-md-1 pb-md-4">
+            <div class="row">
+                <div class="col-xl-12">
+                    <h4 class="bd-brief">按关键字浏览</h4>
+                    <h1 class="bd-title mt-0">#GraphScoped</h1>
+                    <p class="bd-lead">这里会有几句描述的话，当然最好是有一些介绍</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="album-section">
+        <div class="container">
+            <img src="./gs.png" />
+            <img src="./gs.png" />
+            <img src="./gs.png" />
+            <img src="./gs.png" />
+            <img src="./gs.png" />
+            <img src="./gs.png" />
+            <img src="./gs.png" />
+            <img src="./gs.png" />
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div>
+            <a href="#"> About me</a>
+            <a href="#"> Github </a>
+            <a href="#"> Wechat </a>
+
+            <span class="pull-right">
+                <!-- <a href="#"> v1 (2009) </a> -->
+                <!-- <a href="#"> v2 (2014) </a> -->
+                ©Jingbo, 2009-2022, v3.0 (visit <a href="#">v1</a>, <a href="#">v2</a>)</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
+
+    <!-- Plugin JavaScript -->
+    <!-- <script src="vendor/jquery/jquery.easing.min.js"></script> -->
+    <!-- <script src="vendor/jquery/jquery.animate-enhanced.min.js"></script> -->
+    <script src="./assets/js/jquery-1.4.2.min.js"></script>
+    <!-- <script src="./assets/js/jquery.easing.min.js"></script> -->
+    <script>
+        var goTimeout;
+
+        function myTimer() {
+            $("nav").css("top", "0px");
+            goTimeout = setTimeout(function () {
+                $("nav").css("top", "-50px");
+            }, 2000);
+        }
+
+        $(document).on("touchstart scroll mousemove keyup load", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            clearInterval(goTimeout);
+            myTimer();
+        })
+    </script>
+
+</body>
+
+</html>

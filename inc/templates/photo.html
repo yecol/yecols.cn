@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="graph, graph computation, graph analytics, graph algorithms, gnn, graph learning, graph embedding, gremlin, graph query">
+    <meta name="description" content="GraphScope, A One-Stop Large-Scale Graph Computing System">
+    <meta name="author" content="yecol">
+
+    <meta property="og:title" content="GraphScope">
+    <meta property="og:description" content="A One-Stop Large-Scale Graph Computing System.">
+    <meta property="og:image" content="img/logo.png">
+    <meta property="og:url" content="http://graphscope.io">
+
+    <title>GraphScope</title>
+
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+<!--headerend-->
+
+<body id="index">
+    <nav class="navbar navbar-expand-lg sticky-top ynav" aria-label="Eighth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+                aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">摄影</a></li>
+                    <li class="breadcrumb-item"><a href="#">按关键字浏览</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">ShotoniPhone</li>
+                </ul>
+            </div>
+
+            <div class="pull-right">
+                <a href="#"> About</a>
+            </div>
+        </div>
+    </nav>
+    <!--navend-->
+    <section class="photo-section">
+        <img src="./gs.png" />
+
+        <div class="container photo-meta">
+            <div class="row">
+                <h3> JINGBO PHOTOGRAPHY</h3>
+                <div class="col-xl-2">
+                    <a href="#" class="loc-nav"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                        </svg> Prev</a>
+                </div>
+                <div class="col-xl-8">
+                    <p>#ShotoniPhone, #test, #beautiful</p>
+                    <p> 2021/6/32</p>
+                </div>
+                <div class="col-xl-2">
+                    <a href="#" class="loc-nav r"> Next <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                        </svg> </a>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div>
+                <a href="/about"> About me</a>
+                <a href="https://github.com/yecol"> Github </a>
+                <a href="#"> Wechat </a>
+
+                <span class="pull-right">
+                    ©Jingbo, 2009-2022, v3.0 (visit <a href="/v1">v1</a>, <a href="/v2">v2</a>)</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
+
+    <!-- Plugin JavaScript -->
+    <!-- <script src="vendor/jquery/jquery.easing.min.js"></script> -->
+    <!-- <script src="vendor/jquery/jquery.animate-enhanced.min.js"></script> -->
+    <script src="./assets/js/jquery-1.4.2.min.js"></script>
+    <!-- <script src="./assets/js/jquery.easing.min.js"></script> -->
+    <script>
+        var goTimeout;
+
+        function myTimer() {
+            $("nav").css("top", "0px");
+            goTimeout = setTimeout(function () {
+                $("nav").css("top", "-50px");
+            }, 2000);
+        }
+
+        $(document).on("touchstart scroll mousemove keyup load", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            clearInterval(goTimeout);
+            myTimer();
+        })
+    </script>
+
+</body>
+
+</html>
